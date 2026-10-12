@@ -85,11 +85,19 @@ function rankFor(sp,sc){ // the game has no threshold for bronze: anything under
 const toH=t=>{const [h,m]=t.split(':').map(Number);return h+(m||0)/60};
 function spans(r){const [a,b]=r.split('-').map(toH);let e=b<=a?b+24:b;return e>24?[[a,24],[0,e-24]]:[[a,e]]}
 const zonesOf=(rn,sp)=>DATA.zones[rn]?.[sp]||null;
-function zoneAt(z,h){if(!z)return null;for(const k of ['feed','drink','rest'])for(const r of z[k]||[])if(spans(r).some(([a,b])=>h>=a&&h<b))return k;return 'none'}
+// When windows overlap (the sources often give 30-minute overlaps, and some drink windows sit inside a feed window), the shortest window wins.
+function zoneAt(z,h){if(!z)return null;let best='none',len=99;for(const k of ['feed','drink','rest'])for(const r of z[k]||[]){const sp=spans(r),l=sp.reduce((a,[x,y])=>a+y-x,0);if(l<len&&sp.some(([a,b])=>h>=a&&h<b)){best=k;len=l}}return best}
+// Joins touching windows for display: 00:00-03:00 + 03:00-06:00 + 21:00-00:00 -> 21:00-06:00.
+function mergeRanges(list){
+  const iv=(list||[]).map(r=>{const [a,b]=r.split('-').map(toH);return [a,b<=a?b+24:b]}).sort((x,y)=>x[0]-y[0]),out=[];
+  for(const [a,b] of iv){const l=out[out.length-1];if(l&&a<=l[1])l[1]=Math.max(l[1],b);else out.push([a,b])}
+  if(out.length>1){const f=out[0],l=out[out.length-1];if(f[0]===0&&l[1]>=24){l[1]=24+f[1];out.shift()}}
+  const t=h=>String(Math.floor(h%24)).padStart(2,'0')+':'+(h%1?'30':'00');return out.map(([a,b])=>t(a)+'-'+t(b));
+}
 const ZONE_LABEL={feed:'Feeding',drink:'Drinking',rest:'Resting',none:'Roaming'};
 function timeline(z,h){
   if(!z)return '<div class="zt"></div>';
-  const segs=['rest','drink','feed'].flatMap(k=>(z[k]||[]).flatMap(r=>spans(r).map(([a,b])=>`<i class="${k}" style="left:${a/24*100}%;width:${(b-a)/24*100}%"></i>`)));
+  const segs=['rest','feed','drink'].flatMap(k=>(z[k]||[]).flatMap(r=>spans(r).map(([a,b])=>`<i class="${k}" style="left:${a/24*100}%;width:${(b-a)/24*100}%"></i>`)));
   return `<div class="zt" role="img" aria-label="Need zone times">${segs.join('')}${h!=null?`<b style="left:calc(${h/24*100}% - 1px)"></b>`:''}</div>`;
 }
 const ticks=()=>`<div class="ztTicks">${[0,6,12,18,24].map(h=>`<span>${hourLabel(h%24)}</span>`).join('')}</div>`;
@@ -223,7 +231,7 @@ function spPage(s){
   const t=d.trophy,z=zonesOf(R,s),k=zoneAt(z,zHour);
   const tiers=['Common','Uncommon','Rare','Very Rare','Mission','Great One'],furs=d.furs||[];
   const furHtml=furs.length?[...new Set([...tiers.filter(x=>furs.some(f=>f.rarity===x)),...furs.map(f=>f.rarity)])].map(x=>`<div class="tier">${esc(x||'Other')}</div>`+furs.filter(f=>f.rarity===x).map(f=>`<span class="tag r-${esc(String(x||'').replace(/\s/g,''))}">${esc(f.name)}</span>`).join('')).join(''):'<div class="mutedBox">Not listed yet.</div>';
-  const zt=k=>(z&&z[k]&&z[k].length)?z[k].map(r=>r.split('-').map(hm).join('–')).join(', '):'—';
+  const zt=k=>(z&&z[k]&&z[k].length)?mergeRanges(z[k]).map(r=>r.split('-').map(hm).join('–')).join(', '):'—';
   fv.innerHTML=`<div class="hero"><div class="eyebrow">Class ${esc(d.class)} · ${esc(d.difficulty||'')}</div><h1>${esc(s)}</h1>${d.latin?`<p class="latin">${esc(d.latin)}</p>`:''}
     <div class="facts"><div class="fact"><small>Max level</small><strong>${esc(d.maxLevel??'–')}</strong></div><div class="fact"><small>Max weight</small><strong>${kgfmt(d.maxWeightKg)}</strong></div><div class="fact"><small>Great One</small><strong>${d.greatOne?'Yes':'No'}</strong></div></div>
     <div class="anTools">${d.greatOne?`<button class="toolAction" id="goGuide">Great One guide →</button>`:''}<button class="toolAction" id="ammoGuide">Ammo for this animal →</button></div><div id="fbest" class="note"></div></div>
