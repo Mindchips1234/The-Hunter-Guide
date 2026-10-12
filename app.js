@@ -9,6 +9,12 @@ const home=$('#home'),rv=$('#rv'),fv=$('#fv'),lv=$('#lv'),gv=$('#gv'),back=$('#b
 const haptic=(ms=10)=>{try{navigator.vibrate&&navigator.vibrate(ms)}catch(e){}};
 let screen=null;const navStack=[];
 const RESERVES=Object.keys(DATA.reserves),SPECIES=Object.keys(DATA.species).sort();
+// "My DLC": reserves the player has hidden in Settings are left out of lists and pickers (base-game reserves can't be hidden).
+const MY=()=>{const h=new Set(jget('dlcHide',[]));return RESERVES.filter(n=>!DATA.reserves[n].dlc||!h.has(n))};
+const owns=n=>MY().includes(n),mySpecies=()=>{const set=new Set(MY().flatMap(n=>DATA.reserves[n].species));return SPECIES.filter(s=>set.has(s))};
+const fold=s=>String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const emb=(n,cls='emb')=>DATA.reserves[n]?.slug?`<img class="${cls}" src="./img/reserves/${esc(DATA.reserves[n].slug)}.svg" alt="" loading="lazy">`:'';
+const MAPS={hirschfelden:'hirschfelden-hunting-reserve',layton:'layton-lake-district',medved:'medved-taiga-national-park',vurhonga:'vurhonga-savanna',parque:'parque-fernando',yukon:'yukon-valley-nature-reserve',cuatro:'cuatro-colinas-game-reserve',srp:'silver-ridge-peaks',awaroa:'te-awaroa-national-park',rancho:'rancho-del-arroyo',mississippi:'mississippi-acres-preserve',revontuli:'revontuli-coast',newengland:'new-england-mountains',emerald:'emerald-coast',sundarpatan:'sundarpatan',torr:'scotland-reserve'};
 const short=n=>n.replace(/ (Hunting Reserve|Hunting Preserve|Nepal Hunting Reserve|Game Reserve|National Park|Nature Reserve|Preserve|District|Savanna|Park)$/,'');
 
 // ---------------------------------------------------------------- formatting
@@ -123,52 +129,52 @@ function bestFor(sp,log=getLog(),rn){ // best rating and score logged for a spec
 
 // ================================================================ HOME
 function buildHome(){
-  const go1=SPECIES.filter(s=>DATA.species[s].greatOne).length;
-  home.innerHTML=`<section class="homeHero">
+  const my=MY(),sps=mySpecies(),go1=sps.filter(s=>DATA.species[s].greatOne).length,mr=owns(store.get('reserve',''))?store.get('reserve',''):my[0];
+  home.innerHTML=`<section class="section card moving" id="moving">
+    <div class="homeSectionHead"><div><h2>What's moving?</h2><p>Pick a reserve and the in-game time to see who is feeding, drinking or resting.</p></div></div>
+    <select id="mReserve" class="select" aria-label="Reserve" style="width:100%">${opts(my,mr)}</select>
+    <div class="clockRow"><output id="mHourOut">${hourLabel(zHour)}</output><input id="mHour" type="range" min="0" max="23.5" step="0.5" value="${zHour}" aria-label="In-game time"></div>
+    <div id="mOut" class="bitingOut" aria-live="polite"></div>
+  </section>
+  <section class="homeHero compact">
     <div class="eyebrow">Your hunting companion</div>
     <h1>Plan your next diamond.</h1>
     <p>Every reserve, animal, need zone and trophy score in <em>theHunter: Call of the Wild</em>, plus Great Ones, weapons, skills, missions and a log for every harvest.</p>
-    <div class="stats"><span class="pill"><b class="num">${RESERVES.length}</b> reserves</span><span class="pill"><b class="num">${SPECIES.length}</b> animals</span><span class="pill"><b class="num">${go1}</b> Great Ones</span></div>
-  </section>
-  <section class="section card moving" id="moving">
-    <div class="homeSectionHead"><div><h2>What's moving?</h2><p>Pick a reserve and the in-game time to see who is feeding, drinking or resting.</p></div></div>
-    <select id="mReserve" class="select" aria-label="Reserve" style="width:100%">${opts(RESERVES,store.get('reserve',RESERVES[0]))}</select>
-    <div class="clockRow"><output id="mHourOut">${hourLabel(zHour)}</output><input id="mHour" type="range" min="0" max="23.5" step="0.5" value="${zHour}" aria-label="In-game time"></div>
-    <div id="mOut" class="bitingOut" aria-live="polite"></div>
+    <div class="stats"><span class="pill"><b class="num">${my.length}</b> reserves</span><span class="pill"><b class="num">${sps.length}</b> animals</span><span class="pill"><b class="num">${go1}</b> Great Ones</span></div>
   </section>
   <section class="homeSearch">
     <label for="homeQuery">Looking for a specific animal?</label>
     <input class="input" id="homeQuery" type="search" placeholder="Search animals by name…" autocomplete="off">
-    <div class="homeSearchControls"><select class="select" id="homeReserveFilter" aria-label="Filter by reserve"><option value="">All reserves</option>${opts(RESERVES)}</select><select class="select" id="homeClassFilter" aria-label="Filter by class"><option value="">Any class</option>${[1,2,3,4,5,6,7,8,9].map(c=>`<option value="${c}">Class ${c}</option>`).join('')}</select></div>
+    <div class="homeSearchControls"><select class="select" id="homeReserveFilter" aria-label="Filter by reserve"><option value="">All reserves</option>${opts(my)}</select><select class="select" id="homeClassFilter" aria-label="Filter by class"><option value="">Any class</option>${[1,2,3,4,5,6,7,8,9].map(c=>`<option value="${c}">Class ${c}</option>`).join('')}</select></div>
     <div class="homeResultsMeta"><span id="homeResultsCount">Search across all reserves</span><button class="homeClear" id="clearHomeSearch" type="button">Clear</button></div>
     <div class="homeResults" id="homeResults" aria-live="polite"></div>
   </section>
   <section class="section" id="reserveDirectory">
-    <div class="homeSectionHead"><div><h2>Reserves</h2><p>${RESERVES.length} reserves. Swipe for more.</p></div><button class="homeClear" id="randomSp" type="button">Surprise me</button></div>
-    <div class="homeReserveGrid">${RESERVES.map(n=>reserveTile(n,'homeReserve')).join('')}</div>
+    <div class="homeSectionHead"><div><h2>Reserves</h2><p>${my.length} reserves${my.length<RESERVES.length?' (the rest are hidden in Settings → My DLC)':''}. Swipe for more.</p></div><button class="homeClear" id="randomSp" type="button">Surprise me</button></div>
+    <div class="homeReserveGrid">${my.map(n=>reserveTile(n,'homeReserve')).join('')}</div>
   </section>`;
   home.oninput=e=>{if(e.target.id==='homeQuery')renderHomeResults();if(e.target.id==='mHour'){zHour=+e.target.value;store.set('zHour',zHour);renderMoving()}};
   home.onchange=e=>{if(/^home(Reserve|Class)Filter$/.test(e.target.id))renderHomeResults();if(e.target.id==='mReserve')renderMoving()};
   home.onclick=e=>{
     const card=e.target.closest('[data-home-reserve]');if(card)go(card.dataset.homeReserve);
-    if(e.target.closest('#randomSp')){const s=SPECIES[Math.floor(Math.random()*SPECIES.length)],rs=DATA.species[s].reserves;go(rs[Math.floor(Math.random()*rs.length)],s)}
+    if(e.target.closest('#randomSp')){const sp=mySpecies(),s=sp[Math.floor(Math.random()*sp.length)],rs=DATA.species[s].reserves.filter(owns);go(rs[Math.floor(Math.random()*rs.length)],s)}
     if(e.target.closest('#clearHomeSearch')){$('#homeQuery').value='';$('#homeReserveFilter').value='';$('#homeClassFilter').value='';renderHomeResults();$('#homeQuery').focus()}
     const result=e.target.closest('[data-go]');if(result){const [rn,...p]=result.dataset.go.split('::');go(rn,p.join('::'))}
   };
   renderHomeResults();renderMoving();
 }
 function reserveTile(n,cls){const r=DATA.reserves[n];
-  return `<button class="${cls}" data-home-reserve="${esc(n)}" data-r="${esc(n)}"><div class="eyebrow">${esc(r.country||r.region||'')}</div><h3>${esc(short(n))}</h3><p>${r.species.length} animals · ${r.dlc?'DLC':'Base game'}${r.released?' · '+year(r.released):''}</p></button>`}
+  return `<button class="${cls}" data-home-reserve="${esc(n)}" data-r="${esc(n)}">${emb(n,'tileEmb')}<div class="eyebrow">${esc(r.country||r.region||'')}</div><h3>${esc(short(n))}</h3><p>${r.species.length} animals · ${r.dlc?'DLC':'Base game'}${r.released?' · '+year(r.released):''}</p></button>`}
 const cc=c=>`<span class="cc">C${esc(c)}</span>`,gob='<span class="gob">Great One</span>';
 function renderHomeResults(){
   const target=$('#homeResults');if(!target)return;
   const q=$('#homeQuery').value.trim().toLowerCase(),rsel=$('#homeReserveFilter').value,cls=$('#homeClassFilter').value;
-  const list=SPECIES.filter(s=>{const d=DATA.species[s];return(!q||s.toLowerCase().includes(q)||(d.latin||'').toLowerCase().includes(q))&&(!rsel||d.reserves.includes(rsel))&&(!cls||String(d.class)===cls)});
+  const list=mySpecies().filter(s=>{const d=DATA.species[s];return(!q||s.toLowerCase().includes(q)||(d.latin||'').toLowerCase().includes(q))&&(!rsel||d.reserves.includes(rsel))&&(!cls||String(d.class)===cls)});
   const active=q||rsel||cls;
   $('#homeResultsCount').textContent=active?list.length+' animals found':'Search across all reserves';
   if(!active){target.innerHTML='<div class="homeHint">Type an animal\'s name, or pick a reserve or class. Select a result to open its full guide.</div>';return}
   const shown=list.slice(0,24);
-  target.innerHTML=shown.length?shown.map(s=>{const d=DATA.species[s],rn=rsel||d.reserves[0];return `<button class="homeResult" data-go="${esc(rn+'::'+s)}"><span><strong>${esc(s)}</strong> ${cc(d.class)} ${d.greatOne?gob:''}<small>${esc(d.difficulty||'')} · Diamond from <span class="num">${score(d.trophy.diamond)}</span></small><small class="homeBait">${esc(d.reserves.map(short).join(', '))}</small></span><span aria-hidden="true">→</span></button>`}).join('')+(list.length>shown.length?`<div class="homeHint">Showing the first ${shown.length} of ${list.length}. Add more letters to narrow it down.</div>`:''):'<div class="mutedBox">No animals found. Try another name or filter.</div>';
+  target.innerHTML=shown.length?shown.map(s=>{const d=DATA.species[s],rn=rsel||d.reserves.find(owns)||d.reserves[0];return `<button class="homeResult" data-go="${esc(rn+'::'+s)}"><span><strong>${esc(s)}</strong> ${cc(d.class)} ${d.greatOne?gob:''}<small>${esc(d.difficulty||'')} · Diamond from <span class="num">${score(d.trophy.diamond)}</span></small><small class="homeBait">${esc(d.reserves.filter(owns).map(short).join(', '))}</small></span><span aria-hidden="true">→</span></button>`}).join('')+(list.length>shown.length?`<div class="homeHint">Showing the first ${shown.length} of ${list.length}. Add more letters to narrow it down.</div>`:''):'<div class="mutedBox">No animals found. Try another name or filter.</div>';
 }
 function renderMoving(){
   const out=$('#mOut');if(!out)return;
@@ -182,16 +188,17 @@ function renderMoving(){
 let fClass=0;
 function buildReserve(){
   const r=DATA.reserves[R],classes=[...new Set(r.species.map(s=>DATA.species[s].class))].sort((a,b)=>a-b);fClass=0;
-  rv.innerHTML=`<div class="hero"><div class="eyebrow">${esc([r.country||r.region,r.dlc?(r.dlcName||'DLC'):'Base game'].filter(Boolean).join(' · '))}</div><h1>${esc(R)}</h1>
-    ${r.biome?`<p>${esc(r.biome)}</p>`:''}
+  rv.innerHTML=`<div class="hero reserveHero">${emb(R,'reserveLogo')}<div class="eyebrow">${esc([r.country||r.region,r.dlc?(r.dlcName||'DLC'):'Base game'].filter(Boolean).join(' · '))}</div><h1>${esc(R)}</h1>
+    ${r.about?'':r.biome?`<p>${esc(r.biome)}</p>`:''}
     <div class="stats"><div class="pill"><b class="num">${r.species.length}</b> animals</div>${r.released?`<div class="pill">Released <span class="num">${esc(r.released)}</span></div>`:''}</div>
-    ${r.about?`<p class="note">${esc(r.about)}</p>`:''}</div>
+    ${r.about?`<p class="note">${esc(r.about)}</p>`:''}
+    ${MAPS[r.slug]?`<div class="anTools"><a class="toolAction" href="https://wand.com/maps/thehunter-call-of-the-wild/${MAPS[r.slug]}" target="_blank" rel="noopener">Interactive map ↗</a></div><p class="note">The map is a community map on wand.com (opens the website).</p>`:''}</div>
   <div class="section card"><h2>Need zone planner</h2><p class="note" style="margin-top:0">Slide to an in-game time to see where each animal is. Tap a row for its full guide.</p>
     <div class="hourPick"><input type="range" id="zh" min="0" max="23.5" step="0.5" value="${zHour}" aria-label="In-game time"><strong id="zhl" class="num">${hourLabel(zHour)}</strong></div>${legend}<div class="zRows" id="zrows"></div>${ticks()}</div>
   <div class="section"><h2>Animals in ${esc(short(R))}</h2>
     <div class="chipRow" id="classChips"><button class="chip small active" data-fc="0">All classes</button>${classes.map(c=>`<button class="chip small" data-fc="${c}">Class ${c}</button>`).join('')}</div>
     <div class="searchbar"><input id="q" class="input" placeholder="Search animals…"><select class="select" id="fzone"><option value="">Any zone now</option><option value="feed">Feeding now</option><option value="drink">Drinking now</option><option value="rest">Resting now</option></select><select class="select" id="fgo"><option value="">All animals</option><option value="go">Has a Great One</option><option value="todo">No diamond logged</option></select></div><div id="fcount" class="note"></div><div class="grid" id="grid"></div></div>
-  <div class="section"><h2>Other reserves</h2><div class="reserveCards">${RESERVES.filter(n=>n!==R).map(n=>reserveTile(n,'reserveCard')).join('')}</div></div>
+  <div class="section"><h2>Other reserves</h2><div class="reserveCards">${MY().filter(n=>n!==R).map(n=>reserveTile(n,'reserveCard')).join('')}</div></div>
   ${r.source?`<div class="source">Source: ${srcLink(r.source)}</div>`:''}`;
   rv.oninput=e=>{if(e.target.id==='zh'){zHour=+e.target.value;store.set('zHour',zHour);renderZones();if($('#fzone').value)renderGrid()}else renderGrid()};
   rv.onchange=e=>{if(e.target.id!=='zh')renderGrid()};
@@ -234,7 +241,7 @@ function spPage(s){
   const zt=k=>(z&&z[k]&&z[k].length)?mergeRanges(z[k]).map(r=>r.split('-').map(hm).join('–')).join(', '):'—';
   fv.innerHTML=`<div class="hero"><div class="eyebrow">Class ${esc(d.class)} · ${esc(d.difficulty||'')}</div><h1>${esc(s)}</h1>${d.latin?`<p class="latin">${esc(d.latin)}</p>`:''}
     <div class="facts"><div class="fact"><small>Max level</small><strong>${esc(d.maxLevel??'–')}</strong></div><div class="fact"><small>Max weight</small><strong>${kgfmt(d.maxWeightKg)}</strong></div><div class="fact"><small>Great One</small><strong>${d.greatOne?'Yes':'No'}</strong></div></div>
-    <div class="anTools">${d.greatOne?`<button class="toolAction" id="goGuide">Great One guide →</button>`:''}<button class="toolAction" id="ammoGuide">Ammo for this animal →</button></div><div id="fbest" class="note"></div></div>
+    <div class="anTools"><button class="toolAction primary" id="logThisTop">＋ Log a harvest</button>${d.greatOne?`<button class="toolAction" id="goGuide">Great One guide →</button>`:''}<button class="toolAction" id="ammoGuide">Ammo for this animal →</button></div><div id="fbest" class="note"></div></div>
   <div class="detailgrid section"><div>
     <div class="card">${pic(s,'imageWrap spPhoto')}<div class="note" data-credit></div></div>
     <div class="card" style="margin-top:18px"><div class="homeSectionHead" style="margin:0"><h2>Need zones</h2>${z?`<span class="note" style="margin:0">${esc(short(R))} · ${hourLabel(zHour)} ${zoneTag(k)}</span>`:''}</div>${z?`${timeline(z,zHour)}${ticks()}<div class="zTimes"><div><small style="color:var(--feed)">Feed</small><span>${zt('feed')}</span></div><div><small style="color:var(--drink)">Drink</small><span>${zt('drink')}</span></div><div><small style="color:var(--rest)">Rest</small><span>${zt('rest')}</span></div></div>`:'<div class="mutedBox">No need zone times for this animal yet.</div>'}</div>
@@ -242,13 +249,21 @@ function spPage(s){
     <div class="note">Trophy score comes from the animal's antlers, horns, skull or weight. Bronze is anything under silver. Only animals at or near the species' top difficulty level can reach a diamond.</div></div>
   </div><div>
     <div class="card"><h2>Furs</h2>${furHtml}</div>
-    <div class="card" style="margin-top:18px"><h2>Ammo that passes integrity</h2>${d.ammo.length?d.ammo.map(a=>`<span class="tag ammo">${esc(a)}</span>`).join(''):'<div class="mutedBox">Not listed yet.</div>'}<div class="note">Ammo rated for this animal's class gives the integrity bonus to your hunter score.</div></div>
-    <div class="card" style="margin-top:18px"><h2>Found in</h2>${d.reserves.map(n=>`<button class="chip small${n===R?' active':''}" data-other="${esc(n)}">${esc(short(n))}</button>`).join(' ')}</div>
+    <div class="card" style="margin-top:18px"><h2>Ammo rated for this animal</h2>${d.ammo.length?d.ammo.map(a=>`<span class="tag ammo">${esc(a)}</span>`).join(''):'<div class="mutedBox">Not listed yet.</div>'}<div class="note">Ammo rated for this animal's class passes the harvest check, so you keep the full medal and payout.</div></div>
+    <div class="card" style="margin-top:18px" id="callerCard"><h2>Callers</h2><div class="mutedBox">Loading…</div></div>
+    <div class="card" style="margin-top:18px"><h2>Found in</h2>${d.reserves.map(n=>`<button class="chip small${n===R?' active':''}${owns(n)?'':' notOwned'}" data-other="${esc(n)}">${emb(n,'chipEmb')}${esc(short(n))}</button>`).join(' ')}</div>
   </div></div>
   <button class="cta" id="logThis">Log a harvest</button>
   ${d.notes?`<details class="notes"><summary>Data notes</summary><p>${esc(d.notes)}</p></details>`:''}
   <div class="source">Source: ${d.source?srcLink(d.source):'community data'} (community-maintained; may contain errors).</div>`;
-  spDyn(s);hydratePhotos(fv);
+  spDyn(s);hydratePhotos(fv);fillCallers(s);
+}
+// Callers that bring this animal in (data/callers.json, loaded when needed).
+async function fillCallers(s){
+  const box=$('#callerCard');let C=null;try{C=await guide('callers')}catch(e){}
+  if(!box||!box.isConnected)return;
+  const b=C&&C.bySpecies&&C.bySpecies[s],list=(b&&b.callers)||[],info=n=>(C.callers||[]).find(c=>c.name===n)||{};
+  box.innerHTML='<h2>Callers</h2>'+(list.length?list.map(n=>{const c=info(n);return `<div class="callerRow"><strong>${esc(n)}</strong><small>${esc([c.type,c.dlc].filter(Boolean).join(' · '))}</small></div>`}).join(''):`<div class="mutedBox">${C?'No caller brings this animal in.':'Caller list not available yet.'}</div>`)+(b&&b.notes?`<p class="note">${esc(b.notes)}</p>`:'');
 }
 function spDyn(s){const b=bestFor(s);$('#fbest').innerHTML=b?`Your best: ${b.rank?rankBadge(b.rank):'harvested'}${b.sc!=null?' · score '+score(b.sc):''}`:''}
 function showSp(s){
@@ -256,7 +271,7 @@ function showSp(s){
   else{rv.hidden=false;fv.hidden=true;if(lastSp)scrollTo(0,scrollRv)}
   lastSp=s;document.title=(s||R)+' · Hunter Guide';
   if(s)fv.onclick=e=>{
-    if(e.target.closest('#logThis'))openLogSheet(R,s);
+    if(e.target.closest('#logThis,#logThisTop'))openLogSheet(R,s);
     if(e.target.closest('#goGuide'))nav('/guides/great-ones/'+encodeURIComponent(s));
     if(e.target.closest('#ammoGuide')){store.set('ammoSpecies',s);nav('/guides/ammo-finder')}
     const o=e.target.closest('[data-other]');if(o)go(o.dataset.other,s);
@@ -265,11 +280,16 @@ function showSp(s){
 
 // ================================================================ LOG
 const logDlg=$('#logDlg');
-function openLogSheet(rn,sp){
-  rn=rn||store.get('logReserve',R||RESERVES[0]);
-  $('#lgReserve').innerHTML=opts(RESERVES,rn);fillLogSpecies(sp);
-  $('#lgScore').value='';$('#lgWeight').value='';$('#lgUnit').textContent=unit==='metric'?'kg':'lb';$('#lgDate').value=today();$('#lgNote').value='';$('#lgGO').checked=false;
-  updateLogRank();logDlg.showModal();setTimeout(()=>$('#lgScore').focus(),60);
+let editId=null; // id of the harvest being edited, or null for a new one
+function openLogSheet(rn,sp,entry){
+  editId=entry?entry.id:null;
+  rn=entry?entry.r:rn||store.get('logReserve',R||MY()[0]);if(!DATA.reserves[rn])rn=MY()[0];
+  const list=MY().includes(rn)?MY():[...MY(),rn];
+  $('#lgReserve').innerHTML=opts(list,rn);fillLogSpecies(entry?entry.s:sp);
+  $('#logTitle').textContent=entry?'Edit harvest':'Log a harvest';
+  $('#lgScore').value=entry&&entry.sc!=null?entry.sc:'';$('#lgWeight').value=entry&&entry.w!=null?+(unit==='metric'?entry.w:entry.w*2.20462).toFixed(2):'';$('#lgUnit').textContent=unit==='metric'?'kg':'lb';
+  $('#lgDate').value=entry?.d||today();$('#lgNote').value=entry?.n||'';$('#lgGO').checked=!!entry?.go;if(entry?.fur)$('#lgFur').value=entry.fur;
+  updateLogRank();logDlg.showModal();if(!entry)setTimeout(()=>$('#lgScore').focus(),60);
 }
 function fillLogSpecies(sp){const sps=DATA.reserves[$('#lgReserve').value].species;$('#lgSpecies').innerHTML=opts(sps,sp&&sps.includes(sp)?sp:sps[0]);fillFurs()}
 function fillFurs(){const d=DATA.species[$('#lgSpecies').value];$('#lgFur').innerHTML='<option value="">Not noted</option>'+opts((d.furs||[]).map(f=>f.name));$('#lgGO').closest('label').hidden=!d.greatOne;updateLogRank()}
@@ -286,41 +306,45 @@ logDlg.addEventListener('click',e=>{if(e.target.closest('#lgCancel'))logDlg.clos
 $('#logForm').addEventListener('submit',e=>{
   e.preventDefault();
   const rn=$('#lgReserve').value,sp=$('#lgSpecies').value,sc=num($('#lgScore').value),w=num($('#lgWeight').value),go1=$('#lgGO').checked&&DATA.species[sp].greatOne;
-  const rank=go1?'Great One':rankFor(sp,sc),log=getLog(),prev=bestFor(sp,log);
-  log.push({id:Date.now().toString(36),r:rn,s:sp,sc:sc==null?null:+sc.toFixed(3),w:w==null?null:+(unit==='metric'?w:w/2.20462).toFixed(2),fur:$('#lgFur').value||null,go:go1,rank,d:$('#lgDate').value||today(),n:$('#lgNote').value.trim()});
+  const rank=go1?'Great One':rankFor(sp,sc),all=getLog(),old=editId&&all.find(x=>String(x.id)===String(editId)),log=all.filter(x=>x!==old),prev=bestFor(sp,log);
+  log.push({id:old?old.id:Date.now().toString(36),r:rn,s:sp,sc:sc==null?null:+sc.toFixed(3),w:w==null?null:+(unit==='metric'?w:w/2.20462).toFixed(2),fur:$('#lgFur').value||null,go:go1,rank,d:$('#lgDate').value||today(),n:$('#lgNote').value.trim()});
   saveLog(log);store.set('logReserve',rn);logDlg.close();
   if(go1){const g=new Set(jget('greatOnes',[]));g.add(sp);jset('greatOnes',[...g])}
   const pb=sc!=null&&prev&&(prev.sc==null||sc>prev.sc);
   haptic(rank==='Diamond'||rank==='Great One'?[20,40,20]:15);
+  if(old){editId=null;toast('Harvest updated');if(screen==='log')buildLog();if(lastSp&&!fv.hidden)spDyn(lastSp);return}
   toast(`Logged ${sp}${rank?' · '+RANK_ICON[rank]+' '+rank:''}${pb?' · New personal best!':''}`);
   if(lastSp&&!fv.hidden)spDyn(lastSp);if(!rv.hidden&&$('#grid'))renderGrid();if(screen==='log')buildLog();
 });
 
+let logShown=30;
 function buildLog(){
-  const log=getLog(),best=new Map();for(const s of SPECIES){const b=bestFor(s,log);if(b)best.set(s,b)}
-  const dia=[...best.values()].filter(b=>b.rank==='Diamond'||b.rank==='Great One').length,goTotal=SPECIES.filter(s=>DATA.species[s].greatOne).length,goGot=greatOnesGot();
-  const lr=store.get('logFilterReserve',''),lf=store.get('logFilter','all');
-  const recent=log.slice().sort((a,b)=>(b.d||'').localeCompare(a.d||'')||String(b.id).localeCompare(String(a.id))).slice(0,30);
-  const pool=(lr&&DATA.reserves[lr]?DATA.reserves[lr].species:SPECIES).filter(s=>{const b=best.get(s),top=b&&(b.rank==='Diamond'||b.rank==='Great One');return lf==='all'||(lf==='got'&&b)||(lf==='missing'&&!b)||(lf==='diamond'&&top)||(lf==='nodiamond'&&!top)});
+  const log=getLog(),best=new Map(),my=mySpecies();for(const s of SPECIES){const b=bestFor(s,log);if(b)best.set(s,b)}
+  const dia=[...best.entries()].filter(([s,b])=>my.includes(s)&&(b.rank==='Diamond'||b.rank==='Great One')).length,mine=[...best.keys()].filter(s=>my.includes(s)).length,goTotal=SPECIES.filter(s=>DATA.species[s].greatOne).length,goGot=greatOnesGot();
+  const lr=owns(store.get('logFilterReserve',''))?store.get('logFilterReserve',''):'',lf=store.get('logFilter','all');
+  const recent=log.slice().sort((a,b)=>(b.d||'').localeCompare(a.d||'')||String(b.id).localeCompare(String(a.id)));const shown=recent.slice(0,logShown);
+  const pool=(lr&&DATA.reserves[lr]?DATA.reserves[lr].species:my).filter(s=>{const b=best.get(s),top=b&&(b.rank==='Diamond'||b.rank==='Great One');return lf==='all'||(lf==='got'&&b)||(lf==='missing'&&!b)||(lf==='diamond'&&top)||(lf==='nodiamond'&&!top)});
   const rareFur=e=>{const f=e.fur&&(DATA.species[e.s].furs||[]).find(x=>x.name===e.fur);return !!f&&/rare|great one/i.test(f.rarity||'')};
-  const rare=log.filter(e=>DATA.species[e.s]&&rareFur(e)).length,diaKills=log.filter(e=>e.rank==='Diamond'||e.rank==='Great One').length;
+  const rare=log.filter(e=>DATA.species[e.s]&&rareFur(e)).length,diaKills=log.filter(e=>e.rank==='Diamond').length;
   const tile=(n,label,cls)=>`<div class="statTile${cls?' '+cls:''}"><strong>${n}</strong><em>${label}</em></div>`;
   const MD={Bronze:['m-bronze','B'],Silver:['m-silver','S'],Gold:['m-gold','G'],Diamond:['m-diamond','D'],'Great One':['m-fabled','★']};
   const dot=r=>{const m=MD[r];return m?`<span class="medalDot ${m[0]}" title="${r}">${m[1]}</span>`:'<span class="medalDot none" title="No rating">–</span>'};
   lv.innerHTML=`<div class="hero"><div class="eyebrow">Saved on this device</div><h1>My log</h1>
     <div class="statTiles">${tile(log.length,'Harvests')}${tile(diaKills,'Diamonds','m-diamond')}${tile(goGot.size+'<small>/'+goTotal+'</small>','Great Ones','m-fabled')}${tile(rare,'Rare furs','m-gold')}</div>
     <div class="homeActions"><button class="primaryAction" id="lgNew">＋ Log a harvest</button><button class="secondaryAction" id="lgBackup">Back up my log</button></div></div>
-  <div class="section"><h2>Recent harvests</h2>${recent.length?`<div class="logList">${recent.map(e=>DATA.species[e.s]?`<div class="logRow"><button class="logOpen" data-lo="${esc(e.r+'::'+e.s)}">${dot(e.rank)}<span><strong>${esc(e.s)}</strong><small>${esc(short(e.r))}${e.d?' · '+esc(e.d):''}${e.fur?' · '+esc(e.fur):''}</small>${e.n?`<small class="muted">${esc(e.n)}</small>`:''}</span></button><span class="logMeta">${e.sc!=null?`<code class="sc">${score(e.sc)}</code>`:''}${e.w!=null?`<small class="muted">${kgfmt(e.w)}</small>`:''}</span><span class="logBtns"><button class="iconBtn" data-share="${esc(e.id)}" aria-label="Share this harvest">⤴</button><button class="iconBtn" data-del="${esc(e.id)}" aria-label="Delete this harvest">✕</button></span></div>`:'').join('')}</div>`:'<div class="mutedBox">Nothing logged yet. Tap “Log a harvest” after a kill, or use the button on any species page.</div>'}</div>
-  <div class="section"><h2>Collection</h2><div class="ckSummary"><div class="collHead"><span>${best.size} of ${SPECIES.length} species harvested</span><span class="muted">${dia} with a diamond</span></div><span class="bar"><i style="width:${best.size/SPECIES.length*100}%"></i></span></div><p class="note">Your best rating for every species. Tap one to open its guide.</p>
-    <div class="chipRow"><button class="chip${lr?'':' active'}" data-lr="">All</button>${RESERVES.map(n=>`<button class="chip${lr===n?' active':''}" data-lr="${esc(n)}">${esc(short(n))}</button>`).join('')}</div>
+  <div class="section"><h2>Recent harvests</h2>${recent.length?`<div class="logList">${shown.map(e=>DATA.species[e.s]?`<div class="logRow"><button class="logOpen" data-lo="${esc(e.r+'::'+e.s)}">${dot(e.rank)}<span><strong>${esc(e.s)}</strong><small>${esc(short(e.r))}${e.d?' · '+esc(e.d):''}${e.fur?' · '+esc(e.fur):''}</small>${e.n?`<small class="muted">${esc(e.n)}</small>`:''}</span></button><span class="logMeta">${e.sc!=null?`<code class="sc">${score(e.sc)}</code>`:''}${e.w!=null?`<small class="muted">${kgfmt(e.w)}</small>`:''}</span><span class="logBtns"><button class="iconBtn" data-edit="${esc(e.id)}" aria-label="Edit this harvest">✎</button><button class="iconBtn" data-share="${esc(e.id)}" aria-label="Share this harvest">⤴</button><button class="iconBtn" data-del="${esc(e.id)}" aria-label="Delete this harvest">✕</button></span></div>`:'').join('')}</div>${recent.length>shown.length?`<button class="secondaryAction showMore" id="logMore">Show ${Math.min(30,recent.length-shown.length)} more (${recent.length-shown.length} older)</button>`:''}`:'<div class="mutedBox">Nothing logged yet. Tap “Log a harvest” after a kill, or use the button on any species page.</div>'}</div>
+  <div class="section"><h2>Collection</h2><div class="ckSummary"><div class="collHead"><span>${mine} of ${my.length} species harvested</span><span class="muted">${dia} with a diamond</span></div><span class="bar"><i style="width:${my.length?mine/my.length*100:0}%"></i></span></div><p class="note">Your best rating for every species. Tap one to open its guide.</p>
+    <div class="chipRow"><button class="chip${lr?'':' active'}" data-lr="">All</button>${MY().map(n=>`<button class="chip${lr===n?' active':''}" data-lr="${esc(n)}">${emb(n,'chipEmb')}${esc(short(n))}</button>`).join('')}</div>
     <div class="chipRow">${[['all','All'],['got','Harvested'],['missing','Not yet'],['diamond','💎 Diamond'],['nodiamond','No diamond yet']].map(([k,l])=>`<button class="chip small${lf===k?' active':''}" data-lf="${k}">${l}</button>`).join('')}</div>
-    <div class="collGrid">${pool.map(s=>{const b=best.get(s),rn=lr||DATA.species[s].reserves[0];return `<button class="collItem${b?' got':''}" data-lo="${esc(rn+'::'+s)}">${pic(s,'imgFallback')}<strong>${esc(s)}</strong><small>${b?(b.rank?RANK_ICON[b.rank]+' '+b.rank:'Harvested')+(b.sc!=null?' · '+score(b.sc):''):'Not yet'}</small></button>`}).join('')||'<div class="mutedBox">Nothing here with this filter.</div>'}</div></div>`;
+    <div class="collGrid">${pool.map(s=>{const b=best.get(s),rn=lr||DATA.species[s].reserves.find(owns)||DATA.species[s].reserves[0];return `<button class="collItem${b?' got':''}" data-lo="${esc(rn+'::'+s)}">${pic(s,'imgFallback')}<strong>${esc(s)}</strong><small>${b?(b.rank?RANK_ICON[b.rank]+' '+b.rank:'Harvested')+(b.sc!=null?' · '+score(b.sc):''):'Not yet'}</small></button>`}).join('')||'<div class="mutedBox">Nothing here with this filter.</div>'}</div></div>`;
   hydratePhotos(lv);
 }
 lv.onclick=e=>{
   const t=e.target;
   if(t.closest('#lgNew'))return openLogSheet();
   if(t.closest('#lgBackup'))return exportBackup();
+  if(t.closest('#logMore')){const y=scrollY;logShown+=30;buildLog();return scrollTo(0,y)}
+  const ed=t.closest('[data-edit]');if(ed){const e2=getLog().find(x=>String(x.id)===ed.dataset.edit);if(e2)openLogSheet(null,null,e2);return}
   const lo=t.closest('[data-lo]');if(lo){const [rn,...p]=lo.dataset.lo.split('::');return go(rn,p.join('::'))}
   const lr=t.closest('[data-lr]');if(lr){store.set('logFilterReserve',lr.dataset.lr);return buildLog()}
   const lf=t.closest('[data-lf]');if(lf){store.set('logFilter',lf.dataset.lf);return buildLog()}
@@ -346,7 +370,7 @@ async function shareHarvest(e){
 }
 
 // ---------------------------------------------------------------- backup and restore
-const BACKUP_KEYS=['log','greatOnes','missions','collect','skillPlan','unit','clock','theme','reserve'];
+const BACKUP_KEYS=['log','greatOnes','missions','collect','skillPlan','unit','clock','theme','reserve','dlcHide'];
 function exportBackup(){
   const data={};for(const k of BACKUP_KEYS){const v=store.get(k,null);if(v!=null)data[k]=v}
   const blob=new Blob([JSON.stringify({app:'hunter-guide',version:1,exported:new Date().toISOString(),data},null,1)],{type:'application/json'});
@@ -371,13 +395,12 @@ async function buildGuides(){
   let M={},C={};try{M=await guide('missions')}catch(e){}try{C=await guide('collectibles')}catch(e){}
   if(screen!=='guides'||!$('#guideCards'))return;
   const md=jget('missions',{}),cd=jget('collect',{}),goList=SPECIES.filter(s=>DATA.species[s].greatOne);
-  const groups=o=>Object.entries(o).filter(([k,v])=>DATA.reserves[k]&&Array.isArray(v)).flatMap(([,v])=>v);
+  const groups=o=>Object.entries(o).filter(([k,v])=>owns(k)&&Array.isArray(v)).flatMap(([,v])=>v);
   const mTotal=groups(M).reduce((a,g)=>a+(g.missions||[]).length,0),cTotal=groups(C).reduce((a,g)=>a+(g.items||[]).length,0);
-  $('#guideCards').innerHTML=guideCard('/guides/ammo-finder','🎯','Ammo finder','Pick an animal and see every ammo that passes integrity, and the weapons that fire it',0,0,1)
-    +guideCard('/guides/great-ones','👑','Great Ones',`The ${goList.length} legendary animals and how to make one spawn`,greatOnesGot().size,goList.length)
+  $('#guideCards').innerHTML=guideCard('/guides/great-ones','👑','Great Ones',`The ${goList.length} legendary animals and how to make one spawn`,greatOnesGot().size,goList.length)
     +guideCard('/guides/missions','📋','Missions',`${mTotal||'Mission'} missions to tick off`,Object.keys(md).length,mTotal)
     +guideCard('/guides/collectibles','🧭','Collectibles',`${cTotal||'Collectible'} items by reserve`,Object.keys(cd).length,cTotal)
-    +guideCard('/guides/weapons','🔫','Weapons & ammo','Every weapon and ammo type with its class range')
+    +guideCard('/guides/ammo-finder','🎯','Weapons & ammo','Ammo finder for any animal, plus every weapon and ammo type with its class range',0,0,1)
     +guideCard('/guides/skills','🧠','Skills & perks','Every skill and perk, with a points planner')
     +guideCard('/guides/how-it-works','📘','How hunting works','Difficulty, trophy scores, need zones, integrity and furs')
     +`<a class="guideCard wide" href="https://callofthewild.thehunter.com" target="_blank" rel="noopener"><span class="gIcon">🌐</span><span><strong>Official site</strong><small>News, patch notes and DLC from Expansive Worlds (opens the website)</small></span><span aria-hidden="true">↗</span></a>`
@@ -416,7 +439,7 @@ gv.onclick=e=>{
 
 // Great Ones: a list, and a page per species. great-ones.json adds the details when it is available.
 async function goData(){try{const g=await guide('great-ones');return Array.isArray(g)?g:(g.greatOnes||[])}catch(e){return []}}
-const goCard=(s,got)=>`<button class="legendCard${got.has(s)?' got':''}" data-go1="${esc(s)}">${pic(s,'imgFallback')}<span><strong>${esc(s)}</strong><small>${esc(DATA.species[s].reserves.map(short).join(', '))}</small></span>${got.has(s)?'<em>✓ Harvested</em>':''}</button>`;
+const goCard=(s,got)=>`<button class="legendCard${got.has(s)?' got':''}" data-go1="${esc(s)}">${pic(s,'imgFallback')}<span><strong>${esc(s)}</strong><small>${esc(DATA.species[s].reserves.filter(owns).map(short).join(', '))}</small></span>${got.has(s)?'<em>✓ Harvested</em>':''}</button>`;
 async function buildGreatOnes(){
   const G=await goData();if(screen!=='guide')return;
   const list=[...new Set([...SPECIES.filter(s=>DATA.species[s].greatOne),...G.map(g=>g.species).filter(s=>DATA.species[s])])].sort(),got=greatOnesGot();
@@ -428,17 +451,17 @@ async function buildGreatOne(s){
   const G=await goData();if(screen!=='legend')return;
   const d=DATA.species[s];if(!d){nav('/guides/great-ones');return}
   const g=G.find(x=>x.species===s)||{},got=greatOnesGot().has(s),gfurs=(g.furs&&g.furs.length?g.furs.map(f=>typeof f==='string'?f:f.name):(d.furs||[]).filter(f=>/great one|fabled/i.test(f.name+' '+f.rarity)).map(f=>f.name));
-  const reserves=(g.reserves&&g.reserves.length?g.reserves:d.reserves).map(n=>RESERVES.find(r=>r===n||r.startsWith(n)||n.startsWith(r))||n);
+  const reserves=(g.reserves&&g.reserves.length?g.reserves:d.reserves).map(n=>RESERVES.find(r=>fold(r)===fold(n)||fold(r).startsWith(fold(n))||fold(n).startsWith(fold(r)))||n);
   document.title=s+' Great One · Hunter Guide';
   gv.innerHTML=`<div class="hero"><div class="eyebrow">Great One</div><h1>👑 ${icon(s)} ${esc(s)}</h1>
     <div class="stats"><div class="pill">🎯 Class ${esc(d.class)}</div>${g.maxScore!=null?`<div class="pill">🏆 Up to ${score(g.maxScore)}</div>`:d.trophy.max!=null?`<div class="pill">🏆 Normal max ${score(d.trophy.max)}</div>`:''}${g.dateAdded?`<div class="pill">📅 Added ${esc(g.dateAdded)}</div>`:''}</div>
-    <div class="anTools"><button class="toolAction${got?'':' primary'}" id="goToggle" data-name="${esc(s)}">${got?'✓ Harvested':'＋ Mark as harvested'}</button>${reserves.filter(n=>DATA.reserves[n]).map(n=>`<button class="toolAction" data-splink="${esc(n+'::'+s)}">${esc(short(n))} guide →</button>`).join('')}</div></div>
+    <div class="anTools"><button class="toolAction${got?'':' primary'}" id="goToggle" data-name="${esc(s)}">${got?'✓ Harvested':'＋ Mark as harvested'}</button>${reserves.filter(owns).map(n=>`<button class="toolAction" data-splink="${esc(n+'::'+s)}">${esc(short(n))} guide →</button>`).join('')}</div></div>
   <div class="detailgrid section"><div>
     <div class="card">${pic(s,'imageWrap spPhoto')}<div class="note" data-credit></div><p class="note">A Great One looks like a normal ${esc(s.toLowerCase())}, only bigger and with fabled fur.</p></div>
     <div class="card" style="margin-top:18px"><h2>How to make one spawn</h2>${g.howToSpawn?`<p class="story">${esc(g.howToSpawn)}</p>`:'<div class="mutedBox">Details coming soon.</div>'}${g.notes?`<p class="note">${esc(g.notes)}</p>`:''}</div>
   </div><div>
     <div class="card"><h2>Great One furs</h2>${gfurs.length?gfurs.map(f=>`<span class="tag r-GreatOne">${esc(f)}</span>`).join(''):'<div class="mutedBox">Not listed yet.</div>'}</div>
-    <div class="card" style="margin-top:18px"><h2>Where</h2>${reserves.map(n=>`<span class="tag">${esc(n)}</span>`).join('')}</div>
+    <div class="card" style="margin-top:18px"><h2>Where</h2>${reserves.map(n=>`<span class="tag${owns(n)?'':' notOwned'}">${emb(n,'chipEmb')}${esc(n)}</span>`).join('')}</div>
   </div></div>${g.sources?`<div class="source">Sources: ${srcList(g.sources)}</div>`:''}`;
   hydratePhotos(gv);
 }
@@ -447,26 +470,30 @@ async function buildGreatOne(s){
 async function buildChecklist(kind){
   const data=await guide(kind);if(screen!=='guide')return;
   const isM=kind==='missions',key=isM?'missions':'collect',done=jget(key,{});
-  const rn=DATA.reserves[store.get(key+'Reserve','')]?store.get(key+'Reserve',''):(R||store.get('reserve',RESERVES[0]));
-  const hide=store.get(key+'Hide','')==='1',groups=(data[rn]||[]).filter(g=>!/^Map locations/.test(g.type||''));
+  const my=MY(),pick=[store.get(key+'Reserve',''),R,store.get('reserve','')].find(owns),rn=pick||my[0];
+  const hide=store.get(key+'Hide','')==='1',q=isM?(gv.dataset.ckq||'').toLowerCase():'',groups=(data[rn]||[]).filter(g=>!/^Map locations/.test(g.type||''));
+  const match=m=>!q||[m.name,m.desc,...(m.objectives||[])].some(t=>t&&t.toLowerCase().includes(q));
   const id=(g,n)=>rn+'|'+g+'|'+n,items=g=>isM?(g.missions||[]).map(m=>m.name):(g.items||[]).map(i=>typeof i==='string'?i:i.name);
   const all=groups.flatMap(g=>items(g).map(n=>id(g.type,n))),doneHere=all.filter(k=>done[k]).length;
   document.title=(isM?'Missions':'Collectibles')+' · Hunter Guide';
   const rw=r=>r?[r.xp?`⭐ ${r.xp} XP`:'',r.cash?`💰 $${r.cash}`:'',r.items?`🎁 ${Array.isArray(r.items)?r.items.join(', '):r.items}`:''].filter(Boolean).join(' · '):'';
   gv.innerHTML=guideTitle('Guides',isM?'Missions':'Collectibles',isM?'Missions for each reserve with their objectives. Tick them off as you go.':'Collectibles in each reserve, grouped by type. Tick them off as you find them.')
-  +`<div class="chipRow">${RESERVES.map(n=>`<button class="chip${n===rn?' active':''}" data-ck-reserve="${esc(n)}">${esc(short(n))}</button>`).join('')}</div>
+  +`<div class="chipRow">${my.map(n=>`<button class="chip${n===rn?' active':''}" data-ck-reserve="${esc(n)}">${emb(n,'chipEmb')}${esc(short(n))}</button>`).join('')}</div>
   <div class="card ckSummary"><div><strong>${doneHere} of ${all.length}</strong> ${isM?'missions':'collectibles'} done in ${esc(rn)}</div><span class="bar"><i style="width:${all.length?doneHere/all.length*100:0}%"></i></span>
-  <label class="switchLabel"><input type="checkbox" id="ckHide"${hide?' checked':''}> Hide finished</label></div>
+  <label class="switchLabel"><input type="checkbox" id="ckHide"${hide?' checked':''}> Hide finished</label>
+  ${isM?`<input class="input" id="ckSearch" type="search" placeholder="Search missions and objectives…" value="${esc(gv.dataset.ckq||'')}" autocomplete="off">`:''}</div>
   ${groups.length?groups.map(g=>{const its=items(g),gd=its.filter(n=>done[id(g.type,n)]).length;
-    const rows=isM?(g.missions||[]).filter(m=>!(hide&&done[id(g.type,m.name)])).map(m=>{const k=id(g.type,m.name),obj=m.objectives||[];
-      return `<details class="ckRow${done[k]?' done':''}"><summary><button class="ckBox" data-ck="${esc(k)}" role="checkbox" aria-checked="${!!done[k]}" aria-label="Done: ${esc(m.name)}"></button><span class="ckName">${esc(m.name)}</span><span class="ckMeta">${rw(m.reward)}</span></summary>
+    const rows=isM?(g.missions||[]).filter(m=>!(hide&&done[id(g.type,m.name)])&&match(m)).map(m=>{const k=id(g.type,m.name),obj=m.objectives||[];
+      return `<details class="ckRow${done[k]?' done':''}"${q?' open':''}><summary><button class="ckBox" data-ck="${esc(k)}" role="checkbox" aria-checked="${!!done[k]}" aria-label="Done: ${esc(m.name)}"></button><span class="ckName">${esc(m.name)}${m.unofficial?' <span class="unoff" title="No official English name was found">unofficial name</span>':''}</span><span class="ckMeta">${rw(m.reward)}</span><span class="ckChev" aria-hidden="true">›</span></summary>
         <div class="ckBody">${m.desc?`<p>${esc(m.desc)}</p>`:''}${obj.length?`<ol>${obj.map(o=>`<li>${esc(o)}</li>`).join('')}</ol>`:'<p class="muted">Objectives not listed yet.</p>'}</div></details>`}).join('')
-      :its.filter(n=>!(hide&&done[id(g.type,n)])).map(n=>{const k=id(g.type,n);return `<div class="ckRow plain${done[k]?' done':''}"><button class="ckBox" data-ck="${esc(k)}" role="checkbox" aria-checked="${!!done[k]}" aria-label="Found: ${esc(n)}"></button><span class="ckName">${esc(n)}</span></div>`}).join('');
+      :its.filter(n=>!(hide&&done[id(g.type,n)])).map(n=>{const k=id(g.type,n),it=(g.items||[]).find(i=>i===n||i.name===n),wh=it&&it.where;return `<div class="ckRow plain${done[k]?' done':''}"><button class="ckBox" data-ck="${esc(k)}" role="checkbox" aria-checked="${!!done[k]}" aria-label="Found: ${esc(n)}"></button><span class="ckName">${esc(n)}${wh?`<small class="ckWhere">📍 ${esc(wh)}${it.coords?` <span class="num">(${esc(it.coords)})</span>`:''}</small>`:''}</span></div>`}).join('');
     const extra=!isM&&g.count&&g.count>its.length?`<p class="note">${g.count} in the reserve; ${its.length?its.length+' named so far':'names not listed yet'}.</p>`:'';
-    return `<section class="card ckGroup"><h2>${esc(g.type)} ${its.length?`<span class="muted">${gd}/${its.length}</span>`:''}</h2>${g.about?`<p class="note">${esc(g.about)}</p>`:''}${extra}${rows||(its.length?'<div class="mutedBox">All done here. 🎉</div>':'')}</section>`}).join(''):'<div class="mutedBox">Nothing listed for this reserve yet.</div>'}
-  ${data.notes?`<details class="notes"><summary>About this data</summary><p>${esc(typeof data.notes==='string'?data.notes:JSON.stringify(data.notes))}</p></details>`:''}
+    if(q&&!rows)return '';
+    return `<section class="card ckGroup"><h2>${esc(g.type)} ${its.length?`<span class="muted">${gd}/${its.length}</span>`:''}</h2>${g.about?`<p class="note">${esc(g.about)}</p>`:''}${!isM&&g.where?`<p class="note">📍 ${esc(g.where)}</p>`:''}${extra}${rows||(its.length?'<div class="mutedBox">All done here. 🎉</div>':'')}</section>`}).join(''):'<div class="mutedBox">Nothing listed for this reserve yet.</div>'}
+  ${data.notes||groups.some(g=>g.dataNotes)?`<details class="notes"><summary>About this data</summary>${groups.filter(g=>g.dataNotes).map(g=>`<p><strong>${esc(g.type)}:</strong> ${esc(g.dataNotes)}</p>`).join('')}${data.notes?`<p>${esc(typeof data.notes==='string'?data.notes:JSON.stringify(data.notes))}</p>`:''}</details>`:''}
   <div class="source">Sources: ${srcList(data.sources)}</div>`;
   gv.onchange=e=>{if(e.target.id==='ckHide'){store.set(key+'Hide',e.target.checked?'1':'');buildChecklist(kind)}};
+  gv.oninput=e=>{if(e.target.id==='ckSearch'){gv.dataset.ckq=e.target.value;clearTimeout(gv._t);gv._t=setTimeout(()=>buildChecklist(kind).then(()=>{const i=$('#ckSearch');if(i){i.focus();i.setSelectionRange(i.value.length,i.value.length)}}),250)}};
   gv.querySelectorAll('[data-ck-reserve]').forEach(b=>b.onclick=()=>{store.set(key+'Reserve',b.dataset.ckReserve);buildChecklist(kind)});
   gv.querySelectorAll('.ckBox').forEach(b=>b.onclick=e=>{e.preventDefault();e.stopPropagation();const d=jget(key,{}),k=b.dataset.ck;
     if(d[k])delete d[k];else d[k]=1;jset(key,d);haptic(8);
@@ -486,16 +513,19 @@ async function buildWeapons(){
   gv.querySelectorAll('[data-wtab]').forEach(b=>b.onclick=()=>{store.set('wTab',b.dataset.wtab);buildWeapons()});
   const body=$('#wBody');
   if(tab==='finder'){
-    const s=DATA.species[store.get('ammoSpecies','')]?store.get('ammoSpecies',''):SPECIES[0],d=DATA.species[s];
+    const s=DATA.species[store.get('ammoSpecies','')]?store.get('ammoSpecies',''):'Whitetail Deer',d=DATA.species[s];
     const fits=ammo.filter(a=>a.classMin!=null&&a.classMax!=null&&d.class>=a.classMin&&d.class<=a.classMax).map(a=>a.name);
-    const rows=weapons.map(w=>({w,a:(w.ammo||[]).filter(x=>fits.includes(x))})).filter(x=>x.a.length);
-    body.innerHTML=`<div class="card"><div class="toolFields"><label>Animal<select id="wSp" class="select">${opts(SPECIES,s)}</select></label></div>
+    const TYPE_ORDER=['rifle','handgun','shotgun','bow','crossbow','combination gun'],tOf=w=>(w.type||'other').split('/')[0],tRank=t=>{const i=TYPE_ORDER.indexOf(t);return i<0?99:i};
+    const rows=weapons.map(w=>({w,a:(w.ammo||[]).filter(x=>fits.includes(x))})).filter(x=>x.a.length).sort((x,y)=>tRank(tOf(x.w))-tRank(tOf(y.w))||x.w.name.localeCompare(y.w.name));
+    const byType=[...new Set(rows.map(x=>tOf(x.w)))].map(t=>[t,rows.filter(x=>tOf(x.w)===t)]);
+    body.innerHTML=`<div class="card"><div class="toolFields"><label>Animal<input id="wSp" class="input" list="wSpList" value="${esc(s)}" placeholder="Type an animal's name…" autocomplete="off"><datalist id="wSpList">${opts(mySpecies())}</datalist></label></div>
       <div class="ghOut"><div class="row"><small>Class</small><strong>${esc(d.class)} · ${esc(d.difficulty||'')}</strong></div>
-      ${rows.length?`<div class="row"><small>${rows.length} weapons with ammo rated for class ${esc(d.class)}</small>${rows.map(x=>`<div class="wl"><strong>${esc(x.w.name)}</strong> <em>${esc(x.w.type||'')}</em><div>${esc(x.a.join(', '))}</div></div>`).join('')}</div>`:''}
-      ${d.ammo.length?`<div class="row"><small>Integrity ammo from the community chart</small><span>${d.ammo.map(a=>`<span class="tag">${esc(a)}</span>`).join('')}</span></div>`:''}
+      ${d.ammo.length?`<div class="row"><small>Calibers rated for class ${esc(d.class)}</small><span>${d.ammo.map(a=>`<span class="tag">${esc(a)}</span>`).join('')}</span></div>`:''}
+      ${rows.length?`<div class="row"><small>${rows.length} weapons with ammo rated for class ${esc(d.class)}</small>${byType.map(([t,l])=>`<details class="wType"${byType.length<3?' open':''}><summary>${esc(t[0].toUpperCase()+t.slice(1))}s <span class="muted">${l.length}</span></summary>${l.map(x=>`<div class="wl"><strong>${esc(x.w.name)}</strong>${x.w.dlc&&x.w.dlc!=='Base game'?` <em>${esc(x.w.dlc)}</em>`:''}<div>${esc(x.a.join(', '))}</div></div>`).join('')}</details>`).join('')}</div>`:''}
       ${!rows.length&&!d.ammo.length?'<div class="mutedBox">No ammo listed for this animal yet.</div>':''}</div>
-      <p class="note">Ammo rated for the animal's class gives a clean, ethical kill and the integrity bonus to your hunter score. Ammo too light leaves a wounded animal; ammo too heavy damages the trophy.</p></div>`;
-    $('#wSp').onchange=e=>{store.set('ammoSpecies',e.target.value);buildWeapons()};
+      <p class="note">Ammo rated for the animal's class gives a clean, ethical kill and passes the harvest check. Ammo too light leaves a wounded animal; ammo too heavy damages the trophy.</p></div>`;
+    $('#wSp').onchange=e=>{const v=SPECIES.find(x=>x.toLowerCase()===e.target.value.trim().toLowerCase());if(v){store.set('ammoSpecies',v);buildWeapons()}else toast('Pick an animal from the list.')};
+    $('#wSp').onfocus=e=>e.target.select();
   }else{
     const isW=tab==='weapons',items=isW?weapons:ammo;
     if(!items.length){body.innerHTML='<div class="mutedBox">The full weapon and ammo list is on the way.</div>';return}
@@ -519,11 +549,22 @@ async function buildSkills(){
   gv.innerHTML=guideTitle('Guides','Skills & perks',esc(S.pointsEarned?.about||''))
   +`<div class="chipRow">${[['skills','Skills'],['perks','Perks']].map(([k,l])=>`<button class="chip${tab===k?' active':''}" data-sktab="${k}">${l}</button>`).join('')}</div>
   <div class="card ckSummary"><div><strong>${spent}${cap?' of '+cap:''}</strong> ${tab==='skills'?'skill':'perk'} points planned</div>${cap?`<span class="bar"><i style="width:${Math.min(100,spent/cap*100)}%"></i></span>`:''}<button class="toolAction" id="skReset">Clear this plan</button></div>
-  ${Object.entries(groups).map(([tree,list])=>`<section class="card skTree"><h2>${esc(tree)}</h2>${list.map(x=>{const k=tab+'|'+x.name,p=plan[k]||0;return `<div class="skItem"><div class="skHead"><strong>${esc(x.name)}</strong><span class="skPts"><button class="iconBtn" data-sk="${esc(k)}" data-d="-1" aria-label="Remove a point">−</button><b>${p}/${x.maxPoints??'?'}</b><button class="iconBtn" data-sk="${esc(k)}" data-d="1" data-max="${x.maxPoints??9}" aria-label="Add a point">＋</button></span></div><small>${esc(x.unlock||'')}</small>${(x.levels||[]).some(Boolean)?`<ol>${x.levels.map((l,i)=>`<li class="${i<p?'on':''}">${esc(l||'Effect not listed yet')}</li>`).join('')}</ol>`:''}${x.about?`<small>${esc(x.about)}</small>`:''}</div>`}).join('')}</section>`).join('')}
+  ${Object.entries(groups).map(([tree,list])=>`<section class="card skTree"><h2>${esc(tree)}</h2>${list.map(x=>{const k=tab+'|'+x.name,p=plan[k]||0;return `<div class="skItem${p?' on':''}"><div class="skHead"><strong>${esc(x.name)}</strong><span class="skPts"><button class="iconBtn" data-sk="${esc(k)}" data-d="-1" aria-label="Remove a point">−</button><b>${p}/${x.maxPoints??'?'}</b><button class="iconBtn" data-sk="${esc(k)}" data-d="1" data-max="${x.maxPoints??9}" aria-label="Add a point">＋</button></span></div><small>${esc(x.unlock||'')}</small>${(x.levels||[]).some(Boolean)?`<ol>${x.levels.map((l,i)=>`<li class="${i<p?'on':''}">${esc(l||'Effect not listed yet')}</li>`).join('')}</ol>`:''}${x.about?`<small>${esc(x.about)}</small>`:''}</div>`}).join('')}</section>`).join('')}
   <div class="source">Sources: ${srcList(S.sources)} (effects are paraphrased from community sources).</div>`;
   gv.querySelectorAll('[data-sktab]').forEach(b=>b.onclick=()=>{store.set('skTab',b.dataset.sktab);buildSkills()});
   $('#skReset').onclick=()=>{const p=jget('skillPlan',{});for(const k of Object.keys(p))if(k.startsWith(tab+'|'))delete p[k];jset('skillPlan',p);buildSkills()};
-  gv.querySelectorAll('[data-sk]').forEach(b=>b.onclick=()=>{const p=jget('skillPlan',{}),k=b.dataset.sk,v=Math.max(0,Math.min(+(b.dataset.max||9),(p[k]||0)+ +b.dataset.d));if(v)p[k]=v;else delete p[k];jset('skillPlan',p);haptic(6);const y=scrollY;buildSkills().then(()=>scrollTo(0,y))});
+  // The game's rules: no more points than a full character earns; a skill tier needs that many points already in its tree;
+  // a perk needs a point in the perk it names.
+  const need=x=>{const m=/(\d+) points? spent/.exec(x.unlock||'');return m?+m[1]:0},req=x=>{const m=/^Requires (.+)$/.exec(x.unlock||'');return m?m[1].split(/ or | and /).map(t=>t.trim()):[]};
+  const treeOf=k=>Object.entries(groups).find(([,l])=>l.some(x=>tab+'|'+x.name===k)),pts=(p,l,skip)=>l.reduce((a,x)=>a+(x.name===skip?0:p[tab+'|'+x.name]||0),0);
+  const okPlan=p=>Object.entries(groups).every(([,l])=>l.every(x=>{const v=p[tab+'|'+x.name]||0;if(!v)return true;
+    if(tab==='skills')return pts(p,l,x.name)>=need(x);const r=req(x);return !r.length||(/ or /.test(x.unlock)?r.some(n=>p[tab+'|'+n]):r.every(n=>p[tab+'|'+n]))}));
+  gv.querySelectorAll('[data-sk]').forEach(b=>b.onclick=()=>{const p=jget('skillPlan',{}),k=b.dataset.sk,d=+b.dataset.d,v=Math.max(0,Math.min(+(b.dataset.max||9),(p[k]||0)+d));
+    const next={...p};if(v)next[k]=v;else delete next[k];
+    if(d>0&&cap&&spent>=cap)return toast(`That's all ${cap} ${tab==='skills'?'skill':'perk'} points.`);
+    if(!okPlan(next)){const [tree]=treeOf(k)||[''];const x=Object.values(groups).flat().find(x=>tab+'|'+x.name===k);
+      return toast(d>0?(tab==='skills'?`Needs ${need(x)} points in ${tree} first.`:`Needs ${x.unlock.replace(/^Requires /,'')} first.`):'Remove points from the skills that depend on this first.')}
+    jset('skillPlan',next);haptic(6);const y=scrollY;buildSkills().then(()=>scrollTo(0,y))});
 }
 
 // How it works: renders mechanics.json, whatever its shape (text, lists and tables of values).
@@ -548,7 +589,7 @@ function setScreen(name){
     el.classList.remove('enter-fwd','enter-back','enter-fade');void el.offsetWidth;el.classList.add('enter-'+dir)}
   screen=name;
   $$('[data-tab]').forEach(b=>{const on=b.dataset.tab===TAB_OF[name];b.classList.toggle('active',on);on?b.setAttribute('aria-current','page'):b.removeAttribute('aria-current')});
-  back.hidden=!DEPTH[name]||name==='reserve';sel.hidden=!(name==='reserve'||name==='species');
+  back.hidden=!DEPTH[name]||name==='reserve';sel.hidden=!(name==='reserve'||name==='species');$('.top').classList.toggle('showBrand',sel.hidden);
 }
 const showOnly=el=>{for(const s of [home,rv,fv,lv,gv])s.hidden=s!==el};
 function route(){
@@ -582,7 +623,7 @@ function parentOf(){ // where "back" goes when there is no in-app history
   return '/';
 }
 function goUp(){if(navStack.length>1)history.back();else nav(parentOf())}
-sel.innerHTML=opts(RESERVES);
+const fillSel=()=>{const l=MY().includes(R)||!R?MY():[...MY(),R];sel.innerHTML=opts(l,R)};fillSel();
 sel.onchange=()=>go(sel.value);back.onclick=()=>nav(parentOf());$('#homeBtn').onclick=goHome;
 
 // ================================================================ SETTINGS, THEME
@@ -592,7 +633,12 @@ function applyTheme(){document.documentElement.dataset.theme=theme;
   $('meta[name=theme-color]').setAttribute('content',light?'#f5f4ee':'#0e110d')}
 matchMedia('(prefers-color-scheme: light)').addEventListener('change',()=>{if(theme==='auto')applyTheme()});
 applyTheme();
-const openSettings=()=>{if(!$('#set').open)$('#set').showModal()};
+function renderDlc(){const h=new Set(jget('dlcHide',[]));
+  $('#dlcList').innerHTML=RESERVES.filter(n=>DATA.reserves[n].dlc).map(n=>`<label class="dlcItem">${emb(n,'chipEmb')}<span>${esc(short(n))}</span><input type="checkbox" data-dlc="${esc(n)}"${h.has(n)?'':' checked'}></label>`).join('')}
+const openSettings=()=>{if(!$('#set').open){renderDlc();$('#set').showModal()}};
+$('#set').addEventListener('change',e=>{const c=e.target.closest('[data-dlc]');if(!c)return;const h=new Set(jget('dlcHide',[]));c.checked?h.delete(c.dataset.dlc):h.add(c.dataset.dlc);jset('dlcHide',[...h]);
+  delete home.dataset.built;fillSel();if(screen==='home'){buildHome();home.dataset.built='1'}else if(screen==='log')buildLog();else if(screen==='guides')buildGuides();else if(screen==='reserve'){built=null;buildReserve()}else if(screen==='guide'||screen==='legend')route()});
+$('#dlcAll').onclick=()=>{jset('dlcHide',[]);renderDlc();$('#set').dispatchEvent(new Event('change'));delete home.dataset.built;fillSel();route()};
 $('#gear').onclick=openSettings;$('#logBtn').onclick=()=>nav('/log');$('#guidesBtn').onclick=()=>nav('/guides');$('#close').onclick=()=>$('#set').close();
 $('#set').onclick=e=>{const u=e.target.closest('[data-u]'),c=e.target.closest('[data-clock]'),th=e.target.closest('[data-theme-pick]');
   if(e.target.id==='set')e.target.close();

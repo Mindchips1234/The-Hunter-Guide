@@ -4,7 +4,8 @@ Usage:  python3 tools/build-data.py
 
 Reads (research/, see research/SCHEMA.md):
   reserves.json, species-a-m.json, species-n-z.json, needzones.json,
-  great-ones.json, weapons.json, skills.json, missions.json, collectibles.json, mechanics.json
+  great-ones.json, weapons.json, skills.json, missions.json, collectibles.json, mechanics.json,
+  collectible-locations.json (joined into collectibles), callers.json
 Writes (data/):
   hunter-data.js   DATA: reserves, species and need zones, loaded with the page
   great-ones.json, weapons.json, skills.json, missions.json, collectibles.json, mechanics.json
@@ -27,7 +28,7 @@ PHOTO_QUERY = {
     'Red Grouse': 'Lagopus lagopus scotica', 'Raccoon Dog': 'Nyctereutes procyonoides', 'Javan Rusa': 'Rusa timorensis',
     'Iberian Mouflon': 'Ovis gmelini', 'Wild Haggis': None,
 }
-GUIDES = ['great-ones', 'weapons', 'skills', 'missions', 'collectibles', 'mechanics']
+GUIDES = ['great-ones', 'weapons', 'skills', 'missions', 'collectibles', 'mechanics', 'callers']
 
 
 def load(name):
@@ -66,7 +67,7 @@ def clean_line(text):
     if not text:
         return text
     out = re.sub(r'\s*\((?:[^()]*?)(?:guide says|per the source|as listed in the source|the translation read|Japanese wiki|'
-                 r'marked uncertain|wiki calls)[^()]*\)', '', text)
+                 r'marked uncertain|wiki calls|guide lists)[^()]*\)', '', text)
     return out.replace('One more objective, unclear in the source', 'One more objective (not listed yet)').strip()
 
 
@@ -162,6 +163,26 @@ def main():
                     if len(ws) == 1:
                         a['classMin'], a['classMax'] = ws[0]['classRange']
                         a['notes'] = (a.get('notes') or '') + 'Class range taken from the ' + ws[0]['name'] + '.'
+        if g == 'collectibles':  # where each item is (research/collectible-locations.json)
+            loc = load('collectible-locations') or {}
+            for k, groups in d.items():
+                spots = (loc.get(k) or loc.get(canon(k))) if isinstance(groups, list) else None
+                if not isinstance(spots, dict):
+                    continue
+                for grp in groups:
+                    w = spots.get('__group__' + (grp.get('type') or ''))
+                    if w:
+                        grp['where'] = clean_line(re.sub(r'\s*\(per [^)]*\)', '', w['where']))
+                    items = []
+                    for it in grp.get('items') or []:
+                        it = dict(it) if isinstance(it, dict) else {'name': it}
+                        w = spots.get(it['name'])
+                        if w and w.get('where'):
+                            it['where'] = clean_line(re.sub(r'\s*\(per [^)]*\)', '', w['where']))
+                            it['coords'] = w.get('coords')
+                        items.append(it)
+                    grp['items'] = items
+            d.setdefault('sources', []).extend(s for s in loc.get('sources') or [] if s not in d['sources'])
         if g in ('missions', 'collectibles'):
             for k, groups in d.items():
                 if not isinstance(groups, list):

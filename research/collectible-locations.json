@@ -1,0 +1,1229 @@
+{
+ "sources": [
+  {
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405",
+   "title": "Steam guide (Nucta Ox): Hirschfelden Hunting Reserve: Artifacts, Collectibles and All Secret Locations",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978",
+   "title": "Steam guide (Nucta Ox): Layton Lake District: Artifacts, Collectibles and All Secret Locations",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586",
+   "title": "Steam guide (Nucta Ox): Medved-Taiga: collectibles and secret locations",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2819589898",
+   "title": "Steam guide (Nucta Ox): Vurhonga Savanna: Artifacts, Collectibles and All Secret Locations",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2872477558",
+   "title": "Steam guide (Nucta Ox): Parque Fernando: Carolina's Challenge Targets and All Secret Locations",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://steamcommunity.com/app/518790/discussions/0/2576571491301806608/",
+   "title": "Steam discussion: when they ruled the earth (dinosaur footprints)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://steamah.com/thehunter-call-of-the-wild-all-vurhonga-artifact-locations/",
+   "title": "SteamAH: theHunter: Call of the Wild All Vurhonga Artifact Locations (credits Jeena Ragnos)",
+   "accessed": "2026-10-12"
+  }
+ ],
+ "_notes": "Coordinates are the X,Y values from the cited Nucta Ox Steam guide (in-game map coordinates). Distances/directions to the nearest named place are computed from that same guide's own outpost/lookout/POI/landmark coordinates (assumes X increases east and Y north, which matches the region layout of Hirschfelden and Layton). Items with several spots carry a 'spots' list.",
+ "Hirschfelden Hunting Reserve": {
+  "WWI Russian Dog Tag": {
+   "where": "Tichenau; ~810 m N of Tichenau Lonely Windmill",
+   "coords": "-8883,12958",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
+  },
+  "WWI Helmet 2": {
+   "where": "Tichenau; ~250 m SE of 'The Landslide' POI",
+   "coords": "-10355,12189",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
+  },
+  "Viking Coin 1": {
+   "where": "Rathenfeldt; ~250 m S of Rathenfeldt Eastern Lookout Point",
+   "coords": "-4416,11665",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
+  },
+  "WWI Medal 1": {
+   "where": "Schonfeldt; ~660 m NE of Schonfeldt Windmills",
+   "coords": "-6736,11061",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
+  },
+  "WWI US Dog Tag": {
+   "where": "Ernsdorf; next to Ernsdorf Cave",
+   "coords": "-10399,10203",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
+  },
+  "WWI Medal 4": {
+   "where": "Spreeberg; ~510 m NE of Spreeberg Outpost",
+   "coords": "-6883,9852",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
+  },
+  "WWI Medal 5": {
+   "where": "Petershain; ~170 m NE of 'The Christmas Tree' POI",
+   "coords": "-4850,9167",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
+  },
+  "WWI Medal 2": {
+   "where": "Spreeberg; next to Spreeberg Western Lookout Point",
+   "coords": "-7580,8784",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
+  },
+  "WWI Medal 3": {
+   "where": "Petershain; next to Petershain Eastern Lookout Point",
+   "coords": "-4482,8492",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
+  },
+  "WWI Helmet 1": {
+   "where": "Jonsdorf; ~500 m W of 'Red Deer Venison' POI",
+   "coords": "-8925,7738",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
+  },
+  "Viking Coin 2": {
+   "where": "Ritterstein; next to Ritterstein Lake Outpost",
+   "coords": "-5781,7263",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
+  },
+  "WWI German Dog Tag": {
+   "where": "Müllerwald; ~500 m SW of Müllerwald Eastern Lookout Point",
+   "coords": "-5500,5534",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
+  },
+  "Roe Deer Large Shed Antler": {
+   "where": "15 spots, e.g. Schonfeldt (3), Ernsdorf (3), Tichenau (2), Petershain (2) (all in 'spots')",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405",
+   "spots": [
+    {
+     "region": "Schonfeldt",
+     "coords": "-7666,13216"
+    },
+    {
+     "region": "Rathenfeldt",
+     "coords": "-4152,12614"
+    },
+    {
+     "region": "Schonfeldt",
+     "coords": "-6303,12504"
+    },
+    {
+     "region": "Tichenau",
+     "coords": "-8849,12145"
+    },
+    {
+     "region": "Tichenau",
+     "coords": "-9461,12100"
+    },
+    {
+     "region": "Ernsdorf",
+     "coords": "-10149,11684"
+    },
+    {
+     "region": "Schonfeldt",
+     "coords": "-6605,11378"
+    },
+    {
+     "region": "Ernsdorf",
+     "coords": "-9422,11343"
+    },
+    {
+     "region": "Spreeberg",
+     "coords": "-6598,10361"
+    },
+    {
+     "region": "Ernsdorf",
+     "coords": "-10556,9304"
+    },
+    {
+     "region": "Petershain",
+     "coords": "-5582,8675"
+    },
+    {
+     "region": "Petershain",
+     "coords": "-4723,7400"
+    },
+    {
+     "region": "Müllerwald",
+     "coords": "-4364,6387"
+    },
+    {
+     "region": "Bohndorf",
+     "coords": "-9775,6019"
+    },
+    {
+     "region": "Ritterstein",
+     "coords": "-7271,5756"
+    }
+   ]
+  },
+  "Fallow Deer Large Shed Antler": {
+   "where": "13 spots: Rathenfeldt (3), Tichenau (2), Spreeberg (2), Petershain (2), Müllerwald (2), Schonfeldt, Ritterstein",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405",
+   "spots": [
+    {
+     "region": "Rathenfeldt",
+     "coords": "-5729,12980"
+    },
+    {
+     "region": "Rathenfeldt",
+     "coords": "-4650,12594"
+    },
+    {
+     "region": "Tichenau",
+     "coords": "-8364,12473"
+    },
+    {
+     "region": "Rathenfeldt",
+     "coords": "-3765,11725"
+    },
+    {
+     "region": "Tichenau",
+     "coords": "-8363,11291"
+    },
+    {
+     "region": "Spreeberg",
+     "coords": "-6627,10902"
+    },
+    {
+     "region": "Schonfeldt",
+     "coords": "-7162,10731"
+    },
+    {
+     "region": "Petershain",
+     "coords": "-4333,9531"
+    },
+    {
+     "region": "Spreeberg",
+     "coords": "-8915,9482"
+    },
+    {
+     "region": "Petershain",
+     "coords": "-4883,6877"
+    },
+    {
+     "region": "Ritterstein",
+     "coords": "-6701,6841"
+    },
+    {
+     "region": "Müllerwald",
+     "coords": "-5013,5690"
+    },
+    {
+     "region": "Müllerwald",
+     "coords": "-3921,5647"
+    }
+   ]
+  },
+  "Fallow Deer Small Shed Antler": {
+   "where": "6 spots: Petershain (2), Rathenfeldt, Schonfeldt, Spreeberg, Müllerwald",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405",
+   "spots": [
+    {
+     "region": "Rathenfeldt",
+     "coords": "-5080,12184"
+    },
+    {
+     "region": "Schonfeldt",
+     "coords": "-7257,12117"
+    },
+    {
+     "region": "Petershain",
+     "coords": "-3820,10746"
+    },
+    {
+     "region": "Spreeberg",
+     "coords": "-7914,9623"
+    },
+    {
+     "region": "Petershain",
+     "coords": "-5539,9463"
+    },
+    {
+     "region": "Müllerwald",
+     "coords": "-5676,6524"
+    }
+   ]
+  },
+  "Roe Deer Small Shed Antler": {
+   "where": "1 spot: Rathenfeldt",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405",
+   "spots": [
+    {
+     "region": "Rathenfeldt",
+     "coords": "-5781,11118"
+    }
+   ]
+  },
+  "Red Deer Large Shed Antler": {
+   "where": "4 spots: Jonsdorf, Spreeberg, Bohndorf, Ritterstein",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405",
+   "spots": [
+    {
+     "region": "Jonsdorf",
+     "coords": "-8839,8744"
+    },
+    {
+     "region": "Spreeberg",
+     "coords": "-7300,7624"
+    },
+    {
+     "region": "Bohndorf",
+     "coords": "-9228,5584"
+    },
+    {
+     "region": "Ritterstein",
+     "coords": "-8601,5476"
+    }
+   ]
+  },
+  "Red Deer Small Shed Antler": {
+   "where": "2 spots: Ritterstein, Jonsdorf",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405",
+   "spots": [
+    {
+     "region": "Ritterstein",
+     "coords": "-7077,7153"
+    },
+    {
+     "region": "Jonsdorf",
+     "coords": "-8567,5907"
+    }
+   ]
+  },
+  "__group__Antler sheds": {
+   "where": "Spread over all 10 sub-regions, several per sub-region (the guide lists region + X,Y for all 41).",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
+  }
+ },
+ "Layton Lake District": {
+  "Native Pot 1": {
+   "where": "Balmont; ~490 m N of 'The Bad Water' POI",
+   "coords": "8664,11471",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
+  },
+  "Native Pot 2": {
+   "where": "Mount Leviatan; next to Leviathan Cave",
+   "coords": "12065,11243",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
+  },
+  "WWI Badge 4": {
+   "where": "Balmont; ~60 m N of Balmont Outpost",
+   "coords": "9920,10327",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
+  },
+  "WWI Badge 3": {
+   "where": "Mount Kraken; ~220 m E of 'About the Black Bear' POI",
+   "coords": "7183,9168",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
+  },
+  "WWI Badge 2": {
+   "where": "Cheelah; ~480 m W of 'Camping Guidelines' POI",
+   "coords": "11164,9155",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
+  },
+  "Native Axe 1": {
+   "where": "Cheelah; ~540 m SE of 'The Coywolf' POI",
+   "coords": "13446,8529",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
+  },
+  "Native Axe 3": {
+   "where": "High Lake; ~210 m W of High Lake Northern Lookout Point",
+   "coords": "8551,6539",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
+  },
+  "Native Pot 3": {
+   "where": "Willipeg; next to Willipeg Caves; inside the cave",
+   "coords": "6267,6498",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
+  },
+  "WWI Badge 1": {
+   "where": "Calburn; ~530 m S of 'The Calburn Poem' POI",
+   "coords": "10208,5281",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
+  },
+  "Native Axe 2": {
+   "where": "Chopeeka; ~560 m NW of 'The Conservationist President' POI",
+   "coords": "8868,5025",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
+  },
+  "Whitetail Deer Small": {
+   "where": "3 spots: Balmont, Roonachee, Mount Kraken",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978",
+   "spots": [
+    {
+     "region": "Balmont",
+     "coords": "10186,11292"
+    },
+    {
+     "region": "Roonachee",
+     "coords": "6515,10574"
+    },
+    {
+     "region": "Mount Kraken",
+     "coords": "6965,8389"
+    }
+   ]
+  },
+  "Whitetail Deer Large": {
+   "where": "10 spots: Balmont (2), Chopeeka (2), Roonachee, Mount Leviatan, Mount Kraken, High Lake, Cheelah, Willipeg",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978",
+   "spots": [
+    {
+     "region": "Roonachee",
+     "coords": "7152,10960"
+    },
+    {
+     "region": "Mount Leviatan",
+     "coords": "10617,10944"
+    },
+    {
+     "region": "Balmont",
+     "coords": "10728,10486"
+    },
+    {
+     "region": "Balmont",
+     "coords": "8929,9060"
+    },
+    {
+     "region": "Mount Kraken",
+     "coords": "6542,8790"
+    },
+    {
+     "region": "High Lake",
+     "coords": "10349,8122"
+    },
+    {
+     "region": "Cheelah",
+     "coords": "12255,7918"
+    },
+    {
+     "region": "Chopeeka",
+     "coords": "9427,5744"
+    },
+    {
+     "region": "Willipeg",
+     "coords": "6520,5605"
+    },
+    {
+     "region": "Chopeeka",
+     "coords": "6797,4840"
+    }
+   ]
+  },
+  "Moose Small": {
+   "where": "5 spots: Balmont, Roonachee, High Lake, Norden, Chopeeka",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978",
+   "spots": [
+    {
+     "region": "Balmont",
+     "coords": "8598,10352"
+    },
+    {
+     "region": "Roonachee",
+     "coords": "6906,10287"
+    },
+    {
+     "region": "High Lake",
+     "coords": "9622,7176"
+    },
+    {
+     "region": "Norden",
+     "coords": "10101,7006"
+    },
+    {
+     "region": "Chopeeka",
+     "coords": "8235,5062"
+    }
+   ]
+  },
+  "Fallow Deer Small": {
+   "where": "6 spots: Norden (2), Calburn (2), Balmont, Mount Kraken",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978",
+   "spots": [
+    {
+     "region": "Balmont",
+     "coords": "9652,10071"
+    },
+    {
+     "region": "Mount Kraken",
+     "coords": "7342,7609"
+    },
+    {
+     "region": "Norden",
+     "coords": "13399,5940"
+    },
+    {
+     "region": "Calburn",
+     "coords": "10463,5119"
+    },
+    {
+     "region": "Calburn",
+     "coords": "9683,4871"
+    },
+    {
+     "region": "Norden",
+     "coords": "13411,4800"
+    }
+   ]
+  },
+  "Roosevelt Elk Large": {
+   "where": "6 spots: Balmont, Mount Leviatan, Willipeg, Norden, Calburn, Chopeeka",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978",
+   "spots": [
+    {
+     "region": "Balmont",
+     "coords": "9848,9644"
+    },
+    {
+     "region": "Mount Leviatan",
+     "coords": "10908,9519"
+    },
+    {
+     "region": "Willipeg",
+     "coords": "6575,7143"
+    },
+    {
+     "region": "Norden",
+     "coords": "11443,6621"
+    },
+    {
+     "region": "Calburn",
+     "coords": "11884,4839"
+    },
+    {
+     "region": "Chopeeka",
+     "coords": "8354,3829"
+    }
+   ]
+  },
+  "Moose Large": {
+   "where": "4 spots: Chopeeka (2), Balmont, Cheelah",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978",
+   "spots": [
+    {
+     "region": "Balmont",
+     "coords": "8310,9402"
+    },
+    {
+     "region": "Cheelah",
+     "coords": "11029,7988"
+    },
+    {
+     "region": "Chopeeka",
+     "coords": "7526,5258"
+    },
+    {
+     "region": "Chopeeka",
+     "coords": "7552,3818"
+    }
+   ]
+  },
+  "Blacktail Deer Small": {
+   "where": "3 spots: High Lake, Norden, Calburn",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978",
+   "spots": [
+    {
+     "region": "High Lake",
+     "coords": "9042,7820"
+    },
+    {
+     "region": "Norden",
+     "coords": "11832,6884"
+    },
+    {
+     "region": "Calburn",
+     "coords": "11044,5296"
+    }
+   ]
+  },
+  "Roosevelt Elk Small": {
+   "where": "3 spots: High Lake, Norden, Calburn",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978",
+   "spots": [
+    {
+     "region": "High Lake",
+     "coords": "8936,7453"
+    },
+    {
+     "region": "Norden",
+     "coords": "13132,7244"
+    },
+    {
+     "region": "Calburn",
+     "coords": "9881,5021"
+    }
+   ]
+  },
+  "__group__Antler sheds": {
+   "where": "Spread over every sub-region, several per sub-region (the guide lists region + X,Y for all 40).",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
+  }
+ },
+ "Medved-Taiga National Park": {
+  "Cave Lion Canine Teeth": {
+   "where": "10 spots: Pustaya Mountain (4), Dikiy Coast (2), Mamontovaya Tundra, Lesnye Lands, Rybatskiy Bay, Zverolova Hill",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586",
+   "spots": [
+    {
+     "region": "Mamontovaya Tundra",
+     "coords": "-6730,-5066"
+    },
+    {
+     "region": "Lesnye Lands",
+     "coords": "-9026,-5175"
+    },
+    {
+     "region": "Pustaya Mountain",
+     "coords": "-7301,-6114"
+    },
+    {
+     "region": "Pustaya Mountain",
+     "coords": "-6556,-7075"
+    },
+    {
+     "region": "Rybatskiy Bay",
+     "coords": "-9955,-7703"
+    },
+    {
+     "region": "Pustaya Mountain",
+     "coords": "-8291,-8619"
+    },
+    {
+     "region": "Pustaya Mountain",
+     "coords": "-7755,-9499"
+    },
+    {
+     "region": "Dikiy Coast",
+     "coords": "-6517,-10438"
+    },
+    {
+     "region": "Dikiy Coast",
+     "coords": "-4984,-10568"
+    },
+    {
+     "region": "Zverolova Hill",
+     "coords": "-9994,-11273"
+    }
+   ]
+  },
+  "Mammoth Tusks": {
+   "where": "10 spots: Mamontovaya Tundra (8), Pustaya Mountain (2)",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586",
+   "spots": [
+    {
+     "region": "Mamontovaya Tundra",
+     "coords": "-5696,-5543"
+    },
+    {
+     "region": "Mamontovaya Tundra",
+     "coords": "-4566,-5852"
+    },
+    {
+     "region": "Pustaya Mountain",
+     "coords": "-6035,-5993"
+    },
+    {
+     "region": "Mamontovaya Tundra",
+     "coords": "-5393,-6026"
+    },
+    {
+     "region": "Mamontovaya Tundra",
+     "coords": "-4849,-6268"
+    },
+    {
+     "region": "Mamontovaya Tundra",
+     "coords": "-4120,-6765"
+    },
+    {
+     "region": "Mamontovaya Tundra",
+     "coords": "-5673,-6908"
+    },
+    {
+     "region": "Mamontovaya Tundra",
+     "coords": "-4964,-7601"
+    },
+    {
+     "region": "Mamontovaya Tundra",
+     "coords": "-6849,-7696"
+    },
+    {
+     "region": "Pustaya Mountain",
+     "coords": "-7881,-8567"
+    }
+   ]
+  },
+  "Moose Shed Antlers": {
+   "where": "13 spots, e.g. Priyut Dohloy Sobaki, Odinokie Dni, Izluchina Viktora, Zapadnyy Ledyanoy Tonnel' (all in 'spots')",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586",
+   "spots": [
+    {
+     "region": "Priyut Dohloy Sobaki",
+     "coords": "-11188,-5091"
+    },
+    {
+     "region": "Odinokie Dni",
+     "coords": "-6967,-6020"
+    },
+    {
+     "region": "Izluchina Viktora",
+     "coords": "-10210,-7241"
+    },
+    {
+     "region": "Zapadnyy Ledyanoy Tonnel'",
+     "coords": "-7765,-7673"
+    },
+    {
+     "region": "Rakovyi Korpus",
+     "coords": "-8343,-8438"
+    },
+    {
+     "region": "Derevnya Dvukh Rek",
+     "coords": "-11650,-9423"
+    },
+    {
+     "region": "Beliy Parokhod",
+     "coords": "-8034,-9581"
+    },
+    {
+     "region": "Dvorets Chuchuni",
+     "coords": "-7103,-9655"
+    },
+    {
+     "region": "Na Dne",
+     "coords": "-5548,-9905"
+    },
+    {
+     "region": "Dvorets Kaban'yevo Tsarya",
+     "coords": "-7540,-10822"
+    },
+    {
+     "region": "Khizhina Petra",
+     "coords": "-7963,-11039"
+    },
+    {
+     "region": "Kabala Svyatosh",
+     "coords": "-9805,-11110"
+    },
+    {
+     "region": "Ray Dikogo Poberezh'ya",
+     "coords": "-6556,-11123"
+    }
+   ]
+  },
+  "Cave Lion Skulls": {
+   "where": "8 spots, e.g. Kostyanoy Priyut, Na Kulichkakh, Myortvye Dushi, Kaban'ya Tropa (all in 'spots')",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586",
+   "spots": [
+    {
+     "region": "Kostyanoy Priyut",
+     "coords": "-9338,-5191"
+    },
+    {
+     "region": "Na Kulichkakh",
+     "coords": "-6403,-7281"
+    },
+    {
+     "region": "Myortvye Dushi",
+     "coords": "-10047,-7985"
+    },
+    {
+     "region": "Kaban'ya Tropa",
+     "coords": "-5425,-8032"
+    },
+    {
+     "region": "Vostochnyy Ledyanoy Tonnel'",
+     "coords": "-6738,-8526"
+    },
+    {
+     "region": "Khizhina Nikolaya",
+     "coords": "-8976,-9863"
+    },
+    {
+     "region": "Khizhina Gryankina",
+     "coords": "-8375,-10985"
+    },
+    {
+     "region": "Posledniy Priyut",
+     "coords": "-5772,-11130"
+    }
+   ]
+  },
+  "Reindeer Shed Antlers": {
+   "where": "9 spots, e.g. Odinokie Nochi, Belye Nochi, Sobach'ye Serdtse, Zhizn' i Sud'ba (all in 'spots')",
+   "coords": null,
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586",
+   "spots": [
+    {
+     "region": "Odinokie Nochi",
+     "coords": "-9751,-6369"
+    },
+    {
+     "region": "Belye Nochi",
+     "coords": "-4478,-6805"
+    },
+    {
+     "region": "Sobach'ye Serdtse",
+     "coords": "-7980,-7105"
+    },
+    {
+     "region": "Zhizn' i Sud'ba",
+     "coords": "-11402,-7593"
+    },
+    {
+     "region": "Chekurovka",
+     "coords": "-9117,-9000"
+    },
+    {
+     "region": "Khizhina Anatoliya",
+     "coords": "-10078,-9267"
+    },
+    {
+     "region": "Dom Gde Razbivayutsa Serdtsa",
+     "coords": "-8133,-10264"
+    },
+    {
+     "region": "Taras Bul'ba",
+     "coords": "-6457,-10363"
+    },
+    {
+     "region": "Tikhiy Don",
+     "coords": "-9204,-10889"
+    }
+   ]
+  },
+  "Trapper 10": {
+   "where": "~590 m NE of Vorota V Podzemnyy Mir (Gateway to the Underworld)",
+   "coords": "-10283,-5310",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Trapper 9": {
+   "where": "~430 m S of P'yanaya Taiga Southern Outpost",
+   "coords": "-8463,-5591",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Trapper 8": {
+   "where": "~340 m NW of Izluchina Viktora (Victor's Bend)",
+   "coords": "-10595,-7073",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Trapper 5": {
+   "where": "~750 m E of Kaban'ya Tropa",
+   "coords": "-4676,-7984",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Trapper 7": {
+   "where": "~240 m E of Ledyanoy Bay Eastern Lookout Point",
+   "coords": "-9399,-8168",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Trapper 4": {
+   "where": "~450 m SE of Vostochnyy Ledyanoy Tonnel'",
+   "coords": "-6503,-8908",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Trapper 6": {
+   "where": "~440 m W of Khizhina Anatoliya",
+   "coords": "-10503,-9362",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Trapper 2": {
+   "where": "~180 m SE of Dom Gde Razbivayutsa Serdtsa",
+   "coords": "-7996,-10379",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Trapper 1": {
+   "where": "~240 m N of Tikhiy Don",
+   "coords": "-9210,-10648",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Trapper 3": {
+   "where": "~330 m SE of Vetrenyye Plains Northern Outpost",
+   "coords": "-4790,-11201",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Nenets 8": {
+   "where": "~590 m NW of P'yanaya Taiga Northern Outpost",
+   "coords": "-11831,-5791",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Nenets 9": {
+   "where": "~480 m NE of Khod Bolshoy Foreli (Fat Trout Run)",
+   "coords": "-7711,-6301",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Nenets 10": {
+   "where": "~560 m S of Besplodnoye Plateau Western Outpost",
+   "coords": "-6704,-6551",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Nenets 7": {
+   "where": "~610 m SW of P'yanaya Taiga Eastern Lookout Point",
+   "coords": "-9070,-6781",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Nenets 6": {
+   "where": "~430 m NE of Myortvye Dushi",
+   "coords": "-9789,-7643",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Nenets 4": {
+   "where": "~980 m S of Belye Nochi",
+   "coords": "-4216,-7747",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Nenets 5": {
+   "where": "~650 m NW of Derevnya Dvukh Rek (Two River Village)",
+   "coords": "-12133,-8936",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Nenets 3": {
+   "where": "~150 m NE of Tusida (Without Fire)",
+   "coords": "-5872,-8969",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Nenets 2": {
+   "where": "~480 m SW of Taras Bul'ba",
+   "coords": "-6818,-10674",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Nenets 1": {
+   "where": "~510 m SW of Zverolova Hill Lookout Point",
+   "coords": "-9089,-11441",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Expedition 9": {
+   "where": "~750 m N of Besplodnoye Plateau Western Outpost",
+   "coords": "-6855,-5259",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Expedition 10": {
+   "where": "~900 m NE of Kladbishche mamontov (Mammoth Boneyard)",
+   "coords": "-5567,-5402",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Expedition 7": {
+   "where": "~480 m NE of P'yanaya Taiga Western Outpost",
+   "coords": "-9904,-5692",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Expedition 6": {
+   "where": "~620 m E of P'yanyy Les (Drunken Forest)",
+   "coords": "-10967,-6549",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Expedition 8": {
+   "where": "~240 m N of Na Kulichkakh",
+   "coords": "-6476,-7052",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Expedition 4": {
+   "where": "~440 m SW of Myortvye Dushi",
+   "coords": "-10412,-8232",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Expedition 5": {
+   "where": "~360 m NW of Ledyanoy Bay Western Outpost",
+   "coords": "-11834,-8328",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Expedition 3": {
+   "where": "~350 m NW of Velikiy Pod'yom (Great Vista)",
+   "coords": "-7642,-8744",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Expedition 2": {
+   "where": "~760 m N of Vetrenyye Plains Northern Outpost",
+   "coords": "-4700,-10198",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Expedition 1": {
+   "where": "~780 m NW of Zverolova Hill Western Outpost",
+   "coords": "-10170,-10269",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Rechnaya Rybalka (Fishing in the River)": {
+   "where": "~910 m N of Besplodnoye Plateau Western Outpost; painting at a landmark with POI icon",
+   "coords": "-6681,-5078",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Okhota Na Bol'sherogikh Oleney (Irish-Elk Huniting)": {
+   "where": "~380 m E of Kostyanoy Priyut; painting at a landmark with POI icon",
+   "coords": "-8957,-5183",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Stolby (Pillars)": {
+   "where": "~220 m W of Odinokie Dni; painting at a landmark with POI icon",
+   "coords": "-7186,-6061",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Ritual Podzemnogo Mira (Underworld Ritual)": {
+   "where": "~200 m NW of Na Kulichkakh; painting at a landmark with POI icon",
+   "coords": "-6582,-7202",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Rybak V Lodke (Fishing Man in a Boat)": {
+   "where": "~310 m NE of Myortvye Dushi; painting at a landmark with POI icon",
+   "coords": "-9919,-7704",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Okhota Na Peshchernykh Medvedey (Cave Bear Hunting)": {
+   "where": "~270 m SE of Rakovyi Korpus; painting at a landmark with POI icon",
+   "coords": "-8217,-8679",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Ritual Boga Solntsa (Sun God Ritual)": {
+   "where": "~330 m E of Beliy Parokhod; painting at a landmark with POI icon",
+   "coords": "-7703,-9564",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Okhota Na Mamonta (Mammoth Hunting)": {
+   "where": "next to Taras Bul'ba; painting at a landmark with POI icon",
+   "coords": "-6457,-10394",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Okhota Na Peshchernogo l'va (Cave Lion Hunting)": {
+   "where": "~340 m N of Vetrenyye Plains Northern Outpost; painting at a landmark with POI icon",
+   "coords": "-5046,-10592",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Vodnoe Poyeshestviye (Marine Expedition)": {
+   "where": "~220 m SW of Kabala Svyatosh; painting at a landmark with POI icon",
+   "coords": "-10003,-11214",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Chuchunya": {
+   "where": "~140 m W of Kostyanoy Priyut; sign at the landmark itself",
+   "coords": "-9473,-5234",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Lenskiye Stolby (Lena Pillars)": {
+   "where": "~750 m NW of Odinokie Dni; sign at the landmark itself",
+   "coords": "-7597,-5619",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Vorota V Podzemnyy Mir (Gateway to the Underworld)": {
+   "where": "~480 m NW of P'yanaya Taiga Western Outpost; sign at the landmark itself",
+   "coords": "-10537,-5840",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Kladbishche mamontov (Mammoth Boneyard)": {
+   "where": "~760 m E of Besplodnoye Plateau Western Outpost; sign at the landmark itself",
+   "coords": "-5964,-6207",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Khod Bolshoy Foreli (Fat Trout Run)": {
+   "where": "~520 m E of P'yanaya Taiga Eastern Lookout Point; sign at the landmark itself",
+   "coords": "-8110,-6570",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "P'yanyy Les (Drunken Forest)": {
+   "where": "~460 m S of P'yanaya Taiga Northern Outpost; sign at the landmark itself",
+   "coords": "-11540,-6778",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Izluchina Viktora (Victor's Bend)": {
+   "where": "~310 m N of Ledyanoy Bay Southern Outpost; sign at the landmark itself",
+   "coords": "-10320,-7271",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Pustaya Gora (Hollowed Mountain)": {
+   "where": "~170 m SW of Na Kulichkakh; sign at the landmark itself",
+   "coords": "-6483,-7432",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Zheleznaya Doroga Severnogo Kanala (North Link Railroad)": {
+   "where": "~290 m E of Zhizn' i Sud'ba; sign at the landmark itself",
+   "coords": "-11117,-7575",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Chekurovskaya Zvezda (Chekurovka Star)": {
+   "where": "~420 m S of P'yanaya Taiga Northern Outpost; sign at the landmark itself",
+   "coords": "-8683,-7618",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Ledyanoy Tonnel' (Frozen Passage)": {
+   "where": "next to Zapadnyy Ledyanoy Tonnel'; sign at the landmark itself",
+   "coords": "-7815,-7660",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Mnozhestvo Malykh Ozer (Many Small Lakes)": {
+   "where": "~680 m SE of Ledyanoy Bay Western Outpost; sign at the landmark itself",
+   "coords": "-10931,-8854",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Velikiy Pod'yom (Great Vista)": {
+   "where": "~450 m S of Besplodnoye Plateau Northern Outpost; sign at the landmark itself",
+   "coords": "-7321,-8879",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Chekurovka": {
+   "where": "~760 m E of Ledyanoy Bay Eastern Outpost; sign at the landmark itself",
+   "coords": "-9075,-8879",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Tusida (Without Fire)": {
+   "where": "~700 m W of Vetrenyye Plains Southern Outpost; sign at the landmark itself",
+   "coords": "-6011,-9037",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Derevnya Dvukh Rek (Two River Village)": {
+   "where": "~840 m S of Ledyanoy Bay Western Outpost; sign at the landmark itself",
+   "coords": "-11631,-9342",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Istochnik Zhizni (Spring of Life)": {
+   "where": "~480 m NE of Na Dne; sign at the landmark itself",
+   "coords": "-5230,-9550",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Cave Exploration": {
+   "where": "~530 m E of Dom Gde Razbivayutsa Serdtsa; sign at the landmark itself",
+   "coords": "-7640,-10077",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Chekurovskiy Zaliv (Chekurovka Bay)": {
+   "where": "~660 m W of Kabala Svyatosh; sign at the landmark itself",
+   "coords": "-10453,-11000",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "Ray Dikogo Poberezh'ya (Wild Coast Paradize)": {
+   "where": "~810 m W of Posledniy Priyut; sign at the landmark itself",
+   "coords": "-6580,-11199",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  },
+  "__group__Artifacts": {
+   "where": "Tusks: 8 in Mamontovaya Tundra, 2 on Pustaya Mountain. Cave lion teeth: mostly Pustaya Mountain (4) and Dikiy Coast (2).",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
+  }
+ },
+ "Vurhonga Savanna": {
+  "The Golden Rhinoceros of Mapungubwe": {
+   "where": "Vurhonga Plateau (Vupeladyambu); ~390 m SW of Xikarhi Outpost; on the hill next to the plateau-top outpost",
+   "coords": "5317,-7567",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2819589898",
+   "source2": "https://steamah.com/thehunter-call-of-the-wild-all-vurhonga-artifact-locations/"
+  },
+  "Mask of Sangoma": {
+   "where": "Central Savanna (Dzonga); next to Vurhonga Heights landmark",
+   "coords": "8721,-7672",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2819589898"
+  },
+  "Scimitar-Toothed Cat": {
+   "where": "Vurhonga Plateau (Vupeladyambu); ~260 m NE of Weeping Face landmark; inside a cave",
+   "coords": "4989,-8219",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2819589898"
+  },
+  "Dinofelis Skull": {
+   "where": "Vurhonga Plateau (Vupeladyambu); ~460 m W of Bounder Cave; inside a cave",
+   "coords": "5845,-8304",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2819589898"
+  },
+  "Nyaminyami": {
+   "where": "Central Savanna (Dzonga); next to Adansonia Digitata (baobab) landmark; on a rock by the baobab tree",
+   "coords": "9134,-8504",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2819589898",
+   "source2": "https://steamah.com/thehunter-call-of-the-wild-all-vurhonga-artifact-locations/"
+  }
+ },
+ "Parque Fernando": {
+  "__group__Challenge targets": {
+   "where": "15 stone circles (motion-triggered); step inside one and a shooting target appears 22-420 m away. Target 2 is inside a cave.",
+   "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2872477558",
+   "spots": [
+    {
+     "circle": "-8858,8294",
+     "target": "-8839,8374"
+    },
+    {
+     "circle": "-6137,5463",
+     "target": "-6127,5558"
+    },
+    {
+     "circle": "-7135,7475",
+     "target": "-6992,7588"
+    },
+    {
+     "circle": "-6173,9950",
+     "target": "-6465,10222"
+    },
+    {
+     "circle": "-10266,9263",
+     "target": "-10296,9138"
+    },
+    {
+     "circle": "-7066,6789",
+     "target": "-6791,6954"
+    },
+    {
+     "circle": "-5991,6379",
+     "target": "-6251,6506"
+    },
+    {
+     "circle": "-8411,7777",
+     "target": "-8430,7677"
+    },
+    {
+     "circle": "-7610,5952",
+     "target": "-7736,6013"
+    },
+    {
+     "circle": "-6421,7423",
+     "target": "-6496,7479"
+    },
+    {
+     "circle": "-6173,5800",
+     "target": "-5766,5857"
+    },
+    {
+     "circle": "-8506,7793",
+     "target": "-8437,7872"
+    },
+    {
+     "circle": "-7525,4497",
+     "target": "-7654,4454"
+    },
+    {
+     "circle": "-9513,9554",
+     "target": "-9530,9567"
+    },
+    {
+     "circle": "-8088,8767",
+     "target": "-8067,8833"
+    }
+   ]
+  }
+ },
+ "Silver Ridge Peaks": {
+  "Dinosaur footprints": {
+   "where": "Dinosaur Hill, the hill north of the original spawn areas (per forum post)",
+   "coords": null,
+   "source": "https://steamcommunity.com/app/518790/discussions/0/2576571491301806608/"
+  }
+ }
+}
