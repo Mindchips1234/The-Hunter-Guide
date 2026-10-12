@@ -20,6 +20,13 @@ import json, os, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RES = os.path.join(ROOT, 'research')
 OUT = os.path.join(ROOT, 'data')
+# iNaturalist search names where the game's latin name is missing, fictional or too broad.
+PHOTO_QUERY = {
+    'Blacktail Deer': 'Odocoileus hemionus columbianus', 'Eastern Wild Turkey': 'Meleagris gallopavo silvestris',
+    'Rio Grande Turkey': 'Meleagris gallopavo intermedia', 'Roosevelt Elk': 'Cervus canadensis roosevelti',
+    'Red Grouse': 'Lagopus lagopus scotica', 'Raccoon Dog': 'Nyctereutes procyonoides', 'Javan Rusa': 'Rusa timorensis',
+    'Iberian Mouflon': 'Ovis gmelini', 'Wild Haggis': None,
+}
 GUIDES = ['great-ones', 'weapons', 'skills', 'missions', 'collectibles', 'mechanics']
 
 
@@ -75,6 +82,7 @@ def main():
             'furs': [{**f, 'rarity': 'Great One' if re.search(r'great one|fabled', f.get('name', ''), re.I) else (f.get('rarity') or '').title() or None} for f in s.get('furs') or []], 'greatOne': name in go_species if go_species is not None else bool(s.get('greatOne')),
             'ammo': s.get('integrityAmmo') or [], 'notes': s.get('notes'),
             'reserves': where.get(name, []), 'source': first_url(s),
+            'photo': PHOTO_QUERY.get(name, s.get('latin')),
         }
         if name not in where:
             print('  species in no reserve:', name)

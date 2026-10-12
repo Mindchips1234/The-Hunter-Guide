@@ -220,6 +220,9 @@ dialog#set{max-height:92dvh;overflow:auto}
 @media(prefers-reduced-motion:reduce){#intro.play .introStudio,#intro.play .introApp,#intro.play .introApp b{animation-duration:.01s}.enter-fwd,.enter-back,.enter-fade{animation:none}}
 
 /* Hunter additions */
+.anpic img,.imgFallback img,.spPhoto img{width:100%;height:100%;object-fit:cover;display:block}[data-photo],.hasPhoto{position:relative}img.ph{position:absolute;inset:0;opacity:0;transition:opacity .25s}.hasPhoto img.ph{opacity:1}.imgFallback{overflow:hidden}.anpic{overflow:hidden}
+.spPhoto{display:grid;place-items:center;font-size:96px;border-radius:14px;overflow:hidden;background:linear-gradient(145deg,var(--pic1),var(--pic2))}
+.spPhoto.hasPhoto{display:block}[data-credit]{margin-top:8px}[data-credit]:empty{display:none}
 .anpic{font-size:40px}.anpic .cls{position:absolute;left:6px;bottom:6px;font-size:11px;font-weight:800;padding:3px 7px;border-radius:999px;background:var(--chrome2);color:var(--soft)}
 .goTag{color:var(--gold);font-size:11px;font-weight:800}
 .latin{color:var(--muted);font-style:italic;margin:-4px 0 6px}

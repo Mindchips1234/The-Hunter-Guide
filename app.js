@@ -3,7 +3,7 @@
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)],esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const store={get(k,d){try{return localStorage.getItem('hg1.'+k)||d}catch(e){return d}},set(k,v){try{localStorage.setItem('hg1.'+k,v)}catch(e){}}};
 const jget=(k,d)=>{try{const v=JSON.parse(store.get(k,''));return v==null?d:v}catch(e){return d}},jset=(k,v)=>store.set(k,JSON.stringify(v));
-const APP_VERSION='0.1',reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const APP_VERSION='0.2',reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let unit=store.get('unit','metric'),clock=store.get('clock','24'),R=null,lastSp=null,built=null,scrollRv=0;
 const home=$('#home'),rv=$('#rv'),fv=$('#fv'),lv=$('#lv'),gv=$('#gv'),back=$('#back'),sel=$('#rsel');
 const haptic=(ms=10)=>{try{navigator.vibrate&&navigator.vibrate(ms)}catch(e){}};
@@ -29,6 +29,47 @@ function toast(msg){toastEl.textContent=msg;toastEl.hidden=false;clearTimeout(to
 // A picture stand-in for each species until real art is added.
 const ICONS=[[/bear/i,'🐻'],[/wolf|jackal|coyote/i,'🐺'],[/fox|raccoon dog/i,'🦊'],[/raccoon|coati/i,'🦝'],[/lion|tiger|lynx|bobcat|puma|leopard|jaguar|ocelot/i,'🐆'],[/boar|pig|hog|warthog|peccary/i,'🐗'],[/bison|buffalo|banteng|yak|wildebeest/i,'🦬'],[/goat|ibex|chamois|tahr|sheep|mouflon/i,'🐐'],[/kangaroo/i,'🦘'],[/alligator|crocodile|caiman/i,'🐊'],[/turkey/i,'🦃'],[/goose|duck|teal|mallard|wigeon|pintail|gadwall|goldeneye/i,'🦆'],[/grouse|ptarmigan|quail|pheasant|capercaillie|woodcock/i,'🐦'],[/rabbit|hare|jackrabbit|cottontail/i,'🐇'],[/beaver|capybara/i,'🦫'],[/badger|marten|mink|grison/i,'🦡'],[/haggis/i,'🏴'],[/tapir/i,'🐘'],[/vicuña|vicuna/i,'🦙'],[/moose|elk|deer|caribou|reindeer|rusa|sambar|muntjac|barasingha|kudu|gemsbok|springbok|blackbuck|nilgai|pronghorn|taruca|axis|chital/i,'🦌']];
 const icon=n=>(ICONS.find(([re])=>re.test(n))||[0,'🐾'])[1];
+
+// ---------------------------------------------------------------- photos
+// Real-animal photos from iNaturalist, only ones under a Creative Commons licence, shown with
+// the photographer's credit. data/photos.json (made by tools/find-photos.py) is used first;
+// anything missing from it is looked up in the browser and remembered on this device.
+// Pictures are cached by the service worker once seen, so they work offline after that.
+const INAT='https://api.inaturalist.org/v1/';
+let photoFile=null;const photoMem=jget('photos1',{}),photoWait={};let photoQ=Promise.resolve();
+const photoJson=()=>photoFile||(photoFile=fetch('./data/photos.json').then(r=>r.ok?r.json():{}).catch(()=>({})));
+const licOk=l=>l&&/^cc/i.test(l);
+const pick=p=>p&&licOk(p.license_code)&&p.medium_url?{u:p.medium_url,by:p.attribution||'',lic:p.license_code.toUpperCase()}:null;
+async function lookupPhoto(q){
+  const get=u=>fetch(INAT+u).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()});
+  for(const name of [...new Set([q,q.split(' ').slice(0,2).join(' ')])]){
+    const res=(await get('taxa?is_active=true&per_page=5&q='+encodeURIComponent(name))).results||[];
+    const t=res.find(x=>x.name.toLowerCase()===name.toLowerCase())||res.find(x=>/species/.test(x.rank));if(!t)continue;
+    let ph=pick(t.default_photo);
+    if(!ph){const full=((await get('taxa/'+t.id)).results||[])[0];for(const tp of (full&&full.taxon_photos)||[]){ph=pick(tp.photo);if(ph)break}}
+    if(ph)return{...ph,link:'https://www.inaturalist.org/taxa/'+t.id};
+  }
+  return 0;
+}
+function photoFor(sp){
+  if(sp in photoMem)return Promise.resolve(photoMem[sp]);
+  return photoWait[sp]||(photoWait[sp]=photoJson().then(f=>{
+    if(f[sp])return f[sp];
+    const q=DATA.species[sp]?.photo;if(!q)return 0;
+    // one lookup at a time, so a full grid doesn't hit iNaturalist's rate limit
+    const run=photoQ.then(()=>lookupPhoto(q)).then(p=>{photoMem[sp]=p;jset('photos1',photoMem);return p});
+    photoQ=run.catch(()=>{}).then(()=>new Promise(r=>setTimeout(r,250)));return run;
+  }).catch(()=>{delete photoWait[sp];return null}));
+}
+// Fills every [data-photo] box inside el; the emoji stays when there's no photo.
+function hydratePhotos(el){
+  for(const box of $$('[data-photo]',el)){const sp=box.dataset.photo;delete box.dataset.photo;
+    photoFor(sp).then(p=>{if(!p||!box.isConnected)return;const img=new Image();img.alt='';img.loading='lazy';img.decoding='async';img.referrerPolicy='no-referrer';
+      img.className='ph';img.onload=()=>{box.querySelectorAll('.emo').forEach(x=>x.remove());box.classList.add('hasPhoto')};img.onerror=()=>img.remove();box.prepend(img);img.src=p.u;
+      const cr=box.parentElement&&box.parentElement.querySelector('[data-credit]');if(cr)cr.innerHTML=photoCredit(p)})}
+}
+const photoCredit=p=>p?`Photo: ${esc(p.by.replace(/^\(c\)\s*/i,'© '))}${/\bCC\b/.test(p.by)?'':' ('+esc(p.lic)+')'} via <a href="${esc(p.link)}" target="_blank" rel="noopener">iNaturalist</a>. Real animal, not an in-game picture.`:'';
+const pic=(sp,cls='anpic',extra='')=>`<div class="${cls}" data-photo="${esc(sp)}"><span class="emo">${icon(sp)}</span>${extra}</div>`;
 
 // ---------------------------------------------------------------- trophy ratings
 const RANKS=['Bronze','Silver','Gold','Diamond','Great One'],RANK_ICON={Bronze:'🥉',Silver:'🥈',Gold:'🥇',Diamond:'💎','Great One':'👑'};
@@ -155,7 +196,7 @@ function renderGrid(){
   const r=DATA.reserves[R],q=$('#q').value.trim().toLowerCase(),cl=$('#fclass').value,zn=$('#fzone').value,g=$('#fgo').value,log=getLog();
   const list=r.species.filter(s=>{const d=DATA.species[s];return(!q||s.toLowerCase().includes(q))&&(!cl||String(d.class)===cl)&&(!zn||zoneAt(zonesOf(R,s),zHour)===zn)&&(g!=='go'||d.greatOne)&&(g!=='todo'||(bestFor(s,log)?.rank!=='Diamond'&&bestFor(s,log)?.rank!=='Great One'))});
   $('#fcount').textContent=`${list.length} of ${r.species.length} animals`+(zn?` at ${hourLabel(zHour)}`:'');
-  $('#grid').innerHTML=list.map(s=>{const d=DATA.species[s],b=bestFor(s,log);return `<button class="animal" data-sp="${esc(s)}"><div class="anpic">${icon(s)}<span class="cls">Class ${esc(d.class)}</span>${b?`<span class="gotTag">${b.rank?RANK_ICON[b.rank]:'✓'}</span>`:''}</div><div class="anbody"><h3>${esc(s)}</h3><p>💎 ${score(d.trophy.diamond)} · ${esc(d.difficulty||'')}</p>${d.greatOne?'<div class="goTag">👑 Great One</div>':''}</div></button>`}).join('')||'<div class="mutedBox">No animals match those filters.</div>';
+  $('#grid').innerHTML=list.map(s=>{const d=DATA.species[s],b=bestFor(s,log);return `<button class="animal" data-sp="${esc(s)}">${pic(s,'anpic',`<span class="cls">Class ${esc(d.class)}</span>${b?`<span class="gotTag">${b.rank?RANK_ICON[b.rank]:'✓'}</span>`:''}`)}<div class="anbody"><h3>${esc(s)}</h3><p>💎 ${score(d.trophy.diamond)} · ${esc(d.difficulty||'')}</p>${d.greatOne?'<div class="goTag">👑 Great One</div>':''}</div></button>`}).join('')||'<div class="mutedBox">No animals match those filters.</div>';hydratePhotos($('#grid'));
 }
 function refresh(){
   $$('[data-u]').forEach(b=>b.classList.toggle('active',b.dataset.u===unit));$$('[data-clock]').forEach(b=>b.classList.toggle('active',b.dataset.clock===clock));
@@ -178,7 +219,8 @@ function spPage(s){
     <div class="stats"><div class="pill">🎯 Class ${esc(d.class)}</div><div class="pill">⚔️ ${esc(d.difficulty||'—')}</div><div class="pill">⭐ Max level ${esc(d.maxLevel??'—')}</div>${d.greatOne?'<div class="pill">👑 Great One</div>':''}</div>
     <div class="anTools"><button class="toolAction primary" id="logThis">＋ Log a harvest</button>${d.greatOne?`<button class="toolAction" id="goGuide">Great One guide →</button>`:''}<button class="toolAction" id="ammoGuide">Ammo for this animal →</button></div><div id="fbest" class="note"></div></div>
   <div class="detailgrid section"><div>
-    <div class="card"><h2>Trophy ratings</h2><table class="ratings"><thead><tr><th>Rating</th><th>Trophy score</th></tr></thead><tbody>
+    <div class="card">${pic(s,'imageWrap spPhoto')}<div class="note" data-credit></div></div>
+    <div class="card" style="margin-top:18px"><h2>Trophy ratings</h2><table class="ratings"><thead><tr><th>Rating</th><th>Trophy score</th></tr></thead><tbody>
       <tr><td>${rankBadge('Bronze')}</td><td>Under ${score(t.silver)}</td></tr><tr><td>${rankBadge('Silver')}</td><td>${score(t.silver)} – ${score(t.gold)}</td></tr><tr><td>${rankBadge('Gold')}</td><td>${score(t.gold)} – ${score(t.diamond)}</td></tr><tr><td>${rankBadge('Diamond')}</td><td>${score(t.diamond)} and up</td></tr>${t.max!=null?`<tr><td>Top score</td><td>About ${score(t.max)}</td></tr>`:''}
     </tbody></table><div class="rows" style="margin-top:12px">${F('Class',d.class)}${F('Difficulty',d.difficulty)}${F('Max level',d.maxLevel)}${F('Max weight',kgfmt(d.maxWeightKg))}</div>
     <div class="note">Trophy score comes from the animal's antlers, horns, skull or weight. Only animals at or near the species' top difficulty level can reach a diamond.</div></div>
@@ -190,7 +232,7 @@ function spPage(s){
   </div></div>
   ${d.notes?`<details class="notes"><summary>Data notes</summary><p>${esc(d.notes)}</p></details>`:''}
   <div class="source">Source: ${d.source?srcLink(d.source):'community data'} (community-maintained; may contain errors).</div>`;
-  spDyn(s);
+  spDyn(s);hydratePhotos(fv);
 }
 function spDyn(s){const b=bestFor(s);$('#fbest').innerHTML=b?`Your best: ${b.rank?rankBadge(b.rank):'harvested'}${b.sc!=null?' · score '+score(b.sc):''}`:''}
 function showSp(s){
@@ -248,11 +290,12 @@ function buildLog(){
   lv.innerHTML=`<div class="hero"><div class="eyebrow">Saved on this device</div><h1>My log</h1>
     <div class="statTiles">${tile(best.size,SPECIES.length,'Species harvested','🦌')}${tile(dia,SPECIES.length,'Diamonds','💎')}${tile(goGot.size,goTotal,'Great Ones','👑')}${tile(log.length,0,'Harvests logged','📒')}</div>
     <div class="homeActions"><button class="primaryAction" id="lgNew">＋ Log a harvest</button><button class="secondaryAction" id="lgBackup">Back up my log</button></div></div>
-  <div class="section"><h2>Recent harvests</h2>${recent.length?`<div class="logList">${recent.map(e=>DATA.species[e.s]?`<div class="logRow"><button class="logOpen" data-lo="${esc(e.r+'::'+e.s)}"><span class="imgFallback">${icon(e.s)}</span><span><strong>${esc(e.s)}</strong><small>${esc(short(e.r))}${e.d?' · '+esc(e.d):''}${e.fur?' · '+esc(e.fur):''}</small>${e.n?`<small class="muted">${esc(e.n)}</small>`:''}</span></button><span class="logMeta">${e.sc!=null?`<b>${score(e.sc)}</b>`:''}${e.w!=null?`<small class="muted">${kgfmt(e.w)}</small>`:''}${rankBadge(e.rank)}</span><span class="logBtns"><button class="iconBtn" data-share="${esc(e.id)}" aria-label="Share this harvest">⤴</button><button class="iconBtn" data-del="${esc(e.id)}" aria-label="Delete this harvest">✕</button></span></div>`:'').join('')}</div>`:'<div class="mutedBox">Nothing logged yet. Tap “Log a harvest” after a kill, or use the button on any species page.</div>'}</div>
+  <div class="section"><h2>Recent harvests</h2>${recent.length?`<div class="logList">${recent.map(e=>DATA.species[e.s]?`<div class="logRow"><button class="logOpen" data-lo="${esc(e.r+'::'+e.s)}">${pic(e.s,'imgFallback')}<span><strong>${esc(e.s)}</strong><small>${esc(short(e.r))}${e.d?' · '+esc(e.d):''}${e.fur?' · '+esc(e.fur):''}</small>${e.n?`<small class="muted">${esc(e.n)}</small>`:''}</span></button><span class="logMeta">${e.sc!=null?`<b>${score(e.sc)}</b>`:''}${e.w!=null?`<small class="muted">${kgfmt(e.w)}</small>`:''}${rankBadge(e.rank)}</span><span class="logBtns"><button class="iconBtn" data-share="${esc(e.id)}" aria-label="Share this harvest">⤴</button><button class="iconBtn" data-del="${esc(e.id)}" aria-label="Delete this harvest">✕</button></span></div>`:'').join('')}</div>`:'<div class="mutedBox">Nothing logged yet. Tap “Log a harvest” after a kill, or use the button on any species page.</div>'}</div>
   <div class="section"><h2>Collection</h2><p class="note">Your best rating for every species. Tap one to open its guide.</p>
     <div class="chipRow"><button class="chip${lr?'':' active'}" data-lr="">All</button>${RESERVES.map(n=>`<button class="chip${lr===n?' active':''}" data-lr="${esc(n)}">${esc(short(n))}</button>`).join('')}</div>
     <div class="chipRow">${[['all','All'],['got','Harvested'],['missing','Not yet'],['diamond','💎 Diamond'],['nodiamond','No diamond yet']].map(([k,l])=>`<button class="chip small${lf===k?' active':''}" data-lf="${k}">${l}</button>`).join('')}</div>
-    <div class="collGrid">${pool.map(s=>{const b=best.get(s),rn=lr||DATA.species[s].reserves[0];return `<button class="collItem${b?' got':''}" data-lo="${esc(rn+'::'+s)}"><span class="imgFallback">${icon(s)}</span><strong>${esc(s)}</strong><small>${b?(b.rank?RANK_ICON[b.rank]+' '+b.rank:'Harvested')+(b.sc!=null?' · '+score(b.sc):''):'Not yet'}</small></button>`}).join('')||'<div class="mutedBox">Nothing here with this filter.</div>'}</div></div>`;
+    <div class="collGrid">${pool.map(s=>{const b=best.get(s),rn=lr||DATA.species[s].reserves[0];return `<button class="collItem${b?' got':''}" data-lo="${esc(rn+'::'+s)}">${pic(s,'imgFallback')}<strong>${esc(s)}</strong><small>${b?(b.rank?RANK_ICON[b.rank]+' '+b.rank:'Harvested')+(b.sc!=null?' · '+score(b.sc):''):'Not yet'}</small></button>`}).join('')||'<div class="mutedBox">Nothing here with this filter.</div>'}</div></div>`;
+  hydratePhotos(lv);
 }
 lv.onclick=e=>{
   const t=e.target;
@@ -338,13 +381,13 @@ gv.onclick=e=>{
 
 // Great Ones: a list, and a page per species. great-ones.json adds the details when it is available.
 async function goData(){try{const g=await guide('great-ones');return Array.isArray(g)?g:(g.greatOnes||[])}catch(e){return []}}
-const goCard=(s,got)=>`<button class="legendCard${got.has(s)?' got':''}" data-go1="${esc(s)}"><span class="imgFallback">${icon(s)}</span><span><strong>${esc(s)}</strong><small>${esc(DATA.species[s].reserves.map(short).join(', '))}</small></span>${got.has(s)?'<em>✓ Harvested</em>':''}</button>`;
+const goCard=(s,got)=>`<button class="legendCard${got.has(s)?' got':''}" data-go1="${esc(s)}">${pic(s,'imgFallback')}<span><strong>${esc(s)}</strong><small>${esc(DATA.species[s].reserves.map(short).join(', '))}</small></span>${got.has(s)?'<em>✓ Harvested</em>':''}</button>`;
 async function buildGreatOnes(){
   const G=await goData();if(screen!=='guide')return;
   const list=[...new Set([...SPECIES.filter(s=>DATA.species[s].greatOne),...G.map(g=>g.species).filter(s=>DATA.species[s])])].sort(),got=greatOnesGot();
   document.title='Great Ones · Hunter Guide';
   gv.innerHTML=guideTitle('Guides','Great Ones',`${got.size} of ${list.length} harvested. Great Ones are the rarest animals in the game: a fabled level with unique furs and the highest trophy scores.`)
-    +`<div class="section legendGrid">${list.map(s=>goCard(s,got)).join('')}</div>`+(G.length?'':'<p class="note">More detail on each Great One is on the way.</p>');
+    +`<div class="section legendGrid">${list.map(s=>goCard(s,got)).join('')}</div>`+(G.length?'':'<p class="note">More detail on each Great One is on the way.</p>');hydratePhotos(gv);
 }
 async function buildGreatOne(s){
   const G=await goData();if(screen!=='legend')return;
@@ -356,11 +399,13 @@ async function buildGreatOne(s){
     <div class="stats"><div class="pill">🎯 Class ${esc(d.class)}</div>${g.maxScore!=null?`<div class="pill">🏆 Up to ${score(g.maxScore)}</div>`:d.trophy.max!=null?`<div class="pill">🏆 Normal max ${score(d.trophy.max)}</div>`:''}${g.dateAdded?`<div class="pill">📅 Added ${esc(g.dateAdded)}</div>`:''}</div>
     <div class="anTools"><button class="toolAction${got?'':' primary'}" id="goToggle" data-name="${esc(s)}">${got?'✓ Harvested':'＋ Mark as harvested'}</button>${reserves.filter(n=>DATA.reserves[n]).map(n=>`<button class="toolAction" data-splink="${esc(n+'::'+s)}">${esc(short(n))} guide →</button>`).join('')}</div></div>
   <div class="detailgrid section"><div>
-    <div class="card"><h2>How to make one spawn</h2>${g.howToSpawn?`<p class="story">${esc(g.howToSpawn)}</p>`:'<div class="mutedBox">Details coming soon.</div>'}${g.notes?`<p class="note">${esc(g.notes)}</p>`:''}</div>
+    <div class="card">${pic(s,'imageWrap spPhoto')}<div class="note" data-credit></div><p class="note">A Great One looks like a normal ${esc(s.toLowerCase())}, only bigger and with fabled fur.</p></div>
+    <div class="card" style="margin-top:18px"><h2>How to make one spawn</h2>${g.howToSpawn?`<p class="story">${esc(g.howToSpawn)}</p>`:'<div class="mutedBox">Details coming soon.</div>'}${g.notes?`<p class="note">${esc(g.notes)}</p>`:''}</div>
   </div><div>
     <div class="card"><h2>Great One furs</h2>${gfurs.length?gfurs.map(f=>`<span class="tag r-GreatOne">${esc(f)}</span>`).join(''):'<div class="mutedBox">Not listed yet.</div>'}</div>
     <div class="card" style="margin-top:18px"><h2>Where</h2>${reserves.map(n=>`<span class="tag">${esc(n)}</span>`).join('')}</div>
   </div></div>${g.sources?`<div class="source">Sources: ${srcList(g.sources)}</div>`:''}`;
+  hydratePhotos(gv);
 }
 
 // Missions and collectibles share one tick-off list design.
