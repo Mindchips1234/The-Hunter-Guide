@@ -1,4 +1,4 @@
-# The Hunter Guide 0.3
+# The Hunter Guide 0.4
 
 A fan-made, offline-ready field guide for *theHunter: Call of the Wild*, made by Vanderholst Studios. It covers all 19 reserves (up to Intisuyu, June 2026), 128 species with their classes, trophy scores, fur types and need zones, the 14 Great Ones, 74 weapons and 103 kinds of ammo, every skill and perk, and about 470 missions and the known collectibles, a real photo of almost every animal, and a log for every harvest.
 
@@ -59,7 +59,7 @@ Edit or replace the files in `research/`, then run `python3 tools/build-data.py`
 
 ## Releasing
 
-1. Bump `V` in `service-worker.js` (e.g. `hunter-guide-v0-4`). This is what makes installed copies show the update banner.
+1. Bump `V` in `service-worker.js` (e.g. `hunter-guide-v0-5`). This is what makes installed copies show the update banner.
 2. Update `APP_VERSION` in `app.js` so Settings shows the right version.
 
 ## Credits
