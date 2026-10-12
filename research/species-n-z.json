@@ -1,0 +1,4540 @@
+{
+  "sources": [
+    {
+      "url": "https://cotwguide.com/en/animals/",
+      "title": "CoTW Guide - All animals (per-species pages used)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "title": "Animal Class and Ammo Type Integrity Chart (Steam community guide)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+      "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://expertbeacon.com/how-many-great-ones-are-in-thehunter-call-of-the-wild/",
+      "title": "Great Ones in theHunter: Call of the Wild (expertbeacon)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://www.thexboxhub.com/thehunter-call-of-the-wild-expands-its-horizons-with-new-dlc-and-free-update/",
+      "title": "thexboxhub - Dec 2024 free update (Pheasant & Red Fox Great Ones)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://steamcommunity.com/app/518790/discussions/0/3810659147970474158",
+      "title": "Steam discussion on Great One species",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "Mule Deer": {
+    "name": "Mule Deer",
+    "latin": "Odocoileus hemionus",
+    "class": 5,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 210,
+    "weightRangeKg": [
+      null,
+      210
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 98.3,
+      "gold": 220.5,
+      "diamond": 312.1,
+      "max": 345
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve",
+      "Parque Fernando",
+      "Rancho del Arroyo",
+      "Silver Ridge Peaks"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Blonde",
+        "rarity": "common"
+      },
+      {
+        "name": "Dilute",
+        "rarity": "rare"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": true,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "10mm",
+      "7.62x54R",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 5 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Askiy Ridge Hunting Preserve, Parque Fernando, Rancho del Arroyo, Silver Ridge Peaks. Can appear as a Great One (Fabled).",
+    "notes": "cotwguide shows max level '5 Medium or 10 Fabled' (10 Fabled = Great One). Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/muledeer/",
+        "title": "Mule Deer - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://expertbeacon.com/how-many-great-ones-are-in-thehunter-call-of-the-wild/",
+        "title": "How many Great Ones are in theHunter: Call of the Wild (expertbeacon)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Nilgai": {
+    "name": "Nilgai",
+    "latin": "Boselaphus tragocamelus",
+    "class": 6,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 308,
+    "weightRangeKg": [
+      null,
+      308
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 69.17,
+      "gold": 83.87,
+      "diamond": 94.89,
+      "max": 94.89
+    },
+    "reserves": [
+      "Sundarpatan Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Blue (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Brown (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Brown (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 6 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Sundarpatan Hunting Reserve.",
+    "notes": "cotwguide max score shown with a trailing '?' (uncertain). Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/nilgai/",
+        "title": "Nilgai - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "North American Beaver": {
+    "name": "North American Beaver",
+    "latin": "Castor canadensis",
+    "class": 2,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 32,
+    "weightRangeKg": [
+      null,
+      32
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 19.2,
+      "gold": 25.6,
+      "diamond": 30.4,
+      "max": null
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ],
+    "furs": [
+      {
+        "name": "Light Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Reddish Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".22H",
+      ".243",
+      ".30-30",
+      ".357",
+      ".45",
+      "10mm",
+      "300g",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 2 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Askiy Ridge Hunting Preserve.",
+    "notes": "cotwguide gives no max score. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/beaver/",
+        "title": "North American Beaver - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Northern Pintail": {
+    "name": "Northern Pintail",
+    "latin": "Anas acuta",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 1.4,
+    "weightRangeKg": [
+      null,
+      1.4
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 620,
+      "gold": 860,
+      "diamond": 1040,
+      "max": null
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ],
+    "furs": [
+      {
+        "name": "Grey (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Eclipse (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Bright (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Erythristic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Askiy Ridge Hunting Preserve.",
+    "notes": "Scores ~1000 look like a different unit (possibly grams-based) compared with other species; values kept as published and match the Steam chart. cotwguide max weight 1.4 kg is shown with a '?'; Steam chart says 1 kg. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/northernpintail/",
+        "title": "Northern Pintail - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Northern Red Muntjac": {
+    "name": "Northern Red Muntjac",
+    "latin": "Muntiacus vaginalis",
+    "class": 2,
+    "difficulty": "Easy",
+    "maxLevel": 5,
+    "maxWeightKg": 28,
+    "weightRangeKg": [
+      null,
+      28
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 25.25,
+      "gold": 30.96,
+      "diamond": 35.24,
+      "max": 35.24
+    },
+    "reserves": [
+      "Sundarpatan Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Red",
+        "rarity": "common"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".22H",
+      ".243",
+      ".30-30",
+      ".357",
+      ".45",
+      "10mm",
+      "300g",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 2 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Sundarpatan Hunting Reserve.",
+    "notes": "cotwguide max score shown with a trailing '?'. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/redmuntjac/",
+        "title": "Northern Red Muntjac - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Ocelot": {
+    "name": "Ocelot",
+    "latin": "Leopardus pardalis",
+    "class": 2,
+    "difficulty": "Hard",
+    "maxLevel": 9,
+    "maxWeightKg": 16,
+    "weightRangeKg": [
+      null,
+      16
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 18.58,
+      "gold": 23.78,
+      "diamond": 27.68,
+      "max": null
+    },
+    "reserves": [
+      "Intisuyu Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Rosetted",
+        "rarity": "common"
+      },
+      {
+        "name": "Fine",
+        "rarity": "common"
+      },
+      {
+        "name": "Bold",
+        "rarity": "common"
+      },
+      {
+        "name": "Pseudo Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic Charcoal",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Erythristic Red",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".22H",
+      ".243",
+      ".30-30",
+      ".357",
+      ".45",
+      "10mm",
+      "300g",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 2 species rated 'Hard' difficulty on cotwguide, with a max difficulty level of 9 (Legendary). Found on Intisuyu Hunting Reserve.",
+    "notes": "Fur names lightly normalised from the fur source (listed there as 'Pseudo Melan', 'MelanisticChar', 'ErythristicRed'). Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/ocelot/",
+        "title": "Ocelot - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Plains Bison": {
+    "name": "Plains Bison",
+    "latin": "Bison bison bison",
+    "class": 9,
+    "difficulty": "Very hard",
+    "maxLevel": 5,
+    "maxWeightKg": 1200,
+    "weightRangeKg": [
+      null,
+      1200
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 117.73,
+      "gold": 155.31,
+      "diamond": 183.5,
+      "max": 245
+    },
+    "reserves": [
+      "Silver Ridge Peaks",
+      "Yukon Valley Nature Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Dark",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".300",
+      ".338",
+      ".454",
+      ".45-70",
+      ".470",
+      "7mm",
+      "9.3x74R",
+      "600g",
+      "700g"
+    ],
+    "about": "Class 9 species rated 'Very hard' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Silver Ridge Peaks, Yukon Valley Nature Reserve.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/plainsbison/",
+        "title": "Plains Bison - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Pronghorn": {
+    "name": "Pronghorn",
+    "latin": "Antilocapra americana",
+    "class": 3,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 65,
+    "weightRangeKg": [
+      null,
+      65
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 36.6,
+      "gold": 77.4,
+      "diamond": 108,
+      "max": 118
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve",
+      "Rancho del Arroyo",
+      "Silver Ridge Peaks"
+    ],
+    "furs": [
+      {
+        "name": "Dark",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Tan",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".30-30",
+      ".357",
+      ".44",
+      ".45",
+      "7.62x54R",
+      "10mm",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 3 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Askiy Ridge Hunting Preserve, Rancho del Arroyo, Silver Ridge Peaks.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/pronghorn/",
+        "title": "Pronghorn - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Puma": {
+    "name": "Puma",
+    "latin": "Puma concolor",
+    "class": 5,
+    "difficulty": "Hard",
+    "maxLevel": 9,
+    "maxWeightKg": 105,
+    "weightRangeKg": [
+      null,
+      105
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 32,
+      "gold": 36,
+      "diamond": 39,
+      "max": 40
+    },
+    "reserves": [
+      "Intisuyu Hunting Reserve",
+      "Parque Fernando",
+      "Silver Ridge Peaks"
+    ],
+    "furs": [
+      {
+        "name": "Dark Red",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "10mm",
+      "7.62x54R",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 5 species rated 'Hard' difficulty on cotwguide, with a max difficulty level of 9 (Legendary). Found on Intisuyu Hunting Reserve, Parque Fernando, Silver Ridge Peaks.",
+    "notes": "Max weight: cotwguide 105 kg, Steam chart 95 kg. cotwguide spells the latin name 'Puma concolour'; standard spelling used here. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/puma/",
+        "title": "Puma - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Raccoon Dog": {
+    "name": "Raccoon Dog",
+    "latin": "Nyctereutes grypus",
+    "class": 2,
+    "difficulty": "Average",
+    "maxLevel": 9,
+    "maxWeightKg": 10,
+    "weightRangeKg": [
+      null,
+      10
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 4.4,
+      "gold": 7.2,
+      "diamond": 9.29,
+      "max": 10
+    },
+    "reserves": [
+      "Revontuli Coast",
+      "Salzwiesen Park"
+    ],
+    "furs": [
+      {
+        "name": "Light Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Black White",
+        "rarity": "common"
+      },
+      {
+        "name": "Orange",
+        "rarity": "rare"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".22H",
+      ".243",
+      ".30-30",
+      ".357",
+      ".45",
+      "10mm",
+      "300g",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 2 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 9 (Legendary). Found on Revontuli Coast, Salzwiesen Park.",
+    "notes": "Latin name as given by cotwguide ('Nyctereutes grypus'); the common scientific name is Nyctereutes procyonoides. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/raccoondog/",
+        "title": "Raccoon Dog - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Red Deer": {
+    "name": "Red Deer",
+    "latin": "Cervus elaphus",
+    "class": 6,
+    "difficulty": "Average",
+    "maxLevel": 9,
+    "maxWeightKg": 260,
+    "weightRangeKg": [
+      null,
+      260
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 90.5,
+      "gold": 182.2,
+      "diamond": 251.07,
+      "max": 285
+    },
+    "reserves": [
+      "Cuatro Colinas",
+      "Emerald Coast Australia",
+      "Hirschfelden",
+      "Parque Fernando",
+      "Te Awaroa National Park",
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Brown (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Fabled Spotted",
+        "rarity": "great one"
+      }
+    ],
+    "greatOne": true,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 6 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 9 (Legendary). Found on Cuatro Colinas, Emerald Coast Australia, Hirschfelden, Parque Fernando, Te Awaroa National Park, Tòrr nan Sìthean Hunting Estate. Can appear as a Great One (Fabled).",
+    "notes": "cotwguide shows max weight '240 Kg/260 Kg' and max score '272/285' (varies by reserve); max level '9 Legendary or 10 Fabled' (10 = Great One). Great One fur ('Fabled Spotted') only as reported by the fur source; other Great One furs not listed. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/reddeer/",
+        "title": "Red Deer - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/app/518790/discussions/0/3810659147970474158",
+        "title": "Steam discussion: Great One species (2023-07-23)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Red Fox": {
+    "name": "Red Fox",
+    "latin": "Vulpes vulpes",
+    "class": 2,
+    "difficulty": "Easy",
+    "maxLevel": 9,
+    "maxWeightKg": 15.4,
+    "weightRangeKg": [
+      null,
+      15.4
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 4.66,
+      "gold": 10.03,
+      "diamond": 14.05,
+      "max": 15.4
+    },
+    "reserves": [
+      "Emerald Coast Australia",
+      "Hirschfelden",
+      "New England Mountains",
+      "Salzwiesen Park",
+      "Tòrr nan Sìthean Hunting Estate",
+      "Yukon Valley Nature Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Orange",
+        "rarity": "common"
+      },
+      {
+        "name": "Red",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Red",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": true,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".22H",
+      ".243",
+      ".30-30",
+      ".357",
+      ".45",
+      "10mm",
+      "300g",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 2 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 9 (Legendary). Found on Emerald Coast Australia, Hirschfelden, New England Mountains, Salzwiesen Park, Tòrr nan Sìthean Hunting Estate, Yukon Valley Nature Reserve. Can appear as a Great One (Fabled).",
+    "notes": "Max level '9 Legendary or 10 Fabled' (Great One). Great One furs not listed by fur source. Steam chart rounds thresholds (4.6/10/14) and gives 15 kg max. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/redfox/",
+        "title": "Red Fox - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://expertbeacon.com/how-many-great-ones-are-in-thehunter-call-of-the-wild/",
+        "title": "How many Great Ones are in theHunter: Call of the Wild (expertbeacon)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://www.thexboxhub.com/thehunter-call-of-the-wild-expands-its-horizons-with-new-dlc-and-free-update/",
+        "title": "theHunter: COTW expands its horizons with new DLC and free update (thexboxhub, 2024-12-03)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Red Grouse": {
+    "name": "Red Grouse",
+    "latin": "Lagopus scotica",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 0.64,
+    "weightRangeKg": [
+      null,
+      0.64
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 57,
+      "gold": 66,
+      "diamond": 72.75,
+      "max": null
+    },
+    "reserves": [
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Dark Red (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Red (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Brown (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Albino (M)",
+        "rarity": "rare"
+      },
+      {
+        "name": "Melanistic (M)",
+        "rarity": "rare"
+      },
+      {
+        "name": "Leucistic (F)",
+        "rarity": "rare"
+      },
+      {
+        "name": "Piebald (F)",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Tòrr nan Sìthean Hunting Estate.",
+    "notes": "Bird scores are on a different scale from mammals (unit unclear); values match Steam chart. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/redgrouse/",
+        "title": "Red Grouse - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Ring-Necked Pheasant": {
+    "name": "Ring-Necked Pheasant",
+    "latin": "Phasianus colchicus",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 3,
+    "weightRangeKg": [
+      null,
+      3
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 9.1,
+      "gold": 15.5,
+      "diamond": 20.3,
+      "max": 21.9
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve",
+      "Cuatro Colinas",
+      "Hirschfelden",
+      "New England Mountains",
+      "Rancho del Arroyo",
+      "Salzwiesen Park",
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Molting (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "White Brown (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": true,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Askiy Ridge Hunting Preserve, Cuatro Colinas, Hirschfelden, New England Mountains, Rancho del Arroyo, Salzwiesen Park, Tòrr nan Sìthean Hunting Estate. Can appear as a Great One (Fabled).",
+    "notes": "Max level '3 Very Easy or 10 Fabled'; Great One Pheasant added in the Dec 2024 free update (thexboxhub). Great One furs not listed by fur source. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/pheasant/",
+        "title": "Ring-Necked Pheasant - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://www.thexboxhub.com/thehunter-call-of-the-wild-expands-its-horizons-with-new-dlc-and-free-update/",
+        "title": "theHunter: COTW expands its horizons with new DLC and free update (thexboxhub, 2024-12-03)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Rio Grande Turkey": {
+    "name": "Rio Grande Turkey",
+    "latin": "Meleagris gallopavo",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 11,
+    "weightRangeKg": [
+      null,
+      11
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 3.3,
+      "gold": 4,
+      "diamond": 4.6,
+      "max": 4.8
+    },
+    "reserves": [
+      "Rancho del Arroyo"
+    ],
+    "furs": [
+      {
+        "name": "Buff",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Buff",
+        "rarity": "common"
+      },
+      {
+        "name": "Albino",
+        "rarity": "rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Rancho del Arroyo.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/riograndeturkey/",
+        "title": "Rio Grande Turkey - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Rock Ptarmigan": {
+    "name": "Rock Ptarmigan",
+    "latin": "Lagopus muta",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 0.75,
+    "weightRangeKg": [
+      null,
+      0.75
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 492,
+      "gold": 616,
+      "diamond": 709,
+      "max": 750
+    },
+    "reserves": [
+      "Revontuli Coast"
+    ],
+    "furs": [
+      {
+        "name": "Bicolor",
+        "rarity": "common"
+      },
+      {
+        "name": "Molting",
+        "rarity": "common"
+      },
+      {
+        "name": "Mottled (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "White",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Revontuli Coast.",
+    "notes": "Scores in the hundreds (max 750) appear to track weight in grams (max weight 0.75 kg); unit unverified. Matches Steam chart. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/rockptarmigan/",
+        "title": "Rock Ptarmigan - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Rocky Mountain Bighorn Sheep": {
+    "name": "Rocky Mountain Bighorn Sheep",
+    "latin": "Ovis canadensis canadensis",
+    "class": 5,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 160,
+    "weightRangeKg": [
+      null,
+      160
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 84.1,
+      "gold": 148.57,
+      "diamond": 196.93,
+      "max": 180
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve",
+      "Silver Ridge Peaks"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Bronze",
+        "rarity": "common"
+      },
+      {
+        "name": "Black",
+        "rarity": "common"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "rare"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "10mm",
+      "7.62x54R",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 5 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Askiy Ridge Hunting Preserve, Silver Ridge Peaks.",
+    "notes": "cotwguide max score 180 is lower than its own diamond minimum 196.93 - one of these is likely wrong. Steam chart lists the species as 'Bighorn Sheep' (also on Parque Fernando there; not in cotwguide reserve list). Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/bighornsheep/",
+        "title": "Rocky Mountain Bighorn Sheep - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Rocky Mountain Elk": {
+    "name": "Rocky Mountain Elk",
+    "latin": "Cervus canadensis nelsoni",
+    "class": 7,
+    "difficulty": "Hard",
+    "maxLevel": 5,
+    "maxWeightKg": 480,
+    "weightRangeKg": [
+      null,
+      480
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 177.8,
+      "gold": 351.3,
+      "diamond": 481.4,
+      "max": 520
+    },
+    "reserves": [
+      "Silver Ridge Peaks"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".270",
+      ".30-06",
+      ".300",
+      ".303",
+      ".308",
+      ".338",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "420g",
+      "540g",
+      "600g"
+    ],
+    "about": "Class 7 species rated 'Hard' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Silver Ridge Peaks.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/rockymountainelk/",
+        "title": "Rocky Mountain Elk - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Roe Deer": {
+    "name": "Roe Deer",
+    "latin": "Capreolus capreolus",
+    "class": 3,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 35,
+    "weightRangeKg": [
+      null,
+      35
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 41,
+      "gold": 64.3,
+      "diamond": 81.8,
+      "max": 95
+    },
+    "reserves": [
+      "Cuatro Colinas",
+      "Hirschfelden",
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Brown (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Grey (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Orange (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Tan (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": null,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".30-30",
+      ".357",
+      ".44",
+      ".45",
+      "7.62x54R",
+      "10mm",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 3 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Cuatro Colinas, Hirschfelden, Tòrr nan Sìthean Hunting Estate.",
+    "notes": "greatOne null: cotwguide lists max level '3 Very Easy or 10 Fabled', which suggests a Great One, but no second source confirmed it. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/roedeer/",
+        "title": "Roe Deer - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Ronda Ibex": {
+    "name": "Ronda Ibex",
+    "latin": "Capra pyrenaica hispanica",
+    "class": 4,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 70,
+    "weightRangeKg": [
+      null,
+      70
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 69.2,
+      "gold": 91.4,
+      "diamond": 107.9,
+      "max": 115
+    },
+    "reserves": [
+      "Cuatro Colinas"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown Hybrid (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey Brown (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Buff (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Brown (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Cuatro Colinas.",
+    "notes": "cotwguide gives the same latin name as Southeastern Spanish Ibex. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/rondaibex/",
+        "title": "Ronda Ibex - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Roosevelt Elk": {
+    "name": "Roosevelt Elk",
+    "latin": "Cervus canadensis",
+    "class": 7,
+    "difficulty": "Hard",
+    "maxLevel": 5,
+    "maxWeightKg": 500,
+    "weightRangeKg": [
+      null,
+      500
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 128.7,
+      "gold": 272.7,
+      "diamond": 380.8,
+      "max": 420
+    },
+    "reserves": [
+      "Layton Lake District"
+    ],
+    "furs": [
+      {
+        "name": "Tan",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Orange",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".270",
+      ".30-06",
+      ".300",
+      ".303",
+      ".308",
+      ".338",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "420g",
+      "540g",
+      "600g"
+    ],
+    "about": "Class 7 species rated 'Hard' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Layton Lake District.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/rooseveltelk/",
+        "title": "Roosevelt Elk - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Saltwater Crocodile": {
+    "name": "Saltwater Crocodile",
+    "latin": "Crocodylus porosus",
+    "class": 8,
+    "difficulty": "Very hard",
+    "maxLevel": 9,
+    "maxWeightKg": 1100,
+    "weightRangeKg": [
+      null,
+      1100
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 420,
+      "gold": 760,
+      "diamond": 1015,
+      "max": 1100
+    },
+    "reserves": [
+      "Emerald Coast Australia"
+    ],
+    "furs": [
+      {
+        "name": "Dark Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Olive",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "rare"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".270",
+      ".30-06",
+      ".300",
+      ".303",
+      ".308",
+      ".338",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7mm",
+      "9.3x74R",
+      "600g",
+      "700g"
+    ],
+    "about": "Class 8 species rated 'Very hard' difficulty on cotwguide, with a max difficulty level of 9 (Legendary). Found on Emerald Coast Australia.",
+    "notes": "Scores in the hundreds/thousands appear to track weight in kg (max 1100 = max weight); unit unverified. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/saltwatercrocodile/",
+        "title": "Saltwater Crocodile - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Sambar": {
+    "name": "Sambar",
+    "latin": "Rusa unicolor",
+    "class": 7,
+    "difficulty": "Easy",
+    "maxLevel": 5,
+    "maxWeightKg": 300,
+    "weightRangeKg": [
+      null,
+      300
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 67.92,
+      "gold": 124.21,
+      "diamond": 166.43,
+      "max": 180
+    },
+    "reserves": [
+      "Emerald Coast Australia"
+    ],
+    "furs": [
+      {
+        "name": "Dusky Gradient",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".270",
+      ".30-06",
+      ".300",
+      ".303",
+      ".308",
+      ".338",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "420g",
+      "540g",
+      "600g"
+    ],
+    "about": "Class 7 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Emerald Coast Australia.",
+    "notes": "Diamond: cotwguide 166.43, Steam chart 166.24. Steam chart calls it 'Sambar Deer'. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/sambar/",
+        "title": "Sambar - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Scrub Hare": {
+    "name": "Scrub Hare",
+    "latin": "Lepus saxatilis",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 5.8,
+    "weightRangeKg": [
+      null,
+      5.8
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 2.3,
+      "gold": 4,
+      "diamond": 5.3,
+      "max": 5.8
+    },
+    "reserves": [
+      "Vurhonga Savanna"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Chestnut",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "uncommon"
+      },
+      {
+        "name": "Light Grey",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Vurhonga Savanna.",
+    "notes": "cotwguide notes max level '3 Very Easy (females)'. Silver/gold: cotwguide 2.3/4, Steam 2.4/4.1. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/scrubhare/",
+        "title": "Scrub Hare - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Siberian Musk Deer": {
+    "name": "Siberian Musk Deer",
+    "latin": "Moschus moschiferus",
+    "class": 2,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 17,
+    "weightRangeKg": [
+      null,
+      17
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 60,
+      "gold": 168,
+      "diamond": 249,
+      "max": 276
+    },
+    "reserves": [
+      "Medved-Taiga National Park"
+    ],
+    "furs": [
+      {
+        "name": "Orange (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Brown (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".22H",
+      ".243",
+      ".30-30",
+      ".357",
+      ".45",
+      "10mm",
+      "300g",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 2 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Medved-Taiga National Park.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/siberianmuskdeer/",
+        "title": "Siberian Musk Deer - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Side-Striped Jackal": {
+    "name": "Side-Striped Jackal",
+    "latin": "Canis adustus",
+    "class": 2,
+    "difficulty": "Easy",
+    "maxLevel": 9,
+    "maxWeightKg": 14,
+    "weightRangeKg": [
+      null,
+      14
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 16.7,
+      "gold": 23.8,
+      "diamond": 29.1,
+      "max": 31
+    },
+    "reserves": [
+      "Vurhonga Savanna"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".22H",
+      ".243",
+      ".30-30",
+      ".357",
+      ".45",
+      "10mm",
+      "300g",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 2 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 9 (Legendary). Found on Vurhonga Savanna.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/side-stripedjackal/",
+        "title": "Side-Striped Jackal - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Sika Deer": {
+    "name": "Sika Deer",
+    "latin": "Cervus nippon",
+    "class": 4,
+    "difficulty": "Very hard",
+    "maxLevel": 5,
+    "maxWeightKg": 75,
+    "weightRangeKg": [
+      null,
+      75
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 53.2,
+      "gold": 136.4,
+      "diamond": 198.7,
+      "max": 220
+    },
+    "reserves": [
+      "Te Awaroa National Park",
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Black",
+        "rarity": "common"
+      },
+      {
+        "name": "Spotted",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Spotted",
+        "rarity": "common"
+      },
+      {
+        "name": "Red Spotted",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4 species rated 'Very hard' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Te Awaroa National Park, Tòrr nan Sìthean Hunting Estate.",
+    "notes": "Steam chart notes thresholds differ between Te Awaroa and Tòrr nan Sìthean. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/sikadeer/",
+        "title": "Sika Deer - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Snow Goose": {
+    "name": "Snow Goose",
+    "latin": "Anser caerulescens",
+    "class": 1,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 4,
+    "weightRangeKg": [
+      null,
+      4
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 2.8,
+      "gold": 3.4,
+      "diamond": 3.85,
+      "max": null
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ],
+    "furs": [
+      {
+        "name": "White Morph",
+        "rarity": "common"
+      },
+      {
+        "name": "Blue Morph",
+        "rarity": "rare"
+      },
+      {
+        "name": "Hybrid",
+        "rarity": "rare"
+      },
+      {
+        "name": "Intermediate Morph",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Askiy Ridge Hunting Preserve.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/snowgoose/",
+        "title": "Snow Goose - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Snow Leopard": {
+    "name": "Snow Leopard",
+    "latin": "Panthera uncia",
+    "class": 4,
+    "difficulty": "Hard",
+    "maxLevel": 9,
+    "maxWeightKg": 75,
+    "weightRangeKg": [
+      null,
+      75
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 22,
+      "gold": 26,
+      "diamond": 29,
+      "max": 29
+    },
+    "reserves": [
+      "Sundarpatan Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Snow",
+        "rarity": "common"
+      },
+      {
+        "name": "Caramel",
+        "rarity": "common"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4 species rated 'Hard' difficulty on cotwguide, with a max difficulty level of 9 (Legendary). Found on Sundarpatan Hunting Reserve.",
+    "notes": "cotwguide max score shown with a trailing '?'. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/snowleopard/",
+        "title": "Snow Leopard - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "South American Tapir": {
+    "name": "South American Tapir",
+    "latin": "Tapirus terrestris",
+    "class": 6,
+    "difficulty": "Average",
+    "maxLevel": 9,
+    "maxWeightKg": 300,
+    "weightRangeKg": [
+      null,
+      300
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 102,
+      "gold": 126,
+      "diamond": 144,
+      "max": null
+    },
+    "reserves": [
+      "Intisuyu Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Brown Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Erythristic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 6 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 9 (Legendary). Found on Intisuyu Hunting Reserve.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/southamericantapir/",
+        "title": "South American Tapir - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Southeastern Spanish Ibex": {
+    "name": "Southeastern Spanish Ibex",
+    "latin": "Capra pyrenaica hispanica",
+    "class": 4,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 87.5,
+    "weightRangeKg": [
+      null,
+      87.5
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 49.7,
+      "gold": 72.5,
+      "diamond": 89.6,
+      "max": 95
+    },
+    "reserves": [
+      "Cuatro Colinas"
+    ],
+    "furs": [
+      {
+        "name": "Brown Hybrid (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey Brown (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Grey (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Orange (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Buff (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Cuatro Colinas.",
+    "notes": "Class conflict: cotwguide says class 4, Steam chart says class 6 (integrity ammo listed is the Steam class-6 list). Max weight: cotwguide 87.5 kg, Steam 90 kg. Latin name as given by cotwguide (same as Ronda Ibex; the real subspecies would differ). Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/southeasternibex/",
+        "title": "Southeastern Spanish Ibex - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Spectacled Bear": {
+    "name": "Spectacled Bear",
+    "latin": "Tremarctos ornatus",
+    "class": 6,
+    "difficulty": "Average",
+    "maxLevel": 9,
+    "maxWeightKg": 200,
+    "weightRangeKg": [
+      null,
+      200
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 9.6,
+      "gold": 15.8,
+      "diamond": 20.45,
+      "max": null
+    },
+    "reserves": [
+      "Intisuyu Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "X Markings",
+        "rarity": "common"
+      },
+      {
+        "name": "Messy Markings",
+        "rarity": "common"
+      },
+      {
+        "name": "Glasses Markings",
+        "rarity": "common"
+      },
+      {
+        "name": "Minimalistic Markings",
+        "rarity": "common"
+      },
+      {
+        "name": "Abundant Markings",
+        "rarity": "common"
+      },
+      {
+        "name": "No Markings",
+        "rarity": "rare"
+      },
+      {
+        "name": "Blond Faced",
+        "rarity": "rare"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "rare"
+      },
+      {
+        "name": "Erythristic Red",
+        "rarity": "rare"
+      },
+      {
+        "name": "Erythristic",
+        "rarity": "rare"
+      },
+      {
+        "name": "Isabelline",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 6 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 9 (Legendary). Found on Intisuyu Hunting Reserve.",
+    "notes": "Scores are low (skull-type scale); values match Steam chart. Fur names spaced out from fur source ('Xmarkings' etc.). Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/spectacledbear/",
+        "title": "Spectacled Bear - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Springbok": {
+    "name": "Springbok",
+    "latin": "Antidorcas marsupialis",
+    "class": 3,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 42,
+    "weightRangeKg": [
+      null,
+      42
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 36.46,
+      "gold": 60.51,
+      "diamond": 78.55,
+      "max": 90
+    },
+    "reserves": [
+      "Vurhonga Savanna"
+    ],
+    "furs": [
+      {
+        "name": "Tan",
+        "rarity": "common"
+      },
+      {
+        "name": "Orange",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Black Brown (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".30-30",
+      ".357",
+      ".44",
+      ".45",
+      "7.62x54R",
+      "10mm",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 3 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Vurhonga Savanna.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/springbok/",
+        "title": "Springbok - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Stubble Quail": {
+    "name": "Stubble Quail",
+    "latin": "Coturnix pectoralis",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 0.13,
+    "weightRangeKg": [
+      null,
+      0.13
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 98,
+      "gold": 114,
+      "diamond": 126,
+      "max": 250
+    },
+    "reserves": [
+      "Emerald Coast Australia"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Brown (M)",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Emerald Coast Australia.",
+    "notes": "Thresholds conflict: cotwguide 98/114/126 (max 250) vs Steam chart 154/202/238. Bird scores appear to be on a grams-like scale; unit unverified. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/stubblequail/",
+        "title": "Stubble Quail - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Taruca": {
+    "name": "Taruca",
+    "latin": "Hippocamelus antisensis",
+    "class": 3,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 72,
+    "weightRangeKg": [
+      null,
+      72
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 67.39,
+      "gold": 86.97,
+      "diamond": 101.66,
+      "max": null
+    },
+    "reserves": [
+      "Intisuyu Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark",
+        "rarity": "common"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "uncommon"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Erythristic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".30-30",
+      ".357",
+      ".44",
+      ".45",
+      "7.62x54R",
+      "10mm",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 3 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Intisuyu Hunting Reserve.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/taruca/",
+        "title": "Taruca - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Tibetan Fox": {
+    "name": "Tibetan Fox",
+    "latin": "Vulpes ferrilata",
+    "class": 2,
+    "difficulty": "Average",
+    "maxLevel": 9,
+    "maxWeightKg": 6,
+    "weightRangeKg": [
+      null,
+      6
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 3.36,
+      "gold": 5.08,
+      "diamond": 6.37,
+      "max": 6.37
+    },
+    "reserves": [
+      "Sundarpatan Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Red",
+        "rarity": "common"
+      },
+      {
+        "name": "Orange",
+        "rarity": "common"
+      },
+      {
+        "name": "Tawny",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Smoke",
+        "rarity": "rare"
+      },
+      {
+        "name": "Sand",
+        "rarity": "rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".22H",
+      ".243",
+      ".30-30",
+      ".357",
+      ".45",
+      "10mm",
+      "300g",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 2 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 9 (Legendary). Found on Sundarpatan Hunting Reserve.",
+    "notes": "cotwguide max score shown with a trailing '?'. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/tibetanfox/",
+        "title": "Tibetan Fox - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Tufted Duck": {
+    "name": "Tufted Duck",
+    "latin": "Aythya fuligula",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 1,
+    "weightRangeKg": [
+      null,
+      1
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 704,
+      "gold": 852,
+      "diamond": 963,
+      "max": 1000
+    },
+    "reserves": [
+      "Revontuli Coast",
+      "Salzwiesen Park"
+    ],
+    "furs": [
+      {
+        "name": "Brown (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Black (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Cream (F)",
+        "rarity": "rare"
+      },
+      {
+        "name": "Eclipse (M)",
+        "rarity": "rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Revontuli Coast, Salzwiesen Park.",
+    "notes": "Scores ~1000 appear to track weight in grams (max weight 1 kg); unit unverified. Matches Steam chart. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/tuftedduck/",
+        "title": "Tufted Duck - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Tundra Bean Goose": {
+    "name": "Tundra Bean Goose",
+    "latin": "Anser serrirostris",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 5,
+    "maxWeightKg": 3.3,
+    "weightRangeKg": [
+      null,
+      3.3
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 2.18,
+      "gold": 2.74,
+      "diamond": 3.16,
+      "max": 3.3
+    },
+    "reserves": [
+      "Revontuli Coast",
+      "Salzwiesen Park"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Revontuli Coast, Salzwiesen Park.",
+    "notes": "Max weight: cotwguide 3.3 kg, Steam 3.5 kg. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/tundrabeangoose/",
+        "title": "Tundra Bean Goose - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Vicuña": {
+    "name": "Vicuña",
+    "latin": "Vicugna vicugna",
+    "class": 3,
+    "difficulty": null,
+    "maxLevel": 5,
+    "maxWeightKg": 55,
+    "weightRangeKg": [
+      null,
+      55
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 172,
+      "gold": 196,
+      "diamond": 214,
+      "max": 214
+    },
+    "reserves": [
+      "Intisuyu Hunting Reserve"
+    ],
+    "furs": null,
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".30-30",
+      ".357",
+      ".44",
+      ".45",
+      "7.62x54R",
+      "10mm",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 3 species, with a max difficulty level of 5 (Medium). Found on Intisuyu Hunting Reserve.",
+    "notes": "cotwguide difficulty not captured. Fur source has a Vicuña row with no furs listed. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/vicuna/",
+        "title": "Vicuña - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Warthog": {
+    "name": "Warthog",
+    "latin": "Phacochoerus africanus",
+    "class": 4,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 150,
+    "weightRangeKg": [
+      null,
+      150
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 24.6,
+      "gold": 43.8,
+      "diamond": 58.1,
+      "max": 63
+    },
+    "reserves": [
+      "Vurhonga Savanna"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark",
+        "rarity": "common"
+      },
+      {
+        "name": "Red Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Red (F)",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Vurhonga Savanna.",
+    "notes": "Gold conflict: cotwguide 43.8 vs Steam chart 49.8; diamond 58.1 vs 58.2. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/warthog/",
+        "title": "Warthog - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Water Buffalo": {
+    "name": "Water Buffalo",
+    "latin": "Bubalus bubalis",
+    "class": 9,
+    "difficulty": "Very hard",
+    "maxLevel": 9,
+    "maxWeightKg": 1250,
+    "weightRangeKg": [
+      null,
+      1250
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 84.2,
+      "gold": 131.8,
+      "diamond": 167.5,
+      "max": 180
+    },
+    "reserves": [
+      "Parque Fernando",
+      "Sundarpatan Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Brown (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Black",
+        "rarity": "uncommon"
+      },
+      {
+        "name": "Orange",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".300",
+      ".338",
+      ".454",
+      ".45-70",
+      ".470",
+      "7mm",
+      "9.3x74R",
+      "600g",
+      "700g"
+    ],
+    "about": "Class 9 species rated 'Very hard' difficulty on cotwguide, with a max difficulty level of 9 (Legendary). Found on Parque Fernando, Sundarpatan Hunting Reserve.",
+    "notes": "Gold conflict: cotwguide 131.8 vs Steam chart 138.1. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/waterbuffalo/",
+        "title": "Water Buffalo - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Western Capercaillie": {
+    "name": "Western Capercaillie",
+    "latin": "Tetrao urogallus",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 5,
+    "weightRangeKg": [
+      null,
+      5
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 2.2,
+      "gold": 3.6,
+      "diamond": 4.64,
+      "max": 5
+    },
+    "reserves": [
+      "Medved-Taiga National Park",
+      "Revontuli Coast",
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Brown (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Bright (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Ochre (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "rare"
+      },
+      {
+        "name": "Pale",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Medved-Taiga National Park, Revontuli Coast, Tòrr nan Sìthean Hunting Estate.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/westerncapercaillie/",
+        "title": "Western Capercaillie - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Western Mountain Coati": {
+    "name": "Western Mountain Coati",
+    "latin": "Nasuella olivacea",
+    "class": 1,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 3,
+    "weightRangeKg": [
+      null,
+      3
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 1.1,
+      "gold": 1.3,
+      "diamond": 1.45,
+      "max": null
+    },
+    "reserves": [
+      "Intisuyu Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Dark Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Orange",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Intisuyu Hunting Reserve.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/westernmountaincoati/",
+        "title": "Western Mountain Coati - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "White-Tailed Jackrabbit": {
+    "name": "White-Tailed Jackrabbit",
+    "latin": "Lepus townsendii",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 6.8,
+    "weightRangeKg": [
+      null,
+      6.8
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 2.8,
+      "gold": 4.8,
+      "diamond": 6.3,
+      "max": 6.8
+    },
+    "reserves": [
+      "Layton Lake District"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Beige",
+        "rarity": "common"
+      },
+      {
+        "name": "Albino",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Layton Lake District.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/whitetailedjackrabbit/",
+        "title": "White-Tailed Jackrabbit - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Whitetail Deer": {
+    "name": "Whitetail Deer",
+    "latin": "Odocoileus virginianus",
+    "class": 4,
+    "difficulty": "Average",
+    "maxLevel": 3,
+    "maxWeightKg": 110,
+    "weightRangeKg": [
+      null,
+      110
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 112,
+      "gold": 193.7,
+      "diamond": 255,
+      "max": 275.7
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve",
+      "Intisuyu Hunting Reserve",
+      "Layton Lake District",
+      "Mississippi Acres Preserve",
+      "New England Mountains",
+      "Rancho del Arroyo",
+      "Revontuli Coast"
+    ],
+    "furs": [
+      {
+        "name": "Dark Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Red Brown (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Tan (M)",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": true,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Askiy Ridge Hunting Preserve, Intisuyu Hunting Reserve, Layton Lake District, Mississippi Acres Preserve, New England Mountains, Rancho del Arroyo, Revontuli Coast. Can appear as a Great One (Fabled).",
+    "notes": "cotwguide shows max weight '100 Kg/110 Kg', max score '275.7/650' (650 presumably the Great One) and max level '3 Very Easy or 10 Fabled'. Great One furs not listed by fur source. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/whitetaildeer/",
+        "title": "Whitetail Deer - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://expertbeacon.com/how-many-great-ones-are-in-thehunter-call-of-the-wild/",
+        "title": "How many Great Ones are in theHunter: Call of the Wild (expertbeacon)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/app/518790/discussions/0/3810659147970474158",
+        "title": "Steam discussion: Great One species (2023-07-23)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Wild Boar": {
+    "name": "Wild Boar",
+    "latin": "Sus scrofa",
+    "class": 5,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 250,
+    "weightRangeKg": [
+      null,
+      250
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 37.5,
+      "gold": 98.5,
+      "diamond": 144.2,
+      "max": 159.5
+    },
+    "reserves": [
+      "Cuatro Colinas",
+      "Hirschfelden",
+      "Medved-Taiga National Park",
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Brown (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Black Gold",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": null,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "10mm",
+      "7.62x54R",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 5 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Cuatro Colinas, Hirschfelden, Medved-Taiga National Park, Tòrr nan Sìthean Hunting Estate.",
+    "notes": "cotwguide max weight '240 Kg/250 Kg'. greatOne null: cotwguide max level '5 Medium or 10 Fabled' suggests a Great One, but no second source confirmed it. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/wildboar/",
+        "title": "Wild Boar - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Wild Haggis": {
+    "name": "Wild Haggis",
+    "latin": "Haggis scoticus",
+    "class": 2,
+    "difficulty": "Easy",
+    "maxLevel": 5,
+    "maxWeightKg": null,
+    "weightRangeKg": [
+      null,
+      null
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 36,
+      "gold": 48,
+      "diamond": 57,
+      "max": 57
+    },
+    "reserves": [
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": null,
+    "greatOne": false,
+    "integrityAmmo": null,
+    "about": "Class 2 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Tòrr nan Sìthean Hunting Estate.",
+    "notes": "Only cotwguide lists this species; not in the Steam chart or fur source, and no max weight given. Possibly a novelty/event animal - verify in game. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/wildhaggis/",
+        "title": "Wild Haggis - CoTW Guide",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Wild Hog": {
+    "name": "Wild Hog",
+    "latin": "Sus scrofa",
+    "class": 5,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 205,
+    "weightRangeKg": [
+      null,
+      205
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 37.5,
+      "gold": 98.5,
+      "diamond": 144.2,
+      "max": 159.5
+    },
+    "reserves": [
+      "Mississippi Acres Preserve"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Black Spots",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Brown Hybrid",
+        "rarity": "common"
+      },
+      {
+        "name": "Blackgold",
+        "rarity": "common"
+      },
+      {
+        "name": "Black",
+        "rarity": "common"
+      },
+      {
+        "name": "Pink",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "10mm",
+      "7.62x54R",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 5 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Mississippi Acres Preserve.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/wildhog/",
+        "title": "Wild Hog - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Wild Yak": {
+    "name": "Wild Yak",
+    "latin": "Bos mutus",
+    "class": 9,
+    "difficulty": "Very hard",
+    "maxLevel": 9,
+    "maxWeightKg": 1200,
+    "weightRangeKg": [
+      null,
+      1200
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 174.6,
+      "gold": 230.96,
+      "diamond": 273.23,
+      "max": 273.23
+    },
+    "reserves": [
+      "Sundarpatan Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Dark Red Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Red",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Jet Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Jet Black",
+        "rarity": "common"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Gold",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".300",
+      ".338",
+      ".454",
+      ".45-70",
+      ".470",
+      "7mm",
+      "9.3x74R",
+      "600g",
+      "700g"
+    ],
+    "about": "Class 9 species rated 'Very hard' difficulty on cotwguide, with a max difficulty level of 9 (Legendary). Found on Sundarpatan Hunting Reserve.",
+    "notes": "cotwguide max score shown with a trailing '?'. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/wildyak/",
+        "title": "Wild Yak - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Willow Ptarmigan": {
+    "name": "Willow Ptarmigan",
+    "latin": "Lagopus lagopus",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 0.81,
+    "weightRangeKg": [
+      null,
+      0.81
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 506,
+      "gold": 658,
+      "diamond": 772,
+      "max": 810
+    },
+    "reserves": [
+      "Revontuli Coast"
+    ],
+    "furs": [
+      {
+        "name": "Brown (F)",
+        "rarity": "common"
+      },
+      {
+        "name": "Molting",
+        "rarity": "common"
+      },
+      {
+        "name": "Bicolor",
+        "rarity": "common"
+      },
+      {
+        "name": "White",
+        "rarity": "rare"
+      },
+      {
+        "name": "Red (M)",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Revontuli Coast.",
+    "notes": "Scores in the hundreds (max 810) appear to track weight in grams (max 0.81 kg); unit unverified. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/willowptarmigan/",
+        "title": "Willow Ptarmigan - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Wood Bison": {
+    "name": "Wood Bison",
+    "latin": "Bison bison athabascae",
+    "class": 9,
+    "difficulty": "Very hard",
+    "maxLevel": 5,
+    "maxWeightKg": 1350,
+    "weightRangeKg": [
+      null,
+      1350
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 96.76,
+      "gold": 131.75,
+      "diamond": 158,
+      "max": 158
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ],
+    "furs": [
+      {
+        "name": "Light Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Ginger",
+        "rarity": "common"
+      },
+      {
+        "name": "Ginger Split",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "rare"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".300",
+      ".338",
+      ".454",
+      ".45-70",
+      ".470",
+      "7mm",
+      "9.3x74R",
+      "600g",
+      "700g"
+    ],
+    "about": "Class 9 species rated 'Very hard' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Askiy Ridge Hunting Preserve.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/woodbison/",
+        "title": "Wood Bison - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Wood Duck": {
+    "name": "Wood Duck",
+    "latin": "Aix sponsa",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 1,
+    "weightRangeKg": [
+      null,
+      1
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 460,
+      "gold": 580,
+      "diamond": 670,
+      "max": null
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ],
+    "furs": [
+      {
+        "name": "Standard",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark",
+        "rarity": "common"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Erythristic Golden",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Dilute Silver",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Askiy Ridge Hunting Preserve.",
+    "notes": "Scores in the hundreds look like a grams-like scale; unit unverified. Matches Steam chart. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/woodduck/",
+        "title": "Wood Duck - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Woodland Caribou": {
+    "name": "Woodland Caribou",
+    "latin": "Rangifer tarandus caribou",
+    "class": 6,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 195,
+    "weightRangeKg": [
+      null,
+      195
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 152.5,
+      "gold": 311.2,
+      "diamond": 430.23,
+      "max": null
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ],
+    "furs": [
+      {
+        "name": "Light Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "very rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "very rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 6 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Askiy Ridge Hunting Preserve.",
+    "notes": "Max weight: cotwguide 195 kg (shown with '?'), Steam 190 kg. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/woodlandcaribou/",
+        "title": "Woodland Caribou - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  },
+  "Woolly Hare": {
+    "name": "Woolly Hare",
+    "latin": "Lepus oiostolus",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 3,
+    "weightRangeKg": [
+      null,
+      3
+    ],
+    "trophy": {
+      "bronze": null,
+      "silver": 1.74,
+      "gold": 2.62,
+      "diamond": 3.28,
+      "max": 3.28
+    },
+    "reserves": [
+      "Sundarpatan Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Light Grey",
+        "rarity": "common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "common"
+      },
+      {
+        "name": "Molting",
+        "rarity": "common"
+      },
+      {
+        "name": "White",
+        "rarity": "rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Sundarpatan Hunting Reserve.",
+    "notes": "cotwguide max score shown with a trailing '?'. Steam chart spells it 'Wooly Hare'. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "sources": [
+      {
+        "url": "https://cotwguide.com/en/animals/woollyhare/",
+        "title": "Woolly Hare - CoTW Guide",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+        "title": "Animal Class and Ammo Type Integrity Chart (Steam guide by Pistol Pete; page shows a removal notice, data may be dated)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+        "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      }
+    ]
+  }
+}

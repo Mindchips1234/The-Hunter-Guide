@@ -1,0 +1,1018 @@
+{
+ "American Alligator": {
+  "u": "./img/animals/thumb/american-alligator.jpg",
+  "full": "./img/animals/full/american-alligator.jpg",
+  "by": "Dan Vickers",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/608505477"
+ },
+ "American Mink": {
+  "u": "./img/animals/thumb/american-mink.jpg",
+  "full": "./img/animals/full/american-mink.jpg",
+  "by": "danielarah",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/605728141"
+ },
+ "Antelope Jackrabbit": {
+  "u": "./img/animals/thumb/antelope-jackrabbit.jpg",
+  "full": "./img/animals/full/antelope-jackrabbit.jpg",
+  "by": "Sinaloa Silvestre",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/329819303"
+ },
+ "Axis Deer": {
+  "u": "./img/animals/thumb/axis-deer.jpg",
+  "full": "./img/animals/full/axis-deer.jpg",
+  "by": "Darren Obbard",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/624663794"
+ },
+ "Banteng": {
+  "u": "./img/animals/thumb/banteng.jpg",
+  "full": "./img/animals/full/banteng.jpg",
+  "by": "Utain Pummarin",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/81555188"
+ },
+ "Barasingha": {
+  "u": "./img/animals/thumb/barasingha.jpg",
+  "full": "./img/animals/full/barasingha.jpg",
+  "by": "Jean-Paul Boerekamps",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/98864643"
+ },
+ "Beceite Ibex": {
+  "u": "./img/animals/thumb/beceite-ibex.jpg",
+  "full": "./img/animals/full/beceite-ibex.jpg",
+  "by": "Pennyinsole",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/605688654"
+ },
+ "Bengal Tiger": {
+  "u": "./img/animals/thumb/bengal-tiger.jpg",
+  "full": "./img/animals/full/bengal-tiger.jpg",
+  "by": "Darren Obbard",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/630025225"
+ },
+ "Black Bear": {
+  "u": "./img/animals/thumb/black-bear.jpg",
+  "full": "./img/animals/full/black-bear.jpg",
+  "by": "Thompson Hyggen",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/635031119"
+ },
+ "Black Caiman": {
+  "u": "./img/animals/thumb/black-caiman.jpg",
+  "full": "./img/animals/full/black-caiman.jpg",
+  "by": "russnamitz",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/563645732"
+ },
+ "Black Grouse": {
+  "u": "./img/animals/thumb/black-grouse.jpg",
+  "full": "./img/animals/full/black-grouse.jpg",
+  "by": "Paul Round",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/637725427"
+ },
+ "Blackbuck": {
+  "u": "./img/animals/thumb/blackbuck.jpg",
+  "full": "./img/animals/full/blackbuck.jpg",
+  "by": "Darren Obbard",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/627272248"
+ },
+ "Blacktail Deer": {
+  "u": "./img/animals/thumb/blacktail-deer.jpg",
+  "full": "./img/animals/full/blacktail-deer.jpg",
+  "by": "davidbroadland",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/606269061"
+ },
+ "Blue Sheep": {
+  "u": "./img/animals/thumb/blue-sheep.jpg",
+  "full": "./img/animals/full/blue-sheep.jpg",
+  "by": "Simon Tonge",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/578973522"
+ },
+ "Blue Wildebeest": {
+  "u": "./img/animals/thumb/blue-wildebeest.jpg",
+  "full": "./img/animals/full/blue-wildebeest.jpg",
+  "by": "Prince Molokomme",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/698376638"
+ },
+ "Bobcat": {
+  "u": "./img/animals/thumb/bobcat.jpg",
+  "full": "./img/animals/full/bobcat.jpg",
+  "by": "JD Flores",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/606800248"
+ },
+ "Bobwhite Quail": {
+  "u": "./img/animals/thumb/bobwhite-quail.jpg",
+  "full": "./img/animals/full/bobwhite-quail.jpg",
+  "by": "James Rogers",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/628146760"
+ },
+ "Brown Bear": {
+  "u": "./img/animals/thumb/brown-bear.jpg",
+  "full": "./img/animals/full/brown-bear.jpg",
+  "by": "Meece Family",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/665057126"
+ },
+ "Canada Goose": {
+  "u": "./img/animals/thumb/canada-goose.jpg",
+  "full": "./img/animals/full/canada-goose.jpg",
+  "by": "Dorothy Johnson",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/609110468"
+ },
+ "Cape Buffalo": {
+  "u": "./img/animals/thumb/cape-buffalo.jpg",
+  "full": "./img/animals/full/cape-buffalo.jpg",
+  "by": "Sri Srikumar",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/682488952"
+ },
+ "Capybara": {
+  "u": "./img/animals/thumb/capybara.jpg",
+  "full": "./img/animals/full/capybara.jpg",
+  "by": "Nicola Crockford",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/653843974"
+ },
+ "Chamois": {
+  "u": "./img/animals/thumb/chamois.jpg",
+  "full": "./img/animals/full/chamois.jpg",
+  "by": "North Ross",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/725047904"
+ },
+ "Cinnamon Teal": {
+  "u": "./img/animals/thumb/cinnamon-teal.jpg",
+  "full": "./img/animals/full/cinnamon-teal.jpg",
+  "by": "Sinaloa Silvestre",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/607024510"
+ },
+ "Collared Peccary": {
+  "u": "./img/animals/thumb/collared-peccary.jpg",
+  "full": "./img/animals/full/collared-peccary.jpg",
+  "by": "kristen_276",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/606698541"
+ },
+ "Common Raccoon": {
+  "u": "./img/animals/thumb/common-raccoon.jpg",
+  "full": "./img/animals/full/common-raccoon.jpg",
+  "by": "Quillipede",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/605374162"
+ },
+ "Coyote": {
+  "u": "./img/animals/thumb/coyote.jpg",
+  "full": "./img/animals/full/coyote.jpg",
+  "by": "Richard Fuller",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/612559878"
+ },
+ "Desert Bighorn Sheep": {
+  "u": "./img/animals/thumb/desert-bighorn-sheep.jpg",
+  "full": "./img/animals/full/desert-bighorn-sheep.jpg",
+  "by": "Irene",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/637465296"
+ },
+ "Dusky Grouse": {
+  "u": "./img/animals/thumb/dusky-grouse.jpg",
+  "full": "./img/animals/full/dusky-grouse.jpg",
+  "by": "nmphotographer",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/661188617"
+ },
+ "Eastern Cottontail Rabbit": {
+  "u": "./img/animals/thumb/eastern-cottontail-rabbit.jpg",
+  "full": "./img/animals/full/eastern-cottontail-rabbit.jpg",
+  "by": "Kirstie S",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/621596022"
+ },
+ "Eastern Gray Kangaroo": {
+  "u": "./img/animals/thumb/eastern-gray-kangaroo.jpg",
+  "full": "./img/animals/full/eastern-gray-kangaroo.jpg",
+  "by": "Wendy F",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/615558033"
+ },
+ "Eastern Wild Turkey": {
+  "u": "./img/animals/thumb/eastern-wild-turkey.jpg",
+  "full": "./img/animals/full/eastern-wild-turkey.jpg",
+  "by": "Evan Feusi",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/630710671"
+ },
+ "Eurasian Lynx": {
+  "u": "./img/animals/thumb/eurasian-lynx.jpg",
+  "full": "./img/animals/full/eurasian-lynx.jpg",
+  "by": "Nils",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/182958656"
+ },
+ "Eurasian Pine Marten": {
+  "u": "./img/animals/thumb/eurasian-pine-marten.jpg",
+  "full": "./img/animals/full/eurasian-pine-marten.jpg",
+  "by": "Alfie Felton",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/417368336"
+ },
+ "Eurasian Teal": {
+  "u": "./img/animals/thumb/eurasian-teal.jpg",
+  "full": "./img/animals/full/eurasian-teal.jpg",
+  "by": "Лариса Артемьева",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/605622653"
+ },
+ "Eurasian Wigeon": {
+  "u": "./img/animals/thumb/eurasian-wigeon.jpg",
+  "full": "./img/animals/full/eurasian-wigeon.jpg",
+  "by": "Steph Brulot-Sawchyn",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/604662571"
+ },
+ "Eurasian Woodcock": {
+  "u": "./img/animals/thumb/eurasian-woodcock.jpg",
+  "full": "./img/animals/full/eurasian-woodcock.jpg",
+  "by": "Лариса Артемьева",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/296119760"
+ },
+ "European Badger": {
+  "u": "./img/animals/thumb/european-badger.jpg",
+  "full": "./img/animals/full/european-badger.jpg",
+  "by": "Katie Harrison",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/480926500"
+ },
+ "European Bison": {
+  "u": "./img/animals/thumb/european-bison.jpg",
+  "full": "./img/animals/full/european-bison.jpg",
+  "by": "Mark Gurney",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/388896316"
+ },
+ "European Hare": {
+  "u": "./img/animals/thumb/european-hare.jpg",
+  "full": "./img/animals/full/european-hare.jpg",
+  "by": "Giorgio Zavattoni",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/608178314"
+ },
+ "European Rabbit": {
+  "u": "./img/animals/thumb/european-rabbit.jpg",
+  "full": "./img/animals/full/european-rabbit.jpg",
+  "by": "Elspeth Swan",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/608354971"
+ },
+ "Fallow Deer": {
+  "u": "./img/animals/thumb/fallow-deer.jpg",
+  "full": "./img/animals/full/fallow-deer.jpg",
+  "by": "Sim Elliott",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/609218254"
+ },
+ "Feral Goat": {
+  "u": "./img/animals/thumb/feral-goat.jpg",
+  "full": "./img/animals/full/feral-goat.jpg",
+  "by": "Julie Mount",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/624434128"
+ },
+ "Feral Pig": {
+  "u": "./img/animals/thumb/feral-pig.jpg",
+  "full": "./img/animals/full/feral-pig.jpg",
+  "by": "Anne Parsons",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/607317660"
+ },
+ "Ferruginous Duck": {
+  "u": "./img/animals/thumb/ferruginous-duck.jpg",
+  "full": "./img/animals/full/ferruginous-duck.jpg",
+  "by": "Лариса Артемьева",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/507233888"
+ },
+ "Gadwall": {
+  "u": "./img/animals/thumb/gadwall.jpg",
+  "full": "./img/animals/full/gadwall.jpg",
+  "by": "miked2000",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/604465260"
+ },
+ "Gemsbok": {
+  "u": "./img/animals/thumb/gemsbok.jpg",
+  "full": "./img/animals/full/gemsbok.jpg",
+  "by": "Nogga_Eugene",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/742210844"
+ },
+ "Goldeneye": {
+  "u": "./img/animals/thumb/goldeneye.jpg",
+  "full": "./img/animals/full/goldeneye.jpg",
+  "by": "Chuck Wilson",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/607079836"
+ },
+ "Grant Caribou": {
+  "u": "./img/animals/thumb/grant-caribou.jpg",
+  "full": "./img/animals/full/grant-caribou.jpg",
+  "by": "Suzanne Carriere",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/227345534"
+ },
+ "Gray Fox": {
+  "u": "./img/animals/thumb/gray-fox.jpg",
+  "full": "./img/animals/full/gray-fox.jpg",
+  "by": "Jo Roberts",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/669599944"
+ },
+ "Gray Wolf": {
+  "u": "./img/animals/thumb/gray-wolf.jpg",
+  "full": "./img/animals/full/gray-wolf.jpg",
+  "by": "Troy McConaghy",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/465778994"
+ },
+ "Greater Grison": {
+  "u": "./img/animals/thumb/greater-grison.jpg",
+  "full": "./img/animals/full/greater-grison.jpg",
+  "by": "Shawn O'Donnell",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/255134499"
+ },
+ "Gredos Ibex": {
+  "u": "./img/animals/thumb/gredos-ibex.jpg",
+  "full": "./img/animals/full/gredos-ibex.jpg",
+  "by": "Pennyinsole",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/605688690"
+ },
+ "Green-Winged Teal": {
+  "u": "./img/animals/thumb/green-winged-teal.jpg",
+  "full": "./img/animals/full/green-winged-teal.jpg",
+  "by": "Chuck Wilson",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/610075474"
+ },
+ "Greylag Goose": {
+  "u": "./img/animals/thumb/greylag-goose.jpg",
+  "full": "./img/animals/full/greylag-goose.jpg",
+  "by": "Jason Thompson",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/604470082"
+ },
+ "Grizzly Bear": {
+  "u": "./img/animals/thumb/grizzly-bear.jpg",
+  "full": "./img/animals/full/grizzly-bear.jpg",
+  "by": "Meece Family",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/665047483"
+ },
+ "Harlequin Duck": {
+  "u": "./img/animals/thumb/harlequin-duck.jpg",
+  "full": "./img/animals/full/harlequin-duck.jpg",
+  "by": "Sean Haight",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/612484296"
+ },
+ "Hazel Grouse": {
+  "u": "./img/animals/thumb/hazel-grouse.jpg",
+  "full": "./img/animals/full/hazel-grouse.jpg",
+  "by": "Лариса Артемьева",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/692253378"
+ },
+ "Himalayan Tahr": {
+  "u": "./img/animals/thumb/himalayan-tahr.jpg",
+  "full": "./img/animals/full/himalayan-tahr.jpg",
+  "by": "Manuel R Popp",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/182097730"
+ },
+ "Hog Deer": {
+  "u": "./img/animals/thumb/hog-deer.jpg",
+  "full": "./img/animals/full/hog-deer.jpg",
+  "by": "Scott Edmunds",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/603944035"
+ },
+ "Iberian Mouflon": {
+  "u": "./img/animals/thumb/iberian-mouflon.jpg",
+  "full": "./img/animals/full/iberian-mouflon.jpg",
+  "by": "Raffaele Maiorano",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/95999371"
+ },
+ "Iberian Wolf": {
+  "u": "./img/animals/thumb/iberian-wolf.jpg",
+  "full": "./img/animals/full/iberian-wolf.jpg",
+  "by": "tonipons",
+  "lic": "CC BY-NC 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "link": "https://www.inaturalist.org/photos/611677499"
+ },
+ "Jaguar": {
+  "u": "./img/animals/thumb/jaguar.jpg",
+  "full": "./img/animals/full/jaguar.jpg",
+  "by": "TheMongrelKoi",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/551119323"
+ },
+ "Javan Rusa": {
+  "u": "./img/animals/thumb/javan-rusa.jpg",
+  "full": "./img/animals/full/javan-rusa.jpg",
+  "by": "Светлана Царахова",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/666299267"
+ },
+ "Lesser Kudu": {
+  "u": "./img/animals/thumb/lesser-kudu.jpg",
+  "full": "./img/animals/full/lesser-kudu.jpg",
+  "by": "Simon Tonge",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/11842388"
+ },
+ "Lion": {
+  "u": "./img/animals/thumb/lion.jpg",
+  "full": "./img/animals/full/lion.jpg",
+  "by": "Sri Srikumar",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/682496478"
+ },
+ "Magpie Goose": {
+  "u": "./img/animals/thumb/magpie-goose.jpg",
+  "full": "./img/animals/full/magpie-goose.jpg",
+  "by": "Stuart",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/612891821"
+ },
+ "Mallard": {
+  "u": "./img/animals/thumb/mallard.jpg",
+  "full": "./img/animals/full/mallard.jpg",
+  "by": "aberkov",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/605484963"
+ },
+ "Manitoban Elk": {
+  "u": "./img/animals/thumb/manitoban-elk.jpg",
+  "full": "./img/animals/full/manitoban-elk.jpg",
+  "by": "Jen",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/680574910"
+ },
+ "Merriam Turkey": {
+  "u": "./img/animals/thumb/merriam-turkey.jpg",
+  "full": "./img/animals/full/merriam-turkey.jpg",
+  "by": "lightbed",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/515627799"
+ },
+ "Mexican Bobcat": {
+  "u": "./img/animals/thumb/mexican-bobcat.jpg",
+  "full": "./img/animals/full/mexican-bobcat.jpg",
+  "by": "Elin Pierce",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/664467505"
+ },
+ "Moose": {
+  "u": "./img/animals/thumb/moose.jpg",
+  "full": "./img/animals/full/moose.jpg",
+  "by": "Carter Dorscht",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/664421086"
+ },
+ "Mountain Goat": {
+  "u": "./img/animals/thumb/mountain-goat.jpg",
+  "full": "./img/animals/full/mountain-goat.jpg",
+  "by": "Ben Keen",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/641186741"
+ },
+ "Mountain Hare": {
+  "u": "./img/animals/thumb/mountain-hare.jpg",
+  "full": "./img/animals/full/mountain-hare.jpg",
+  "by": "Tero Linjama",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/668410842"
+ },
+ "Mountain Reindeer": {
+  "u": "./img/animals/thumb/mountain-reindeer.jpg",
+  "full": "./img/animals/full/mountain-reindeer.jpg",
+  "by": "Felix Meyer",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/728994971"
+ },
+ "Mule Deer": {
+  "u": "./img/animals/thumb/mule-deer.jpg",
+  "full": "./img/animals/full/mule-deer.jpg",
+  "by": "GLENN GARDNER",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/626402120"
+ },
+ "Nilgai": {
+  "u": "./img/animals/thumb/nilgai.jpg",
+  "full": "./img/animals/full/nilgai.jpg",
+  "by": "Mike Prince",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/110836791"
+ },
+ "North American Beaver": {
+  "u": "./img/animals/thumb/north-american-beaver.jpg",
+  "full": "./img/animals/full/north-american-beaver.jpg",
+  "by": "Jeff Davis",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/604775120"
+ },
+ "Northern Pintail": {
+  "u": "./img/animals/thumb/northern-pintail.jpg",
+  "full": "./img/animals/full/northern-pintail.jpg",
+  "by": "scaup",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/605222676"
+ },
+ "Northern Red Muntjac": {
+  "u": "./img/animals/thumb/northern-red-muntjac.jpg",
+  "full": "./img/animals/full/northern-red-muntjac.jpg",
+  "by": "Darren Obbard",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/624663757"
+ },
+ "Ocelot": {
+  "u": "./img/animals/thumb/ocelot.jpg",
+  "full": "./img/animals/full/ocelot.jpg",
+  "by": "Darren Obbard",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/428605623"
+ },
+ "Plains Bison": {
+  "u": "./img/animals/thumb/plains-bison.jpg",
+  "full": "./img/animals/full/plains-bison.jpg",
+  "by": "Bob Walker",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/626479482"
+ },
+ "Pronghorn": {
+  "u": "./img/animals/thumb/pronghorn.jpg",
+  "full": "./img/animals/full/pronghorn.jpg",
+  "by": "scott_young",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/693709929"
+ },
+ "Puma": {
+  "u": "./img/animals/thumb/puma.jpg",
+  "full": "./img/animals/full/puma.jpg",
+  "by": "Kathryn Hulick",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/617038619"
+ },
+ "Raccoon Dog": {
+  "u": "./img/animals/thumb/raccoon-dog.jpg",
+  "full": "./img/animals/full/raccoon-dog.jpg",
+  "by": "Ксения Волянская",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/225637857"
+ },
+ "Red Deer": {
+  "u": "./img/animals/thumb/red-deer.jpg",
+  "full": "./img/animals/full/red-deer.jpg",
+  "by": "Piermario Maculan",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/620321943"
+ },
+ "Red Fox": {
+  "u": "./img/animals/thumb/red-fox.jpg",
+  "full": "./img/animals/full/red-fox.jpg",
+  "by": "Roseanna Denton",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/604870275"
+ },
+ "Red Grouse": {
+  "u": "./img/animals/thumb/red-grouse.jpg",
+  "full": "./img/animals/full/red-grouse.jpg",
+  "by": "Henggang Cui",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/651453560"
+ },
+ "Ring-Necked Pheasant": {
+  "u": "./img/animals/thumb/ring-necked-pheasant.jpg",
+  "full": "./img/animals/full/ring-necked-pheasant.jpg",
+  "by": "observe-syz",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/608086465"
+ },
+ "Rio Grande Turkey": {
+  "u": "./img/animals/thumb/rio-grande-turkey.jpg",
+  "full": "./img/animals/full/rio-grande-turkey.jpg",
+  "by": "The Vertebrate Pokédex",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/502407979"
+ },
+ "Rock Ptarmigan": {
+  "u": "./img/animals/thumb/rock-ptarmigan.jpg",
+  "full": "./img/animals/full/rock-ptarmigan.jpg",
+  "by": "North Ross",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/689204303"
+ },
+ "Rocky Mountain Bighorn Sheep": {
+  "u": "./img/animals/thumb/rocky-mountain-bighorn-sheep.jpg",
+  "full": "./img/animals/full/rocky-mountain-bighorn-sheep.jpg",
+  "by": "kevin_orca",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/605111929"
+ },
+ "Rocky Mountain Elk": {
+  "u": "./img/animals/thumb/rocky-mountain-elk.jpg",
+  "full": "./img/animals/full/rocky-mountain-elk.jpg",
+  "by": "Jen",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/680573677"
+ },
+ "Roe Deer": {
+  "u": "./img/animals/thumb/roe-deer.jpg",
+  "full": "./img/animals/full/roe-deer.jpg",
+  "by": "Rob Acton-Campbell",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/609944869"
+ },
+ "Ronda Ibex": {
+  "u": "./img/animals/thumb/ronda-ibex.jpg",
+  "full": "./img/animals/full/ronda-ibex.jpg",
+  "by": "Lukas Schärer",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/640915848"
+ },
+ "Roosevelt Elk": {
+  "u": "./img/animals/thumb/roosevelt-elk.jpg",
+  "full": "./img/animals/full/roosevelt-elk.jpg",
+  "by": "Kat",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/616712938"
+ },
+ "Saltwater Crocodile": {
+  "u": "./img/animals/thumb/saltwater-crocodile.jpg",
+  "full": "./img/animals/full/saltwater-crocodile.jpg",
+  "by": "Jean-Paul Boerekamps",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/538861145"
+ },
+ "Sambar": {
+  "u": "./img/animals/thumb/sambar.jpg",
+  "full": "./img/animals/full/sambar.jpg",
+  "by": "Darren Obbard",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/624943544"
+ },
+ "Scrub Hare": {
+  "u": "./img/animals/thumb/scrub-hare.jpg",
+  "full": "./img/animals/full/scrub-hare.jpg",
+  "by": "Darren Obbard",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/720328153"
+ },
+ "Siberian Musk Deer": {
+  "u": "./img/animals/thumb/siberian-musk-deer.jpg",
+  "full": "./img/animals/full/siberian-musk-deer.jpg",
+  "by": "krunku",
+  "lic": "CC BY-NC 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "link": "https://www.inaturalist.org/photos/529393298"
+ },
+ "Side-Striped Jackal": {
+  "u": "./img/animals/thumb/side-striped-jackal.jpg",
+  "full": "./img/animals/full/side-striped-jackal.jpg",
+  "by": "agujaceratops",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/230678793"
+ },
+ "Sika Deer": {
+  "u": "./img/animals/thumb/sika-deer.jpg",
+  "full": "./img/animals/full/sika-deer.jpg",
+  "by": "Simon Tonge",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/631907452"
+ },
+ "Snow Goose": {
+  "u": "./img/animals/thumb/snow-goose.jpg",
+  "full": "./img/animals/full/snow-goose.jpg",
+  "by": "Ingo Renner",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/607523148"
+ },
+ "Snow Leopard": {
+  "u": "./img/animals/thumb/snow-leopard.jpg",
+  "full": "./img/animals/full/snow-leopard.jpg",
+  "by": "Phunchok Tsering",
+  "lic": "CC BY-NC 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "link": "https://www.inaturalist.org/photos/682558982"
+ },
+ "South American Tapir": {
+  "u": "./img/animals/thumb/south-american-tapir.jpg",
+  "full": "./img/animals/full/south-american-tapir.jpg",
+  "by": "Christian Ledergerber",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/699430477"
+ },
+ "Southeastern Spanish Ibex": {
+  "u": "./img/animals/thumb/southeastern-spanish-ibex.jpg",
+  "full": "./img/animals/full/southeastern-spanish-ibex.jpg",
+  "by": "Paul Bernstorff Ehrman",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/484465467"
+ },
+ "Spectacled Bear": {
+  "u": "./img/animals/thumb/spectacled-bear.jpg",
+  "full": "./img/animals/full/spectacled-bear.jpg",
+  "by": "Naturalist Tours",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/227143102"
+ },
+ "Springbok": {
+  "u": "./img/animals/thumb/springbok.jpg",
+  "full": "./img/animals/full/springbok.jpg",
+  "by": "Darren Obbard",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/727055924"
+ },
+ "Stubble Quail": {
+  "u": "./img/animals/thumb/stubble-quail.jpg",
+  "full": "./img/animals/full/stubble-quail.jpg",
+  "by": "John Cull",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/172134940"
+ },
+ "Taruca": {
+  "u": "./img/animals/thumb/taruca.jpg",
+  "full": "./img/animals/full/taruca.jpg",
+  "by": "Daniel Martínez-Piña",
+  "lic": "CC BY-NC 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "link": "https://www.inaturalist.org/photos/649634801"
+ },
+ "Tibetan Fox": {
+  "u": "./img/animals/thumb/tibetan-fox.jpg",
+  "full": "./img/animals/full/tibetan-fox.jpg",
+  "by": "steve b",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/520230869"
+ },
+ "Tufted Duck": {
+  "u": "./img/animals/thumb/tufted-duck.jpg",
+  "full": "./img/animals/full/tufted-duck.jpg",
+  "by": "Jason Thompson",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/607674436"
+ },
+ "Tundra Bean Goose": {
+  "u": "./img/animals/thumb/tundra-bean-goose.jpg",
+  "full": "./img/animals/full/tundra-bean-goose.jpg",
+  "by": "Лариса Артемьева",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/646566839"
+ },
+ "Vicuña": {
+  "u": "./img/animals/thumb/vicuna.jpg",
+  "full": "./img/animals/full/vicuna.jpg",
+  "by": "Allan Harris",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/353408184"
+ },
+ "Warthog": {
+  "u": "./img/animals/thumb/warthog.jpg",
+  "full": "./img/animals/full/warthog.jpg",
+  "by": "dune_ninja",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/608578823"
+ },
+ "Water Buffalo": {
+  "u": "./img/animals/thumb/water-buffalo.jpg",
+  "full": "./img/animals/full/water-buffalo.jpg",
+  "by": "Светлана Царахова",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/666299363"
+ },
+ "Western Capercaillie": {
+  "u": "./img/animals/thumb/western-capercaillie.jpg",
+  "full": "./img/animals/full/western-capercaillie.jpg",
+  "by": "Лариса Артемьева",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/240557243"
+ },
+ "Western Mountain Coati": {
+  "u": "./img/animals/thumb/western-mountain-coati.jpg",
+  "full": "./img/animals/full/western-mountain-coati.jpg",
+  "by": "russnamitz",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/352815131"
+ },
+ "White-Tailed Jackrabbit": {
+  "u": "./img/animals/thumb/white-tailed-jackrabbit.jpg",
+  "full": "./img/animals/full/white-tailed-jackrabbit.jpg",
+  "by": "Kallum McDonald",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/636329577"
+ },
+ "Whitetail Deer": {
+  "u": "./img/animals/thumb/whitetail-deer.jpg",
+  "full": "./img/animals/full/whitetail-deer.jpg",
+  "by": "Ryan",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/605433244"
+ },
+ "Wild Boar": {
+  "u": "./img/animals/thumb/wild-boar.jpg",
+  "full": "./img/animals/full/wild-boar.jpg",
+  "by": "Joe Carmichael",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/669755984"
+ },
+ "Wild Hog": {
+  "u": "./img/animals/thumb/wild-hog.jpg",
+  "full": "./img/animals/full/wild-hog.jpg",
+  "by": "Anne Parsons",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/607316264"
+ },
+ "Wild Yak": {
+  "u": "./img/animals/thumb/wild-yak.jpg",
+  "full": "./img/animals/full/wild-yak.jpg",
+  "by": "管牧山",
+  "lic": "CC BY-NC 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "link": "https://www.inaturalist.org/photos/691179477"
+ },
+ "Willow Ptarmigan": {
+  "u": "./img/animals/thumb/willow-ptarmigan.jpg",
+  "full": "./img/animals/full/willow-ptarmigan.jpg",
+  "by": "Rebekka Weber",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/658431450"
+ },
+ "Wood Bison": {
+  "u": "./img/animals/thumb/wood-bison.jpg",
+  "full": "./img/animals/full/wood-bison.jpg",
+  "by": "Jen",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/691739430"
+ },
+ "Wood Duck": {
+  "u": "./img/animals/thumb/wood-duck.jpg",
+  "full": "./img/animals/full/wood-duck.jpg",
+  "by": "Ethan Schovanek",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/608512935"
+ },
+ "Woodland Caribou": {
+  "u": "./img/animals/thumb/woodland-caribou.jpg",
+  "full": "./img/animals/full/woodland-caribou.jpg",
+  "by": "William C. McKnight",
+  "lic": "CC BY 4.0",
+  "licUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "link": "https://www.inaturalist.org/photos/512258922"
+ },
+ "Woolly Hare": {
+  "u": "./img/animals/thumb/woolly-hare.jpg",
+  "full": "./img/animals/full/woolly-hare.jpg",
+  "by": "Simon Tonge",
+  "lic": "CC0 1.0",
+  "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "link": "https://www.inaturalist.org/photos/576528603"
+ }
+}

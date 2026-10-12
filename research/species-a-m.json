@@ -1,0 +1,5197 @@
+{
+  "sources": [
+    {
+      "url": "https://cotwguide.com/en/animals/",
+      "title": "CoTW Guide - Animals (per-species pages: class, difficulty, max level, max weight, silver/gold/diamond, max score, reserves, latin name)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "title": "Steam guide: Animal Class and Ammo Type Integrity Chart (Pistol Pete) - per-map class, integrity ammo, silver/gold/diamond; page shows a removed-from-community notice",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+      "title": "gameslikefinder: theHunter Call of the Wild rare fur types list (updated 2026-06-24)",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "American Alligator": {
+    "name": "American Alligator",
+    "latin": "Alligator mississippiensis",
+    "class": 7,
+    "difficulty": "Hard",
+    "maxLevel": 9,
+    "maxWeightKg": 530,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 226,
+      "gold": 378,
+      "diamond": 492,
+      "max": 530
+    },
+    "reserves": [
+      "Mississippi Acres Preserve"
+    ],
+    "furs": [
+      {
+        "name": "Olive",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".270",
+      ".30-06",
+      ".300",
+      ".303",
+      ".308",
+      ".338",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "420g",
+      "540g",
+      "600g"
+    ],
+    "about": "Class 7, hard difficulty animal with a max level of 9 and a max weight of 530 kg. Found in: Mississippi Acres Preserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide and the Steam chart give the same thresholds (226/378/492, max 530) for both American Alligator and Eastern Gray Kangaroo; one of them is probably copied. Treat as unverified. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Mississippi Acres; level 2-9, class 7) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/americanalligator/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "American Mink": {
+    "name": "American Mink",
+    "latin": "Neogale vison",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 5,
+    "maxWeightKg": 1.6,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 88,
+      "gold": 124,
+      "diamond": 151,
+      "max": null
+    },
+    "reserves": [
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Chestnut",
+        "rarity": "Common"
+      },
+      {
+        "name": "Black",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Silver",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 5 and a max weight of 1.6 kg. Found in: Tòrr nan Sìthean Hunting Estate.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide trophy thresholds 88/124/151 are identical to Dusky Grouse; possibly a copy error. cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Torr nan Sithean; level 1-5, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/americanmink/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Antelope Jackrabbit": {
+    "name": "Antelope Jackrabbit",
+    "latin": "Lepus alleni",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 4.7,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 2.88,
+      "gold": 4.85,
+      "diamond": 6.33,
+      "max": 6.8
+    },
+    "reserves": [
+      "Rancho del Arroyo"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mottled",
+        "rarity": "Common"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 4.7 kg. Found in: Rancho del Arroyo.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide max weight 4.7 kg but max score 6.8; the Steam chart lists max weight 6.8 kg. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Rancho Del Arroyo; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/antelopejackrabbit/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Axis Deer": {
+    "name": "Axis Deer",
+    "latin": "Axis axis",
+    "class": 3,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 75,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 72.83,
+      "gold": 155.38,
+      "diamond": 217.29,
+      "max": 240
+    },
+    "reserves": [
+      "Emerald Coast Australia",
+      "Parque Fernando"
+    ],
+    "furs": [
+      {
+        "name": "Spotted",
+        "rarity": "Common"
+      },
+      {
+        "name": "Orange (F)",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Dark (M)",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".30-30",
+      ".357",
+      ".44",
+      ".45",
+      "7.62x54R",
+      "10mm",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 3, average difficulty animal with a max level of 5 and a max weight of 75 kg. Found in: Emerald Coast Australia, Parque Fernando.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Emerald Coast / Parque Fernando; level 1-5, class 3) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/axisdeer/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Banteng": {
+    "name": "Banteng",
+    "latin": "Bos javanicus",
+    "class": 9,
+    "difficulty": "Hard",
+    "maxLevel": 5,
+    "maxWeightKg": 800,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 71.77,
+      "gold": 109.04,
+      "diamond": 137,
+      "max": 150
+    },
+    "reserves": [
+      "Emerald Coast Australia"
+    ],
+    "furs": [
+      {
+        "name": "Orange",
+        "rarity": "Common"
+      },
+      {
+        "name": "Black",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mocha",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Brown",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".300",
+      ".338",
+      ".454",
+      ".45-70",
+      ".470",
+      "7mm",
+      "9.3x74R",
+      "600g",
+      "700g"
+    ],
+    "about": "Class 9, hard difficulty animal with a max level of 5 and a max weight of 800 kg. Found in: Emerald Coast Australia.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Emerald Coast; level 1-5, class 9) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/banteng/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Barasingha": {
+    "name": "Barasingha",
+    "latin": "Rucervus duvaucelii duvaucelii",
+    "class": 6,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 280,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 95.88,
+      "gold": 170.26,
+      "diamond": 226.05,
+      "max": 226.05
+    },
+    "reserves": [
+      "Sundarpatan Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Red",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Red",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 6, average difficulty animal with a max level of 5 and a max weight of 280 kg. Found in: Sundarpatan Hunting Reserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide gives a maximum score of 226.05, the same as the diamond minimum; may be a placeholder. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Sundarpatan; level 1-5, class 6) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/barasingha/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Beceite Ibex": {
+    "name": "Beceite Ibex",
+    "latin": "Capra pyrenaica hispanica",
+    "class": 4,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 110,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 78.01,
+      "gold": 142.93,
+      "diamond": 191.63,
+      "max": 201
+    },
+    "reserves": [
+      "Cuatro Colinas"
+    ],
+    "furs": [
+      {
+        "name": "Brown Hybrid (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey Brown (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Orange (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Buff (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4, average difficulty animal with a max level of 5 and a max weight of 110 kg. Found in: Cuatro Colinas.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Cuatro Colinas; level 1-5, class 4) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/beceiteibex/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Bengal Tiger": {
+    "name": "Bengal Tiger",
+    "latin": "Panthera tigris tigris",
+    "class": 9,
+    "difficulty": "Very hard",
+    "maxLevel": 9,
+    "maxWeightKg": 324,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 36,
+      "gold": 48,
+      "diamond": 57,
+      "max": null
+    },
+    "reserves": [
+      "Sundarpatan Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Orange",
+        "rarity": "Common"
+      },
+      {
+        "name": "White Stripeless",
+        "rarity": "Rare"
+      },
+      {
+        "name": "White",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Pseudo Melanistic White",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Pseudo Melanistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Gold",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".300",
+      ".338",
+      ".454",
+      ".45-70",
+      ".470",
+      "7mm",
+      "9.3x74R",
+      "600g",
+      "700g"
+    ],
+    "about": "Class 9, very hard difficulty animal with a max level of 9 and a max weight of 324 kg. Found in: Sundarpatan Hunting Reserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide prints the maximum score as '57?' (same as the diamond minimum), so max is set to null. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Sundarpatan; level 1-9, class 9) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/bengaltiger/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Black Bear": {
+    "name": "Black Bear",
+    "latin": "Ursus americanus",
+    "class": 7,
+    "difficulty": "Hard",
+    "maxLevel": 9,
+    "maxWeightKg": 290,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 14.4,
+      "gold": 19.2,
+      "diamond": 22.8,
+      "max": 24
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve",
+      "Layton Lake District",
+      "Mississippi Acres Preserve",
+      "New England Mountains",
+      "Silver Ridge Peaks"
+    ],
+    "furs": [
+      {
+        "name": "Black",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dusky",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark",
+        "rarity": "Common"
+      },
+      {
+        "name": "Cinnamon",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Brown",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Blonde",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Chestnut (Great One)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Glacier (Great One)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Spirit (Great One)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Spotted (Great One)",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": true,
+    "integrityAmmo": [
+      ".270",
+      ".30-06",
+      ".300",
+      ".303",
+      ".308",
+      ".338",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "420g",
+      "540g",
+      "600g"
+    ],
+    "about": "Class 7, hard difficulty animal with a max level of 9 and a max weight of 290 kg. Found in: Askiy Ridge Hunting Preserve, Layton Lake District, Mississippi Acres Preserve, New England Mountains, Silver Ridge Peaks. Has a Great One (Fabled, level 10).",
+    "notes": "cotwguide lists max level '9 Legendary or 10 Fabled', max weight '290 Kg/409 Kg' and max score '24/28'; the second values are the Great One. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Askiy Ridge / Layton Lake; level 1-9, class 7) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/blackbear/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Black Caiman": {
+    "name": "Black Caiman",
+    "latin": "Melanosuchus niger",
+    "class": 7,
+    "difficulty": "Hard",
+    "maxLevel": 9,
+    "maxWeightKg": 500,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 244,
+      "gold": 372,
+      "diamond": 468,
+      "max": null
+    },
+    "reserves": [
+      "Intisuyu Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Dark Green",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".270",
+      ".30-06",
+      ".300",
+      ".303",
+      ".308",
+      ".338",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "420g",
+      "540g",
+      "600g"
+    ],
+    "about": "Class 7, hard difficulty animal with a max level of 9 and a max weight of 500 kg. Found in: Intisuyu Hunting Reserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Intisuyu; level 1-9, class 7) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/blackcaiman/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Black Grouse": {
+    "name": "Black Grouse",
+    "latin": "Lyrurus tetrix",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 1.25,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 85,
+      "gold": 105,
+      "diamond": 120,
+      "max": 125
+    },
+    "reserves": [
+      "Revontuli Coast",
+      "Salzwiesen Park",
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Brown (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark",
+        "rarity": "Common"
+      },
+      {
+        "name": "Orange (F)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Gold (F)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 1.25 kg. Found in: Revontuli Coast, Salzwiesen Park, Tòrr nan Sìthean Hunting Estate.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in units of 10 g (max 125 for a 1.25 kg bird). Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 1250g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/blackgrouse/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Blackbuck": {
+    "name": "Blackbuck",
+    "latin": "Antilope cervicapra",
+    "class": 3,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 51,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 71.8,
+      "gold": 106.3,
+      "diamond": 132.2,
+      "max": 140
+    },
+    "reserves": [
+      "Parque Fernando",
+      "Sundarpatan Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Beige (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Beige (M)",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".30-30",
+      ".357",
+      ".44",
+      ".45",
+      "7.62x54R",
+      "10mm",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 3, average difficulty animal with a max level of 5 and a max weight of 51 kg. Found in: Parque Fernando, Sundarpatan Hunting Reserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Parque Fernando / Sundarpatan; level 1-5, class 3) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/blackbuck/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Blacktail Deer": {
+    "name": "Blacktail Deer",
+    "latin": "Odocoileus hemionus",
+    "class": 4,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 95,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 76.9,
+      "gold": 134.4,
+      "diamond": 177.5,
+      "max": 230
+    },
+    "reserves": [
+      "Layton Lake District"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4, average difficulty animal with a max level of 5 and a max weight of 95 kg. Found in: Layton Lake District.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Layton Lake; level 1-5, class 4) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/blacktaildeer/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Blue Sheep": {
+    "name": "Blue Sheep",
+    "latin": "Pseudois nayaur",
+    "class": 4,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 75,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 67.37,
+      "gold": 116.92,
+      "diamond": 154.08,
+      "max": null
+    },
+    "reserves": [
+      "Sundarpatan Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Slate Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Yellow",
+        "rarity": "Common"
+      },
+      {
+        "name": "Blue Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4, average difficulty animal with a max level of 5 and a max weight of 75 kg. Found in: Sundarpatan Hunting Reserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide prints the maximum score as '154.08?' (same as the diamond minimum), so max is set to null. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Sundarpatan; level 1-5, class 4) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/bluesheep/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Blue Wildebeest": {
+    "name": "Blue Wildebeest",
+    "latin": "Connochaetes taurinus",
+    "class": 6,
+    "difficulty": "Hard",
+    "maxLevel": 5,
+    "maxWeightKg": 290,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 21.6,
+      "gold": 30.8,
+      "diamond": 37.6,
+      "max": 40
+    },
+    "reserves": [
+      "Vurhonga Savanna"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Gold (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Crowned (F)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 6, hard difficulty animal with a max level of 5 and a max weight of 290 kg. Found in: Vurhonga Savanna.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Vurhonga Savanna; level 1-5, class 6) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/bluewildebeest/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Bobcat": {
+    "name": "Bobcat",
+    "latin": "Lynx rufus rufus",
+    "class": 2,
+    "difficulty": "Hard",
+    "maxLevel": 9,
+    "maxWeightKg": 20,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 18.5,
+      "gold": 23.7,
+      "diamond": 27.6,
+      "max": 29
+    },
+    "reserves": [
+      "New England Mountains"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Red",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Tan",
+        "rarity": "Common"
+      },
+      {
+        "name": "Blue",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".22H",
+      ".243",
+      ".30-30",
+      ".357",
+      ".45",
+      "10mm",
+      "300g",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 2, hard difficulty animal with a max level of 9 and a max weight of 20 kg. Found in: New England Mountains.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide max weight 20 kg; the Steam chart lists 45 kg (same as Eurasian Lynx, likely copied). Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (New England Mountains; level 1-9, class 2) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/bobcat/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Bobwhite Quail": {
+    "name": "Bobwhite Quail",
+    "latin": "Colinus virginianus",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 0.25,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 154,
+      "gold": 202,
+      "diamond": 238,
+      "max": 250
+    },
+    "reserves": [
+      "Mississippi Acres Preserve",
+      "New England Mountains"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Red Brown (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 0.25 kg. Found in: Mississippi Acres Preserve, New England Mountains.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in grams (max 250 for a 0.25 kg bird). The Steam chart gives 159/217/260.5 instead; its 154/202/238 row belongs to Stubble Quail, so cotwguide may have the Stubble Quail values. Unverified. cotwguide spells the latin name 'Colinius virginianus'. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Mississippi Acres; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/bobwhitequail/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Brown Bear": {
+    "name": "Brown Bear",
+    "latin": "Ursus arctos",
+    "class": 7,
+    "difficulty": "Hard",
+    "maxLevel": 9,
+    "maxWeightKg": 482,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 18.6,
+      "gold": 23.7,
+      "diamond": 27.7,
+      "max": 29
+    },
+    "reserves": [
+      "Medved-Taiga National Park",
+      "Revontuli Coast"
+    ],
+    "furs": [
+      {
+        "name": "Cinnamon",
+        "rarity": "Common"
+      },
+      {
+        "name": "Red Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Gold",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Blonde",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Spirit",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".270",
+      ".30-06",
+      ".300",
+      ".303",
+      ".308",
+      ".338",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "420g",
+      "540g",
+      "600g"
+    ],
+    "about": "Class 7, hard difficulty animal with a max level of 9 and a max weight of 482 kg. Found in: Medved-Taiga National Park, Revontuli Coast.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Medved-Taiga / Revontuli Coast; level 1-9, class 7) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/brownbear/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Canada Goose": {
+    "name": "Canada Goose",
+    "latin": "Branta canadensis",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 5,
+    "maxWeightKg": 9.2,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 4.4,
+      "gold": 6.8,
+      "diamond": 8.5,
+      "max": 9.2
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve",
+      "Hirschfelden",
+      "Revontuli Coast",
+      "Yukon Valley Nature Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Grey Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Brown Hybrid",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Light Grey Leucistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "White Hybrid",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 5 and a max weight of 9.2 kg. Found in: Askiy Ridge Hunting Preserve, Hirschfelden, Revontuli Coast, Yukon Valley Nature Reserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Askiy Ridge (as 'Canadian Goose'); level 1-5, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/canadagoose/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Cape Buffalo": {
+    "name": "Cape Buffalo",
+    "latin": "Syncerus caffer",
+    "class": 9,
+    "difficulty": "Very hard",
+    "maxLevel": 9,
+    "maxWeightKg": 950,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 73.3,
+      "gold": 117.9,
+      "diamond": 151.3,
+      "max": 162.5
+    },
+    "reserves": [
+      "Vurhonga Savanna"
+    ],
+    "furs": [
+      {
+        "name": "Black",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".300",
+      ".338",
+      ".454",
+      ".45-70",
+      ".470",
+      "7mm",
+      "9.3x74R",
+      "600g",
+      "700g"
+    ],
+    "about": "Class 9, very hard difficulty animal with a max level of 9 and a max weight of 950 kg. Found in: Vurhonga Savanna.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Vurhonga Savanna; level 1-9, class 9) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/capebuffalo/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Capybara": {
+    "name": "Capybara",
+    "latin": "Hydrochoerus hydrochaeris",
+    "class": 4,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 70,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 42,
+      "gold": 56,
+      "diamond": 66.5,
+      "max": null
+    },
+    "reserves": [
+      "Intisuyu Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4, average difficulty animal with a max level of 5 and a max weight of 70 kg. Found in: Intisuyu Hunting Reserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Intisuyu; level 1-5, class 4) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/capybara/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Chamois": {
+    "name": "Chamois",
+    "latin": "Rupicapra rupicapra",
+    "class": 3,
+    "difficulty": "Hard",
+    "maxLevel": 5,
+    "maxWeightKg": 65,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 30.8,
+      "gold": 46.3,
+      "diamond": 58,
+      "max": 65
+    },
+    "reserves": [
+      "Te Awaroa National Park"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Honeytones",
+        "rarity": "Common"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".30-30",
+      ".357",
+      ".44",
+      ".45",
+      "7.62x54R",
+      "10mm",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 3, hard difficulty animal with a max level of 5 and a max weight of 65 kg. Found in: Te Awaroa National Park.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Te Awaroa; level 2-5, class 3) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/chamois/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Cinnamon Teal": {
+    "name": "Cinnamon Teal",
+    "latin": "Spatula cyanoptera",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 0.48,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 3.3,
+      "gold": 4,
+      "diamond": 4.6,
+      "max": 4.8
+    },
+    "reserves": [
+      "Intisuyu Hunting Reserve",
+      "Parque Fernando"
+    ],
+    "furs": [
+      {
+        "name": "Cinnamon",
+        "rarity": "Common"
+      },
+      {
+        "name": "Red",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald (M)",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Beige (F)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 0.48 kg. Found in: Intisuyu Hunting Reserve, Parque Fernando.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Steam chart gives 3.4/4.1/4.6. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Intisuyu / Parque Fernando; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/cinnamonteal/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Collared Peccary": {
+    "name": "Collared Peccary",
+    "latin": "Pecari tajacu",
+    "class": 3,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 31,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 37.5,
+      "gold": 98.5,
+      "diamond": 144.2,
+      "max": 159.5
+    },
+    "reserves": [
+      "Intisuyu Hunting Reserve",
+      "Parque Fernando",
+      "Rancho del Arroyo"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Ochre",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".30-30",
+      ".357",
+      ".44",
+      ".45",
+      "7.62x54R",
+      "10mm",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 3, average difficulty animal with a max level of 5 and a max weight of 31 kg. Found in: Intisuyu Hunting Reserve, Parque Fernando, Rancho del Arroyo.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Intisuyu / Rancho Del Arroyo; level 1-5, class 3) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/peccary/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Common Raccoon": {
+    "name": "Common Raccoon",
+    "latin": "Procyon lotor",
+    "class": 2,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 13,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 5,
+      "gold": 9,
+      "diamond": 12,
+      "max": 13
+    },
+    "reserves": [
+      "Mississippi Acres Preserve",
+      "New England Mountains",
+      "Salzwiesen Park"
+    ],
+    "furs": [
+      {
+        "name": "Blonde",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Blonde Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".22H",
+      ".243",
+      ".30-30",
+      ".357",
+      ".45",
+      "10mm",
+      "300g",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 2, average difficulty animal with a max level of 5 and a max weight of 13 kg. Found in: Mississippi Acres Preserve, New England Mountains, Salzwiesen Park.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Mississippi Acres; level 1-5, class 2) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/commonraccoon/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Coyote": {
+    "name": "Coyote",
+    "latin": "Canis latrans",
+    "class": 2,
+    "difficulty": "Easy",
+    "maxLevel": 9,
+    "maxWeightKg": 27,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 38.3,
+      "gold": 48.9,
+      "diamond": 56.8,
+      "max": 60
+    },
+    "reserves": [
+      "Layton Lake District",
+      "New England Mountains",
+      "Rancho del Arroyo"
+    ],
+    "furs": [
+      {
+        "name": "Grey Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Orange",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".22H",
+      ".243",
+      ".30-30",
+      ".357",
+      ".45",
+      "10mm",
+      "300g",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 2, easy difficulty animal with a max level of 9 and a max weight of 27 kg. Found in: Layton Lake District, New England Mountains, Rancho del Arroyo.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Layton Lake; level 1-9, class 2) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/coyote/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Desert Bighorn Sheep": {
+    "name": "Desert Bighorn Sheep",
+    "latin": "Ovis canadensis nelsoni",
+    "class": 5,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 160,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 84.1,
+      "gold": 148.57,
+      "diamond": 196.93,
+      "max": 180
+    },
+    "reserves": [
+      "Rancho del Arroyo"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Bronze",
+        "rarity": "Common"
+      },
+      {
+        "name": "Black",
+        "rarity": "Common"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "10mm",
+      "7.62x54R",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 5, average difficulty animal with a max level of 5 and a max weight of 160 kg. Found in: Rancho del Arroyo.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide diamond minimum (196.93) is above its stated maximum score (180), so one of the two is wrong. Steam lists this animal as 'Bighorn Sheep' under Rancho del Arroyo. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Rancho Del Arroyo (row labelled 'Bighorn Sheep'); level 1-5, class 5) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/desertbighornsheep/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Dusky Grouse": {
+    "name": "Dusky Grouse",
+    "latin": "Dendragapus obscurus",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 1.6,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 88,
+      "gold": 124,
+      "diamond": 151,
+      "max": null
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ],
+    "furs": [
+      {
+        "name": "Slate Gray (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Molting (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey Brown (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 1.6 kg. Found in: Askiy Ridge Hunting Preserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide trophy thresholds 88/124/151 are identical to American Mink; possibly a copy error. Steam chart gives max weight 2 kg vs cotwguide 1.6 kg. cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Askiy Ridge; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/duskygrouse/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Eastern Cottontail Rabbit": {
+    "name": "Eastern Cottontail Rabbit",
+    "latin": "Sylvilagus floridanus",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 2.1,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 1,
+      "gold": 1.5,
+      "diamond": 1.9,
+      "max": 2.1
+    },
+    "reserves": [
+      "Mississippi Acres Preserve",
+      "New England Mountains"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 2.1 kg. Found in: Mississippi Acres Preserve, New England Mountains.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide notes the max level as '3 Very Easy (female)'. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Mississippi Acres; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/easterncottontailrabbit/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Eastern Gray Kangaroo": {
+    "name": "Eastern Gray Kangaroo",
+    "latin": "Macropus giganteus",
+    "class": 4,
+    "difficulty": "Hard",
+    "maxLevel": 9,
+    "maxWeightKg": 66,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 226,
+      "gold": 378,
+      "diamond": 492,
+      "max": 530
+    },
+    "reserves": [
+      "Emerald Coast Australia"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4, hard difficulty animal with a max level of 9 and a max weight of 66 kg. Found in: Emerald Coast Australia.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Thresholds 226/378/492 (max 530) are identical to American Alligator on both cotwguide and the Steam chart, and the max score (530) is far above the 66 kg max weight. Probably a copy error; treat as unverified. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Emerald Coast; level 1-9, class 4) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/easterngraykangaroo/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Eastern Wild Turkey": {
+    "name": "Eastern Wild Turkey",
+    "latin": "Meleagris gallopavo",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 11,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 3.3,
+      "gold": 4,
+      "diamond": 4.6,
+      "max": 4.8
+    },
+    "reserves": [
+      "Mississippi Acres Preserve",
+      "New England Mountains"
+    ],
+    "furs": [
+      {
+        "name": "Bronze",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Bronze",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 11 kg. Found in: Mississippi Acres Preserve, New England Mountains.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. The Steam chart gives 2.5/3.7/4.6, which differ from cotwguide's 3.3/4/4.6. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Mississippi Acres; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/turkey/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Eurasian Lynx": {
+    "name": "Eurasian Lynx",
+    "latin": "Lynx lynx",
+    "class": 3,
+    "difficulty": "Hard",
+    "maxLevel": 9,
+    "maxWeightKg": 45,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 18.5,
+      "gold": 23.7,
+      "diamond": 27.6,
+      "max": 29
+    },
+    "reserves": [
+      "Medved-Taiga National Park",
+      "Revontuli Coast"
+    ],
+    "furs": [
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".30-30",
+      ".357",
+      ".44",
+      ".45",
+      "7.62x54R",
+      "10mm",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 3, hard difficulty animal with a max level of 9 and a max weight of 45 kg. Found in: Medved-Taiga National Park, Revontuli Coast.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Medved-Taiga; level 1-9, class 3) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/eurasianlynx/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Eurasian Pine Marten": {
+    "name": "Eurasian Pine Marten",
+    "latin": "Martes martes",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 5,
+    "maxWeightKg": 2.2,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 124,
+      "gold": 172,
+      "diamond": 208,
+      "max": null
+    },
+    "reserves": [
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Black",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Tawny",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 5 and a max weight of 2.2 kg. Found in: Tòrr nan Sìthean Hunting Estate.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores (124/172/208) are on a different scale from the 2.2 kg max weight; units unclear. cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Torr nan Sithean; level 1-5, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/eurasianpinemarten/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Eurasian Teal": {
+    "name": "Eurasian Teal",
+    "latin": "Anas crecca",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 0.36,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 312,
+      "gold": 336,
+      "diamond": 354,
+      "max": 360
+    },
+    "reserves": [
+      "Revontuli Coast",
+      "Salzwiesen Park"
+    ],
+    "furs": [
+      {
+        "name": "Light Green",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Green",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Hybrid Green (M)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Hybrid Blue (M)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 0.36 kg. Found in: Revontuli Coast, Salzwiesen Park.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in grams (max 360 for a 0.36 kg bird). Steam lists max weight 400 g. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 400g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/eurasianteal/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Eurasian Wigeon": {
+    "name": "Eurasian Wigeon",
+    "latin": "Mareca penelope",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 0.95,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 590,
+      "gold": 770,
+      "diamond": 905,
+      "max": 950
+    },
+    "reserves": [
+      "Revontuli Coast",
+      "Salzwiesen Park",
+      "Tòrr nan Sìthean Hunting Estate",
+      "Vurhonga Savanna"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark (F)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Eclipse (M)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Hybrid (M)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 0.95 kg. Found in: Revontuli Coast, Salzwiesen Park, Tòrr nan Sìthean Hunting Estate, Vurhonga Savanna.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in grams (max 950 for a 0.95 kg bird). Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 920g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/eurasianwigeon/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Eurasian Woodcock": {
+    "name": "Eurasian Woodcock",
+    "latin": "Scolopax rusticola",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 0.25,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 25.84,
+      "gold": 34.52,
+      "diamond": 41.03,
+      "max": null
+    },
+    "reserves": [
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 0.25 kg. Found in: Tòrr nan Sìthean Hunting Estate.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores (25.84/34.52/41.03) are on a different scale from the 0.25 kg max weight; units unclear. cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Torr nan Sithean; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/eurasianwoodcock/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "European Badger": {
+    "name": "European Badger",
+    "latin": "Meles meles",
+    "class": 2,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 17,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 9,
+      "gold": 13,
+      "diamond": 16,
+      "max": null
+    },
+    "reserves": [
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Dark Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dilute",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Erythristic Red",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".22H",
+      ".243",
+      ".30-30",
+      ".357",
+      ".45",
+      "10mm",
+      "300g",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 2, average difficulty animal with a max level of 5 and a max weight of 17 kg. Found in: Tòrr nan Sìthean Hunting Estate.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide max weight 17 kg; the Steam chart gives 12.83 kg. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Torr nan Sithean; level 1-5, class 2) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/europeanbadger/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "European Bison": {
+    "name": "European Bison",
+    "latin": "Bison bonasus",
+    "class": 9,
+    "difficulty": "Very hard",
+    "maxLevel": 5,
+    "maxWeightKg": 920,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 86.53,
+      "gold": 110.01,
+      "diamond": 127.62,
+      "max": 150
+    },
+    "reserves": [
+      "Hirschfelden"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".300",
+      ".338",
+      ".454",
+      ".45-70",
+      ".470",
+      "7mm",
+      "9.3x74R",
+      "600g",
+      "700g"
+    ],
+    "about": "Class 9, very hard difficulty animal with a max level of 5 and a max weight of 920 kg. Found in: Hirschfelden.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Hirschfelden; level 1-5, class 9) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/europeanbison/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "European Hare": {
+    "name": "European Hare",
+    "latin": "Lepus europaeus",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 7,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 3,
+      "gold": 5,
+      "diamond": 6.5,
+      "max": 7
+    },
+    "reserves": [
+      "Cuatro Colinas"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 7 kg. Found in: Cuatro Colinas.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Cuatro Colinas; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/europeanhare/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "European Rabbit": {
+    "name": "European Rabbit",
+    "latin": "Oryctolagus cuniculus",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 2.6,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 1.2,
+      "gold": 1.9,
+      "diamond": 2.4,
+      "max": 2.6
+    },
+    "reserves": [
+      "Hirschfelden",
+      "Salzwiesen Park",
+      "Te Awaroa National Park"
+    ],
+    "furs": [
+      {
+        "name": "Tan",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 2.6 kg. Found in: Hirschfelden, Salzwiesen Park, Te Awaroa National Park.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Hirschfelden; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/europeanrabbit/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Fallow Deer": {
+    "name": "Fallow Deer",
+    "latin": "Dama dama",
+    "class": 4,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 100,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 104.89,
+      "gold": 187.81,
+      "diamond": 249.99,
+      "max": 276
+    },
+    "reserves": [
+      "Emerald Coast Australia",
+      "Hirschfelden",
+      "Te Awaroa National Park",
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Dark (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Spotted",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Spotted",
+        "rarity": "Common"
+      },
+      {
+        "name": "Red Spotted (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Chocolate",
+        "rarity": "Common"
+      },
+      {
+        "name": "White",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Painted (Great One)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Hooded (Great One)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Silver (Great One)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Golden (Great One)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Mocha (Great One)",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": true,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4, average difficulty animal with a max level of 5 and a max weight of 100 kg. Found in: Emerald Coast Australia, Hirschfelden, Te Awaroa National Park, Tòrr nan Sìthean Hunting Estate. Has a Great One (Fabled, level 10).",
+    "notes": "cotwguide lists max level '5 Medium or 10 Fabled' and max weight '100 Kg/140 Kg'; the second values are the Great One. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Hirschfelden; level 1-5, class 4) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/fallowdeer/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Feral Goat": {
+    "name": "Feral Goat",
+    "latin": "Capra hircus",
+    "class": 3,
+    "difficulty": "Hard",
+    "maxLevel": 5,
+    "maxWeightKg": 50,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 89.4,
+      "gold": 157.6,
+      "diamond": 208.7,
+      "max": 225
+    },
+    "reserves": [
+      "Emerald Coast Australia",
+      "Te Awaroa National Park",
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Blonde (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "White",
+        "rarity": "Common"
+      },
+      {
+        "name": "White Brown (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Black Brown (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Black White",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mixed",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Black",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".30-30",
+      ".357",
+      ".44",
+      ".45",
+      "7.62x54R",
+      "10mm",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 3, hard difficulty animal with a max level of 5 and a max weight of 50 kg. Found in: Emerald Coast Australia, Te Awaroa National Park, Tòrr nan Sìthean Hunting Estate.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Te Awaroa; level 1-5, class 3) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/feralgoat/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Feral Pig": {
+    "name": "Feral Pig",
+    "latin": "Sus scrofa",
+    "class": 5,
+    "difficulty": "Very hard",
+    "maxLevel": 5,
+    "maxWeightKg": 205,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 37.5,
+      "gold": 98.5,
+      "diamond": 144.2,
+      "max": 159.5
+    },
+    "reserves": [
+      "Emerald Coast Australia",
+      "Te Awaroa National Park"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown Hybrid",
+        "rarity": "Common"
+      },
+      {
+        "name": "Black Spots",
+        "rarity": "Common"
+      },
+      {
+        "name": "Blackgold",
+        "rarity": "Common"
+      },
+      {
+        "name": "Black",
+        "rarity": "Common"
+      },
+      {
+        "name": "Pink",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "10mm",
+      "7.62x54R",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 5, very hard difficulty animal with a max level of 5 and a max weight of 205 kg. Found in: Emerald Coast Australia, Te Awaroa National Park.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Te Awaroa; level 1-5, class 5) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/feralpig/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Ferruginous Duck": {
+    "name": "Ferruginous Duck",
+    "latin": "Aythya nyroca",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 1.1,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 700,
+      "gold": 900,
+      "diamond": 1050,
+      "max": null
+    },
+    "reserves": [
+      "Salzwiesen Park"
+    ],
+    "furs": [
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Red Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 1.1 kg. Found in: Salzwiesen Park.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in grams (diamond 1050 for a 1.1 kg bird). cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Salzwiesen Park; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/ferruginousduck/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Gadwall": {
+    "name": "Gadwall",
+    "latin": "Mareca strepera",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 1.4,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 700,
+      "gold": 900,
+      "diamond": 1050,
+      "max": null
+    },
+    "reserves": [
+      "Salzwiesen Park"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Eclipse",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 1.4 kg. Found in: Salzwiesen Park.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in grams. cotwguide shows the max weight as '1.4 Kg?' (unsure). Thresholds are identical to Ferruginous Duck on both sources. cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Salzwiesen Park; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/gadwall/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Gemsbok": {
+    "name": "Gemsbok",
+    "latin": "Oryx gazella",
+    "class": 6,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 240,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 194.8,
+      "gold": 276.3,
+      "diamond": 337.5,
+      "max": 342
+    },
+    "reserves": [
+      "Vurhonga Savanna"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Beige",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Dark",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Gold",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 6, average difficulty animal with a max level of 5 and a max weight of 240 kg. Found in: Vurhonga Savanna.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Vurhonga Savanna; level 1-5, class 6) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/gemsbok/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Goldeneye": {
+    "name": "Goldeneye",
+    "latin": "Bucephala clangula",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 1.3,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 740,
+      "gold": 1020,
+      "diamond": 1230,
+      "max": 1300
+    },
+    "reserves": [
+      "New England Mountains",
+      "Revontuli Coast",
+      "Salzwiesen Park"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Black (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark (F)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Eclipse (M)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Hybrid (M)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 1.3 kg. Found in: New England Mountains, Revontuli Coast, Salzwiesen Park.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in grams (max 1300 for a 1.3 kg bird). The Steam chart's New England Mountains row shows '1300' in the kg column (a units error). Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 1300g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/goldeneye/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Grant Caribou": {
+    "name": "Grant Caribou",
+    "latin": "Rangifer tarandus granti",
+    "class": 6,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 190,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 152.5,
+      "gold": 311.2,
+      "diamond": 430.2,
+      "max": 470
+    },
+    "reserves": [
+      "Yukon Valley Nature Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald (M)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 6, average difficulty animal with a max level of 5 and a max weight of 190 kg. Found in: Yukon Valley Nature Reserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Yukon Valley (as 'Caribou'); level 1-5, class 6) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/caribou/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Gray Fox": {
+    "name": "Gray Fox",
+    "latin": "Urocyon cinereoargenteus",
+    "class": 2,
+    "difficulty": "Average",
+    "maxLevel": 9,
+    "maxWeightKg": 6.8,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 3.8,
+      "gold": 5.3,
+      "diamond": 6.4,
+      "max": 6.8
+    },
+    "reserves": [
+      "Mississippi Acres Preserve",
+      "New England Mountains"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Red",
+        "rarity": "Common"
+      },
+      {
+        "name": "Two Tones",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".22H",
+      ".243",
+      ".30-30",
+      ".357",
+      ".45",
+      "10mm",
+      "300g",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 2, average difficulty animal with a max level of 9 and a max weight of 6.8 kg. Found in: Mississippi Acres Preserve, New England Mountains.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Mississippi Acres; level 1-9, class 2) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/grayfox/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Gray Wolf": {
+    "name": "Gray Wolf",
+    "latin": "Canis lupus",
+    "class": 6,
+    "difficulty": "Hard",
+    "maxLevel": 9,
+    "maxWeightKg": 80,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 32,
+      "gold": 36,
+      "diamond": 39,
+      "max": 40
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve",
+      "Medved-Taiga National Park",
+      "Yukon Valley Nature Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Grey",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Red Brown",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Egg White",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": true,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 6, hard difficulty animal with a max level of 9 and a max weight of 80 kg. Found in: Askiy Ridge Hunting Preserve, Medved-Taiga National Park, Yukon Valley Nature Reserve. Has a Great One (Fabled, level 10).",
+    "notes": "cotwguide lists max level '9 Legendary or 10 Fabled' (Great One). Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Askiy Ridge / Medved-Taiga / Yukon Valley; level 1-9, class 6) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/graywolf/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Greater Grison": {
+    "name": "Greater Grison",
+    "latin": "Galictis vittata",
+    "class": 1,
+    "difficulty": "Hard",
+    "maxLevel": 5,
+    "maxWeightKg": 3,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 188,
+      "gold": 284,
+      "diamond": 356,
+      "max": null
+    },
+    "reserves": [
+      "Intisuyu Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark",
+        "rarity": "Common"
+      },
+      {
+        "name": "Pale",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Erythristic Chocolate",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, hard difficulty animal with a max level of 5 and a max weight of 3 kg. Found in: Intisuyu Hunting Reserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores (188/284/356) are on a different scale from the 3 kg max weight; units unclear. cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Intisuyu; level ?, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/greatergrison/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Gredos Ibex": {
+    "name": "Gredos Ibex",
+    "latin": "Capra pyrenaica victoriae",
+    "class": 4,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 102,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 54.3,
+      "gold": 80.5,
+      "diamond": 100.1,
+      "max": 110
+    },
+    "reserves": [
+      "Cuatro Colinas"
+    ],
+    "furs": [
+      {
+        "name": "Brown Hybrid (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey Brown (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Buff (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4, average difficulty animal with a max level of 5 and a max weight of 102 kg. Found in: Cuatro Colinas.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Cuatro Colinas; level 1-5, class 4) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/gredosibex/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Green-Winged Teal": {
+    "name": "Green-Winged Teal",
+    "latin": "Anas carolinensis",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 3.3,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 340,
+      "gold": 420,
+      "diamond": 480,
+      "max": 540
+    },
+    "reserves": [
+      "Mississippi Acres Preserve",
+      "New England Mountains"
+    ],
+    "furs": [
+      {
+        "name": "Common",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 3.3 kg. Found in: Mississippi Acres Preserve, New England Mountains.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide max weight '3.3 Kg' looks wrong for a teal; the Steam chart gives 0.4 kg. Scores look like weight in grams (max 540). Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Mississippi Acres; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/greenwingedteal/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Greylag Goose": {
+    "name": "Greylag Goose",
+    "latin": "Anser anser",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 5,
+    "maxWeightKg": 4,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 2.8,
+      "gold": 3.4,
+      "diamond": 3.85,
+      "max": 4
+    },
+    "reserves": [
+      "Revontuli Coast",
+      "Salzwiesen Park",
+      "Sundarpatan Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Hybrid",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 5 and a max weight of 4 kg. Found in: Revontuli Coast, Salzwiesen Park, Sundarpatan Hunting Reserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast / Salzwiesen / Sundarpatan; level 1-5, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/greylaggoose/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Grizzly Bear": {
+    "name": "Grizzly Bear",
+    "latin": "Ursus arctos horribilis",
+    "class": 8,
+    "difficulty": "Very hard",
+    "maxLevel": 9,
+    "maxWeightKg": 680,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 52.5,
+      "gold": 60.7,
+      "diamond": 66.9,
+      "max": 69
+    },
+    "reserves": [
+      "Yukon Valley Nature Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Grey Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".270",
+      ".30-06",
+      ".300",
+      ".303",
+      ".308",
+      ".338",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7mm",
+      "9.3x74R",
+      "600g",
+      "700g"
+    ],
+    "about": "Class 8, very hard difficulty animal with a max level of 9 and a max weight of 680 kg. Found in: Yukon Valley Nature Reserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Yukon Valley; level 1-9, class 8) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/grizzlybear/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Harlequin Duck": {
+    "name": "Harlequin Duck",
+    "latin": "Histrionicus histrionicus",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 0.75,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 5.3,
+      "gold": 6.4,
+      "diamond": 7.2,
+      "max": 7.5
+    },
+    "reserves": [
+      "Yukon Valley Nature Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Dark Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark (F)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Grey (F)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 0.75 kg. Found in: Yukon Valley Nature Reserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Yukon Valley; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/harlequinduck/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Hazel Grouse": {
+    "name": "Hazel Grouse",
+    "latin": "Tetrastes bonasia",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 0.45,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 330,
+      "gold": 390,
+      "diamond": 435,
+      "max": 450
+    },
+    "reserves": [
+      "Revontuli Coast"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Ochre (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark (F)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Pale",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Hybrid (M)",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 0.45 kg. Found in: Revontuli Coast.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in grams (max 450 for a 0.45 kg bird). Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 450g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/hazelgrouse/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Himalayan Tahr": {
+    "name": "Himalayan Tahr",
+    "latin": "Hemitragus jemlahicus",
+    "class": 4,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 140,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 61.23,
+      "gold": 84.46,
+      "diamond": 101.87,
+      "max": null
+    },
+    "reserves": [
+      "Sundarpatan Hunting Reserve",
+      "Te Awaroa National Park"
+    ],
+    "furs": [
+      {
+        "name": "Red Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Straw",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "White",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Red",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Dark Red (M)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Dark Brown (M)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Black (M)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": true,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4, average difficulty animal with a max level of 5 and a max weight of 140 kg. Found in: Sundarpatan Hunting Reserve, Te Awaroa National Park. Has a Great One (Fabled, level 10).",
+    "notes": "cotwguide lists max level '5 Medium or 10 Fabled' and max weight '140 Kg/180 Kg'; the second values are the Great One. cotwguide prints the maximum score as '101.87?' (same as the diamond minimum), so max is set to null. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Sundarpatan / Te Awaroa (as 'Tahr'); level 1-5, class 4) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/tahr/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Hog Deer": {
+    "name": "Hog Deer",
+    "latin": "Axis porcinus",
+    "class": 3,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 50,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 49.45,
+      "gold": 83.3,
+      "diamond": 108.68,
+      "max": 120
+    },
+    "reserves": [
+      "Emerald Coast Australia"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Spotted",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Spotted",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Dark Brown (M)",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".30-30",
+      ".357",
+      ".44",
+      ".45",
+      "7.62x54R",
+      "10mm",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 3, average difficulty animal with a max level of 5 and a max weight of 50 kg. Found in: Emerald Coast Australia.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Emerald Coast; level 1-5, class 3) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/hogdeer/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Iberian Mouflon": {
+    "name": "Iberian Mouflon",
+    "latin": "Ovis orientalis musimon",
+    "class": 4,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 60,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 97,
+      "gold": 144.1,
+      "diamond": 179.5,
+      "max": 190
+    },
+    "reserves": [
+      "Cuatro Colinas"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "10mm",
+      "7.62x54R",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4, average difficulty animal with a max level of 5 and a max weight of 60 kg. Found in: Cuatro Colinas.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Class conflict: cotwguide says class 4, the Steam chart says class 5. integrityAmmo follows the Steam class-5 list. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Cuatro Colinas; level 1-5, class 5) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/iberianmouflon/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Iberian Wolf": {
+    "name": "Iberian Wolf",
+    "latin": "Canis lupus signatus",
+    "class": 6,
+    "difficulty": "Hard",
+    "maxLevel": 9,
+    "maxWeightKg": 50,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 32,
+      "gold": 36,
+      "diamond": 39,
+      "max": 40
+    },
+    "reserves": [
+      "Cuatro Colinas"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Olive",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Winter",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Pristine",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fantasma (Mission)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Ogro (Mission)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Sombra (Mission)",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 6, hard difficulty animal with a max level of 9 and a max weight of 50 kg. Found in: Cuatro Colinas.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Cuatro Colinas; level 1-9, class 6) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/iberianwolf/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Jaguar": {
+    "name": "Jaguar",
+    "latin": "Panthera onca",
+    "class": 6,
+    "difficulty": "Very hard",
+    "maxLevel": 9,
+    "maxWeightKg": 120,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 35,
+      "gold": 40,
+      "diamond": 43.75,
+      "max": null
+    },
+    "reserves": [
+      "Intisuyu Hunting Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Spotted",
+        "rarity": "Common"
+      },
+      {
+        "name": "Rosetted",
+        "rarity": "Common"
+      },
+      {
+        "name": "Melanistic Char",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Pseudo Melanistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": true,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 6, very hard difficulty animal with a max level of 9 and a max weight of 120 kg. Found in: Intisuyu Hunting Reserve. Has a Great One (Fabled, level 10).",
+    "notes": "cotwguide lists max level '9 Legendary or 10 Fabled' (Great One). The fur source lists no Fabled furs for Jaguar. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Intisuyu; level 1-9, class 6) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/jaguar/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Javan Rusa": {
+    "name": "Javan Rusa",
+    "latin": "Cervus timorensis",
+    "class": 5,
+    "difficulty": "Easy",
+    "maxLevel": 5,
+    "maxWeightKg": 172,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 64.62,
+      "gold": 112.71,
+      "diamond": 148.78,
+      "max": 160
+    },
+    "reserves": [
+      "Emerald Coast Australia"
+    ],
+    "furs": [
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Two Tones",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "White Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino (M)",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "10mm",
+      "7.62x54R",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 5, easy difficulty animal with a max level of 5 and a max weight of 172 kg. Found in: Emerald Coast Australia.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Emerald Coast; level 1-5, class 5) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/javanrusa/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Lesser Kudu": {
+    "name": "Lesser Kudu",
+    "latin": "Tragelaphus imberbis",
+    "class": 4,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 105,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 107.8,
+      "gold": 132.8,
+      "diamond": 151.6,
+      "max": 160
+    },
+    "reserves": [
+      "Vurhonga Savanna"
+    ],
+    "furs": [
+      {
+        "name": "Grey (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dusky (F)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Red Brown (F)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic (M)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4, average difficulty animal with a max level of 5 and a max weight of 105 kg. Found in: Vurhonga Savanna.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Vurhonga Savanna; level 1-5, class 4) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/lesserkudu/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Lion": {
+    "name": "Lion",
+    "latin": "Panthera leo",
+    "class": 9,
+    "difficulty": "Very hard",
+    "maxLevel": 9,
+    "maxWeightKg": 270,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 38,
+      "gold": 44,
+      "diamond": 48.5,
+      "max": 50
+    },
+    "reserves": [
+      "Vurhonga Savanna"
+    ],
+    "furs": [
+      {
+        "name": "Tan",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Blonde",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".300",
+      ".338",
+      ".454",
+      ".45-70",
+      ".470",
+      "7mm",
+      "9.3x74R",
+      "600g",
+      "700g"
+    ],
+    "about": "Class 9, very hard difficulty animal with a max level of 9 and a max weight of 270 kg. Found in: Vurhonga Savanna.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Vurhonga Savanna; level 1-9, class 9) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/lion/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Magpie Goose": {
+    "name": "Magpie Goose",
+    "latin": "Anseranas semipalmata",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 5,
+    "maxWeightKg": 4,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 1.76,
+      "gold": 2.48,
+      "diamond": 3.02,
+      "max": 4
+    },
+    "reserves": [
+      "Emerald Coast Australia"
+    ],
+    "furs": [
+      {
+        "name": "Orange",
+        "rarity": "Common"
+      },
+      {
+        "name": "Maroon",
+        "rarity": "Common"
+      },
+      {
+        "name": "Yellow",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 5 and a max weight of 4 kg. Found in: Emerald Coast Australia.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide thresholds 1.76/2.48/3.02 differ from the Steam chart (2.8/3.4/3.85, the same as Greylag/Snow Goose, likely copied). Steam max weight 3 kg vs cotwguide 4 kg. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Emerald Coast; level 1-5, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/magpiegoose/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Mallard": {
+    "name": "Mallard",
+    "latin": "Anas platyrhynchos",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 2.1,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 9.9,
+      "gold": 15.4,
+      "diamond": 19.6,
+      "max": 21
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve",
+      "Layton Lake District",
+      "New England Mountains",
+      "Revontuli Coast",
+      "Salzwiesen Park",
+      "Te Awaroa National Park"
+    ],
+    "furs": [
+      {
+        "name": "Black Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown Hybrid",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Common"
+      },
+      {
+        "name": "Blonde (F)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic (M)",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 2.1 kg. Found in: Askiy Ridge Hunting Preserve, Layton Lake District, New England Mountains, Revontuli Coast, Salzwiesen Park, Te Awaroa National Park.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (all maps; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/mallard/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Manitoban Elk": {
+    "name": "Manitoban Elk",
+    "latin": "Cervus canadensis manitobensis",
+    "class": 7,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 450,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 149.13,
+      "gold": 325.38,
+      "diamond": 457.56,
+      "max": null
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ],
+    "furs": [
+      {
+        "name": "Brown Maned",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".270",
+      ".30-06",
+      ".300",
+      ".303",
+      ".308",
+      ".338",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "420g",
+      "540g",
+      "600g"
+    ],
+    "about": "Class 7, average difficulty animal with a max level of 5 and a max weight of 450 kg. Found in: Askiy Ridge Hunting Preserve.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Askiy Ridge; level 1-5, class 7) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/manitobanelk/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Merriam Turkey": {
+    "name": "Merriam Turkey",
+    "latin": "Meleagris gallopavo merriami",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 11,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 3.3,
+      "gold": 4,
+      "diamond": 4.6,
+      "max": 4.8
+    },
+    "reserves": [
+      "Layton Lake District",
+      "Silver Ridge Peaks",
+      "Te Awaroa National Park"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 11 kg. Found in: Layton Lake District, Silver Ridge Peaks, Te Awaroa National Park.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide gives the latin name 'Meleagris gallopavo' (the same as Eastern Wild Turkey); the subspecies 'merriami' was added for clarity. The Steam chart gives 3.36/4.08/4.62. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Layton Lake / Silver Ridge / Te Awaroa; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/merriamturkey/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Mexican Bobcat": {
+    "name": "Mexican Bobcat",
+    "latin": "Lynx rufus escuinapae",
+    "class": 2,
+    "difficulty": "Hard",
+    "maxLevel": 9,
+    "maxWeightKg": 18,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 18.5,
+      "gold": 23.7,
+      "diamond": 27.6,
+      "max": 29
+    },
+    "reserves": [
+      "Rancho del Arroyo"
+    ],
+    "furs": [
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Tan",
+        "rarity": "Common"
+      },
+      {
+        "name": "Red",
+        "rarity": "Common"
+      },
+      {
+        "name": "Blue",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".22H",
+      ".243",
+      ".30-30",
+      ".357",
+      ".45",
+      "10mm",
+      "300g",
+      "350g",
+      "420g"
+    ],
+    "about": "Class 2, hard difficulty animal with a max level of 9 and a max weight of 18 kg. Found in: Rancho del Arroyo.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide max weight 18 kg; the Steam chart lists 45 kg (likely copied from Lynx). Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Rancho Del Arroyo; level 1-9, class 2) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/mexicanbobcat/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Moose": {
+    "name": "Moose",
+    "latin": "Alces alces",
+    "class": 8,
+    "difficulty": "Hard",
+    "maxLevel": 5,
+    "maxWeightKg": 620,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 86.2,
+      "gold": 194,
+      "diamond": 274.9,
+      "max": 320
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve",
+      "Layton Lake District",
+      "Medved-Taiga National Park",
+      "New England Mountains",
+      "Revontuli Coast",
+      "Yukon Valley Nature Reserve"
+    ],
+    "furs": [
+      {
+        "name": "Tan",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mocha (Mission)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Two Tone (Great One)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Birch (Great One)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Spruce (Great One)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Ash (Great One)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Speckled (Great One)",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Fabled Oak (Great One)",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": true,
+    "integrityAmmo": [
+      ".270",
+      ".30-06",
+      ".300",
+      ".303",
+      ".308",
+      ".338",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7mm",
+      "9.3x74R",
+      "600g",
+      "700g"
+    ],
+    "about": "Class 8, hard difficulty animal with a max level of 5 and a max weight of 620 kg. Found in: Askiy Ridge Hunting Preserve, Layton Lake District, Medved-Taiga National Park, New England Mountains, Revontuli Coast, Yukon Valley Nature Reserve. Has a Great One (Fabled, level 10).",
+    "notes": "cotwguide lists max level '5 Medium or 10 Fabled' and max weight '620 Kg/700 Kg'; the second values are the Great One. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (all maps; level 1-5, class 8) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/moose/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Mountain Goat": {
+    "name": "Mountain Goat",
+    "latin": "Oreamnos americanus",
+    "class": 4,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 145,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 52.7,
+      "gold": 84.1,
+      "diamond": 107.6,
+      "max": 115
+    },
+    "reserves": [
+      "Askiy Ridge Hunting Preserve",
+      "Silver Ridge Peaks"
+    ],
+    "furs": [
+      {
+        "name": "White",
+        "rarity": "Common"
+      },
+      {
+        "name": "Beige",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22-250",
+      ".223",
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".45",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 4, average difficulty animal with a max level of 5 and a max weight of 145 kg. Found in: Askiy Ridge Hunting Preserve, Silver Ridge Peaks.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Askiy Ridge / Silver Ridge; level 1-5, class 4) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/mountaingoat/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Mountain Hare": {
+    "name": "Mountain Hare",
+    "latin": "Lepus timidus",
+    "class": 1,
+    "difficulty": "Easy",
+    "maxLevel": 3,
+    "maxWeightKg": 6,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 2.8,
+      "gold": 4.4,
+      "diamond": 5.6,
+      "max": 6
+    },
+    "reserves": [
+      "Revontuli Coast",
+      "Tòrr nan Sìthean Hunting Estate"
+    ],
+    "furs": [
+      {
+        "name": "Light Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Grey",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown",
+        "rarity": "Common"
+      },
+      {
+        "name": "Molting",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "White",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".22H",
+      ".22LR",
+      "300g",
+      "350g"
+    ],
+    "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 6 kg. Found in: Revontuli Coast, Tòrr nan Sìthean Hunting Estate.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast / Torr nan Sithean; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/mountainhare/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  },
+  "Mountain Reindeer": {
+    "name": "Mountain Reindeer",
+    "latin": "Rangifer tarandus tarandus",
+    "class": 6,
+    "difficulty": "Average",
+    "maxLevel": 5,
+    "maxWeightKg": 182,
+    "weightRangeKg": null,
+    "trophy": {
+      "bronze": null,
+      "silver": 152.5,
+      "gold": 311.2,
+      "diamond": 430.2,
+      "max": 470
+    },
+    "reserves": [
+      "Medved-Taiga National Park"
+    ],
+    "furs": [
+      {
+        "name": "Tan (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Brown (F)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Light Brown (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dark Brown (M)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Piebald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Leucistic",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Albino",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Melanistic",
+        "rarity": "Very Rare"
+      }
+    ],
+    "greatOne": false,
+    "integrityAmmo": [
+      ".243",
+      ".270",
+      ".30-06",
+      ".30-30",
+      ".303",
+      ".308",
+      ".357",
+      ".44",
+      ".454",
+      ".45-70",
+      "6.5mm",
+      "7.62x54R",
+      "7mm",
+      "9.3x74R",
+      "10mm",
+      "420g",
+      "540g"
+    ],
+    "about": "Class 6, average difficulty animal with a max level of 5 and a max weight of 182 kg. Found in: Medved-Taiga National Park.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Medved-Taiga (as 'Reindeer'); level 1-5, class 6) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "sources": [
+      "https://cotwguide.com/en/animals/reindeer/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+    ]
+  }
+}
