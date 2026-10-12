@@ -510,7 +510,7 @@ async function buildWeapons(){
   if(screen!=='guide')return;
   const tab=store.get('wTab','finder'),weapons=(W&&W.weapons)||[],ammo=(W&&W.ammo)||[];
   document.title='Weapons & ammo · Hunter Guide';
-  gv.innerHTML=guideTitle('Guides','Weapons & ammo','Pick an animal to see the ammo that earns the integrity bonus, or browse every weapon.')
+  gv.innerHTML=guideTitle('Guides','Weapons & ammo','Pick an animal to see the ammo rated for it, or browse every weapon.')
   +`<div class="chipRow" role="tablist">${[['finder','Ammo finder'],['weapons','Weapons'],['ammo','Ammo']].map(([k,l])=>`<button class="chip${tab===k?' active':''}" data-wtab="${k}" role="tab" aria-selected="${tab===k}">${l}</button>`).join('')}</div><div id="wBody"></div>
   ${W&&W.sources?`<div class="source">Sources: ${srcList(W.sources)}</div>`:''}`;
   gv.querySelectorAll('[data-wtab]').forEach(b=>b.onclick=()=>{store.set('wTab',b.dataset.wtab);buildWeapons()});
@@ -523,7 +523,7 @@ async function buildWeapons(){
     const byType=[...new Set(rows.map(x=>tOf(x.w)))].map(t=>[t,rows.filter(x=>tOf(x.w)===t)]);
     body.innerHTML=`<div class="card"><div class="toolFields"><label>Animal<input id="wSp" class="input" list="wSpList" value="${esc(s)}" placeholder="Type an animal's name…" autocomplete="off"><datalist id="wSpList">${opts(mySpecies())}</datalist></label></div>
       <div class="ghOut"><div class="row"><small>Class</small><strong>${esc(d.class)} · ${esc(d.difficulty||'')}</strong></div>
-      ${d.ammo.length?`<div class="row"><small>Calibers rated for class ${esc(d.class)}</small><span>${d.ammo.map(a=>`<span class="tag">${esc(a)}</span>`).join('')}</span></div>`:''}
+      ${d.ammo.length?`<div class="row"><small>Calibers rated for class ${esc(d.class)}</small><div class="tagWrap">${d.ammo.map(a=>`<span class="tag">${esc(a)}</span>`).join('')}</div></div>`:''}
       ${rows.length?`<div class="row"><small>${rows.length} weapons with ammo rated for class ${esc(d.class)}</small>${byType.map(([t,l])=>`<details class="wType"${byType.length<3?' open':''}><summary>${esc(t[0].toUpperCase()+t.slice(1))}s <span class="muted">${l.length}</span></summary>${l.map(x=>`<div class="wl"><strong>${esc(x.w.name)}</strong>${x.w.dlc&&x.w.dlc!=='Base game'?` <em>${esc(x.w.dlc)}</em>`:''}<div>${esc(x.a.join(', '))}</div></div>`).join('')}</details>`).join('')}</div>`:''}
       ${!rows.length&&!d.ammo.length?'<div class="mutedBox">No ammo listed for this animal yet.</div>':''}</div>
       <p class="note">Ammo rated for the animal's class gives a clean, ethical kill and passes the harvest check. Ammo too light leaves a wounded animal; ammo too heavy damages the trophy.</p></div>`;
@@ -566,7 +566,7 @@ async function buildSkills(){
     const next={...p};if(v)next[k]=v;else delete next[k];
     if(d>0&&cap&&spent>=cap)return toast(`That's all ${cap} ${tab==='skills'?'skill':'perk'} points.`);
     if(!okPlan(next)){const [tree]=treeOf(k)||[''];const x=Object.values(groups).flat().find(x=>tab+'|'+x.name===k);
-      return toast(d>0?(tab==='skills'?`Needs ${need(x)} points in ${tree} first.`:`Needs ${x.unlock.replace(/^Requires /,'')} first.`):'Remove points from the skills that depend on this first.')}
+      return toast(d>0?(tab==='skills'?`Needs ${need(x)} point${need(x)===1?'':'s'} in ${tree} first.`:`Needs ${x.unlock.replace(/^Requires /,'')} first.`):'Remove points from the skills that depend on this first.')}
     jset('skillPlan',next);haptic(6);const y=scrollY;buildSkills().then(()=>scrollTo(0,y))});
 }
 
