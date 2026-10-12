@@ -1,0 +1,206 @@
+{
+ "greatOneFurs": {
+  "Whitetail Deer": [
+   "Fabled Brown",
+   "Fabled Piebald",
+   "Fabled Tan"
+  ],
+  "Himalayan Tahr": [
+   "Gold",
+   "Grey",
+   "Half",
+   "Latte",
+   "Scars",
+   "Skull",
+   "Snow"
+  ],
+  "Red Fox": [
+   "Fabled Blood Moon",
+   "Fabled Candycane",
+   "Fabled Cherry Blossom",
+   "Fabled Licorice",
+   "Fabled Midnight Poppy",
+   "Fabled Mystic Snowdrop",
+   "Fabled Peppermint",
+   "Fabled Rosebud Frost",
+   "Fabled Scarlet Nightshade"
+  ],
+  "Ring-Necked Pheasant": [
+   "Fabled Citrine",
+   "Fabled Emerald",
+   "Fabled Garnet",
+   "Fabled Morganite",
+   "Fabled Obsidian",
+   "Fabled Pearl",
+   "Fabled Ruby",
+   "Fabled Sapphire"
+  ],
+  "Gray Wolf": [
+   "Fabled Battlethorne",
+   "Fabled Dawnbreak",
+   "Fabled Frostbite",
+   "Fabled Gravehide",
+   "Fabled Hollow",
+   "Fabled Razorwind",
+   "Fabled Scarborne",
+   "Fabled Twinsoul",
+   "Fabled Vanguard"
+  ],
+  "Wild Boar": [
+   "Fabled Ash",
+   "Fabled Brindle",
+   "Fabled Butterscotch",
+   "Fabled Chalk",
+   "Fabled Cinder",
+   "Fabled Scorch",
+   "Fabled Smolder",
+   "Fabled Stitch",
+   "Fabled Stripple"
+  ],
+  "Jaguar": null,
+  "Taruca": null,
+  "Red Deer": [
+   "Fabled Spotted"
+  ],
+  "Mule Deer": [
+   "Fabled Cinnamon Stripes",
+   "Fabled Cobweb Enigma",
+   "Fabled Dripple Drizzle",
+   "Fabled Dusky Drift",
+   "Fabled Milky Way",
+   "Fabled Petal Puff"
+  ]
+ },
+ "greatOneFurNotes": {
+  "Whitetail Deer": "jodi's Steam guide lists 3 furs. Kosa's All-In-One guide (updated 23 Mar 2025) lists Brown, Dark Brown, Tan and Piebald without the Fabled prefix, so 'Fabled Dark Brown' may also exist; not confirmed. thehuntercotw.wordpress.com lists 'Fabled Piebald'.",
+  "Himalayan Tahr": "jodi's guide lists these 7 without a 'Fabled' prefix, unlike every other species there. In-game names may carry the prefix.",
+  "Red Fox": "9 names, which matches the patch notes' count of 9 variations.",
+  "Ring-Necked Pheasant": "8 names, which matches the patch notes' count of 8 variations. The guide spells the species 'Ringed-Neck Pheasant'.",
+  "Gray Wolf": "9 names, which matches the 9 variations in Patch 8.3.",
+  "Wild Boar": "9 names, which matches the 9 fur variations in Patch 8.4. 'Stripple' and 'Smolder' are spelled as in the source.",
+  "Jaguar": "Names not found. A YouTube video title says 'All 7 Fabled Furs', so there are probably 7 variations, but none are named in any readable source.",
+  "Taruca": "Names not found. Patch 9.3 (Sept 2026) announces the Great One without fur details.",
+  "Red Deer": "Every source checked (jodi's guide, Kosa's guide, gameslikefinder, grokipedia) lists only Fabled Spotted. It appears to be the single Great One fur.",
+  "Mule Deer": "The full list of 6 includes the 2 already in great-ones.json."
+ },
+ "ammoClassRanges": {
+  ".357 Magnum ammo": [
+   2,
+   6
+  ],
+  ".357 Jacketed Hollow Point Bullet": [
+   2,
+   6
+  ],
+  ".357 Flat Nose Hard Cast Bullet": [
+   2,
+   6
+  ],
+  ".44 Magnum revolver ammo": [
+   3,
+   8
+  ],
+  ".44 Jacketed Hollow Point Bullet": [
+   3,
+   8
+  ],
+  ".44 Flat Nose Hard Cast Bullet": [
+   3,
+   8
+  ],
+  ".454 Casull ammo": [
+   4,
+   9
+  ],
+  ".454 Jacketed Hollow Point Bullet": [
+   4,
+   9
+  ],
+  ".454 Flat Nose Hard Cast Bullet": [
+   4,
+   9
+  ]
+ },
+ "ammoNotes": "Taken from thehuntercotw.wordpress.com's handgun ammo page. The first key in each group matches the aggregate name in weapons.json; the per-load names are as the source spells them. Both loads of each caliber have the same range. .44 matches the Moradi's .44 Magnum (3-8) in weapons.json, and .454 matches the existing weapon-level 4-9. The page is undated, so ranges may predate later patches.",
+ "needZones": {
+  "Emerald Coast Australia": {
+   "Magpie Goose": {
+    "feed": [
+     "05:00-07:00",
+     "09:00-11:00",
+     "13:00-15:00",
+     "17:00-19:00"
+    ],
+    "drink": [],
+    "rest": [
+     "00:00-05:00",
+     "07:00-09:00",
+     "11:00-13:00",
+     "15:00-17:00",
+     "19:00-00:00"
+    ],
+    "sources": [
+     {
+      "url": "https://thehuntercotw.wordpress.com/home/zone-times/emerald-coast/",
+      "title": "theHunter COTW community site: Emerald Coast zone times (last updated 2023-10-11)",
+      "accessed": "2026-10-12"
+     }
+    ],
+    "notes": "The Wild Register shows no schedule for Magpie Goose. The source lists no drinking zone, which is normal for birds (drink [] as in needzones.json). It warns that several groups may share a zone, so arrival and departure times vary."
+   }
+  }
+ },
+ "notes": "Gap fills for great-ones.json, weapons.json and needzones.json. Nothing here is invented: null means not found. Still missing: Jaguar and Taruca Great One fur names.",
+ "sources": [
+  {
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+   "title": "Steam guide (jodi): Trophy Ratings & Fur Types (last updated 'Jun 10', year not shown)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1938530527",
+   "title": "Steam guide (Kosa): All-In-One Guide Fur Variations/Need Zones (updated 2025-03-23)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://thehuntercotw.wordpress.com/portfolio/whitetail-deer/",
+   "title": "theHunter COTW community site: Whitetail Deer",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+   "title": "Games Finder: Rare Fur Types List",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://grokipedia.com/page/Fur_variants_in_theHunter_Call_of_the_Wild",
+   "title": "Grokipedia: Fur variants in theHunter: Call of the Wild",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=4eVhmtD8dE4",
+   "title": "YouTube: The New GREAT ONE JAGUAR is Wild! All 7 Fabled Furs (title only, from search results)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://callofthewild.thehunter.com/patch-notes-9-3/",
+   "title": "Patch 9.3 Notes (official)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://thehuntercotw.wordpress.com/items/ammo/handgun-ammo/",
+   "title": "theHunter COTW community site: Handgun Ammo",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://thehuntercotw.wordpress.com/home/zone-times/emerald-coast/",
+   "title": "theHunter COTW community site: Emerald Coast zone times",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://thewildregister.com/call-of-the-wild-animals/magpie-goose/",
+   "title": "The Wild Register: Magpie Goose (no schedule listed)",
+   "accessed": "2026-10-12"
+  }
+ ]
+}

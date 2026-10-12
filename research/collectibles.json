@@ -89,9 +89,29 @@
    "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2754729051",
    "title": "Steam guide: 100% Achievements (DLC + Mission List)",
    "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://wand.com/maps/thehunter-call-of-the-wild/",
+   "title": "Wand interactive maps for theHunter: Call of the Wild (16 reserves, per-reserve checklists)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://kosgames.com/thehunter-call-of-the-wild-all-secret-locations-for-sundarpatan-hunting-reserve-55008/",
+   "title": "KosGames: All Secret Locations for Sundarpatan Hunting Reserve (copy of the Nucta Ox guide)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://steamcommunity.com/app/518790/discussions/0/2576571491301806608/",
+   "title": "Steam discussion: when they ruled the earth (dinosaur footprints)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3746587439",
+   "title": "Steam guide: [INTERACTIVE MAP] theHunter: Call of the Wild (2026 UPDATED); its filters show collectibles only for Hirschfelden, Layton, Medved-Taiga and Vurhonga",
+   "accessed": "2026-10-12"
   }
  ],
- "notes": "Only some reserves have pick-up collectibles: artifacts and antler sheds in Hirschfelden, Layton Lake District and Medved-Taiga, artifacts in Vurhonga Savanna, and challenge targets in Parque Fernando. Counts come from a series of Steam guides by Nucta Ox; several were later removed from Steam but the pages could still be read. None of the guides, the Steam store pages or the achievement lists mention beer bottles in Hirschfelden, carved figures in Layton or rune stones in Revontuli, so those types are left out. Only Medved-Taiga and Parque Fernando have collectible achievements; Steam has no collectible achievements for the later reserves. Sundarpatan and Tòrr nan Sìthean guides exist but could not be fetched. Salzwiesen Park and Intisuyu: no data found.",
+ "notes": "v2 of collectibles.json. Pick-up collectibles exist only in Hirschfelden (12 artifacts, 41 sheds), Layton Lake District (10 artifacts, 40 sheds), Medved-Taiga (20 artifacts, 30 sheds, plus 10 each of traps, monuments, expedition notes and cave paintings, and 20 landmark signs) and Vurhonga Savanna (5 artifacts). Parque Fernando has 15 challenge targets. Silver Ridge Peaks has one photo achievement (dinosaur footprints). Wand's per-reserve checklists (16 reserves) agree on every collectible count and show no collectible category for any other reserve. On Steam, the only achievements for collectibles are the Medved-Taiga and Parque Fernando ones, plus the dinosaur footprints photo. Salzwiesen Park, Askiy Ridge, Tòrr nan Sìthean and Intisuyu are not confirmed. Wand has no maps for Salzwiesen, Askiy Ridge or Intisuyu, and the Steam guides for Salzwiesen and Tòrr nan Sìthean could not be fetched. Per-item names for Medved artifacts, sheds, traps, monuments and notes are only numbered in the source.",
  "Hirschfelden": [
   {
    "type": "Artifacts",
@@ -116,6 +136,11 @@
     {
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405",
      "title": "Steam guide (Nucta Ox): Hirschfelden Hunting Reserve: Artifacts, Collectibles and All Secret Locations",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/hirschfelden-hunting-reserve/checklist",
+     "title": "Wand interactive map checklist: Hirschfelden",
      "accessed": "2026-10-12"
     }
    ]
@@ -155,6 +180,11 @@
     {
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405",
      "title": "Steam guide (Nucta Ox): Hirschfelden Hunting Reserve: Artifacts, Collectibles and All Secret Locations",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/hirschfelden-hunting-reserve/checklist",
+     "title": "Wand interactive map checklist: Hirschfelden",
      "accessed": "2026-10-12"
     }
    ]
@@ -222,6 +252,11 @@
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978",
      "title": "Steam guide (Nucta Ox): Layton Lake District: Artifacts, Collectibles and All Secret Locations",
      "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/layton-lake-district/checklist",
+     "title": "Wand interactive map checklist: Layton Lake District",
+     "accessed": "2026-10-12"
     }
    ]
   },
@@ -268,6 +303,11 @@
     {
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978",
      "title": "Steam guide (Nucta Ox): Layton Lake District: Artifacts, Collectibles and All Secret Locations",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/layton-lake-district/checklist",
+     "title": "Wand interactive map checklist: Layton Lake District",
      "accessed": "2026-10-12"
     }
    ],
@@ -344,6 +384,11 @@
      "url": "https://steamcommunity.com/stats/518790/achievements",
      "title": "Steam global achievements list for theHunter: Call of the Wild",
      "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/medved-taiga-national-park/checklist",
+     "title": "Wand interactive map checklist: Medved-Taiga",
+     "accessed": "2026-10-12"
     }
    ]
   },
@@ -383,6 +428,11 @@
      "url": "https://steamcommunity.com/stats/518790/achievements",
      "title": "Steam global achievements list for theHunter: Call of the Wild",
      "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/medved-taiga-national-park/checklist",
+     "title": "Wand interactive map checklist: Medved-Taiga",
+     "accessed": "2026-10-12"
     }
    ],
    "notes": "The guide says Shed Hunter may be buggy and may need all 30 collected. It also says to keep playing about 5 minutes after the last pickup so the achievement saves."
@@ -390,7 +440,18 @@
   {
    "type": "Grankin's traps",
    "about": null,
-   "items": [],
+   "items": [
+    "Trapper 1",
+    "Trapper 2",
+    "Trapper 3",
+    "Trapper 4",
+    "Trapper 5",
+    "Trapper 6",
+    "Trapper 7",
+    "Trapper 8",
+    "Trapper 9",
+    "Trapper 10"
+   ],
    "count": 10,
    "achievements": [
     {
@@ -409,12 +470,24 @@
      "title": "Steam global achievements list for theHunter: Call of the Wild",
      "accessed": "2026-10-12"
     }
-   ]
+   ],
+   "notes": "The guide numbers them only (Trapper 1-10); no in-game names given."
   },
   {
    "type": "Nenet monuments",
    "about": null,
-   "items": [],
+   "items": [
+    "Nenets 1",
+    "Nenets 2",
+    "Nenets 3",
+    "Nenets 4",
+    "Nenets 5",
+    "Nenets 6",
+    "Nenets 7",
+    "Nenets 8",
+    "Nenets 9",
+    "Nenets 10"
+   ],
    "count": 10,
    "achievements": [
     {
@@ -433,12 +506,24 @@
      "title": "Steam global achievements list for theHunter: Call of the Wild",
      "accessed": "2026-10-12"
     }
-   ]
+   ],
+   "notes": "The guide numbers them only (Nenets 1-10)."
   },
   {
    "type": "Expedition notes",
    "about": null,
-   "items": [],
+   "items": [
+    "Expedition 1",
+    "Expedition 2",
+    "Expedition 3",
+    "Expedition 4",
+    "Expedition 5",
+    "Expedition 6",
+    "Expedition 7",
+    "Expedition 8",
+    "Expedition 9",
+    "Expedition 10"
+   ],
    "count": 10,
    "achievements": [
     {
@@ -457,12 +542,24 @@
      "title": "Steam global achievements list for theHunter: Call of the Wild",
      "accessed": "2026-10-12"
     }
-   ]
+   ],
+   "notes": "The guide numbers them only (Expedition 1-10)."
   },
   {
    "type": "Cave paintings",
    "about": null,
-   "items": [],
+   "items": [
+    "Rechnaya Rybalka (Fishing in the River)",
+    "Okhota Na Bol'sherogikh Oleney (Irish-Elk Huniting)",
+    "Stolby (Pillars)",
+    "Ritual Podzemnogo Mira (Underworld Ritual)",
+    "Rybak V Lodke (Fishing Man in a Boat)",
+    "Okhota Na Peshchernykh Medvedey (Cave Bear Hunting)",
+    "Ritual Boga Solntsa (Sun God Ritual)",
+    "Okhota Na Mamonta (Mammoth Hunting)",
+    "Okhota Na Peshchernogo l'va (Cave Lion Hunting)",
+    "Vodnoe Poyeshestviye (Marine Expedition)"
+   ],
    "count": 10,
    "achievements": [
     {
@@ -481,12 +578,34 @@
      "title": "Steam global achievements list for theHunter: Call of the Wild",
      "accessed": "2026-10-12"
     }
-   ]
+   ],
+   "notes": "Names as spelled in the guide (including its typo 'Huniting'). The guide's landmark table has 30 rows: these 10 paintings plus the 20 landmark signs."
   },
   {
    "type": "Landmark signs",
    "about": null,
-   "items": [],
+   "items": [
+    "Chuchunya",
+    "Lenskiye Stolby (Lena Pillars)",
+    "Vorota V Podzemnyy Mir (Gateway to the Underworld)",
+    "Kladbishche mamontov (Mammoth Boneyard)",
+    "Khod Bolshoy Foreli (Fat Trout Run)",
+    "P'yanyy Les (Drunken Forest)",
+    "Izluchina Viktora (Victor's Bend)",
+    "Pustaya Gora (Hollowed Mountain)",
+    "Zheleznaya Doroga Severnogo Kanala (North Link Railroad)",
+    "Chekurovskaya Zvezda (Chekurovka Star)",
+    "Ledyanoy Tonnel' (Frozen Passage)",
+    "Mnozhestvo Malykh Ozer (Many Small Lakes)",
+    "Velikiy Pod'yom (Great Vista)",
+    "Chekurovka",
+    "Tusida (Without Fire)",
+    "Derevnya Dvukh Rek (Two River Village)",
+    "Istochnik Zhizni (Spring of Life)",
+    "Cave Exploration",
+    "Chekurovskiy Zaliv (Chekurovka Bay)",
+    "Ray Dikogo Poberezh'ya (Wild Coast Paradize)"
+   ],
    "count": 20,
    "achievements": [
     {
@@ -505,7 +624,8 @@
      "title": "Steam global achievements list for theHunter: Call of the Wild",
      "accessed": "2026-10-12"
     }
-   ]
+   ],
+   "notes": "Names as spelled in the guide. Wand's checklist shows only artifacts (20) and sheds (30) as collectibles, and 20 landmarks."
   },
   {
    "type": "Map locations (not collectibles)",
@@ -564,6 +684,11 @@
     {
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2819589898",
      "title": "Steam guide (Nucta Ox): Vurhonga Savanna: Artifacts, Collectibles and All Secret Locations",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/vurhonga-savanna/checklist",
+     "title": "Wand interactive map checklist: Vurhonga Savanna",
      "accessed": "2026-10-12"
     }
    ]
@@ -634,6 +759,11 @@
      "url": "https://steamcommunity.com/stats/518790/achievements",
      "title": "Steam global achievements list for theHunter: Call of the Wild",
      "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/parque-fernando/checklist",
+     "title": "Wand interactive map checklist: Parque Fernando",
+     "accessed": "2026-10-12"
     }
    ]
   },
@@ -699,7 +829,7 @@
  "Yukon Valley": [
   {
    "type": "Artifacts / antler sheds",
-   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve.",
+   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve. Wand's checklist for this reserve has no collectible category either.",
    "items": [],
    "count": 0,
    "achievements": [],
@@ -707,6 +837,11 @@
     {
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2889403065",
      "title": "Steam guide (Nucta Ox): Yukon Valley: All Secret Locations",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/yukon-valley-nature-reserve/checklist",
+     "title": "Wand interactive map checklist: Yukon Valley",
      "accessed": "2026-10-12"
     }
    ]
@@ -747,7 +882,7 @@
  "Cuatro Colinas": [
   {
    "type": "Artifacts / antler sheds",
-   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve.",
+   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve. Wand's checklist for this reserve has no collectible category either.",
    "items": [],
    "count": 0,
    "achievements": [],
@@ -755,6 +890,11 @@
     {
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2913531756",
      "title": "Steam guide (Nucta Ox): Cuatro Colinas: All Secret Locations",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/cuatro-colinas-game-reserve/checklist",
+     "title": "Wand interactive map checklist: Cuatro Colinas",
      "accessed": "2026-10-12"
     }
    ]
@@ -798,7 +938,7 @@
  "Silver Ridge Peaks": [
   {
    "type": "Artifacts / antler sheds",
-   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve.",
+   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve. Wand's checklist for this reserve has no collectible category either.",
    "items": [],
    "count": 0,
    "achievements": [],
@@ -807,8 +947,40 @@
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2926328388",
      "title": "Steam guide (Nucta Ox): Silver Ridge Peaks: All Secret Locations",
      "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/silver-ridge-peaks/checklist",
+     "title": "Wand interactive map checklist: Silver Ridge Peaks",
+     "accessed": "2026-10-12"
     }
    ]
+  },
+  {
+   "type": "Photo spot: dinosaur footprints",
+   "about": "Not a pick-up. Photograph the dinosaur footprints for an achievement. A player places them on Dinosaur Hill, the hill north of the original spawn areas.",
+   "items": [
+    "Dinosaur footprints"
+   ],
+   "count": 1,
+   "achievements": [
+    {
+     "name": "When they ruled the earth",
+     "desc": "Take a picture of the dinosaur footprints"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://steamcommunity.com/stats/518790/achievements",
+     "title": "Steam global achievements list for theHunter: Call of the Wild",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://steamcommunity.com/app/518790/discussions/0/2576571491301806608/",
+     "title": "Steam discussion: Achievement mission: when they ruled the earth?",
+     "accessed": "2026-10-12"
+    }
+   ],
+   "notes": "The reserve and location come from a 2020 forum reply, not an official source."
   },
   {
    "type": "Map locations (not collectibles)",
@@ -845,7 +1017,7 @@
  "Te Awaroa": [
   {
    "type": "Artifacts / antler sheds",
-   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve.",
+   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve. Wand's checklist for this reserve has no collectible category either.",
    "items": [],
    "count": 0,
    "achievements": [],
@@ -853,6 +1025,11 @@
     {
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3014022964",
      "title": "Steam guide (Nucta Ox): Te Awaroa: All Secret Locations",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/te-awaroa-national-park/checklist",
+     "title": "Wand interactive map checklist: Te Awaroa",
      "accessed": "2026-10-12"
     }
    ]
@@ -892,7 +1069,7 @@
  "Rancho del Arroyo": [
   {
    "type": "Artifacts / antler sheds",
-   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve.",
+   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve. Wand's checklist for this reserve has no collectible category either.",
    "items": [],
    "count": 0,
    "achievements": [],
@@ -900,6 +1077,11 @@
     {
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3014029864",
      "title": "Steam guide (Nucta Ox): Rancho del Arroyo: All Secret Locations",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/rancho-del-arroyo/checklist",
+     "title": "Wand interactive map checklist: Rancho del Arroyo",
      "accessed": "2026-10-12"
     }
    ]
@@ -939,7 +1121,7 @@
  "Mississippi Acres": [
   {
    "type": "Artifacts / antler sheds",
-   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve.",
+   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve. Wand's checklist for this reserve has no collectible category either.",
    "items": [],
    "count": 0,
    "achievements": [],
@@ -947,6 +1129,11 @@
     {
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3071079443",
      "title": "Steam guide (Nucta Ox): Mississippi Acres Preserve: All Secret Locations",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/mississippi-acres-preserve/checklist",
+     "title": "Wand interactive map checklist: Mississippi Acres",
      "accessed": "2026-10-12"
     }
    ]
@@ -986,7 +1173,7 @@
  "Revontuli Coast": [
   {
    "type": "Artifacts / antler sheds",
-   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve.",
+   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve. Wand's checklist for this reserve has no collectible category either.",
    "items": [],
    "count": 0,
    "achievements": [],
@@ -994,6 +1181,11 @@
     {
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3120677176",
      "title": "Steam guide (Nucta Ox): Revontuli Coast: All Secret Locations",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/revontuli-coast/checklist",
+     "title": "Wand interactive map checklist: Revontuli Coast",
      "accessed": "2026-10-12"
     }
    ],
@@ -1034,7 +1226,7 @@
  "New England Mountains": [
   {
    "type": "Artifacts / antler sheds",
-   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve.",
+   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve. Wand's checklist for this reserve has no collectible category either.",
    "items": [],
    "count": 0,
    "achievements": [],
@@ -1042,6 +1234,11 @@
     {
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3121065345",
      "title": "Steam guide (Nucta Ox): New England Mountains: All Secret Locations",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/new-england-mountains/checklist",
+     "title": "Wand interactive map checklist: New England Mountains",
      "accessed": "2026-10-12"
     }
    ]
@@ -1081,7 +1278,7 @@
  "Emerald Coast Australia": [
   {
    "type": "Artifacts / antler sheds",
-   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve.",
+   "about": "The guide lists 0 artifacts and 0 antler sheds (and 0 points of interest and 0 shooting ranges) for this reserve. Wand's checklist for this reserve has no collectible category either.",
    "items": [],
    "count": 0,
    "achievements": [],
@@ -1089,6 +1286,11 @@
     {
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3122280476",
      "title": "Steam guide (Nucta Ox): Emerald Coast Australia: All Secret Locations",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/emerald-coast/checklist",
+     "title": "Wand interactive map checklist: Emerald Coast Australia",
      "accessed": "2026-10-12"
     }
    ]
@@ -1099,15 +1301,62 @@
    "items": [
     {
      "name": "Landmarks",
-     "count": 8
+     "count": 8,
+     "names": [
+      "Granite Boulders",
+      "Mount Matron",
+      "Battered Peak",
+      "Stonefather Mountain",
+      "Tea Fields",
+      "Lake Cave",
+      "The Triplets",
+      "Ocean cave"
+     ]
     },
     {
      "name": "Outposts",
-     "count": 22
+     "count": 22,
+     "names": [
+      "Kylie's Caravan",
+      "Golden Wattle Respite",
+      "Gilgai House",
+      "Soph's Place",
+      "Meg's Retreat",
+      "Kanyana",
+      "Brindleton Pit Stop",
+      "Knife Point Retreat",
+      "Bambora Cottage",
+      "Jakewood Cottage",
+      "Red Stone House",
+      "Pearl's Camper",
+      "Buckley's Respite",
+      "Babe's Camper",
+      "Zoe's Cottage",
+      "Bogey Hole Retreat",
+      "Mr Percival Perch",
+      "Irongate Cabin",
+      "Archie's Camper",
+      "Windibella Cabin",
+      "St. Macks Respite",
+      "Opal Point Sanctuary"
+     ]
     },
     {
      "name": "Lookout Points",
-     "count": 11
+     "count": 11,
+     "names": [
+      "Stella Tower",
+      "Mary Tower",
+      "Howard Tower",
+      "Elizabeth Tower",
+      "Albert Tower",
+      "Edith Tower",
+      "Andrew Tower",
+      "David Tower",
+      "Edward Tower",
+      "Vincent Tower",
+      "Kathleen Tower"
+     ]
     },
     {
      "name": "Hunting Structures",
@@ -1127,30 +1376,122 @@
  ],
  "Sundarpatan": [
   {
-   "type": "Unknown",
-   "about": "A Nucta Ox guide exists for this reserve but could not be fetched.",
+   "type": "Artifacts / antler sheds",
+   "about": "The guide lists 0 artifacts and 0 antler sheds for this reserve. Wand's checklist has no collectible category either.",
    "items": [],
+   "count": 0,
+   "achievements": [],
+   "sources": [
+    {
+     "url": "https://kosgames.com/thehunter-call-of-the-wild-all-secret-locations-for-sundarpatan-hunting-reserve-55008/",
+     "title": "KosGames: All Secret Locations for Sundarpatan Hunting Reserve (copy of the Nucta Ox guide)",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/sundarpatan/checklist",
+     "title": "Wand interactive map checklist: Sundarpatan",
+     "accessed": "2026-10-12"
+    }
+   ]
+  },
+  {
+   "type": "Map locations (not collectibles)",
+   "about": "Discoverable map locations, for completionists. They are not pick-up collectibles.",
+   "items": [
+    {
+     "name": "Landmarks",
+     "count": 16,
+     "names": [
+      "Besi Khola",
+      "Ban Gufa",
+      "Ganesh Mandir",
+      "Tunnel Farming",
+      "Paddy Fields",
+      "Purano Pul",
+      "Jhulunge Pul",
+      "Rhododendron",
+      "Smarak Stamba",
+      "Him Gufa",
+      "Buddhist Gate",
+      "Him Taal",
+      "Eastern Stupa",
+      "Western Stupa",
+      "Swargadwar Himal",
+      "Mani Stones"
+     ]
+    },
+    {
+     "name": "Outposts",
+     "count": 20
+    },
+    {
+     "name": "Lookout Points",
+     "count": 12,
+     "names": [
+      "Barahi View Tower",
+      "Basantanagar Machan",
+      "Bhanjyankot View Tower",
+      "Chandanpur Machan",
+      "Deurali View Tower",
+      "Ghampus View Tower",
+      "Namjung View Tower",
+      "Pipal Baari Machan",
+      "Sano Gaun View Tower",
+      "Sheetal Gaun View Tower",
+      "Sherpa Gaun View Tower",
+      "Shïtalghat Machan"
+     ]
+    },
+    {
+     "name": "Hunting Structures",
+     "count": 19
+    },
+    {
+     "name": "Points of Interest",
+     "count": 0
+    },
+    {
+     "name": "Shooting Ranges",
+     "count": 0
+    }
+   ],
    "count": null,
    "achievements": [],
    "sources": [
     {
-     "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3270620876",
-     "title": "Steam guide (Nucta Ox): Sundarpatan Hunting Reserve: All Secret Locations (could not be fetched)",
+     "url": "https://kosgames.com/thehunter-call-of-the-wild-all-secret-locations-for-sundarpatan-hunting-reserve-55008/",
+     "title": "KosGames: All Secret Locations for Sundarpatan Hunting Reserve (copy of the Nucta Ox guide)",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/sundarpatan/checklist",
+     "title": "Wand interactive map checklist: Sundarpatan",
+     "accessed": "2026-10-12"
+    },
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/sundarpatan/checklist/locations/lookout-point",
+     "title": "Wand: Sundarpatan lookout point checklist",
      "accessed": "2026-10-12"
     }
    ],
-   "notes": "PARTIAL: no data."
+   "notes": "Lookout names come from Wand; the other counts agree between KosGames and Wand."
   }
  ],
  "Salzwiesen Park": [
   {
    "type": "Unknown",
-   "about": "No collectible data found.",
+   "about": "No collectible data found. Wand has no map for this reserve, and the Nucta Ox guide could not be fetched.",
    "items": [],
    "count": null,
    "achievements": [],
-   "sources": [],
-   "notes": "PARTIAL: no data."
+   "sources": [
+    {
+     "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3379239133",
+     "title": "Steam guide (Nucta Ox): Salzwiesen Park: All Secret Locations (could not be fetched)",
+     "accessed": "2026-10-12"
+    }
+   ],
+   "notes": "PARTIAL: no data. The guide's title ('All Secret Locations', the format Nucta Ox used for reserves without artifacts) suggests there may be none; not confirmed."
   }
  ],
  "Askiy Ridge": [
@@ -1167,7 +1508,7 @@
      "accessed": "2026-10-12"
     }
    ],
-   "notes": "PARTIAL"
+   "notes": "PARTIAL. Wand has no map for this reserve."
   },
   {
    "type": "Map locations (not collectibles)",
@@ -1215,29 +1556,72 @@
  ],
  "Tòrr nan Sìthean": [
   {
-   "type": "Unknown",
-   "about": "A Nucta Ox guide exists for this reserve but could not be fetched.",
+   "type": "Artifacts / antler sheds",
+   "about": "Wand's checklist for the Scotland reserve has no collectible category. The Nucta Ox guide (titled 'All Secret Locations', not 'Artifacts, Collectibles...') could not be fetched, so 0 is not confirmed.",
    "items": [],
    "count": null,
    "achievements": [],
    "sources": [
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/scotland-reserve/checklist",
+     "title": "Wand interactive map checklist: Tòrr nan Sìthean",
+     "accessed": "2026-10-12"
+    },
     {
      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3730596162",
      "title": "Steam guide (Nucta Ox): Tòrr nan Sìthean Hunting Estate: All Secret Locations (could not be fetched)",
      "accessed": "2026-10-12"
     }
    ],
-   "notes": "PARTIAL: no data."
+   "notes": "PARTIAL"
+  },
+  {
+   "type": "Map locations (not collectibles)",
+   "about": "Discoverable map locations, for completionists, from Wand's checklist. Hunting structures are not listed there.",
+   "items": [
+    {
+     "name": "Landmarks",
+     "count": 10
+    },
+    {
+     "name": "Lookout Points",
+     "count": 8
+    },
+    {
+     "name": "Outposts",
+     "count": 19
+    },
+    {
+     "name": "Story missions",
+     "count": 7
+    }
+   ],
+   "count": null,
+   "achievements": [],
+   "sources": [
+    {
+     "url": "https://wand.com/maps/thehunter-call-of-the-wild/scotland-reserve/checklist",
+     "title": "Wand interactive map checklist: Tòrr nan Sìthean",
+     "accessed": "2026-10-12"
+    }
+   ],
+   "notes": "Wand's header shows 'Locations: 405' but its categories add up to 347; this is unexplained."
   }
  ],
  "Intisuyu": [
   {
    "type": "Unknown",
-   "about": "No collectible data found. The Peru mission list includes three 'taxidermized' missions (grison, tapir, taruca), which may involve finding objects; not confirmed.",
+   "about": "No collectible data found. Wand has no map for this reserve, and CoTW Guide's reserve page does not mention collectibles. The Peru mission list includes three 'taxidermized' missions (grison, tapir, taruca), which may involve finding objects; not confirmed.",
    "items": [],
    "count": null,
    "achievements": [],
-   "sources": [],
+   "sources": [
+    {
+     "url": "https://cotwguide.com/en/reserves/intisuyu/",
+     "title": "CoTW Guide: Intisuyu Hunting Reserve",
+     "accessed": "2026-10-12"
+    }
+   ],
    "notes": "PARTIAL: no data."
   }
  ]
