@@ -107,6 +107,17 @@ def main():
             for w in d.get('weapons', []):
                 w['ammo'] = [next((n for n in ammo if '/' in n and a.rsplit(' ', 1)[0] == n.rsplit(' ', 1)[0]), a)
                              if a not in ammo else a for a in w.get('ammo') or []]
+        if g == 'missions':  # some missions have no known English name; give each a unique label
+            for k, groups in d.items():
+                if not isinstance(groups, list):
+                    continue
+                n = 0
+                for grp in groups:
+                    for m in grp.get('missions') or []:
+                        if not m.get('name'):
+                            n += 1
+                            m['name'] = (m['nameTranslated'] + ' (unofficial translation)') if m.get('nameTranslated') \
+                                else 'Unnamed mission %d' % n + (' (' + grp['type'] + ')' if grp.get('type') else '')
         if g in ('missions', 'collectibles'):
             d = {(k if k in ('sources', 'notes') else canon(k)): v for k, v in d.items()}
             odd = [k for k in d if k not in names and k not in ('sources', 'notes')]

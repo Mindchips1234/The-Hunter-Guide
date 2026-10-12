@@ -6,9 +6,10 @@ self.addEventListener('message',e=>{if(e.data==='skipWaiting')self.skipWaiting()
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V&&x!==IMG).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',e=>{
   const r=e.request;if(r.method!=='GET')return;
-  if(new URL(r.url).origin!==location.origin){
+  const u=new URL(r.url);
+  if(u.origin!==location.origin||u.pathname.includes('/img/animals/')){
     // Animal photos: cache first so they work offline once seen.
-    if(r.destination==='image')e.respondWith(caches.open(IMG).then(c=>c.match(r).then(hit=>hit||fetch(r).then(res=>{c.put(r,res.clone()).then(()=>c.keys()).then(k=>{if(k.length>400)c.delete(k[0])});return res}))));
+    if(r.destination==='image')e.respondWith(caches.open(IMG).then(c=>c.match(r).then(hit=>hit||fetch(r).then(res=>{if(res.ok)c.put(r,res.clone()).then(()=>c.keys()).then(k=>{if(k.length>400)c.delete(k[0])});return res}))));
     return;
   }
   // Own files: open instantly from the cache, refresh the cached copy in the background.

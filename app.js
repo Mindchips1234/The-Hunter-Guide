@@ -32,7 +32,7 @@ const icon=n=>(ICONS.find(([re])=>re.test(n))||[0,'🐾'])[1];
 
 // ---------------------------------------------------------------- photos
 // Real-animal photos from iNaturalist, only ones under a Creative Commons licence, shown with
-// the photographer's credit. data/photos.json (made by tools/find-photos.py) is used first;
+// the photographer's credit. data/photos.json (made by tools/import-photos.py or find-photos.py) is used first;
 // anything missing from it is looked up in the browser and remembered on this device.
 // Pictures are cached by the service worker once seen, so they work offline after that.
 const INAT='https://api.inaturalist.org/v1/';
@@ -65,10 +65,11 @@ function photoFor(sp){
 function hydratePhotos(el){
   for(const box of $$('[data-photo]',el)){const sp=box.dataset.photo;delete box.dataset.photo;
     photoFor(sp).then(p=>{if(!p||!box.isConnected)return;const img=new Image();img.alt='';img.loading='lazy';img.decoding='async';img.referrerPolicy='no-referrer';
-      img.className='ph';img.onload=()=>{box.querySelectorAll('.emo').forEach(x=>x.remove());box.classList.add('hasPhoto')};img.onerror=()=>img.remove();box.prepend(img);img.src=p.u;
+      img.className='ph';img.onload=()=>{box.querySelectorAll('.emo').forEach(x=>x.remove());box.classList.add('hasPhoto')};img.onerror=()=>img.remove();box.prepend(img);img.src=box.classList.contains('spPhoto')&&p.full?p.full:p.u;
       const cr=box.parentElement&&box.parentElement.querySelector('[data-credit]');if(cr)cr.innerHTML=photoCredit(p)})}
 }
-const photoCredit=p=>p?`Photo: ${esc(p.by.replace(/^\(c\)\s*/i,'© '))}${/\bCC\b/.test(p.by)?'':' ('+esc(p.lic)+')'} via <a href="${esc(p.link)}" target="_blank" rel="noopener">iNaturalist</a>. Real animal, not an in-game picture.`:'';
+const licLink=p=>p.licUrl?`<a href="${esc(p.licUrl)}" target="_blank" rel="noopener">${esc(p.lic)}</a>`:esc(p.lic);
+const photoCredit=p=>p?`Photo: ${esc(p.by.replace(/^\(c\)\s*/i,'© '))}${/\bCC\b/.test(p.by)?'':' ('+licLink(p)+')'} via <a href="${esc(p.link)}" target="_blank" rel="noopener">iNaturalist</a>. Real animal, not an in-game picture.`:'';
 const pic=(sp,cls='anpic',extra='')=>`<div class="${cls}" data-photo="${esc(sp)}"><span class="emo">${icon(sp)}</span>${extra}</div>`;
 
 // ---------------------------------------------------------------- trophy ratings
@@ -371,7 +372,18 @@ async function buildGuides(){
     +guideCard('/guides/weapons','🔫','Weapons & ammo','Every weapon and ammo type with its class range')
     +guideCard('/guides/skills','🧠','Skills & perks','Every skill and perk, with a points planner')
     +guideCard('/guides/how-it-works','📘','How hunting works','Difficulty, trophy scores, need zones, integrity and furs')
-    +`<a class="guideCard wide" href="https://callofthewild.thehunter.com" target="_blank" rel="noopener"><span class="gIcon">🌐</span><span><strong>Official site</strong><small>News, patch notes and DLC from Expansive Worlds (opens the website)</small></span><span aria-hidden="true">↗</span></a>`;
+    +`<a class="guideCard wide" href="https://callofthewild.thehunter.com" target="_blank" rel="noopener"><span class="gIcon">🌐</span><span><strong>Official site</strong><small>News, patch notes and DLC from Expansive Worlds (opens the website)</small></span><span aria-hidden="true">↗</span></a>`
+    +guideCard('/guides/credits','📷','Credits','Who took the animal photos, and where the data comes from',0,0,1);
+}
+// Credits: every animal photo's photographer and licence (CC BY needs the credit), plus fonts and data.
+async function buildCredits(){
+  const P=await photoJson();if(screen!=='guide')return;
+  const rows=Object.entries(P).sort(([a],[b])=>a.localeCompare(b)).map(([s,p])=>`<tr><td>${esc(s)}</td><td>${esc(p.by)}</td><td>${licLink(p)}</td><td>${p.link?`<a href="${esc(p.link)}" target="_blank" rel="noopener">iNaturalist</a>`:''}</td></tr>`).join('');
+  gv.innerHTML=guideTitle('Guides','Credits','The animal photos are real wildlife from iNaturalist photographers, not pictures from the game. Each one is used under the licence shown.')
+    +`<div class="section"><h2>Animal photos</h2>${rows?`<div class="card" style="overflow-x:auto"><table class="ratings"><thead><tr><th>Animal</th><th>Photographer</th><th>Licence</th><th>Source</th></tr></thead><tbody>${rows}</tbody></table></div>`:'<div class="mutedBox">The photos are looked up when you open each animal, with the credit under the picture.</div>'}
+    <p class="note">CC BY-NC photos may only be used in a free app.</p></div>
+    <div class="section"><h2>Fonts</h2><p class="note">Barlow, Barlow Condensed and IBM Plex Mono, under the SIL Open Font License.</p></div>
+    <div class="section"><h2>Game data</h2><p class="note">From community sources, credited on each page: CoTW Guide, The Wild Register, the official site and patch notes, Steam guides and fan wikis. Not affiliated with Expansive Worlds.</p></div>`;
 }
 function guideTitle(eyebrow,title,p){return `<div class="hero slim"><div class="eyebrow">${eyebrow}</div><h1>${title}</h1>${p?`<p>${p}</p>`:''}</div>`}
 async function buildGuide(sub){
@@ -383,6 +395,7 @@ async function buildGuide(sub){
     else if(sub==='ammo-finder'){store.set('wTab','finder');await buildWeapons()}
     else if(sub==='skills')await buildSkills();
     else if(sub==='how-it-works')await buildMechanics();
+    else if(sub==='credits')await buildCredits();
     else nav('/guides');
   }catch(e){gv.innerHTML=guideTitle('Guides','Guides')+loadFail}
 }
@@ -593,6 +606,7 @@ function endIntro(){if(intro.classList.contains('out'))return;clearTimeout(intro
 function playIntro(){intro.hidden=false;intro.classList.remove('out','play');void intro.offsetWidth;intro.classList.add('play');clearTimeout(introTimer);introTimer=setTimeout(endIntro,reduceMotion?900:3700)}
 intro.onclick=endIntro;introTimer=setTimeout(endIntro,reduceMotion?900:3700);
 $('#replayIntro').onclick=()=>{$('#set').close();playIntro()};
+$('#creditsBtn').onclick=()=>{$('#set').close();nav('/guides/credits')};
 
 // Swipe from the left edge to go back (installed app only; browsers have their own gesture).
 if(matchMedia('(display-mode: standalone)').matches||navigator.standalone){
