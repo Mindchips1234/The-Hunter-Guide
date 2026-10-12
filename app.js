@@ -3,7 +3,7 @@
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)],esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const store={get(k,d){try{return localStorage.getItem('hg1.'+k)||d}catch(e){return d}},set(k,v){try{localStorage.setItem('hg1.'+k,v)}catch(e){}}};
 const jget=(k,d)=>{try{const v=JSON.parse(store.get(k,''));return v==null?d:v}catch(e){return d}},jset=(k,v)=>store.set(k,JSON.stringify(v));
-const APP_VERSION='0.4',reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const APP_VERSION='0.5',reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let unit=store.get('unit','metric'),clock=store.get('clock','24'),R=null,lastSp=null,built=null,scrollRv=0;
 const home=$('#home'),rv=$('#rv'),fv=$('#fv'),lv=$('#lv'),gv=$('#gv'),back=$('#back'),sel=$('#rsel');
 const haptic=(ms=10)=>{try{navigator.vibrate&&navigator.vibrate(ms)}catch(e){}};
@@ -250,7 +250,7 @@ function spPage(s){
   </div><div>
     <div class="card"><h2>Furs</h2>${furHtml}</div>
     <div class="card" style="margin-top:18px"><h2>Ammo rated for this animal</h2>${d.ammo.length?d.ammo.map(a=>`<span class="tag ammo">${esc(a)}</span>`).join(''):'<div class="mutedBox">Not listed yet.</div>'}<div class="note">Ammo rated for this animal's class passes the harvest check, so you keep the full medal and payout.</div></div>
-    <div class="card" style="margin-top:18px" id="callerCard"><h2>Callers</h2><div class="mutedBox">Loading…</div></div>
+    <div class="card" style="margin-top:18px" id="callerCard"><h2>Callers and scents</h2><div class="mutedBox">Loading…</div></div>
     <div class="card" style="margin-top:18px"><h2>Found in</h2>${d.reserves.map(n=>`<button class="chip small${n===R?' active':''}${owns(n)?'':' notOwned'}" data-other="${esc(n)}">${emb(n,'chipEmb')}${esc(short(n))}</button>`).join(' ')}</div>
   </div></div>
   <button class="cta" id="logThis">Log a harvest</button>
@@ -263,7 +263,10 @@ async function fillCallers(s){
   const box=$('#callerCard');let C=null;try{C=await guide('callers')}catch(e){}
   if(!box||!box.isConnected)return;
   const b=C&&C.bySpecies&&C.bySpecies[s],list=(b&&b.callers)||[],info=n=>(C.callers||[]).find(c=>c.name===n)||{};
-  box.innerHTML='<h2>Callers</h2>'+(list.length?list.map(n=>{const c=info(n);return `<div class="callerRow"><strong>${esc(n)}</strong><small>${esc([c.type,c.dlc].filter(Boolean).join(' · '))}</small></div>`}).join(''):`<div class="mutedBox">${C?'No caller brings this animal in.':'Caller list not available yet.'}</div>`)+(b&&b.notes?`<p class="note">${esc(b.notes)}</p>`:'');
+  const row=n=>{const c=info(n);return `<div class="callerRow"><strong>${esc(n)}</strong><small>${esc(c.dlc||'')}</small></div>`},calls=list.filter(n=>info(n).type!=='lure scent'),scents=list.filter(n=>info(n).type==='lure scent');
+  box.innerHTML='<h2>Callers and scents</h2>'+(calls.length?calls.map(row).join(''):`<div class="mutedBox">${C?'No caller is known to bring this animal in.':'Caller list not available yet.'}</div>`)
+    +(b&&b.electronic?'<p class="note">The FOXPRO X360 electronic caller (Ambusher Pack) can play this call too.</p>':'')
+    +(scents.length?'<div class="tier">Lure scent</div>'+scents.map(row).join(''):'');
 }
 function spDyn(s){const b=bestFor(s);$('#fbest').innerHTML=b?`Your best: ${b.rank?rankBadge(b.rank):'harvested'}${b.sc!=null?' · score '+score(b.sc):''}`:''}
 function showSp(s){
@@ -332,7 +335,7 @@ function buildLog(){
   lv.innerHTML=`<div class="hero"><div class="eyebrow">Saved on this device</div><h1>My log</h1>
     <div class="statTiles">${tile(log.length,'Harvests')}${tile(diaKills,'Diamonds','m-diamond')}${tile(goGot.size+'<small>/'+goTotal+'</small>','Great Ones','m-fabled')}${tile(rare,'Rare furs','m-gold')}</div>
     <div class="homeActions"><button class="primaryAction" id="lgNew">＋ Log a harvest</button><button class="secondaryAction" id="lgBackup">Back up my log</button></div></div>
-  <div class="section"><h2>Recent harvests</h2>${recent.length?`<div class="logList">${shown.map(e=>DATA.species[e.s]?`<div class="logRow"><button class="logOpen" data-lo="${esc(e.r+'::'+e.s)}">${dot(e.rank)}<span><strong>${esc(e.s)}</strong><small>${esc(short(e.r))}${e.d?' · '+esc(e.d):''}${e.fur?' · '+esc(e.fur):''}</small>${e.n?`<small class="muted">${esc(e.n)}</small>`:''}</span></button><span class="logMeta">${e.sc!=null?`<code class="sc">${score(e.sc)}</code>`:''}${e.w!=null?`<small class="muted">${kgfmt(e.w)}</small>`:''}</span><span class="logBtns"><button class="iconBtn" data-edit="${esc(e.id)}" aria-label="Edit this harvest">✎</button><button class="iconBtn" data-share="${esc(e.id)}" aria-label="Share this harvest">⤴</button><button class="iconBtn" data-del="${esc(e.id)}" aria-label="Delete this harvest">✕</button></span></div>`:'').join('')}</div>${recent.length>shown.length?`<button class="secondaryAction showMore" id="logMore">Show ${Math.min(30,recent.length-shown.length)} more (${recent.length-shown.length} older)</button>`:''}`:'<div class="mutedBox">Nothing logged yet. Tap “Log a harvest” after a kill, or use the button on any species page.</div>'}</div>
+  <div class="section"><h2>Recent harvests</h2>${recent.length?`<div class="logList">${shown.map(e=>DATA.species[e.s]?`<div class="logRow"><button class="logOpen" data-lo="${esc(e.r+'::'+e.s)}">${dot(e.rank)}<span><strong>${esc(e.s)}</strong><small>${e.sc!=null?`<b class="mobScore">${score(e.sc)} · </b>`:''}${esc(short(e.r))}${e.d?' · '+esc(e.d):''}${e.fur?' · '+esc(e.fur):''}</small>${e.n?`<small class="muted">${esc(e.n)}</small>`:''}</span></button><span class="logMeta">${e.sc!=null?`<code class="sc">${score(e.sc)}</code>`:''}${e.w!=null?`<small class="muted">${kgfmt(e.w)}</small>`:''}</span><span class="logBtns"><button class="iconBtn" data-edit="${esc(e.id)}" aria-label="Edit this harvest">✎</button><button class="iconBtn" data-share="${esc(e.id)}" aria-label="Share this harvest">⤴</button><button class="iconBtn" data-del="${esc(e.id)}" aria-label="Delete this harvest">✕</button></span></div>`:'').join('')}</div>${recent.length>shown.length?`<button class="secondaryAction showMore" id="logMore">Show ${Math.min(30,recent.length-shown.length)} more (${recent.length-shown.length} older)</button>`:''}`:'<div class="mutedBox">Nothing logged yet. Tap “Log a harvest” after a kill, or use the button on any species page.</div>'}</div>
   <div class="section"><h2>Collection</h2><div class="ckSummary"><div class="collHead"><span>${mine} of ${my.length} species harvested</span><span class="muted">${dia} with a diamond</span></div><span class="bar"><i style="width:${my.length?mine/my.length*100:0}%"></i></span></div><p class="note">Your best rating for every species. Tap one to open its guide.</p>
     <div class="chipRow"><button class="chip${lr?'':' active'}" data-lr="">All</button>${MY().map(n=>`<button class="chip${lr===n?' active':''}" data-lr="${esc(n)}">${emb(n,'chipEmb')}${esc(short(n))}</button>`).join('')}</div>
     <div class="chipRow">${[['all','All'],['got','Harvested'],['missing','Not yet'],['diamond','💎 Diamond'],['nodiamond','No diamond yet']].map(([k,l])=>`<button class="chip small${lf===k?' active':''}" data-lf="${k}">${l}</button>`).join('')}</div>

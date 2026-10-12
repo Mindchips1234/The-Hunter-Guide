@@ -202,6 +202,13 @@ def main():
                         m['name'] = clean_line(m['name'])
                         m['desc'] = clean_line(player_text(m.get('desc'))[0])
                         m['objectives'] = [clean_line(o) for o in m.get('objectives') or [] if o != m['name']]
+        if g == 'callers':  # DLC names without research remarks; player-facing notes only
+            for c in d.get('callers', []):
+                c['dlc'] = re.sub(r'\s*\(.*\)', '', c.get('dlc') or '') or None
+            for v in d.get('bySpecies', {}).values():
+                n = v.get('notes') or ''
+                v['electronic'] = 'FOXPRO' in n
+                v['notes'] = None
         if g == 'mechanics':
             def tidy(v):
                 if isinstance(v, dict):

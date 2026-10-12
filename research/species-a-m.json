@@ -76,7 +76,7 @@
       "600g"
     ],
     "about": "Class 7, hard difficulty animal with a max level of 9 and a max weight of 530 kg. Found in: Mississippi Acres Preserve.",
-    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide and the Steam chart give the same thresholds (226/378/492, max 530) for both American Alligator and Eastern Gray Kangaroo; one of them is probably copied. Treat as unverified. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Mississippi Acres; level 2-9, class 7) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide and the Steam chart give the same thresholds (226/378/492, max 530) for both American Alligator and Eastern Gray Kangaroo; one of them is probably copied. Treat as unverified. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Mississippi Acres; level 2-9, class 7) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary. These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       "https://cotwguide.com/en/animals/americanalligator/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
@@ -729,7 +729,7 @@
       "600g"
     ],
     "about": "Class 7, hard difficulty animal with a max level of 9 and a max weight of 500 kg. Found in: Intisuyu Hunting Reserve.",
-    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Intisuyu; level 1-9, class 7) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Intisuyu; level 1-9, class 7) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary. These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       "https://cotwguide.com/en/animals/blackcaiman/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
@@ -790,11 +790,16 @@
       "350g"
     ],
     "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 1.25 kg. Found in: Revontuli Coast, Salzwiesen Park, Tòrr nan Sìthean Hunting Estate.",
-    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in units of 10 g (max 125 for a 1.25 kg bird). Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 1250g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 1250g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary. These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       "https://cotwguide.com/en/animals/blackgrouse/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
-      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
+        "accessed": "2026-10-12"
+      }
     ]
   },
   "Blackbuck": {
@@ -1207,11 +1212,16 @@
       "350g"
     ],
     "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 0.25 kg. Found in: Mississippi Acres Preserve, New England Mountains.",
-    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in grams (max 250 for a 0.25 kg bird). The Steam chart gives 159/217/260.5 instead; its 154/202/238 row belongs to Stubble Quail, so cotwguide may have the Stubble Quail values. Unverified. cotwguide spells the latin name 'Colinius virginianus'. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Mississippi Acres; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. The Steam chart gives 159/217/260.5 instead; its 154/202/238 row belongs to Stubble Quail, so cotwguide may have the Stubble Quail values. Unverified. cotwguide spells the latin name 'Colinius virginianus'. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Mississippi Acres; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary. These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       "https://cotwguide.com/en/animals/bobwhitequail/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
-      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
+        "accessed": "2026-10-12"
+      }
     ]
   },
   "Brown Bear": {
@@ -1861,7 +1871,7 @@
       "silver": 84.1,
       "gold": 148.57,
       "diamond": 196.93,
-      "max": 180
+      "max": null
     },
     "reserves": [
       "Rancho del Arroyo"
@@ -1920,7 +1930,7 @@
       "540g"
     ],
     "about": "Class 5, average difficulty animal with a max level of 5 and a max weight of 160 kg. Found in: Rancho del Arroyo.",
-    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide diamond minimum (196.93) is above its stated maximum score (180), so one of the two is wrong. Steam lists this animal as 'Bighorn Sheep' under Rancho del Arroyo. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Rancho Del Arroyo (row labelled 'Bighorn Sheep'); level 1-5, class 5) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Steam lists this animal as 'Bighorn Sheep' under Rancho del Arroyo. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Rancho Del Arroyo (row labelled 'Bighorn Sheep'); level 1-5, class 5) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary. Max score left blank: the old 180 maximum predates the Snowfall Update (June 2025), which revised bighorn scoring ranges.",
     "sources": [
       "https://cotwguide.com/en/animals/desertbighornsheep/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
@@ -1983,11 +1993,16 @@
       "350g"
     ],
     "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 1.6 kg. Found in: Askiy Ridge Hunting Preserve.",
-    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide trophy thresholds 88/124/151 are identical to American Mink; possibly a copy error. Steam chart gives max weight 2 kg vs cotwguide 1.6 kg. cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Askiy Ridge; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide trophy thresholds 88/124/151 are identical to American Mink; possibly a copy error. Steam chart gives max weight 2 kg vs cotwguide 1.6 kg. cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Askiy Ridge; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary. These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       "https://cotwguide.com/en/animals/duskygrouse/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
-      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
+        "accessed": "2026-10-12"
+      }
     ]
   },
   "Eastern Cottontail Rabbit": {
@@ -2375,11 +2390,16 @@
       "350g"
     ],
     "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 0.36 kg. Found in: Revontuli Coast, Salzwiesen Park.",
-    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in grams (max 360 for a 0.36 kg bird). Steam lists max weight 400 g. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 400g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Steam lists max weight 400 g. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 400g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary. These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       "https://cotwguide.com/en/animals/eurasianteal/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
-      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
+        "accessed": "2026-10-12"
+      }
     ]
   },
   "Eurasian Wigeon": {
@@ -2437,11 +2457,16 @@
       "350g"
     ],
     "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 0.95 kg. Found in: Revontuli Coast, Salzwiesen Park, Tòrr nan Sìthean Hunting Estate, Vurhonga Savanna.",
-    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in grams (max 950 for a 0.95 kg bird). Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 920g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 920g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary. These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       "https://cotwguide.com/en/animals/eurasianwigeon/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
-      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
+        "accessed": "2026-10-12"
+      }
     ]
   },
   "Eurasian Woodcock": {
@@ -2496,11 +2521,16 @@
       "350g"
     ],
     "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 0.25 kg. Found in: Tòrr nan Sìthean Hunting Estate.",
-    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores (25.84/34.52/41.03) are on a different scale from the 0.25 kg max weight; units unclear. cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Torr nan Sithean; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Torr nan Sithean; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary. These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       "https://cotwguide.com/en/animals/eurasianwoodcock/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
-      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
+        "accessed": "2026-10-12"
+      }
     ]
   },
   "European Badger": {
@@ -3090,11 +3120,16 @@
       "350g"
     ],
     "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 1.1 kg. Found in: Salzwiesen Park.",
-    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in grams (diamond 1050 for a 1.1 kg bird). cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Salzwiesen Park; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Salzwiesen Park; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary. These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       "https://cotwguide.com/en/animals/ferruginousduck/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
-      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
+        "accessed": "2026-10-12"
+      }
     ]
   },
   "Gadwall": {
@@ -3149,11 +3184,16 @@
       "350g"
     ],
     "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 1.4 kg. Found in: Salzwiesen Park.",
-    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in grams. cotwguide shows the max weight as '1.4 Kg?' (unsure). Thresholds are identical to Ferruginous Duck on both sources. cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Salzwiesen Park; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide shows the max weight as '1.4 Kg?' (unsure). Thresholds are identical to Ferruginous Duck on both sources. cotwguide shows no maximum score. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Salzwiesen Park; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary. These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       "https://cotwguide.com/en/animals/gadwall/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
-      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
+        "accessed": "2026-10-12"
+      }
     ]
   },
   "Gemsbok": {
@@ -3278,11 +3318,16 @@
       "350g"
     ],
     "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 1.3 kg. Found in: New England Mountains, Revontuli Coast, Salzwiesen Park.",
-    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in grams (max 1300 for a 1.3 kg bird). The Steam chart's New England Mountains row shows '1300' in the kg column (a units error). Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 1300g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. The Steam chart's New England Mountains row shows '1300' in the kg column (a units error). Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 1300g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary. These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       "https://cotwguide.com/en/animals/goldeneye/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
-      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
+        "accessed": "2026-10-12"
+      }
     ]
   },
   "Grant Caribou": {
@@ -3692,11 +3737,16 @@
       "350g"
     ],
     "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 3.3 kg. Found in: Mississippi Acres Preserve, New England Mountains.",
-    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide max weight '3.3 Kg' looks wrong for a teal; the Steam chart gives 0.4 kg. Scores look like weight in grams (max 540). Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Mississippi Acres; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. cotwguide max weight '3.3 Kg' looks wrong for a teal; the Steam chart gives 0.4 kg. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Mississippi Acres; level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary. These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       "https://cotwguide.com/en/animals/greenwingedteal/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
-      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
+        "accessed": "2026-10-12"
+      }
     ]
   },
   "Greylag Goose": {
@@ -3936,11 +3986,16 @@
       "350g"
     ],
     "about": "Class 1, easy difficulty animal with a max level of 3 and a max weight of 0.45 kg. Found in: Revontuli Coast.",
-    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Scores look like weight in grams (max 450 for a 0.45 kg bird). Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 450g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary.",
+    "notes": "greatOne is false because cotwguide shows no '10 Fabled' level; this was not checked against patch notes from 2026. Bronze threshold and minimum weight are not given by either source. Furs come from a third-party list; it says nothing about how rare each fur is in percentage terms. The Steam chart (Revontuli Coast (listed as 450g); level 1-3, class 1) is the source for integrity ammo. Its page now shows a 'removed from the community' notice, so treat it as secondary. These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       "https://cotwguide.com/en/animals/hazelgrouse/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=2783304138",
-      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/"
+      "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
+        "accessed": "2026-10-12"
+      }
     ]
   },
   "Himalayan Tahr": {
