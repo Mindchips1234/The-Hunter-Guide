@@ -56,7 +56,7 @@ Edit or replace the files in `research/`, then run `python3 tools/build-data.py`
 - **Collectibles:** pick-ups only exist in Hirschfelden, Layton Lake, Medved-Taiga and Vurhonga (plus Parque Fernando's challenge targets); the rest list their achievements. Salzwiesen, Askiy Ridge, Tòrr nan Sìthean and Intisuyu are unconfirmed.
 - **Trophy scores:** the bronze threshold is not published, so anything under silver is shown as bronze. Bird and crocodilian scores are on their own in-game scale (hundreds for many ducks); they were checked against the Steam trophy chart. The bighorn sheep maximum is blank because scoring changed in the Snowfall Update.
 - **Callers:** 70 of 128 animals have a known caller or scent; the rest show none.
-- **Collectibles:** 107 of 188 named items have a location hint.
+- **Collectibles:** all 107 named items have a location hint with map coordinates where the guide gives them (some list many spots under one name).
 - **Great Ones:** how many kills it takes is player-reported, not official. Fur names are missing for the Jaguar and Taruca.
 - **Skills:** effects are paraphrased from community sources and some per-level effects are missing.
 
