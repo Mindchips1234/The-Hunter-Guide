@@ -1,0 +1,1325 @@
+{
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+      "title": "COTW Companion app data (janstehno/cotw-companion): animals.json CALLERS field (covers 125 species incl. Peru)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+      "title": "COTW Companion app data: callers.json (28 callers, DLC flag, level, price, range)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js",
+      "title": "COTW-Wiki fan project data: callers.js (species + DLC per caller, updated Feb 2026)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/scents.js",
+      "title": "COTW-Wiki fan project data: scents.js",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EB%8F%84%EA%B5%AC%EC%99%80%20%EC%86%8C%EB%AA%A8%ED%92%88",
+      "title": "NamuWiki: The Hunter: Call of the Wild / Tools and Consumables (callers, scents)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1604415373",
+      "title": "Steam Guide: Callers Guide (OUT OF DATE, 2018-2022)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1124851654",
+      "title": "Steam Guide: Every Animal in the Game (2017-2021; notes which animals cannot be called)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2445049273",
+      "title": "Steam Guide: Secret scent and caller effects guide (Finland update, 2021-2022; side-effect percentages, unofficial)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://callofthewild.thehunter.com/snowfall-update-patch-notes-june-16th-2025/",
+      "title": "Official: Snowfall Update Patch Notes, June 16 2025 (Alberta callers; elk caller works on Manitoban Elk)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://callofthewild.thehunter.com/patch-notes-march25/",
+      "title": "Official: Patch Notes March 24 2025 (Salzwiesen unlocks Raccoon Caller)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://store.epicgames.com/p/thehunter-call-of-the-wild--ambusher-pack",
+      "title": "Epic Games Store: Ambusher Pack (FOXPRO X360 Electronic Caller)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://store.steampowered.com/app/767380",
+      "title": "Steam Store: New Species 2018 DLC (Beacon Deluxe Duck Caller, Short Reed Canada Goose Caller)",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "callers": [
+    {
+      "name": "Antler Rattler",
+      "type": "hand caller",
+      "dlc": "Base game",
+      "species": [
+        "Fallow Deer",
+        "Mountain Reindeer",
+        "Grant Caribou",
+        "Woodland Caribou",
+        "Lesser Kudu",
+        "Gemsbok",
+        "Blackbuck",
+        "Barasingha"
+      ],
+      "notes": "Woodland Caribou per cotw-companion only (Alberta, 2025).",
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Axis Deer \"Screamer\" Caller",
+      "type": "hand caller",
+      "dlc": "Parque Fernando (COTW-Wiki: Parque Fernando or Emerald Coast)",
+      "species": [
+        "Axis Deer"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Beacon Deluxe Duck Caller",
+      "type": "hand caller",
+      "dlc": "Base game (originally New Species 2018 DLC; now non-DLC per cotw-companion)",
+      "species": [
+        "Mallard",
+        "Cinnamon Teal",
+        "Goldeneye",
+        "Tufted Duck",
+        "Harlequin Duck",
+        "Ferruginous Duck"
+      ],
+      "notes": "COTW-Wiki attributes it to the Duck and Cover Hunting Pack; Steam store lists it in New Species 2018.",
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js",
+        "https://store.steampowered.com/app/767380"
+      ]
+    },
+    {
+      "name": "Beacon Deluxe Eurasian Teal Caller",
+      "type": "hand caller",
+      "dlc": "Revontuli Coast",
+      "species": [
+        "Eurasian Teal",
+        "Green-Winged Teal"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Beacon Deluxe Eurasian Wigeon Caller",
+      "type": "hand caller",
+      "dlc": "Revontuli Coast",
+      "species": [
+        "Eurasian Wigeon"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Beacon Deluxe Bean Goose Caller",
+      "type": "hand caller",
+      "dlc": "Revontuli Coast",
+      "species": [
+        "Tundra Bean Goose"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Beacon Deluxe Greylag Goose Caller",
+      "type": "hand caller",
+      "dlc": "Revontuli Coast",
+      "species": [
+        "Greylag Goose"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Buck \"Snort Wheeze\" Caller",
+      "type": "hand caller",
+      "dlc": "Vurhonga Savanna",
+      "species": [
+        "Whitetail Deer",
+        "Springbok",
+        "Blue Wildebeest",
+        "Lesser Kudu",
+        "Sika Deer",
+        "Nilgai"
+      ],
+      "notes": "Attracts males only (COTW-Wiki, Steam guide). Free with the DLC.",
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Deer \"Bleat\" Caller",
+      "type": "hand caller",
+      "dlc": "Base game",
+      "species": [
+        "Whitetail Deer",
+        "Blacktail Deer",
+        "Mule Deer",
+        "Sika Deer"
+      ],
+      "notes": "Free starting caller; 150 m range.",
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Deer \"Grunt\" Caller",
+      "type": "hand caller",
+      "dlc": "Base game",
+      "species": [
+        "Whitetail Deer",
+        "Blacktail Deer",
+        "Sika Deer"
+      ],
+      "notes": "Older guides also list Mule Deer; current sources do not.",
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Elk Caller",
+      "type": "hand caller",
+      "dlc": "Base game",
+      "species": [
+        "Roosevelt Elk",
+        "Rocky Mountain Elk",
+        "Manitoban Elk"
+      ],
+      "notes": "Manitoban Elk added June 2025 (official patch notes).",
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js",
+        "https://callofthewild.thehunter.com/snowfall-update-patch-notes-june-16th-2025/"
+      ]
+    },
+    {
+      "name": "Moose Caller",
+      "type": "hand caller",
+      "dlc": "Base game",
+      "species": [
+        "Moose"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Predator \"Distressed Fawn\" Caller",
+      "type": "hand caller",
+      "dlc": "Base game",
+      "species": [
+        "Black Bear",
+        "Brown Bear",
+        "Grizzly Bear",
+        "Puma",
+        "Lion",
+        "Gray Wolf",
+        "Iberian Wolf",
+        "Bengal Tiger",
+        "Spectacled Bear"
+      ],
+      "notes": "Spectacled Bear per cotw-companion only (Peru).",
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Predator \"Jackrabbit\" Caller",
+      "type": "hand caller",
+      "dlc": "Base game",
+      "species": [
+        "Red Fox",
+        "Gray Fox",
+        "Tibetan Fox",
+        "Coyote",
+        "Side-Striped Jackal",
+        "Eurasian Lynx",
+        "Mexican Bobcat",
+        "Bobcat",
+        "Collared Peccary",
+        "Gray Wolf",
+        "Iberian Wolf",
+        "Lion"
+      ],
+      "notes": "Bobcat listed by COTW-Wiki only (not in cotw-companion species list). Free starting caller per cotw-companion.",
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Red Deer Caller",
+      "type": "hand caller",
+      "dlc": "Base game",
+      "species": [
+        "Red Deer",
+        "Sika Deer"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Roe Deer Caller",
+      "type": "hand caller",
+      "dlc": "Base game",
+      "species": [
+        "Roe Deer",
+        "Northern Red Muntjac"
+      ],
+      "notes": "Free starting caller.",
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Short Reed Canada Goose Caller",
+      "type": "hand caller",
+      "dlc": "Base game (originally New Species 2018 DLC)",
+      "species": [
+        "Canada Goose"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js",
+        "https://store.steampowered.com/app/767380"
+      ]
+    },
+    {
+      "name": "Wild Boar Caller",
+      "type": "hand caller",
+      "dlc": "Base game",
+      "species": [
+        "Wild Boar",
+        "Warthog",
+        "Feral Pig",
+        "Collared Peccary"
+      ],
+      "notes": "Collared Peccary per cotw-companion (COTW-Wiki omits it). Wild Hog not listed by any source.",
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Wild Turkey Crow Caller",
+      "type": "hand caller",
+      "dlc": "Silver Ridge Peaks",
+      "species": [
+        "Merriam Turkey",
+        "Rio Grande Turkey",
+        "Eastern Wild Turkey"
+      ],
+      "notes": "Locator call: makes turkeys respond rather than approach (Steam guide).",
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Wild Turkey Mouth Caller",
+      "type": "hand caller",
+      "dlc": "Silver Ridge Peaks",
+      "species": [
+        "Merriam Turkey",
+        "Rio Grande Turkey",
+        "Eastern Wild Turkey"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Raccoon \"Squall\" Caller",
+      "type": "hand caller",
+      "dlc": "Mississippi Acres Preserve",
+      "species": [
+        "Common Raccoon"
+      ],
+      "notes": "Also unlocked by Salzwiesen Park (official March 2025 patch notes).",
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js",
+        "https://callofthewild.thehunter.com/patch-notes-march25/"
+      ]
+    },
+    {
+      "name": "Hazel Grouse Caller",
+      "type": "hand caller",
+      "dlc": "Revontuli Coast",
+      "species": [
+        "Hazel Grouse"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Sambar Mouth Caller",
+      "type": "hand caller",
+      "dlc": "Emerald Coast",
+      "species": [
+        "Sambar",
+        "Javan Rusa",
+        "Hog Deer"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Magpie Goose Caller",
+      "type": "hand caller",
+      "dlc": "Emerald Coast",
+      "species": [
+        "Magpie Goose"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Gadwall Caller",
+      "type": "hand caller",
+      "dlc": "Salzwiesen Park (per COTW-Wiki)",
+      "species": [
+        "Gadwall"
+      ],
+      "notes": "DLC attribution from COTW-Wiki only; unverified.",
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Snow Goose Caller",
+      "type": "hand caller",
+      "dlc": "Alberta Hunting Preserve",
+      "species": [
+        "Snow Goose"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://callofthewild.thehunter.com/snowfall-update-patch-notes-june-16th-2025/"
+      ]
+    },
+    {
+      "name": "Wood Duck Caller",
+      "type": "hand caller",
+      "dlc": "Alberta Hunting Preserve",
+      "species": [
+        "Wood Duck"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://callofthewild.thehunter.com/snowfall-update-patch-notes-june-16th-2025/"
+      ]
+    },
+    {
+      "name": "Northern Pintail Caller",
+      "type": "hand caller",
+      "dlc": "Alberta Hunting Preserve",
+      "species": [
+        "Northern Pintail"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/animals.json",
+        "https://raw.githubusercontent.com/janstehno/cotw-companion/main/assets/raw/callers.json",
+        "https://callofthewild.thehunter.com/snowfall-update-patch-notes-june-16th-2025/"
+      ]
+    },
+    {
+      "name": "FOXPRO X360 Electronic Caller",
+      "type": "electronic caller",
+      "dlc": "Ambusher Pack",
+      "species": [],
+      "notes": "Placed remote caller; per NamuWiki it can play any species that has a hand caller and can lure two species at once (FOXFUSION). No source itemizes its sound library, so species is left empty; treat it as covering the hand-caller species. COTW-Wiki names an Ambusher Pack electronic caller \"Quist Red Pro\"; the store page says FOXPRO X360.",
+      "sources": [
+        "https://store.epicgames.com/p/thehunter-call-of-the-wild--ambusher-pack",
+        "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EB%8F%84%EA%B5%AC%EC%99%80%20%EC%86%8C%EB%AA%A8%ED%92%88",
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/callers.js"
+      ]
+    },
+    {
+      "name": "Whitetail Deer Scent",
+      "type": "lure scent",
+      "dlc": "Base game",
+      "species": [
+        "Whitetail Deer"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/scents.js",
+        "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EB%8F%84%EA%B5%AC%EC%99%80%20%EC%86%8C%EB%AA%A8%ED%92%88"
+      ]
+    },
+    {
+      "name": "Elk Scent",
+      "type": "lure scent",
+      "dlc": "Base game",
+      "species": [
+        "Roosevelt Elk",
+        "Rocky Mountain Elk"
+      ],
+      "notes": "Unknown whether it works on Manitoban Elk.",
+      "sources": [
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/scents.js",
+        "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EB%8F%84%EA%B5%AC%EC%99%80%20%EC%86%8C%EB%AA%A8%ED%92%88"
+      ]
+    },
+    {
+      "name": "Moose Scent",
+      "type": "lure scent",
+      "dlc": "Base game",
+      "species": [
+        "Moose"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/scents.js",
+        "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EB%8F%84%EA%B5%AC%EC%99%80%20%EC%86%8C%EB%AA%A8%ED%92%88"
+      ]
+    },
+    {
+      "name": "Wild Boar Scent",
+      "type": "lure scent",
+      "dlc": "Base game",
+      "species": [
+        "Wild Boar"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/scents.js",
+        "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EB%8F%84%EA%B5%AC%EC%99%80%20%EC%86%8C%EB%AA%A8%ED%92%88"
+      ]
+    },
+    {
+      "name": "Blacktail Deer Scent",
+      "type": "lure scent",
+      "dlc": "Base game",
+      "species": [
+        "Blacktail Deer"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/scents.js",
+        "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EB%8F%84%EA%B5%AC%EC%99%80%20%EC%86%8C%EB%AA%A8%ED%92%88"
+      ]
+    },
+    {
+      "name": "Mule Deer Scent",
+      "type": "lure scent",
+      "dlc": "Base game",
+      "species": [
+        "Mule Deer"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/scents.js"
+      ]
+    },
+    {
+      "name": "Musk Deer Scent",
+      "type": "lure scent",
+      "dlc": "Base game (per COTW-Wiki dlc:false)",
+      "species": [
+        "Siberian Musk Deer"
+      ],
+      "notes": "Musk deer has no caller; this is its only lure (Steam guide).",
+      "sources": [
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/scents.js",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=1124851654"
+      ]
+    },
+    {
+      "name": "Red Deer Scent",
+      "type": "lure scent",
+      "dlc": "Base game",
+      "species": [
+        "Red Deer",
+        "Sika Deer"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/scents.js",
+        "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EB%8F%84%EA%B5%AC%EC%99%80%20%EC%86%8C%EB%AA%A8%ED%92%88"
+      ]
+    },
+    {
+      "name": "Roe Deer Scent",
+      "type": "lure scent",
+      "dlc": "Base game",
+      "species": [
+        "Roe Deer"
+      ],
+      "notes": null,
+      "sources": [
+        "https://raw.githubusercontent.com/COTW-Wiki/COTW-Wiki/main/COTW%20Wiki/src/data/scents.js",
+        "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EB%8F%84%EA%B5%AC%EC%99%80%20%EC%86%8C%EB%AA%A8%ED%92%88"
+      ]
+    }
+  ],
+  "bySpecies": {
+    "American Alligator": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "American Mink": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Antelope Jackrabbit": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Axis Deer": {
+      "callers": [
+        "Axis Deer \"Screamer\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Banteng": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Barasingha": {
+      "callers": [
+        "Antler Rattler"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Beceite Ibex": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Bengal Tiger": {
+      "callers": [
+        "Predator \"Distressed Fawn\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Black Bear": {
+      "callers": [
+        "Predator \"Distressed Fawn\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Black Caiman": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Black Grouse": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Blackbuck": {
+      "callers": [
+        "Antler Rattler"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Blacktail Deer": {
+      "callers": [
+        "Deer \"Bleat\" Caller",
+        "Deer \"Grunt\" Caller",
+        "Blacktail Deer Scent"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Blue Sheep": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Blue Wildebeest": {
+      "callers": [
+        "Buck \"Snort Wheeze\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Bobcat": {
+      "callers": [
+        "Predator \"Jackrabbit\" Caller"
+      ],
+      "notes": "Jackrabbit Caller per COTW-Wiki only. FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Bobwhite Quail": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Brown Bear": {
+      "callers": [
+        "Predator \"Distressed Fawn\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Canada Goose": {
+      "callers": [
+        "Short Reed Canada Goose Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Cape Buffalo": {
+      "callers": [],
+      "notes": "No caller: Steam \"Every Animal\" guide says it cannot be called; cotw-companion lists no caller."
+    },
+    "Capybara": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Chamois": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Cinnamon Teal": {
+      "callers": [
+        "Beacon Deluxe Duck Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Collared Peccary": {
+      "callers": [
+        "Predator \"Jackrabbit\" Caller",
+        "Wild Boar Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Common Raccoon": {
+      "callers": [
+        "Raccoon \"Squall\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Coyote": {
+      "callers": [
+        "Predator \"Jackrabbit\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Desert Bighorn Sheep": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Dusky Grouse": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Eastern Cottontail Rabbit": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Eastern Gray Kangaroo": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Eastern Wild Turkey": {
+      "callers": [
+        "Wild Turkey Crow Caller",
+        "Wild Turkey Mouth Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Eurasian Lynx": {
+      "callers": [
+        "Predator \"Jackrabbit\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Eurasian Pine Marten": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Eurasian Teal": {
+      "callers": [
+        "Beacon Deluxe Eurasian Teal Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Eurasian Wigeon": {
+      "callers": [
+        "Beacon Deluxe Eurasian Wigeon Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Eurasian Woodcock": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "European Badger": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "European Bison": {
+      "callers": [],
+      "notes": "No caller: Steam \"Every Animal\" guide says it cannot be called; cotw-companion lists no caller."
+    },
+    "European Hare": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "European Rabbit": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Fallow Deer": {
+      "callers": [
+        "Antler Rattler"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Feral Goat": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Feral Pig": {
+      "callers": [
+        "Wild Boar Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Ferruginous Duck": {
+      "callers": [
+        "Beacon Deluxe Duck Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Gadwall": {
+      "callers": [
+        "Gadwall Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Gemsbok": {
+      "callers": [
+        "Antler Rattler"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Goldeneye": {
+      "callers": [
+        "Beacon Deluxe Duck Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Grant Caribou": {
+      "callers": [
+        "Antler Rattler"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Gray Fox": {
+      "callers": [
+        "Predator \"Jackrabbit\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Gray Wolf": {
+      "callers": [
+        "Predator \"Distressed Fawn\" Caller",
+        "Predator \"Jackrabbit\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Greater Grison": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Gredos Ibex": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Green-Winged Teal": {
+      "callers": [
+        "Beacon Deluxe Eurasian Teal Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Greylag Goose": {
+      "callers": [
+        "Beacon Deluxe Greylag Goose Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Grizzly Bear": {
+      "callers": [
+        "Predator \"Distressed Fawn\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Harlequin Duck": {
+      "callers": [
+        "Beacon Deluxe Duck Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Hazel Grouse": {
+      "callers": [
+        "Hazel Grouse Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Himalayan Tahr": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Hog Deer": {
+      "callers": [
+        "Sambar Mouth Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Iberian Mouflon": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Iberian Wolf": {
+      "callers": [
+        "Predator \"Distressed Fawn\" Caller",
+        "Predator \"Jackrabbit\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Jaguar": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Javan Rusa": {
+      "callers": [
+        "Sambar Mouth Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Lesser Kudu": {
+      "callers": [
+        "Antler Rattler",
+        "Buck \"Snort Wheeze\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Lion": {
+      "callers": [
+        "Predator \"Distressed Fawn\" Caller",
+        "Predator \"Jackrabbit\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Magpie Goose": {
+      "callers": [
+        "Magpie Goose Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Mallard": {
+      "callers": [
+        "Beacon Deluxe Duck Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Manitoban Elk": {
+      "callers": [
+        "Elk Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Merriam Turkey": {
+      "callers": [
+        "Wild Turkey Crow Caller",
+        "Wild Turkey Mouth Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Mexican Bobcat": {
+      "callers": [
+        "Predator \"Jackrabbit\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Moose": {
+      "callers": [
+        "Moose Caller",
+        "Moose Scent"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Mountain Goat": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Mountain Hare": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Mountain Reindeer": {
+      "callers": [
+        "Antler Rattler"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Mule Deer": {
+      "callers": [
+        "Deer \"Bleat\" Caller",
+        "Mule Deer Scent"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Nilgai": {
+      "callers": [
+        "Buck \"Snort Wheeze\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "North American Beaver": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Northern Pintail": {
+      "callers": [
+        "Northern Pintail Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Northern Red Muntjac": {
+      "callers": [
+        "Roe Deer Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Ocelot": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Plains Bison": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Pronghorn": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Puma": {
+      "callers": [
+        "Predator \"Distressed Fawn\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Raccoon Dog": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Red Deer": {
+      "callers": [
+        "Red Deer Caller",
+        "Red Deer Scent"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Red Fox": {
+      "callers": [
+        "Predator \"Jackrabbit\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Red Grouse": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Ring-Necked Pheasant": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Rio Grande Turkey": {
+      "callers": [
+        "Wild Turkey Crow Caller",
+        "Wild Turkey Mouth Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Rock Ptarmigan": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Rocky Mountain Bighorn Sheep": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Rocky Mountain Elk": {
+      "callers": [
+        "Elk Caller",
+        "Elk Scent"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Roe Deer": {
+      "callers": [
+        "Roe Deer Caller",
+        "Roe Deer Scent"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Ronda Ibex": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Roosevelt Elk": {
+      "callers": [
+        "Elk Caller",
+        "Elk Scent"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Saltwater Crocodile": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Sambar": {
+      "callers": [
+        "Sambar Mouth Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Scrub Hare": {
+      "callers": [],
+      "notes": "No caller: Steam \"Every Animal\" guide says it cannot be called; cotw-companion lists no caller."
+    },
+    "Siberian Musk Deer": {
+      "callers": [
+        "Musk Deer Scent"
+      ],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game. Has a lure scent."
+    },
+    "Side-Striped Jackal": {
+      "callers": [
+        "Predator \"Jackrabbit\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Sika Deer": {
+      "callers": [
+        "Buck \"Snort Wheeze\" Caller",
+        "Deer \"Bleat\" Caller",
+        "Deer \"Grunt\" Caller",
+        "Red Deer Caller",
+        "Red Deer Scent"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Snow Goose": {
+      "callers": [
+        "Snow Goose Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Snow Leopard": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "South American Tapir": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Southeastern Spanish Ibex": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Spectacled Bear": {
+      "callers": [
+        "Predator \"Distressed Fawn\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Springbok": {
+      "callers": [
+        "Buck \"Snort Wheeze\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Stubble Quail": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Taruca": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Tibetan Fox": {
+      "callers": [
+        "Predator \"Jackrabbit\" Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Tufted Duck": {
+      "callers": [
+        "Beacon Deluxe Duck Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Tundra Bean Goose": {
+      "callers": [
+        "Beacon Deluxe Bean Goose Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Vicuña": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Warthog": {
+      "callers": [
+        "Wild Boar Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Water Buffalo": {
+      "callers": [],
+      "notes": "No caller: Steam \"Every Animal\" guide says it cannot be called; cotw-companion lists no caller."
+    },
+    "Western Capercaillie": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Western Mountain Coati": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "White-Tailed Jackrabbit": {
+      "callers": [],
+      "notes": "No caller: Steam \"Every Animal\" guide says it cannot be called; cotw-companion lists no caller."
+    },
+    "Whitetail Deer": {
+      "callers": [
+        "Buck \"Snort Wheeze\" Caller",
+        "Deer \"Bleat\" Caller",
+        "Deer \"Grunt\" Caller",
+        "Whitetail Deer Scent"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Wild Boar": {
+      "callers": [
+        "Wild Boar Caller",
+        "Wild Boar Scent"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Wild Haggis": {
+      "callers": [],
+      "notes": "Not found: no caller source covers this species."
+    },
+    "Wild Hog": {
+      "callers": [],
+      "notes": "Not found: no source lists a caller for Wild Hog (cotw-companion has no Wild Hog entry). Wild Boar Caller works on Wild Boar/Feral Pig; unverified for Wild Hog."
+    },
+    "Wild Yak": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Willow Ptarmigan": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Wood Bison": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    },
+    "Wood Duck": {
+      "callers": [
+        "Wood Duck Caller"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Woodland Caribou": {
+      "callers": [
+        "Antler Rattler"
+      ],
+      "notes": "FOXPRO X360 Electronic Caller (Ambusher Pack) can also play this species."
+    },
+    "Woolly Hare": {
+      "callers": [],
+      "notes": "No caller listed in cotw-companion data (no CALLERS entry) or COTW-Wiki; treated as not callable, not confirmed in game."
+    }
+  }
+}

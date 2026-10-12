@@ -253,13 +253,13 @@
     "Sundarpatan Hunting Reserve"
    ],
    "furs": [
-    "Gold",
-    "Grey",
-    "Half",
-    "Latte",
-    "Scars",
-    "Skull",
-    "Snow"
+    "Fabled Gold",
+    "Fabled Grey",
+    "Fabled Half",
+    "Fabled Latte",
+    "Fabled Scars",
+    "Fabled Skull",
+    "Fabled Snow"
    ],
    "furVariantCount": null,
    "dateAdded": "2024-06-18",
@@ -515,12 +515,12 @@
     "Tòrr nan Sithean"
    ],
    "furs": [
-    "Kindledawn",
-    "Wildfire",
-    "Ghostveil",
-    "Moonmarked",
-    "Mistbound",
-    "Rustveil"
+    "Fabled Kindledawn",
+    "Fabled Wildfire",
+    "Fabled Ghostveil",
+    "Fabled Moonmarked",
+    "Fabled Mistbound",
+    "Fabled Rustveil"
    ],
    "furVariantCount": 6,
    "dateAdded": "2026-04-14",

@@ -368,7 +368,7 @@
       "350g"
     ],
     "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Askiy Ridge Hunting Preserve.",
-    "notes": "Scores ~1000 look like a different unit (possibly grams-based) compared with other species; values kept as published and match the Steam chart. cotwguide max weight 1.4 kg is shown with a '?'; Steam chart says 1 kg. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "notes": "cotwguide max weight 1.4 kg is shown with a '?'; Steam chart says 1 kg. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       {
         "url": "https://cotwguide.com/en/animals/northernpintail/",
@@ -383,6 +383,11 @@
       {
         "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
         "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
         "accessed": "2026-10-12"
       }
     ]
@@ -1158,7 +1163,7 @@
       "350g"
     ],
     "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Tòrr nan Sìthean Hunting Estate.",
-    "notes": "Bird scores are on a different scale from mammals (unit unclear); values match Steam chart. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       {
         "url": "https://cotwguide.com/en/animals/redgrouse/",
@@ -1173,6 +1178,11 @@
       {
         "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
         "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
         "accessed": "2026-10-12"
       }
     ]
@@ -1391,7 +1401,7 @@
       "350g"
     ],
     "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Revontuli Coast.",
-    "notes": "Scores in the hundreds (max 750) appear to track weight in grams (max weight 0.75 kg); unit unverified. Matches Steam chart. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "notes": "Matches Steam chart. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       {
         "url": "https://cotwguide.com/en/animals/rockptarmigan/",
@@ -1406,6 +1416,11 @@
       {
         "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
         "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
         "accessed": "2026-10-12"
       }
     ]
@@ -1426,7 +1441,7 @@
       "silver": 84.1,
       "gold": 148.57,
       "diamond": 196.93,
-      "max": 180
+      "max": null
     },
     "reserves": [
       "Askiy Ridge Hunting Preserve",
@@ -1486,7 +1501,7 @@
       "540g"
     ],
     "about": "Class 5 species rated 'Average' difficulty on cotwguide, with a max difficulty level of 5 (Medium). Found on Askiy Ridge Hunting Preserve, Silver Ridge Peaks.",
-    "notes": "cotwguide max score 180 is lower than its own diamond minimum 196.93 - one of these is likely wrong. Steam chart lists the species as 'Bighorn Sheep' (also on Parque Fernando there; not in cotwguide reserve list). Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "notes": "Steam chart lists the species as 'Bighorn Sheep' (also on Parque Fernando there; not in cotwguide reserve list). Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Max score left blank: the old 180 maximum predates the Snowfall Update (June 2025), which revised bighorn scoring ranges.",
     "sources": [
       {
         "url": "https://cotwguide.com/en/animals/bighornsheep/",
@@ -1934,7 +1949,7 @@
       "700g"
     ],
     "about": "Class 8 species rated 'Very hard' difficulty on cotwguide, with a max difficulty level of 9 (Legendary). Found on Emerald Coast Australia.",
-    "notes": "Scores in the hundreds/thousands appear to track weight in kg (max 1100 = max weight); unit unverified. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       {
         "url": "https://cotwguide.com/en/animals/saltwatercrocodile/",
@@ -1949,6 +1964,11 @@
       {
         "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
         "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/app/518790/discussions/0/4033599096401366809",
+        "title": "Trophy threshold check",
         "accessed": "2026-10-12"
       }
     ]
@@ -3202,7 +3222,7 @@
       "350g"
     ],
     "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Revontuli Coast, Salzwiesen Park.",
-    "notes": "Scores ~1000 appear to track weight in grams (max weight 1 kg); unit unverified. Matches Steam chart. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "notes": "Matches Steam chart. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       {
         "url": "https://cotwguide.com/en/animals/tuftedduck/",
@@ -3217,6 +3237,11 @@
       {
         "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
         "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
         "accessed": "2026-10-12"
       }
     ]
@@ -4188,7 +4213,7 @@
       "350g"
     ],
     "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Revontuli Coast.",
-    "notes": "Scores in the hundreds (max 810) appear to track weight in grams (max 0.81 kg); unit unverified. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "notes": "Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       {
         "url": "https://cotwguide.com/en/animals/willowptarmigan/",
@@ -4203,6 +4228,11 @@
       {
         "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
         "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
         "accessed": "2026-10-12"
       }
     ]
@@ -4357,7 +4387,7 @@
       "350g"
     ],
     "about": "Class 1 species rated 'Easy' difficulty on cotwguide, with a max difficulty level of 3 (Very Easy). Found on Askiy Ridge Hunting Preserve.",
-    "notes": "Scores in the hundreds look like a grams-like scale; unit unverified. Matches Steam chart. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). Score units are not stated by sources.",
+    "notes": "Matches Steam chart. Bronze threshold not published by cotwguide; minimum weight not published (weightRangeKg min null). These thresholds are the native in-game trophy score, not a weight (checked against the Steam trophy chart).",
     "sources": [
       {
         "url": "https://cotwguide.com/en/animals/woodduck/",
@@ -4372,6 +4402,11 @@
       {
         "url": "https://gameslikefinder.com/article/thehunter-call-of-the-wild-rare-fur-types-list/",
         "title": "theHunter: Call of the Wild Rare Fur Types List (gameslikefinder, updated 2026-06-24)",
+        "accessed": "2026-10-12"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2376081873",
+        "title": "Trophy threshold check",
         "accessed": "2026-10-12"
       }
     ]
