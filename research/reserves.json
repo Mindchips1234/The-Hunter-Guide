@@ -1,0 +1,1024 @@
+{
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+      "title": "Wikipedia: theHunter: Call of the Wild",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+      "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://store.steampowered.com/dlc/518790/",
+      "title": "Steam: theHunter: Call of the Wild DLC list",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://callofthewild.thehunter.com/reserves/",
+      "title": "Official site: Reserves",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://steamcommunity.com/app/518790/discussions/0/133259227510751032/",
+      "title": "Steam discussion: Map Size (no official sizes)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://wayofthehunter.wiki/guides/vs-call-of-the-wild",
+      "title": "Way of the Hunter wiki comparison ('No official sizes published' for CoTW)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/hirschfelden/",
+      "title": "CoTW Guide reserve page (hirschfelden)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/layton/",
+      "title": "CoTW Guide reserve page (layton)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/medved/",
+      "title": "CoTW Guide reserve page (medved)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/vurhonga/",
+      "title": "CoTW Guide reserve page (vurhonga)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/parque/",
+      "title": "CoTW Guide reserve page (parque)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/yukon/",
+      "title": "CoTW Guide reserve page (yukon)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/cuatro/",
+      "title": "CoTW Guide reserve page (cuatro)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/srp/",
+      "title": "CoTW Guide reserve page (srp)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/awaroa/",
+      "title": "CoTW Guide reserve page (awaroa)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/rancho/",
+      "title": "CoTW Guide reserve page (rancho)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/mississippi/",
+      "title": "CoTW Guide reserve page (mississippi)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/revontuli/",
+      "title": "CoTW Guide reserve page (revontuli)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/newengland/",
+      "title": "CoTW Guide reserve page (newengland)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/emerald/",
+      "title": "CoTW Guide reserve page (emerald)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/sundarpatan/",
+      "title": "CoTW Guide reserve page (sundarpatan)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/salzwiesen/",
+      "title": "CoTW Guide reserve page (salzwiesen)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/askiy/",
+      "title": "CoTW Guide reserve page (askiy)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/torr/",
+      "title": "CoTW Guide reserve page (torr)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://cotwguide.com/en/reserves/intisuyu/",
+      "title": "CoTW Guide reserve page (intisuyu)",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "notes": "19 reserves. Base game: Hirschfelden Hunting Reserve and Layton Lake District (2017-02-16). All others are paid DLC; release dates are Steam release dates. sizeKm2 is null for all reserves because no official size is published. Species names follow cotwguide.com spelling.",
+  "reserves": [
+    {
+      "name": "Hirschfelden Hunting Reserve",
+      "slug": "hirschfelden",
+      "region": "Central Europe",
+      "country": null,
+      "biome": "Deciduous beech and aspen forests around rolling hills and farmland; mountain slopes and deep spruce forests in the west.",
+      "sizeKm2": null,
+      "released": "2017-02-16",
+      "dlc": false,
+      "dlcName": null,
+      "about": "One of the two original base-game reserves. A central European hunting estate of rolling farmland and beech/aspen woods, harder going on the western spruce-covered slopes.",
+      "species": [
+        "Canada Goose",
+        "European Bison",
+        "European Rabbit",
+        "Fallow Deer",
+        "Red Deer",
+        "Red Fox",
+        "Ring-Necked Pheasant",
+        "Roe Deer",
+        "Wild Boar"
+      ],
+      "notes": "Base game (released with the game on 2017-02-16 per Wikipedia). No country stated by sources; described only as central Europe. No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/hirschfelden/",
+          "title": "CoTW Guide reserve page (hirschfelden)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Layton Lake District",
+      "slug": "layton",
+      "region": "Pacific Northwest",
+      "country": null,
+      "biome": "Spruce, larch and aspen forests, rocky mountain slopes and marshland.",
+      "sizeKm2": null,
+      "released": "2017-02-16",
+      "dlc": false,
+      "dlcName": null,
+      "about": "The other original base-game reserve: Pacific Northwest lakes, conifer forest and marshes, home to elk, moose, deer and black bear.",
+      "species": [
+        "Black Bear",
+        "Blacktail Deer",
+        "Coyote",
+        "Mallard",
+        "Merriam Turkey",
+        "Moose",
+        "Roosevelt Elk",
+        "White-Tailed Jackrabbit",
+        "Whitetail Deer"
+      ],
+      "notes": "Base game (released with the game on 2017-02-16 per Wikipedia). Sources say 'Pacific Northwest of North America' without naming a country. No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/layton/",
+          "title": "CoTW Guide reserve page (layton)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Medved-Taiga National Park",
+      "slug": "medved",
+      "region": "Siberia",
+      "country": "Russia",
+      "biome": "Taiga with frozen valleys and mountains and unreliable weather.",
+      "sizeKm2": null,
+      "released": "2017-10-17",
+      "dlc": true,
+      "dlcName": "Medved-Taiga",
+      "about": "A cold Siberian taiga reserve of frozen valleys and mountains; home to brown bear, lynx, wolves, moose and musk deer.",
+      "species": [
+        "Brown Bear",
+        "Eurasian Lynx",
+        "Gray Wolf",
+        "Moose",
+        "Mountain Reindeer",
+        "Siberian Musk Deer",
+        "Western Capercaillie",
+        "Wild Boar"
+      ],
+      "notes": "Country inferred from 'Siberia' (cotwguide says 'a northern part of Asia'). No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/medved/",
+          "title": "CoTW Guide reserve page (medved)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/695680/",
+          "title": "Steam store: theHunter: Call of the Wild - Medved-Taiga",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Vurhonga Savanna",
+      "slug": "vurhonga",
+      "region": "Southern Africa",
+      "country": null,
+      "biome": "Savanna, woodlands, fever tree forests, swamps and scrublands.",
+      "sizeKm2": null,
+      "released": "2018-08-30",
+      "dlc": true,
+      "dlcName": "Vurhonga Savanna",
+      "about": "An African savanna reserve spanning open grassland, woodland, fever tree forest and swamp; the reserve that introduced lion and Cape buffalo.",
+      "species": [
+        "Blue Wildebeest",
+        "Cape Buffalo",
+        "Eurasian Wigeon",
+        "Gemsbok",
+        "Lesser Kudu",
+        "Lion",
+        "Scrub Hare",
+        "Side-Striped Jackal",
+        "Springbok",
+        "Warthog"
+      ],
+      "notes": "cotwguide says 'south-west Africa'; Wikipedia says 'Southern Africa'. No country named. No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/vurhonga/",
+          "title": "CoTW Guide reserve page (vurhonga)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/894600/",
+          "title": "Steam store: theHunter: Call of the Wild - Vurhonga Savanna",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Parque Fernando",
+      "slug": "parque",
+      "region": "Patagonia",
+      "country": "Argentina",
+      "biome": "Where the Patagonian steppe meets southern beech forest; wetlands, grasslands, forests and highlands.",
+      "sizeKm2": null,
+      "released": "2018-12-13",
+      "dlc": true,
+      "dlcName": "Parque Fernando",
+      "about": "An Argentine reserve where barren Patagonian steppe meets southern beech forest, with red deer, water buffalo, blackbuck and puma.",
+      "species": [
+        "Axis Deer",
+        "Blackbuck",
+        "Cinnamon Teal",
+        "Collared Peccary",
+        "Mule Deer",
+        "Puma",
+        "Red Deer",
+        "Water Buffalo"
+      ],
+      "notes": "Region 'Patagonia' taken from cotwguide's description of the 'Patagonian Steppe'. No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/parque/",
+          "title": "CoTW Guide reserve page (parque)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/986850/",
+          "title": "Steam store: theHunter: Call of the Wild - Parque Fernando",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Yukon Valley",
+      "slug": "yukon",
+      "region": "Yukon River Basin, Alaska",
+      "country": "United States",
+      "biome": "Crimson plains, flowing rivers and lush forests in the Yukon River Basin.",
+      "sizeKm2": null,
+      "released": "2019-06-25",
+      "dlc": true,
+      "dlcName": "Yukon Valley",
+      "about": "An Alaskan river-basin reserve of red tundra plains, rivers and forest; home to grizzly bear, caribou, moose, bison and wolves.",
+      "species": [
+        "Canada Goose",
+        "Grant Caribou",
+        "Gray Wolf",
+        "Grizzly Bear",
+        "Harlequin Duck",
+        "Moose",
+        "Plains Bison",
+        "Red Fox"
+      ],
+      "notes": "No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/yukon/",
+          "title": "CoTW Guide reserve page (yukon)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/1093700/",
+          "title": "Steam store: theHunter: Call of the Wild - Yukon Valley",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Cuatro Colinas Game Reserve",
+      "slug": "cuatro",
+      "region": null,
+      "country": "Spain",
+      "biome": "Varied Spanish hill country with a river valley and scattered historic ruins.",
+      "sizeKm2": null,
+      "released": "2019-12-10",
+      "dlc": true,
+      "dlcName": "Cuatro Colinas Game Reserve",
+      "about": "A Spanish game reserve known for its four ibex subspecies, red and roe deer, wild boar and Iberian wolf among historic remains.",
+      "species": [
+        "Beceite Ibex",
+        "European Hare",
+        "Gredos Ibex",
+        "Iberian Mouflon",
+        "Iberian Wolf",
+        "Red Deer",
+        "Ring-Necked Pheasant",
+        "Roe Deer",
+        "Ronda Ibex",
+        "Southeastern Spanish Ibex",
+        "Wild Boar"
+      ],
+      "notes": "No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/cuatro/",
+          "title": "CoTW Guide reserve page (cuatro)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/1179710/",
+          "title": "Steam store: theHunter: Call of the Wild - Cuatro Colinas Game Reserve",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Silver Ridge Peaks",
+      "slug": "srp",
+      "region": "Colorado (Southern Rocky Mountains)",
+      "country": "United States",
+      "biome": "Glacial lakes, iron-topped peaks, alpine hot springs, grassy plains and sparse aspen forest.",
+      "sizeKm2": null,
+      "released": "2020-06-23",
+      "dlc": true,
+      "dlcName": "Silver Ridge Peaks",
+      "about": "A Southern Rocky Mountains reserve of peaks, glacial lakes and plains; home to Rocky Mountain elk, bighorn sheep, mountain goat, bison and puma.",
+      "species": [
+        "Black Bear",
+        "Merriam Turkey",
+        "Mountain Goat",
+        "Mule Deer",
+        "Plains Bison",
+        "Pronghorn",
+        "Puma",
+        "Rocky Mountain Bighorn Sheep",
+        "Rocky Mountain Elk"
+      ],
+      "notes": "Colorado per Wikipedia; cotwguide says Southern Rocky Mountains. No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/srp/",
+          "title": "CoTW Guide reserve page (srp)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/1316840/",
+          "title": "Steam store: theHunter: Call of the Wild - Silver Ridge Peaks",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Te Awaroa National Park",
+      "slug": "awaroa",
+      "region": "South Island (foot of the Southern Alps)",
+      "country": "New Zealand",
+      "biome": "Temperate beech forest in the west, hillsides in the east, alpine ridges higher up.",
+      "sizeKm2": null,
+      "released": "2020-12-10",
+      "dlc": true,
+      "dlcName": "Te Awaroa National Park",
+      "about": "A New Zealand reserve at the foot of the Southern Alps: sika deer in western beech forests, red and fallow deer on eastern hills, chamois and tahr on the alpine ridges.",
+      "species": [
+        "Chamois",
+        "European Rabbit",
+        "Fallow Deer",
+        "Feral Goat",
+        "Feral Pig",
+        "Himalayan Tahr",
+        "Mallard",
+        "Merriam Turkey",
+        "Red Deer",
+        "Sika Deer"
+      ],
+      "notes": "No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/awaroa/",
+          "title": "CoTW Guide reserve page (awaroa)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/1463090/",
+          "title": "Steam store: theHunter: Call of the Wild - Te Awaroa National Park",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Rancho del Arroyo",
+      "slug": "rancho",
+      "region": "Sonora",
+      "country": "Mexico",
+      "biome": "Desert shrubland, brushy hills and riparian forest in an arid climate.",
+      "sizeKm2": null,
+      "released": "2021-06-29",
+      "dlc": true,
+      "dlcName": "Rancho del Arroyo",
+      "about": "A Mexican desert ranch reserve of shrubland, brushy hills and riverside forest, with desert bighorn sheep, pronghorn, mule and whitetail deer.",
+      "species": [
+        "Antelope Jackrabbit",
+        "Collared Peccary",
+        "Coyote",
+        "Desert Bighorn Sheep",
+        "Mexican Bobcat",
+        "Mule Deer",
+        "Pronghorn",
+        "Ring-Necked Pheasant",
+        "Rio Grande Turkey",
+        "Whitetail Deer"
+      ],
+      "notes": "Sonora per Wikipedia. No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/rancho/",
+          "title": "CoTW Guide reserve page (rancho)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/1608440/",
+          "title": "Steam store: theHunter: Call of the Wild - Rancho del Arroyo",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Mississippi Acres Preserve",
+      "slug": "mississippi",
+      "region": "Mississippi (southeastern United States)",
+      "country": "United States",
+      "biome": "Cotton fields and grassland, pine forests and hills, oxbow lakes.",
+      "sizeKm2": null,
+      "released": "2021-12-07",
+      "dlc": true,
+      "dlcName": "Mississippi Acres Preserve",
+      "about": "A southeastern US preserve of cotton fields, pine hills and oxbow lakes, home to whitetail deer, American alligator, wild hog and black bear.",
+      "species": [
+        "American Alligator",
+        "Black Bear",
+        "Bobwhite Quail",
+        "Common Raccoon",
+        "Eastern Cottontail Rabbit",
+        "Eastern Wild Turkey",
+        "Gray Fox",
+        "Green-Winged Teal",
+        "Whitetail Deer",
+        "Wild Hog"
+      ],
+      "notes": "No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/mississippi/",
+          "title": "CoTW Guide reserve page (mississippi)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/1776430/",
+          "title": "Steam store: theHunter: Call of the Wild - Mississippi Acres Preserve",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Revontuli Coast",
+      "slug": "revontuli",
+      "region": "Baltic coast (north edge of the Baltic Sea)",
+      "country": "Finland",
+      "biome": "Many islands and inland forests along the Baltic coast.",
+      "sizeKm2": null,
+      "released": "2022-06-28",
+      "dlc": true,
+      "dlcName": "Revontuli Coast",
+      "about": "A Finnish coastal reserve of islands and inland forest, the big waterfowl and gamebird map with moose, brown bear and lynx.",
+      "species": [
+        "Black Grouse",
+        "Brown Bear",
+        "Canada Goose",
+        "Eurasian Lynx",
+        "Eurasian Teal",
+        "Eurasian Wigeon",
+        "Goldeneye",
+        "Greylag Goose",
+        "Hazel Grouse",
+        "Mallard",
+        "Moose",
+        "Mountain Hare",
+        "Raccoon Dog",
+        "Rock Ptarmigan",
+        "Tufted Duck",
+        "Tundra Bean Goose",
+        "Western Capercaillie",
+        "Whitetail Deer",
+        "Willow Ptarmigan"
+      ],
+      "notes": "No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/revontuli/",
+          "title": "CoTW Guide reserve page (revontuli)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/1931910/",
+          "title": "Steam store: theHunter: Call of the Wild - Revontuli Coast",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "New England Mountains",
+      "slug": "newengland",
+      "region": "White Mountains, New Hampshire",
+      "country": "United States",
+      "biome": "Ancient ridges, rugged wilderness and deep valleys in the northern Appalachians.",
+      "sizeKm2": null,
+      "released": "2022-12-06",
+      "dlc": true,
+      "dlcName": "New England Mountains",
+      "about": "A New Hampshire reserve in the White Mountains of the northern Appalachians, with moose, whitetail, black bear, bobcat and many small-game species.",
+      "species": [
+        "Black Bear",
+        "Bobcat",
+        "Bobwhite Quail",
+        "Common Raccoon",
+        "Coyote",
+        "Eastern Cottontail Rabbit",
+        "Eastern Wild Turkey",
+        "Goldeneye",
+        "Gray Fox",
+        "Green-Winged Teal",
+        "Mallard",
+        "Moose",
+        "Red Fox",
+        "Ring-Necked Pheasant",
+        "Whitetail Deer"
+      ],
+      "notes": "No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/newengland/",
+          "title": "CoTW Guide reserve page (newengland)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/2167630/",
+          "title": "Steam store: theHunter: Call of the Wild - New England Mountains",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Emerald Coast Australia",
+      "slug": "emerald",
+      "region": null,
+      "country": "Australia",
+      "biome": "Outback, subtropical bushland and tropical rainforest.",
+      "sizeKm2": null,
+      "released": "2023-06-20",
+      "dlc": true,
+      "dlcName": "Emerald Coast Australia",
+      "about": "An Australian reserve spanning outback, subtropical bush and rainforest, with kangaroo, banteng, sambar, several deer and saltwater crocodile.",
+      "species": [
+        "Axis Deer",
+        "Banteng",
+        "Eastern Gray Kangaroo",
+        "Fallow Deer",
+        "Feral Goat",
+        "Feral Pig",
+        "Hog Deer",
+        "Javan Rusa",
+        "Magpie Goose",
+        "Red Deer",
+        "Red Fox",
+        "Saltwater Crocodile",
+        "Sambar",
+        "Stubble Quail"
+      ],
+      "notes": "No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/emerald/",
+          "title": "CoTW Guide reserve page (emerald)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/2383430/",
+          "title": "Steam store: theHunter: Call of the Wild - Emerald Coast Australia",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Sundarpatan Nepal Hunting Reserve",
+      "slug": "sundarpatan",
+      "region": null,
+      "country": "Nepal",
+      "biome": "All three Nepali biomes: Himal (high mountains), Pahad (middle hills) and Terai (tropical plains).",
+      "sizeKm2": null,
+      "released": "2024-06-18",
+      "dlc": true,
+      "dlcName": "Sundarpatan Nepal Hunting Reserve",
+      "about": "A Nepali reserve running from Himalayan peaks through the hills to the Terai plains; home to Bengal tiger, snow leopard, wild yak and blue sheep.",
+      "species": [
+        "Barasingha",
+        "Bengal Tiger",
+        "Blackbuck",
+        "Blue Sheep",
+        "Greylag Goose",
+        "Himalayan Tahr",
+        "Nilgai",
+        "Northern Red Muntjac",
+        "Snow Leopard",
+        "Tibetan Fox",
+        "Water Buffalo",
+        "Wild Yak",
+        "Woolly Hare"
+      ],
+      "notes": "No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/sundarpatan/",
+          "title": "CoTW Guide reserve page (sundarpatan)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/2869680/",
+          "title": "Steam store: theHunter: Call of the Wild - Sundarpatan Nepal Hunting Reserve",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Salzwiesen Park",
+      "slug": "salzwiesen",
+      "region": "Schleswig-Holstein",
+      "country": "Germany",
+      "biome": "North German coastal salt-meadow country; a waterfowl reserve with a clay pigeon range.",
+      "sizeKm2": null,
+      "released": "2024-12-03",
+      "dlc": true,
+      "dlcName": "Salzwiesen Park",
+      "about": "A northern German waterfowl and small-game reserve in Schleswig-Holstein, with ducks, geese, raccoon dog and fox, plus a clay pigeon shooting range.",
+      "species": [
+        "Black Grouse",
+        "Common Raccoon",
+        "Eurasian Teal",
+        "Eurasian Wigeon",
+        "European Rabbit",
+        "Ferruginous Duck",
+        "Gadwall",
+        "Goldeneye",
+        "Greylag Goose",
+        "Mallard",
+        "Raccoon Dog",
+        "Red Fox",
+        "Ring-Necked Pheasant",
+        "Tufted Duck",
+        "Tundra Bean Goose"
+      ],
+      "notes": "Biome text summarises cotwguide ('uncut gem of North Germany', waterfowl reserve); the source gives no formal biome. No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/salzwiesen/",
+          "title": "CoTW Guide reserve page (salzwiesen)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/3244810/",
+          "title": "Steam store: theHunter: Call of the Wild - Salzwiesen Park",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Askiy Ridge Hunting Preserve",
+      "slug": "askiy",
+      "region": "Alberta",
+      "country": "Canada",
+      "biome": "Pine-covered Rocky Mountain peaks, boreal forest, foothills and frost-swept grassland.",
+      "sizeKm2": null,
+      "released": "2025-06-17",
+      "dlc": true,
+      "dlcName": "Alberta Hunting Preserve",
+      "about": "A cold Alberta preserve between the Rockies, southern foothills and northern boreal forest: 19 species including Manitoban elk, wood bison, woodland caribou and North American beaver.",
+      "species": [
+        "Black Bear",
+        "Canada Goose",
+        "Dusky Grouse",
+        "Gray Wolf",
+        "Mallard",
+        "Manitoban Elk",
+        "Moose",
+        "Mountain Goat",
+        "Mule Deer",
+        "North American Beaver",
+        "Northern Pintail",
+        "Pronghorn",
+        "Ring-Necked Pheasant",
+        "Rocky Mountain Bighorn Sheep",
+        "Snow Goose",
+        "Whitetail Deer",
+        "Wood Bison",
+        "Wood Duck",
+        "Woodland Caribou"
+      ],
+      "notes": "Sold on Steam as 'Alberta Hunting Preserve'; the reserve is Askiy Ridge. The Steam page also mentions the Sasquatch, which is not on the huntable list. No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/askiy/",
+          "title": "CoTW Guide reserve page (askiy)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/3570290/",
+          "title": "Steam store: theHunter: Call of the Wild - Alberta Hunting Preserve",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Tòrr nan Sìthean",
+      "slug": "torr",
+      "region": "Scottish Highlands",
+      "country": "United Kingdom (Scotland)",
+      "biome": "Highland mountains, green valleys, lochs and Celtic woodland on a craggy coast.",
+      "sizeKm2": null,
+      "released": "2025-12-09",
+      "dlc": true,
+      "dlcName": "Scotland Hunting Reserve",
+      "about": "A Scottish Highland estate for stag stalking and lowland bird driving: mountains, lochs and woodland, steeped in legend (hence the Wild Haggis).",
+      "species": [
+        "American Mink",
+        "Black Grouse",
+        "Eurasian Pine Marten",
+        "Eurasian Wigeon",
+        "Eurasian Woodcock",
+        "European Badger",
+        "Fallow Deer",
+        "Feral Goat",
+        "Mountain Hare",
+        "Red Deer",
+        "Red Fox",
+        "Red Grouse",
+        "Ring-Necked Pheasant",
+        "Roe Deer",
+        "Sika Deer",
+        "Western Capercaillie",
+        "Wild Boar",
+        "Wild Haggis"
+      ],
+      "notes": "Sold on Steam as 'Scotland Hunting Reserve'. The Steam page says '17 iconic animals' in one place and '18 animals' in another; cotwguide lists 18 (incl. Wild Haggis). Steam spells it 'Torr nan Sithean' without accents. No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/torr/",
+          "title": "CoTW Guide reserve page (torr)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/4010590/",
+          "title": "Steam store: theHunter: Call of the Wild - Scotland Hunting Reserve",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/TheHunter:_Call_of_the_Wild",
+          "title": "Wikipedia: theHunter: Call of the Wild",
+          "accessed": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Intisuyu",
+      "slug": "intisuyu",
+      "region": "Andes",
+      "country": "Peru",
+      "biome": "Three biomes: Andes foothills, cloud forest and dense river jungle.",
+      "sizeKm2": null,
+      "released": "2026-06-16",
+      "dlc": true,
+      "dlcName": "Peru Hunting Reserve",
+      "about": "The Peruvian reserve (14 species, 10 new) running from windswept Andes heights down to the jaguar's jungle; adds a Jaguar Great One.",
+      "species": [
+        "Black Caiman",
+        "Capybara",
+        "Cinnamon Teal",
+        "Collared Peccary",
+        "Greater Grison",
+        "Jaguar",
+        "Ocelot",
+        "Puma",
+        "South American Tapir",
+        "Spectacled Bear",
+        "Taruca",
+        "Vicuña",
+        "Western Mountain Coati",
+        "Whitetail Deer"
+      ],
+      "notes": "Sold as 'Peru Hunting Reserve'. No official reserve size found; Expansive Worlds publishes no km2 figures (community estimates only).",
+      "sources": [
+        {
+          "url": "https://cotwguide.com/en/reserves/intisuyu/",
+          "title": "CoTW Guide reserve page (intisuyu)",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/app/4467980/",
+          "title": "Steam store: theHunter: Call of the Wild - Peru Hunting Reserve",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://callofthewild.thehunter.com/intisuyu-peru-out-now/",
+          "title": "Official: Intisuyu, Peru is out now",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://store.steampowered.com/search/results/?term=theHunter%20Call%20of%20the%20Wild%20reserve&category1=21&count=100&infinite=1",
+          "title": "Steam store search: theHunter: Call of the Wild reserve DLC (release dates)",
+          "accessed": "2026-10-12"
+        }
+      ]
+    }
+  ]
+}

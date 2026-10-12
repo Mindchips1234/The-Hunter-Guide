@@ -1,0 +1,992 @@
+{
+ "sources": [
+  {
+   "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+   "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://steamcommunity.com/app/518790/discussions/0/1740009710701796590",
+   "title": "Steam Community discussion: skills/perks points, caps and reset cost (Dec 2019)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "url": "https://gamertweak.com/skill-points-hunter-call-of-wild/",
+   "title": "GamerTweak: How To Get & Use Skill Points In Hunter Call Of The Wild",
+   "accessed": "2026-10-12"
+  }
+ ],
+ "about": "Skills (Stalker and Ambusher trees) and perks (Rifles, Handguns, Shotguns, Archery). Effects are paraphrased from community sources, not copied from the in-game text. Skill trees unlock tier by tier by points spent in that tree; perk trees unlock by prerequisite perk.",
+ "pointsEarned": {
+  "about": "Skill points and perk points are earned by levelling up the hunter. XP comes from harvesting animals, discovering outposts, lookout points and points of interest, and completing missions. Maximum hunter level is 60. Skill and perk points alternate every level up to level 37; after that one point is given every 3 levels. A full character earns 22 skill points and 22 perk points, so not everything can be maxed (the skill trees hold 44 points and the perk trees hold 42).",
+  "maxLevel": 60,
+  "maxSkillPoints": 22,
+  "maxPerkPoints": 22,
+  "reset": "Skills and perks can be reset for in-game cash. Cost rises with points spent: 3,500 per point according to a 2019 Steam thread (154,000 for 44 points). It may have changed since.",
+  "sources": [
+   {
+    "url": "https://gamertweak.com/skill-points-hunter-call-of-wild/",
+    "title": "GamerTweak: How To Get & Use Skill Points In Hunter Call Of The Wild",
+    "accessed": "2026-10-12"
+   },
+   {
+    "url": "https://steamcommunity.com/app/518790/discussions/0/1740009710701796590",
+    "title": "Steam Community discussion: skills/perks points, caps and reset cost (Dec 2019)",
+    "accessed": "2026-10-12"
+   }
+  ]
+ },
+ "skills": {
+  "Stalker": [
+   {
+    "name": "Locate Tracks",
+    "tree": "Stalker",
+    "tier": 0,
+    "maxPoints": 3,
+    "levels": [
+     "Narrows the tracking direction fan and increases the distance at which traces can be read (fan narrows from about 80 degrees at level 0 to about 30 degrees at level 3)",
+     null,
+     null
+    ],
+    "unlock": "Available from the start (tier 0)",
+    "about": "Per-level values beyond the overall 80->30 degree range are not documented in the source; levels 2-3 continue the same improvement.",
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Track Knowledge",
+    "tree": "Stalker",
+    "tier": 1,
+    "maxPoints": 3,
+    "levels": [
+     "More information from sounds and footprints, including the animal's gender",
+     "Approximate number of animals at a need zone; health information from blood",
+     "Approximate body weight from footprints; fur information from disturbed plants"
+    ],
+    "unlock": "Tier 1: 1 point spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "I'm Only Happy When It Rains",
+    "tree": "Stalker",
+    "tier": 1,
+    "maxPoints": 2,
+    "levels": [
+     "Stealth bonus in fog",
+     "Stealth bonus in rain"
+    ],
+    "unlock": "Tier 1: 1 point spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Hardened",
+    "tree": "Stalker",
+    "tier": 1,
+    "maxPoints": 1,
+    "levels": [
+     "Increases stamina by 15%"
+    ],
+    "unlock": "Tier 1: 1 point spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Connect the Dots",
+    "tree": "Stalker",
+    "tier": 2,
+    "maxPoints": 1,
+    "levels": [
+     "Draws lines between footprint and blood traces, with an arrow pointing to the next trace; examining other trace types clears the lines"
+    ],
+    "unlock": "Tier 2: 5 points spent in this tree",
+    "about": "Source describes it as buggy.",
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Soft Feet",
+    "tree": "Stalker",
+    "tier": 2,
+    "maxPoints": 2,
+    "levels": [
+     "Less noise when moving through grass and leaves",
+     "Less noise when moving through branches and shrubs"
+    ],
+    "unlock": "Tier 2: 5 points spent in this tree",
+    "about": "Source says the effect applies only while crouched or prone.",
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Weather Prediction",
+    "tree": "Stalker",
+    "tier": 2,
+    "maxPoints": 2,
+    "levels": [
+     "Shows roughly when the weather will change",
+     "More accurate weather prediction"
+    ],
+    "unlock": "Tier 2: 5 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Innate Triangulation",
+    "tree": "Stalker",
+    "tier": 3,
+    "maxPoints": 2,
+    "levels": [
+     "Sound location marker about 50% smaller",
+     "Sound location marker about 50% smaller again"
+    ],
+    "unlock": "Tier 3: 9 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Improvised Blind",
+    "tree": "Stalker",
+    "tier": 3,
+    "maxPoints": 1,
+    "levels": [
+     "Reduces how visible you are to animals while in shrubs and bushes"
+    ],
+    "unlock": "Tier 3: 9 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Endurance",
+    "tree": "Stalker",
+    "tier": 3,
+    "maxPoints": 1,
+    "levels": [
+     "Increases maximum stamina and speeds stamina recovery while resting"
+    ],
+    "unlock": "Tier 3: 9 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Disturbed Vegetation",
+    "tree": "Stalker",
+    "tier": 4,
+    "maxPoints": 1,
+    "levels": [
+     "Disturbed plants reveal the animal's body shape; with Track Knowledge level 3 they also reveal fur colour"
+    ],
+    "unlock": "Tier 4: 13 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Wind Prediction",
+    "tree": "Stalker",
+    "tier": 4,
+    "maxPoints": 2,
+    "levels": [
+     "Wind noise masks the noise you make",
+     "Shows wind direction and upcoming changes"
+    ],
+    "unlock": "Tier 4: 13 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "A Sudden Call",
+    "tree": "Stalker",
+    "tier": 4,
+    "maxPoints": 1,
+    "levels": [
+     "A whistle briefly stops an animal within 70 m; does not stop an animal that is already running"
+    ],
+    "unlock": "Tier 4: 13 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   }
+  ],
+  "Ambusher": [
+   {
+    "name": "Scent Tinkerer",
+    "tree": "Ambusher",
+    "tier": 0,
+    "maxPoints": 4,
+    "levels": [
+     "More uses per scent (attractant goes from 10 to 20 uses)",
+     "Longer scent duration",
+     "Greater scent range",
+     "Greater scent allure"
+    ],
+    "unlock": "Available from the start (tier 0)",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Spotting Knowledge",
+    "tree": "Ambusher",
+    "tier": 1,
+    "maxPoints": 3,
+    "levels": [
+     "Shows whether a spotted animal is alert",
+     "Shows the animal's health in 25% steps",
+     "Shows approximate trophy rating and weight"
+    ],
+    "unlock": "Tier 1: 1 point spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Dazed and Confused",
+    "tree": "Ambusher",
+    "tier": 1,
+    "maxPoints": 1,
+    "levels": [
+     "Adds a chance that an animal not normally drawn to a scent is lured anyway"
+    ],
+    "unlock": "Tier 1: 1 point spent in this tree",
+    "about": "Source speculates this only works on animals of similar weight class.",
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "The More the Merrier",
+    "tree": "Ambusher",
+    "tier": 1,
+    "maxPoints": 1,
+    "levels": [
+     "Increases mission cash rewards by 5% (does not affect harvest income)"
+    ],
+    "unlock": "Tier 1: 1 point spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Sight Spotting",
+    "tree": "Ambusher",
+    "tier": 2,
+    "maxPoints": 1,
+    "levels": [
+     "Lets you observe/spot animals while aiming down a scope, without switching to binoculars"
+    ],
+    "unlock": "Tier 2: 5 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Fatal Attraction",
+    "tree": "Ambusher",
+    "tier": 2,
+    "maxPoints": 2,
+    "levels": [
+     "Callers tempt animals more strongly",
+     "Animals respond with calls more often"
+    ],
+    "unlock": "Tier 2: 5 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Impact Resistant",
+    "tree": "Ambusher",
+    "tier": 2,
+    "maxPoints": 1,
+    "levels": [
+     "Reduces fall damage"
+    ],
+    "unlock": "Tier 2: 5 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Tag",
+    "tree": "Ambusher",
+    "tier": 3,
+    "maxPoints": 2,
+    "levels": [
+     "Spotted-animal outline lasts longer (7 to 10 seconds per source)",
+     "Mark up to 3 animals at once (info shown for the last one)"
+    ],
+    "unlock": "Tier 3: 9 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Who's Deer?",
+    "tree": "Ambusher",
+    "tier": 3,
+    "maxPoints": 2,
+    "levels": [
+     "Callers have a chance to attract another species",
+     "Adds a chance to produce another animal's cry"
+    ],
+    "unlock": "Tier 3: 9 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Pack Mule",
+    "tree": "Ambusher",
+    "tier": 3,
+    "maxPoints": 1,
+    "levels": [
+     "Increases maximum carry weight by 15% (20 kg to 23 kg)"
+    ],
+    "unlock": "Tier 3: 9 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Keen Eye",
+    "tree": "Ambusher",
+    "tier": 4,
+    "maxPoints": 2,
+    "levels": [
+     "Within 10 m of a lookout point, may reveal need zones within 450 m",
+     "May also reveal animal groups near the lookout point"
+    ],
+    "unlock": "Tier 4: 13 points spent in this tree",
+    "about": "Source notes a cooldown (30 min by default).",
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Hill Caller",
+    "tree": "Ambusher",
+    "tier": 4,
+    "maxPoints": 1,
+    "levels": [
+     "Increases caller range when used from a lookout point or elevated structure (exact increase unknown)"
+    ],
+    "unlock": "Tier 4: 13 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Haggle",
+    "tree": "Ambusher",
+    "tier": 4,
+    "maxPoints": 1,
+    "levels": [
+     "Reduces store purchase prices by 5%"
+    ],
+    "unlock": "Tier 4: 13 points spent in this tree",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   }
+  ]
+ },
+ "perks": {
+  "Rifles": [
+   {
+    "name": "Muscle Memory",
+    "tree": "Rifles",
+    "tier": 0,
+    "maxPoints": 2,
+    "levels": [
+     "Can work the action / fire follow-up shots while staying aimed after a shot",
+     "Shorter interval between shots for all weapons"
+    ],
+    "unlock": "Available from the start",
+    "about": "Listed by NamuWiki as 'Embodiment (Muscle Memory)', a translation; English in-game name believed to be Muscle Memory.",
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Breath Control",
+    "tree": "Rifles",
+    "tier": 1,
+    "maxPoints": 3,
+    "levels": [
+     "Shorter cooldown before you can hold your breath again",
+     "Longer breath-hold duration",
+     "Less sway while holding breath"
+    ],
+    "unlock": "Requires Muscle Memory",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Steady Hands",
+    "tree": "Rifles",
+    "tier": 1,
+    "maxPoints": 2,
+    "levels": [
+     "Reduces aim sway for all weapons",
+     "Further reduces aim sway for all weapons"
+    ],
+    "unlock": "Requires Muscle Memory",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Zeroing",
+    "tree": "Rifles",
+    "tier": 2,
+    "maxPoints": 2,
+    "levels": [
+     "Adds a close-range zero (switch with F; default is medium range)",
+     "Adds a long-range zero"
+    ],
+    "unlock": "Requires Muscle Memory",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Focused Shot",
+    "tree": "Rifles",
+    "tier": 3,
+    "maxPoints": 1,
+    "levels": [
+     "With a non-magnifying sight on a rifle, holding breath while aiming zooms in further"
+    ],
+    "unlock": "Requires Breath Control",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Windage",
+    "tree": "Rifles",
+    "tier": 3,
+    "maxPoints": 1,
+    "levels": [
+     "Shows wind direction and speed while aiming, for any weapon"
+    ],
+    "unlock": "Requires Steady Hands",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   }
+  ],
+  "Handguns": [
+   {
+    "name": "Sprint & Load",
+    "tree": "Handguns",
+    "tier": 0,
+    "maxPoints": 1,
+    "levels": [
+     "Reload any weapon while running"
+    ],
+    "unlock": "Available from the start",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Quick Feet",
+    "tree": "Handguns",
+    "tier": 1,
+    "maxPoints": 2,
+    "levels": [
+     "Faster sight re-alignment after a stance change with a handgun",
+     "Further improvement"
+    ],
+    "unlock": "Requires Sprint & Load",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Survival Instinct",
+    "tree": "Handguns",
+    "tier": 1,
+    "maxPoints": 1,
+    "levels": [
+     "After hitting an aggressive animal, take less damage from animal attacks for a short time"
+    ],
+    "unlock": "Requires Sprint & Load",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Ranger",
+    "tree": "Handguns",
+    "tier": 2,
+    "maxPoints": 1,
+    "levels": [
+     "Shows a more accurate range estimate when aiming"
+    ],
+    "unlock": "Requires Quick Feet or Survival Instinct",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Lightning Hands",
+    "tree": "Handguns",
+    "tier": 3,
+    "maxPoints": 3,
+    "levels": [
+     "Faster reload for all weapons",
+     "Faster reload",
+     "Faster reload"
+    ],
+    "unlock": "Requires Quick Feet",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Quick Draw",
+    "tree": "Handguns",
+    "tier": 3,
+    "maxPoints": 2,
+    "levels": [
+     "Better hip-fire accuracy and speed",
+     "Further improvement"
+    ],
+    "unlock": "Requires Survival Instinct",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   }
+  ],
+  "Shotguns": [
+   {
+    "name": "Both Eyes Open",
+    "tree": "Shotguns",
+    "tier": 0,
+    "maxPoints": 2,
+    "levels": [
+     "Less blur around the view when aiming down non-magnifying sights",
+     "Further reduction"
+    ],
+    "unlock": "Available from the start",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Fast Shouldering",
+    "tree": "Shotguns",
+    "tier": 1,
+    "maxPoints": 2,
+    "levels": [
+     "Raise and lower the weapon faster",
+     "Further improvement"
+    ],
+    "unlock": "Requires Both Eyes Open",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Body Control",
+    "tree": "Shotguns",
+    "tier": 1,
+    "maxPoints": 2,
+    "levels": [
+     "Aim faster after turning or moving",
+     "Further improvement"
+    ],
+    "unlock": "Requires Both Eyes Open",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Tracer Shot",
+    "tree": "Shotguns",
+    "tier": 2,
+    "maxPoints": 1,
+    "levels": [
+     "Each pellet leaves a visible trail showing the spread"
+    ],
+    "unlock": "Requires Fast Shouldering",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Recoil Management",
+    "tree": "Shotguns",
+    "tier": 2,
+    "maxPoints": 2,
+    "levels": [
+     "Less recoil, allowing a faster follow-up shot",
+     "Further reduction"
+    ],
+    "unlock": "Requires Body Control",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Boomstick",
+    "tree": "Shotguns",
+    "tier": 3,
+    "maxPoints": 1,
+    "levels": [
+     "Double-barrel shotguns can fire both barrels at once"
+    ],
+    "unlock": "Requires Tracer Shot and Recoil Management",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   }
+  ],
+  "Archery": [
+   {
+    "name": "Full Draw",
+    "tree": "Archery",
+    "tier": 0,
+    "maxPoints": 3,
+    "levels": [
+     "Hold a drawn bow longer before it releases",
+     "Longer",
+     "Longer"
+    ],
+    "unlock": "Available from the start",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Move n' Shoot",
+    "tree": "Archery",
+    "tier": 1,
+    "maxPoints": 1,
+    "levels": [
+     "Less aim sway while moving, for all weapons"
+    ],
+    "unlock": "Requires Full Draw",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Increased Confidence",
+    "tree": "Archery",
+    "tier": 2,
+    "maxPoints": 2,
+    "levels": [
+     "Improved accuracy with all bows",
+     "Further improvement"
+    ],
+    "unlock": "Requires Move n' Shoot",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Recycle",
+    "tree": "Archery",
+    "tier": 2,
+    "maxPoints": 2,
+    "levels": [
+     "Arrows may survive a hit and can be recovered from carcasses and terrain; adds arrow search",
+     "Higher arrow recovery chance"
+    ],
+    "unlock": "Requires Move n' Shoot",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Like a Pro",
+    "tree": "Archery",
+    "tier": 3,
+    "maxPoints": 1,
+    "levels": [
+     "Aim and fire bows while crouched"
+    ],
+    "unlock": "Requires Increased Confidence",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "name": "Pumping Iron",
+    "tree": "Archery",
+    "tier": 3,
+    "maxPoints": 2,
+    "levels": [
+     "Higher arrow speed, damage and penetration",
+     "Further improvement"
+    ],
+    "unlock": "Requires Recycle",
+    "about": null,
+    "sources": [
+     {
+      "url": "https://en.namu.wiki/w/%EB%8D%94%20%ED%97%8C%ED%84%B0:%20%EC%95%BC%EC%83%9D%EC%9D%98%20%EB%B6%80%EB%A6%84/%EC%8A%A4%ED%82%AC&%ED%8D%BD",
+      "title": "NamuWiki (English mirror): The Hunter: Call of the Wild/Skills & Perks",
+      "accessed": "2026-10-12"
+     }
+    ]
+   }
+  ]
+ },
+ "notes": "Tier thresholds (1/5/9/13 points spent) and most per-level effects come from NamuWiki and were not checked against the in-game text. No English source found gives exact per-level percentages for most skills and perks; where a level's specific effect is unknown it is null or 'Further improvement'. Perk names follow the English game; NamuWiki's 'Embodiment' is listed here as Muscle Memory (unverified)."
+}

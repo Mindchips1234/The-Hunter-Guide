@@ -1,0 +1,5247 @@
+{
+  "sources": [
+    {
+      "url": "https://thewildregister.com/call-of-the-wild-animals/",
+      "title": "The Wild Register: Call of the Wild animal guides (need-zone schedules from TacMaps by TicTactical)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1767037181",
+      "title": "Steam guide: ALL NEED ZONE TIMES FOR EVERY ANIMAL (last updated 2024-06-28; page shows a removal notice)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://gameplay.tips/guides/4433-the-hunter-call-of-the-wild.html",
+      "title": "gameplay.tips: All Need Zone Times for Every Animal (Yukon Update) - 2019 data, NOT used (outdated)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://thehuntercotw.wordpress.com/2025/07/01/sheets-updates-salzwiesen-park-askiy-ridge-2/",
+      "title": "theHunter COTW community sheets post (links Zone Times Google Sheet)",
+      "accessed": "2026-10-12"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/12VErbkeRJvXmzDVKilQmvxVqT6_x3XunyxWJ3tNSee4/",
+      "title": "Zone Times Google Sheet (first tab = Hirschfelden; matches The Wild Register)",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "notes": "In-game 24h clock. Primary source: The Wild Register per-species pages, whose schedules come from TacMaps by TicTactical; gaps filled from the Steam guide 1767037181 where noted. Ranges are copied as the source writes them, including 30-minute overlaps (e.g. 04:00-08:30) that some sources use to show the transition. drink [] = source lists no drink zone for that species (normal for birds, hares and some small game); a null feed/rest means the source gives none. A null species entry means no data was found. Neither source states outright that need zone times are species-wide, but the data shows that most species keep the same schedule in every reserve (e.g. Red Deer is identical in all 6 of its reserves, Red Fox in all 6, Wild Boar in all 4, Moose in 5 of 6, and the Steam guide says all Spanish ibex share one schedule). Exceptions are noted per entry (e.g. Tòrr fallow deer, Medved gray wolf, Intisuyu whitetail/collared peccary/puma, Askiy moose). Schedules can change with game updates (The Wild Register).",
+  "missing": [
+    "Emerald Coast Australia: Magpie Goose"
+  ],
+  "Hirschfelden Hunting Reserve": {
+    "Canada Goose": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/canada-goose/",
+          "title": "The Wild Register: Canada Goose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "European Bison": {
+      "feed": [
+        "04:00-07:00",
+        "07:00-10:00",
+        "17:00-20:00"
+      ],
+      "drink": [
+        "10:00-14:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "14:00-17:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/european-bison/",
+          "title": "The Wild Register: European Bison",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "European Rabbit": {
+      "feed": [
+        "05:00-09:00",
+        "12:00-16:00",
+        "18:00-22:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "09:00-12:00",
+        "16:00-18:00",
+        "22:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/european-rabbit/",
+          "title": "The Wild Register: European Rabbit",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Fallow Deer": {
+      "feed": [
+        "06:00-10:00",
+        "17:00-21:00"
+      ],
+      "drink": [
+        "10:00-13:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "13:00-17:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/fallow-deer/",
+          "title": "The Wild Register: Fallow Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Red Deer": {
+      "feed": [
+        "13:00-17:00",
+        "17:00-21:00"
+      ],
+      "drink": [
+        "06:00-10:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "10:00-13:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/red-deer/",
+          "title": "The Wild Register: Red Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Red Fox": {
+      "feed": [
+        "00:00-04:00",
+        "04:00-07:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "17:00-20:00"
+      ],
+      "rest": [
+        "07:00-10:00",
+        "10:00-13:00",
+        "13:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/red-fox/",
+          "title": "The Wild Register: Red Fox",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Ring-Necked Pheasant": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-18:00",
+        "18:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/ring-necked-pheasant/",
+          "title": "The Wild Register: Ring-Necked Pheasant",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Roe Deer": {
+      "feed": [
+        "04:00-07:00",
+        "07:00-10:00",
+        "17:00-20:00"
+      ],
+      "drink": [
+        "14:00-17:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "10:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/roe-deer/",
+          "title": "The Wild Register: Roe Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Wild Boar": {
+      "feed": [
+        "03:00-06:00",
+        "17:00-21:00",
+        "21:00-00:00"
+      ],
+      "drink": [
+        "00:00-03:00"
+      ],
+      "rest": [
+        "06:00-10:00",
+        "10:00-14:00",
+        "14:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/wild-boar/",
+          "title": "The Wild Register: Wild Boar",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "Layton Lake District": {
+    "Black Bear": {
+      "feed": [
+        "00:00-04:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "04:00-08:00"
+      ],
+      "rest": [
+        "08:00-12:00",
+        "12:00-16:00",
+        "16:00-20:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/black-bear/",
+          "title": "The Wild Register: Black Bear",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Blacktail Deer": {
+      "feed": [
+        "04:00-08:30",
+        "12:00-16:30"
+      ],
+      "drink": [
+        "16:00-20:30"
+      ],
+      "rest": [
+        "00:00-04:30",
+        "08:00-12:30",
+        "20:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/blacktail-deer/",
+          "title": "The Wild Register: Blacktail Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Coyote": {
+      "feed": [
+        "04:00-07:30",
+        "17:00-20:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "00:00-04:30"
+      ],
+      "rest": [
+        "07:00-10:30",
+        "10:00-14:30",
+        "14:00-17:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/coyote/",
+          "title": "The Wild Register: Coyote",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mallard": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mallard/",
+          "title": "The Wild Register: Mallard",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Merriam Turkey": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-17:00",
+        "17:00-20:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/merriam-turkey/",
+          "title": "The Wild Register: Merriam Turkey",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Moose": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "12:00-16:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "08:00-12:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/moose/",
+          "title": "The Wild Register: Moose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Roosevelt Elk": {
+      "feed": [
+        "08:00-12:30",
+        "16:00-20:30"
+      ],
+      "drink": [
+        "04:00-08:30"
+      ],
+      "rest": [
+        "00:00-04:30",
+        "12:00-16:30",
+        "20:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/roosevelt-elk/",
+          "title": "The Wild Register: Roosevelt Elk",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "White-Tailed Jackrabbit": {
+      "feed": [
+        "00:00-03:30",
+        "03:00-06:30",
+        "18:00-21:30",
+        "21:00-00:30"
+      ],
+      "drink": [],
+      "rest": [
+        "06:00-10:30",
+        "10:00-14:30",
+        "14:00-18:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/white-tailed-jackrabbit/",
+          "title": "The Wild Register: White-Tailed Jackrabbit",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Whitetail Deer": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "08:00-12:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "12:00-16:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/whitetail-deer/",
+          "title": "The Wild Register: Whitetail Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "Medved-Taiga National Park": {
+    "Brown Bear": {
+      "feed": [
+        "00:00-04:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "04:00-08:30"
+      ],
+      "rest": [
+        "08:00-12:30",
+        "12:00-16:30",
+        "16:00-20:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eurasian-brown-bear/",
+          "title": "The Wild Register: Brown Bear",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eurasian Lynx": {
+      "feed": [
+        "00:00-04:30",
+        "04:00-08:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "03:00-06:00"
+      ],
+      "rest": [
+        "08:00-12:30",
+        "12:00-16:30",
+        "16:00-20:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eurasian-lynx/",
+          "title": "The Wild Register: Eurasian Lynx",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Gray Wolf": {
+      "feed": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "17:00-20:00"
+      ],
+      "rest": [
+        "06:00-10:00",
+        "10:00-14:00",
+        "14:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/gray-wolf/",
+          "title": "The Wild Register: Gray Wolf",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": "Differs from Askiy Ridge / Yukon Valley wolves."
+    },
+    "Moose": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "12:00-16:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "08:00-12:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/moose/",
+          "title": "The Wild Register: Moose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mountain Reindeer": {
+      "feed": [
+        "08:00-12:30",
+        "16:00-20:30"
+      ],
+      "drink": [
+        "04:00-08:30"
+      ],
+      "rest": [
+        "00:00-04:30",
+        "12:00-16:30",
+        "20:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mountain-reindeer/",
+          "title": "The Wild Register: Mountain Reindeer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Siberian Musk Deer": {
+      "feed": [
+        "12:00-16:30",
+        "16:00-20:30"
+      ],
+      "drink": [
+        "08:00-12:30"
+      ],
+      "rest": [
+        "00:00-04:30",
+        "04:00-08:30",
+        "20:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/siberian-musk-deer/",
+          "title": "The Wild Register: Siberian Musk Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Western Capercaillie": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-18:00",
+        "18:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/western-capercaillie/",
+          "title": "The Wild Register: Western Capercaillie",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Wild Boar": {
+      "feed": [
+        "03:00-06:00",
+        "17:00-21:00",
+        "21:00-00:00"
+      ],
+      "drink": [
+        "00:00-03:00"
+      ],
+      "rest": [
+        "06:00-10:00",
+        "10:00-14:00",
+        "14:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/wild-boar/",
+          "title": "The Wild Register: Wild Boar",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "Vurhonga Savanna": {
+    "Blue Wildebeest": {
+      "feed": [
+        "03:00-06:30",
+        "09:00-12:30",
+        "15:00-18:30"
+      ],
+      "drink": [
+        "06:00-09:30"
+      ],
+      "rest": [
+        "00:00-03:30",
+        "12:00-15:30",
+        "18:00-21:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/blue-wildebeest/",
+          "title": "The Wild Register: Blue Wildebeest",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Cape Buffalo": {
+      "feed": [
+        "06:00-09:30",
+        "12:00-15:30",
+        "15:00-18:30"
+      ],
+      "drink": [
+        "09:00-12:00"
+      ],
+      "rest": [
+        "00:00-03:30",
+        "03:00-06:30",
+        "18:00-21:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/cape-buffalo/",
+          "title": "The Wild Register: Cape Buffalo",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eurasian Wigeon": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eurasian-wigeon/",
+          "title": "The Wild Register: Eurasian Wigeon",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Gemsbok": {
+      "feed": [
+        "00:00-03:30",
+        "06:00-10:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "03:00-06:30"
+      ],
+      "rest": [
+        "10:00-13:30",
+        "13:00-16:30",
+        "16:00-20:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/gemsbok/",
+          "title": "The Wild Register: Gemsbok",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Lesser Kudu": {
+      "feed": [
+        "00:00-03:30",
+        "03:00-07:30",
+        "21:00-00:30"
+      ],
+      "drink": [
+        "18:00-21:30"
+      ],
+      "rest": [
+        "07:00-10:30",
+        "10:00-14:30",
+        "14:00-18:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/lesser-kudu/",
+          "title": "The Wild Register: Lesser Kudu",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Lion": {
+      "feed": [
+        "00:00-04:30",
+        "04:00-08:00"
+      ],
+      "drink": [
+        "12:00-15:00"
+      ],
+      "rest": [
+        "08:00-12:00",
+        "15:00-18:30",
+        "18:00-21:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/lion/",
+          "title": "The Wild Register: Lion",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Scrub Hare": {
+      "feed": [
+        "00:00-03:30",
+        "03:00-06:30",
+        "18:00-21:30",
+        "21:00-00:30"
+      ],
+      "drink": [],
+      "rest": [
+        "06:00-10:30",
+        "10:00-14:30",
+        "14:00-18:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/scrub-hare/",
+          "title": "The Wild Register: Scrub Hare",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Side-Striped Jackal": {
+      "feed": [
+        "00:00-03:30",
+        "03:00-06:30",
+        "18:00-21:30",
+        "21:00-00:30"
+      ],
+      "drink": [],
+      "rest": [
+        "06:30-10:30",
+        "10:00-14:30",
+        "14:00-18:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/side-striped-jackal/",
+          "title": "The Wild Register: Side-Striped Jackal",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Springbok": {
+      "feed": [
+        "04:00-08:30",
+        "08:00-11:30",
+        "11:00-14:30",
+        "18:00-21:30",
+        "21:00-00:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:30",
+        "14:00-18:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/springbok/",
+          "title": "The Wild Register: Springbok",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Warthog": {
+      "feed": [
+        "06:00-09:30",
+        "09:00-12:30",
+        "12:00-15:30"
+      ],
+      "drink": [
+        "15:00-18:30"
+      ],
+      "rest": [
+        "00:00-03:30",
+        "03:00-06:30",
+        "18:00-21:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/warthog/",
+          "title": "The Wild Register: Warthog",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "Parque Fernando": {
+    "Axis Deer": {
+      "feed": [
+        "06:00-09:00",
+        "09:00-12:00",
+        "21:00-00:00"
+      ],
+      "drink": [
+        "03:00-06:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "12:00-15:00",
+        "15:00-18:00",
+        "18:00-21:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/axis-deer/",
+          "title": "The Wild Register: Axis Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Blackbuck": {
+      "feed": [
+        "03:00-06:30",
+        "06:00-09:30",
+        "15:00-18:30"
+      ],
+      "drink": [
+        "18:00-21:30"
+      ],
+      "rest": [
+        "00:00-03:30",
+        "09:00-12:30",
+        "12:00-15:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/blackbuck/",
+          "title": "The Wild Register: Blackbuck",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Cinnamon Teal": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/cinnamon-teal/",
+          "title": "The Wild Register: Cinnamon Teal",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Collared Peccary": {
+      "feed": [
+        "07:00-11:30",
+        "14:00-17:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "00:00-03:30"
+      ],
+      "rest": [
+        "03:00-07:30",
+        "11:00-14:30",
+        "17:00-20:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/collared-peccary/",
+          "title": "The Wild Register: Collared Peccary",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mule Deer": {
+      "feed": [
+        "00:00-03:30",
+        "03:00-06:30",
+        "21:00-00:30"
+      ],
+      "drink": [
+        "15:00-18:30"
+      ],
+      "rest": [
+        "06:00-09:30",
+        "09:00-12:30",
+        "12:00-15:30",
+        "18:00-21:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mule-deer/",
+          "title": "The Wild Register: Mule Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Puma": {
+      "feed": [
+        "00:00-06:30",
+        "18:00-00:30"
+      ],
+      "drink": [
+        "00:00-03:00",
+        "17:00-18:30"
+      ],
+      "rest": [
+        "08:00-17:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/puma/",
+          "title": "The Wild Register: Puma",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Red Deer": {
+      "feed": [
+        "13:00-17:00",
+        "17:00-21:00"
+      ],
+      "drink": [
+        "06:00-10:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "10:00-13:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/red-deer/",
+          "title": "The Wild Register: Red Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Water Buffalo": {
+      "feed": [
+        "06:00-09:30",
+        "09:00-12:30",
+        "15:00-18:30"
+      ],
+      "drink": [
+        "12:00-15:30"
+      ],
+      "rest": [
+        "00:00-03:30",
+        "03:00-06:30",
+        "18:00-21:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/water-buffalo/",
+          "title": "The Wild Register: Water Buffalo",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "Yukon Valley": {
+    "Canada Goose": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/canada-goose/",
+          "title": "The Wild Register: Canada Goose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Grant Caribou": {
+      "feed": [
+        "08:00-12:30",
+        "16:00-20:30"
+      ],
+      "drink": [
+        "04:00-08:30"
+      ],
+      "rest": [
+        "00:00-04:30",
+        "12:00-16:30",
+        "20:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/grant-caribou/",
+          "title": "The Wild Register: Grant Caribou",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Gray Wolf": {
+      "feed": [
+        "03:00-06:00",
+        "18:00-21:00",
+        "21:00-00:00"
+      ],
+      "drink": [
+        "00:00-03:00"
+      ],
+      "rest": [
+        "06:00-10:00",
+        "10:00-14:00",
+        "14:00-18:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/gray-wolf/",
+          "title": "The Wild Register: Gray Wolf",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Grizzly Bear": {
+      "feed": [
+        "00:00-04:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "04:00-08:00"
+      ],
+      "rest": [
+        "08:00-12:00",
+        "12:00-16:00",
+        "16:00-20:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/grizzly-bear/",
+          "title": "The Wild Register: Grizzly Bear",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Harlequin Duck": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": null,
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/harlequin-duck/",
+          "title": "The Wild Register: Harlequin Duck",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": "Rest windows not listed by the source."
+    },
+    "Moose": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "12:00-16:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "08:00-12:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/moose/",
+          "title": "The Wild Register: Moose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Plains Bison": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "08:00-12:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "12:00-16:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/plains-bison/",
+          "title": "The Wild Register: Plains Bison",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Red Fox": {
+      "feed": [
+        "00:00-04:00",
+        "04:00-07:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "17:00-20:00"
+      ],
+      "rest": [
+        "07:00-10:00",
+        "10:00-13:00",
+        "13:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/red-fox/",
+          "title": "The Wild Register: Red Fox",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "Cuatro Colinas Game Reserve": {
+    "Beceite Ibex": {
+      "feed": [
+        "00:00-04:30",
+        "17:00-21:30"
+      ],
+      "drink": [
+        "10:00-14:30"
+      ],
+      "rest": [
+        "04:00-07:30",
+        "07:00-10:30",
+        "14:00-17:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/beceite-ibex/",
+          "title": "The Wild Register: Beceite Ibex",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "European Hare": {
+      "feed": [
+        "00:00-03:30",
+        "03:00-06:30",
+        "18:00-21:30",
+        "21:00-00:30"
+      ],
+      "drink": [],
+      "rest": [
+        "06:00-09:30",
+        "09:00-12:30",
+        "12:00-15:30",
+        "15:00-18:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/european-hare/",
+          "title": "The Wild Register: European Hare",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Gredos Ibex": {
+      "feed": [
+        "00:00-04:00",
+        "17:00-21:00"
+      ],
+      "drink": [
+        "10:00-14:00"
+      ],
+      "rest": [
+        "04:00-07:00",
+        "07:00-10:00",
+        "14:00-17:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/gredos-ibex/",
+          "title": "The Wild Register: Gredos Ibex",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Iberian Mouflon": {
+      "feed": [
+        "00:00-03:30",
+        "15:00-18:30",
+        "21:00-00:30"
+      ],
+      "drink": [
+        "18:00-21:30"
+      ],
+      "rest": [
+        "03:00-06:30",
+        "06:00-09:30",
+        "09:00-12:30",
+        "12:00-15:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/iberian-mouflon/",
+          "title": "The Wild Register: Iberian Mouflon",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Iberian Wolf": {
+      "feed": [
+        "00:00-03:30",
+        "18:00-21:30",
+        "21:00-00:30"
+      ],
+      "drink": [
+        "03:00-06:30"
+      ],
+      "rest": [
+        "06:00-09:30",
+        "09:00-12:30",
+        "12:00-15:30",
+        "15:00-18:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/iberian-wolf/",
+          "title": "The Wild Register: Iberian Wolf",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Red Deer": {
+      "feed": [
+        "13:00-17:00",
+        "17:00-21:00"
+      ],
+      "drink": [
+        "06:00-10:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "10:00-13:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/red-deer/",
+          "title": "The Wild Register: Red Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Ring-Necked Pheasant": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-18:00",
+        "18:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/ring-necked-pheasant/",
+          "title": "The Wild Register: Ring-Necked Pheasant",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Roe Deer": {
+      "feed": [
+        "04:00-07:00",
+        "07:00-10:00",
+        "17:00-20:00"
+      ],
+      "drink": [
+        "14:00-17:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "10:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/roe-deer/",
+          "title": "The Wild Register: Roe Deer",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1767037181",
+          "title": "Steam guide: ALL NEED ZONE TIMES FOR EVERY ANIMAL (last updated 2024-06-28; page shows a removal notice)",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": "The Wild Register lists only drink 14:00-17:00 here; feed/rest taken from the Steam guide."
+    },
+    "Ronda Ibex": {
+      "feed": [
+        "00:00-04:30",
+        "17:00-21:30"
+      ],
+      "drink": [
+        "10:00-14:30"
+      ],
+      "rest": [
+        "04:00-07:30",
+        "07:00-10:30",
+        "14:00-17:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/ronda-ibex/",
+          "title": "The Wild Register: Ronda Ibex",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Southeastern Spanish Ibex": {
+      "feed": [
+        "00:00-04:30",
+        "17:00-21:30"
+      ],
+      "drink": [
+        "10:00-14:30"
+      ],
+      "rest": [
+        "04:00-07:30",
+        "07:00-10:30",
+        "14:00-17:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/southeastern-spanish-ibex/",
+          "title": "The Wild Register: Southeastern Spanish Ibex",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Wild Boar": {
+      "feed": [
+        "03:00-06:00",
+        "17:00-21:00",
+        "21:00-00:00"
+      ],
+      "drink": [
+        "00:00-03:00"
+      ],
+      "rest": [
+        "06:00-10:00",
+        "10:00-14:00",
+        "14:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/wild-boar/",
+          "title": "The Wild Register: Wild Boar",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "Silver Ridge Peaks": {
+    "Black Bear": {
+      "feed": [
+        "00:00-04:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "04:00-08:00"
+      ],
+      "rest": [
+        "08:00-12:00",
+        "12:00-16:00",
+        "16:00-20:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/black-bear/",
+          "title": "The Wild Register: Black Bear",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Merriam Turkey": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-17:00",
+        "17:00-20:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/merriam-turkey/",
+          "title": "The Wild Register: Merriam Turkey",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mountain Goat": {
+      "feed": [
+        "04:00-07:00",
+        "07:00-10:00",
+        "10:00-13:00",
+        "17:00-20:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "13:00-17:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mountain-goat/",
+          "title": "The Wild Register: Mountain Goat",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mule Deer": {
+      "feed": [
+        "00:00-03:30",
+        "03:00-06:30",
+        "21:00-00:30"
+      ],
+      "drink": [
+        "15:00-18:30"
+      ],
+      "rest": [
+        "06:00-09:30",
+        "09:00-12:30",
+        "12:00-15:30",
+        "18:00-21:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mule-deer/",
+          "title": "The Wild Register: Mule Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Plains Bison": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "08:00-12:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "12:00-16:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/plains-bison/",
+          "title": "The Wild Register: Plains Bison",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1767037181",
+          "title": "Steam guide: ALL NEED ZONE TIMES FOR EVERY ANIMAL (last updated 2024-06-28; page shows a removal notice)",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": "The Wild Register lists only rest 12:00-16:00 here; full schedule taken from the Steam guide (identical to its Yukon Valley entry)."
+    },
+    "Pronghorn": {
+      "feed": [
+        "06:00-09:00",
+        "09:00-12:00",
+        "15:00-18:00"
+      ],
+      "drink": [
+        "18:00-21:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "12:00-15:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/pronghorn/",
+          "title": "The Wild Register: Pronghorn",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Puma": {
+      "feed": [
+        "00:00-06:30",
+        "18:00-00:30"
+      ],
+      "drink": [
+        "00:00-03:00",
+        "17:00-18:30"
+      ],
+      "rest": [
+        "08:00-17:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/puma/",
+          "title": "The Wild Register: Puma",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Rocky Mountain Bighorn Sheep": {
+      "feed": [
+        "03:00-06:00",
+        "06:00-09:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "12:00-16:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "09:00-12:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/rocky-mountain-bighorn-sheep/",
+          "title": "The Wild Register: Rocky Mountain Bighorn Sheep",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Rocky Mountain Elk": {
+      "feed": [
+        "05:00-17:00",
+        "18:00-23:00"
+      ],
+      "drink": [
+        "04:00-05:00",
+        "17:00-18:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "23:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/rocky-mountain-elk/",
+          "title": "The Wild Register: Rocky Mountain Elk",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": "Unusually long windows; the older Steam guide gives feed 08:00-12:00, 16:00-20:00 / drink 04:00-08:00 / rest 12:00-16:00, 20:00-00:00, 00:00-04:00. Verify in game."
+    }
+  },
+  "Te Awaroa National Park": {
+    "Chamois": {
+      "feed": [
+        "04:00-08:30",
+        "08:00-12:30",
+        "20:00-00:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:30",
+        "12:00-16:30",
+        "16:00-20:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/chamois/",
+          "title": "The Wild Register: Chamois",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "European Rabbit": {
+      "feed": [
+        "05:00-09:00",
+        "12:00-16:00",
+        "19:00-23:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "09:00-12:00",
+        "16:00-19:00",
+        "23:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/european-rabbit/",
+          "title": "The Wild Register: European Rabbit",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Fallow Deer": {
+      "feed": [
+        "06:00-10:00",
+        "17:00-21:00"
+      ],
+      "drink": [
+        "10:00-13:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "13:00-17:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/fallow-deer/",
+          "title": "The Wild Register: Fallow Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Feral Goat": {
+      "feed": [
+        "06:00-09:00",
+        "09:00-12:00",
+        "18:00-21:00"
+      ],
+      "drink": [
+        "15:00-18:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "12:00-15:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/feral-goat/",
+          "title": "The Wild Register: Feral Goat",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Feral Pig": {
+      "feed": [
+        "06:00-10:00",
+        "14:00-17:00",
+        "17:00-20:00"
+      ],
+      "drink": [
+        "03:00-06:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "10:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/feral-pig/",
+          "title": "The Wild Register: Feral Pig",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Himalayan Tahr": {
+      "feed": [
+        "04:00-07:00",
+        "07:00-11:00",
+        "14:00-17:00",
+        "17:00-20:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/tahr/",
+          "title": "The Wild Register: Himalayan Tahr",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mallard": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mallard/",
+          "title": "The Wild Register: Mallard",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Merriam Turkey": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-17:00",
+        "17:00-20:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/merriam-turkey/",
+          "title": "The Wild Register: Merriam Turkey",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Red Deer": {
+      "feed": [
+        "13:00-17:00",
+        "17:00-21:00"
+      ],
+      "drink": [
+        "06:00-10:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "10:00-13:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/red-deer/",
+          "title": "The Wild Register: Red Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Sika Deer": {
+      "feed": [
+        "05:00-09:00",
+        "14:00-18:00",
+        "17:30-21:30"
+      ],
+      "drink": [
+        "10:00-13:00"
+      ],
+      "rest": [
+        "00:00-05:30",
+        "11:30-14:30",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/sika-deer/",
+          "title": "The Wild Register: Sika Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "Rancho del Arroyo": {
+    "Antelope Jackrabbit": {
+      "feed": [
+        "00:00-04:30",
+        "04:00-07:30",
+        "14:00-17:30",
+        "17:00-20:30",
+        "20:00-00:30"
+      ],
+      "drink": [],
+      "rest": [
+        "07:00-11:30",
+        "11:00-14:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/antelope-jackrabbit/",
+          "title": "The Wild Register: Antelope Jackrabbit",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Collared Peccary": {
+      "feed": [
+        "07:00-11:30",
+        "14:00-17:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "00:00-03:30"
+      ],
+      "rest": [
+        "03:00-07:30",
+        "11:00-14:30",
+        "17:00-20:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/collared-peccary/",
+          "title": "The Wild Register: Collared Peccary",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Coyote": {
+      "feed": [
+        "00:00-04:30",
+        "04:00-07:30",
+        "17:00-20:30"
+      ],
+      "drink": [
+        "20:00-00:30"
+      ],
+      "rest": [
+        "07:00-10:30",
+        "10:00-14:30",
+        "14:00-17:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/coyote/",
+          "title": "The Wild Register: Coyote",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Desert Bighorn Sheep": {
+      "feed": [
+        "04:00-08:00",
+        "14:00-18:00",
+        "18:00-21:00"
+      ],
+      "drink": [
+        "11:00-14:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "08:00-11:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/desert-bighorn-sheep/",
+          "title": "The Wild Register: Desert Bighorn Sheep",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mexican Bobcat": {
+      "feed": [
+        "00:00-03:30",
+        "17:00-20:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "03:00-06:30"
+      ],
+      "rest": [
+        "06:00-11:30",
+        "11:00-14:30",
+        "14:00-17:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mexican-bobcat/",
+          "title": "The Wild Register: Mexican Bobcat",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mule Deer": {
+      "feed": [
+        "00:00-04:00",
+        "04:00-07:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "14:00-17:00"
+      ],
+      "rest": [
+        "07:00-11:00",
+        "11:00-14:00",
+        "17:00-20:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mule-deer/",
+          "title": "The Wild Register: Mule Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Pronghorn": {
+      "feed": [
+        "06:00-09:00",
+        "09:00-12:00",
+        "15:00-18:00"
+      ],
+      "drink": [
+        "18:00-21:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "12:00-15:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/pronghorn/",
+          "title": "The Wild Register: Pronghorn",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Ring-Necked Pheasant": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-18:00",
+        "18:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/ring-necked-pheasant/",
+          "title": "The Wild Register: Ring-Necked Pheasant",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Rio Grande Turkey": {
+      "feed": [
+        "04:00-07:00",
+        "07:00-11:00",
+        "14:00-17:00",
+        "17:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/rio-grande-turkey/",
+          "title": "The Wild Register: Rio Grande Turkey",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Whitetail Deer": {
+      "feed": [
+        "04:00-08:00",
+        "14:00-21:00"
+      ],
+      "drink": [
+        "08:00-11:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/whitetail-deer/",
+          "title": "The Wild Register: Whitetail Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "Mississippi Acres Preserve": {
+    "American Alligator": {
+      "feed": [
+        "00:00-03:30",
+        "03:00-06:30",
+        "06:00-09:30",
+        "20:00-00:30"
+      ],
+      "drink": [],
+      "rest": [
+        "09:00-12:30",
+        "12:00-16:30",
+        "16:00-20:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/american-alligator/",
+          "title": "The Wild Register: American Alligator",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Black Bear": {
+      "feed": [
+        "00:00-04:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "04:00-08:00"
+      ],
+      "rest": [
+        "08:00-12:00",
+        "12:00-16:00",
+        "16:00-20:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/black-bear/",
+          "title": "The Wild Register: Black Bear",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Bobwhite Quail": {
+      "feed": [
+        "04:00-07:30",
+        "07:00-10:30",
+        "13:00-16:30",
+        "16:00-20:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:30",
+        "10:00-13:30",
+        "20:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/bobwhite-quail/",
+          "title": "The Wild Register: Bobwhite Quail",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Common Raccoon": {
+      "feed": [
+        "03:00-06:30",
+        "10:00-13:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "00:00-03:30"
+      ],
+      "rest": [
+        "06:00-10:30",
+        "13:00-16:30",
+        "16:00-20:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/common-raccoon/",
+          "title": "The Wild Register: Common Raccoon",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eastern Cottontail Rabbit": {
+      "feed": [
+        "04:00-07:30",
+        "07:00-10:30",
+        "10:00-13:30",
+        "17:00-21:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:30",
+        "13:00-17:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eastern-cottontail-rabbit/",
+          "title": "The Wild Register: Eastern Cottontail Rabbit",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eastern Wild Turkey": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-17:00",
+        "17:00-20:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eastern-wild-turkey/",
+          "title": "The Wild Register: Eastern Wild Turkey",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Gray Fox": {
+      "feed": [
+        "00:00-04:30",
+        "04:00-07:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "17:00-20:30"
+      ],
+      "rest": [
+        "07:00-10:30",
+        "10:00-13:30",
+        "13:00-17:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/gray-fox/",
+          "title": "The Wild Register: Gray Fox",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Green-Winged Teal": {
+      "feed": [
+        "05:00-07:30",
+        "09:00-11:30",
+        "13:00-15:30",
+        "17:00-19:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:30",
+        "07:00-09:30",
+        "11:00-13:30",
+        "15:00-17:30",
+        "19:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/green-winged-teal/",
+          "title": "The Wild Register: Green-Winged Teal",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Whitetail Deer": {
+      "feed": [
+        "04:00-08:00",
+        "14:00-21:00"
+      ],
+      "drink": [
+        "08:00-11:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/whitetail-deer/",
+          "title": "The Wild Register: Whitetail Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Wild Hog": {
+      "feed": [
+        "06:00-10:00",
+        "14:00-17:00",
+        "17:00-20:00"
+      ],
+      "drink": [
+        "03:00-06:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "10:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/feral-pig/",
+          "title": "The Wild Register: Wild Hog",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "Revontuli Coast": {
+    "Black Grouse": {
+      "feed": [
+        "04:00-08:30",
+        "08:00-11:30",
+        "14:00-18:30",
+        "18:00-21:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:30",
+        "11:00-14:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/black-grouse/",
+          "title": "The Wild Register: Black Grouse",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Brown Bear": {
+      "feed": [
+        "00:00-04:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "04:00-08:30"
+      ],
+      "rest": [
+        "08:00-12:30",
+        "12:00-16:30",
+        "16:00-20:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eurasian-brown-bear/",
+          "title": "The Wild Register: Brown Bear",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Canada Goose": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/canada-goose/",
+          "title": "The Wild Register: Canada Goose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eurasian Lynx": {
+      "feed": [
+        "00:00-03:30",
+        "06:00-09:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "03:00-06:30"
+      ],
+      "rest": [
+        "09:00-12:30",
+        "12:00-16:30",
+        "16:00-20:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eurasian-lynx/",
+          "title": "The Wild Register: Eurasian Lynx",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eurasian Teal": {
+      "feed": [
+        "05:00-07:30",
+        "09:00-11:30",
+        "13:00-15:30",
+        "17:00-19:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:30",
+        "07:00-09:30",
+        "11:00-13:30",
+        "15:00-17:30",
+        "19:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eurasian-teal/",
+          "title": "The Wild Register: Eurasian Teal",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eurasian Wigeon": {
+      "feed": [
+        "05:00-07:30",
+        "09:00-11:30",
+        "13:00-15:30",
+        "17:00-19:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:30",
+        "07:00-09:30",
+        "11:00-13:30",
+        "15:00-17:30",
+        "19:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eurasian-wigeon/",
+          "title": "The Wild Register: Eurasian Wigeon",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Goldeneye": {
+      "feed": [
+        "05:00-07:30",
+        "09:00-11:30",
+        "13:00-15:30",
+        "17:00-19:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:30",
+        "07:00-09:30",
+        "11:00-13:30",
+        "15:00-17:30",
+        "19:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/goldeneye/",
+          "title": "The Wild Register: Goldeneye",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Greylag Goose": {
+      "feed": [
+        "05:00-07:30",
+        "09:00-11:30",
+        "13:00-15:30",
+        "17:00-19:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:30",
+        "07:00-09:30",
+        "11:00-13:30",
+        "15:00-17:30",
+        "19:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/greylag-goose/",
+          "title": "The Wild Register: Greylag Goose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Hazel Grouse": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-18:00",
+        "18:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/hazel-grouse/",
+          "title": "The Wild Register: Hazel Grouse",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mallard": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mallard/",
+          "title": "The Wild Register: Mallard",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Moose": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "12:00-16:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "08:00-12:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/moose/",
+          "title": "The Wild Register: Moose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mountain Hare": {
+      "feed": [
+        "04:00-07:30",
+        "07:00-10:30",
+        "10:00-13:30",
+        "17:00-21:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:30",
+        "13:00-17:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mountain-hare/",
+          "title": "The Wild Register: Mountain Hare",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Raccoon Dog": {
+      "feed": [
+        "03:00-06:30",
+        "10:00-13:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "00:00-03:30"
+      ],
+      "rest": [
+        "06:00-10:30",
+        "13:00-16:30",
+        "16:00-20:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/raccoon-dog/",
+          "title": "The Wild Register: Raccoon Dog",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Rock Ptarmigan": {
+      "feed": [
+        "04:00-08:30",
+        "08:00-11:30",
+        "14:00-18:30",
+        "18:00-21:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:30",
+        "11:00-14:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/rock-ptarmigan/",
+          "title": "The Wild Register: Rock Ptarmigan",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Tufted Duck": {
+      "feed": [
+        "05:00-07:30",
+        "09:00-11:30",
+        "13:00-15:30",
+        "17:00-19:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:30",
+        "07:00-09:30",
+        "11:00-13:30",
+        "15:00-17:30",
+        "19:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/tufted-duck/",
+          "title": "The Wild Register: Tufted Duck",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Tundra Bean Goose": {
+      "feed": [
+        "05:00-07:30",
+        "09:00-11:30",
+        "13:00-15:30",
+        "17:00-19:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:30",
+        "07:00-09:30",
+        "11:00-13:30",
+        "15:00-17:30",
+        "19:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/tundra-bean-goose/",
+          "title": "The Wild Register: Tundra Bean Goose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Western Capercaillie": {
+      "feed": [
+        "04:00-11:00",
+        "14:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/western-capercaillie/",
+          "title": "The Wild Register: Western Capercaillie",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Whitetail Deer": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "08:00-12:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "12:00-16:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/whitetail-deer/",
+          "title": "The Wild Register: Whitetail Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Willow Ptarmigan": {
+      "feed": [
+        "04:00-08:30",
+        "08:00-11:30",
+        "14:00-18:30",
+        "18:00-21:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:30",
+        "11:00-14:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/willow-ptarmigan/",
+          "title": "The Wild Register: Willow Ptarmigan",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "New England Mountains": {
+    "Black Bear": {
+      "feed": [
+        "00:00-04:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "04:00-08:00"
+      ],
+      "rest": [
+        "08:00-12:00",
+        "12:00-16:00",
+        "16:00-20:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/black-bear/",
+          "title": "The Wild Register: Black Bear",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Bobcat": {
+      "feed": [
+        "00:00-03:00",
+        "06:00-09:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "03:00-06:00"
+      ],
+      "rest": [
+        "09:00-20:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/bobcat/",
+          "title": "The Wild Register: Bobcat",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Bobwhite Quail": {
+      "feed": [
+        "04:00-07:30",
+        "07:00-10:30",
+        "13:00-16:30",
+        "16:00-20:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:30",
+        "10:00-13:30",
+        "20:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/bobwhite-quail/",
+          "title": "The Wild Register: Bobwhite Quail",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Common Raccoon": {
+      "feed": [
+        "03:00-06:30",
+        "10:00-13:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "00:00-03:30"
+      ],
+      "rest": [
+        "06:00-10:30",
+        "13:00-16:30",
+        "16:00-20:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/common-raccoon/",
+          "title": "The Wild Register: Common Raccoon",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Coyote": {
+      "feed": [
+        "03:00-07:00",
+        "17:00-20:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "00:00-03:00"
+      ],
+      "rest": [
+        "07:00-10:00",
+        "10:00-14:00",
+        "14:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/coyote/",
+          "title": "The Wild Register: Coyote",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eastern Cottontail Rabbit": {
+      "feed": [
+        "04:00-07:30",
+        "07:00-10:30",
+        "10:00-13:30",
+        "17:00-21:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:30",
+        "13:00-17:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eastern-cottontail-rabbit/",
+          "title": "The Wild Register: Eastern Cottontail Rabbit",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eastern Wild Turkey": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-17:00",
+        "17:00-20:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eastern-wild-turkey/",
+          "title": "The Wild Register: Eastern Wild Turkey",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Goldeneye": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/goldeneye/",
+          "title": "The Wild Register: Goldeneye",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Gray Fox": {
+      "feed": [
+        "00:00-04:30",
+        "04:00-07:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "17:00-20:30"
+      ],
+      "rest": [
+        "07:00-10:30",
+        "10:00-13:30",
+        "13:00-17:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/gray-fox/",
+          "title": "The Wild Register: Gray Fox",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Green-Winged Teal": {
+      "feed": [
+        "05:00-07:30",
+        "09:00-11:30",
+        "13:00-15:30",
+        "17:00-19:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:30",
+        "07:00-09:30",
+        "11:00-13:30",
+        "15:00-17:30",
+        "19:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/green-winged-teal/",
+          "title": "The Wild Register: Green-Winged Teal",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mallard": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mallard/",
+          "title": "The Wild Register: Mallard",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Moose": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "12:00-16:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "08:00-12:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/moose/",
+          "title": "The Wild Register: Moose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Red Fox": {
+      "feed": [
+        "00:00-04:00",
+        "04:00-07:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "17:00-20:00"
+      ],
+      "rest": [
+        "07:00-10:00",
+        "10:00-13:00",
+        "13:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/red-fox/",
+          "title": "The Wild Register: Red Fox",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Ring-Necked Pheasant": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-18:00",
+        "18:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/ring-necked-pheasant/",
+          "title": "The Wild Register: Ring-Necked Pheasant",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Whitetail Deer": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "08:00-12:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "12:00-16:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/whitetail-deer/",
+          "title": "The Wild Register: Whitetail Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "Emerald Coast Australia": {
+    "Axis Deer": {
+      "feed": [
+        "06:00-09:00",
+        "09:00-12:00",
+        "21:00-00:00"
+      ],
+      "drink": [
+        "03:00-06:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "12:00-15:00",
+        "15:00-18:00",
+        "18:00-21:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/axis-deer/",
+          "title": "The Wild Register: Axis Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Banteng": {
+      "feed": [
+        "04:00-07:00",
+        "07:00-10:00",
+        "14:00-17:00"
+      ],
+      "drink": [
+        "17:00-20:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "10:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/banteng/",
+          "title": "The Wild Register: Banteng",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eastern Gray Kangaroo": {
+      "feed": [
+        "00:30-06:00",
+        "18:00-21:00",
+        "21:00-00:00"
+      ],
+      "drink": [
+        "00:00-03:00"
+      ],
+      "rest": [
+        "06:00-09:00",
+        "09:00-12:00",
+        "12:00-15:00",
+        "15:00-18:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eastern-gray-kangaroo/",
+          "title": "The Wild Register: Eastern Gray Kangaroo",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Fallow Deer": {
+      "feed": [
+        "06:00-10:00",
+        "17:00-21:00"
+      ],
+      "drink": [
+        "10:00-13:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "13:00-17:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/fallow-deer/",
+          "title": "The Wild Register: Fallow Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Feral Goat": {
+      "feed": [
+        "06:00-09:00",
+        "09:00-12:00",
+        "18:00-21:00"
+      ],
+      "drink": [
+        "12:00-15:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "15:00-18:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/feral-goat/",
+          "title": "The Wild Register: Feral Goat",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Feral Pig": {
+      "feed": [
+        "06:00-10:00",
+        "14:00-17:00",
+        "17:00-20:00"
+      ],
+      "drink": [
+        "00:00-03:00"
+      ],
+      "rest": [
+        "03:00-06:00",
+        "10:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/feral-pig/",
+          "title": "The Wild Register: Feral Pig",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Hog Deer": {
+      "feed": [
+        "04:00-07:00",
+        "17:00-21:00"
+      ],
+      "drink": [
+        "13:00-17:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "07:00-10:00",
+        "10:00-13:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/hog-deer/",
+          "title": "The Wild Register: Hog Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Javan Rusa": {
+      "feed": [
+        "00:00-03:00",
+        "06:00-09:00",
+        "17:00-20:00"
+      ],
+      "drink": [
+        "20:00-00:00"
+      ],
+      "rest": [
+        "03:00-06:00",
+        "09:00-13:00",
+        "13:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/javan-rusa/",
+          "title": "The Wild Register: Javan Rusa",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Magpie Goose": null,
+    "Red Deer": {
+      "feed": [
+        "13:00-17:00",
+        "17:00-21:00"
+      ],
+      "drink": [
+        "06:00-10:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "10:00-13:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/red-deer/",
+          "title": "The Wild Register: Red Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Red Fox": {
+      "feed": [
+        "00:00-04:00",
+        "04:00-07:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "17:00-20:00"
+      ],
+      "rest": [
+        "07:00-10:00",
+        "10:00-13:00",
+        "13:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/red-fox/",
+          "title": "The Wild Register: Red Fox",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Saltwater Crocodile": {
+      "feed": [
+        "00:00-04:00",
+        "20:00-00:00"
+      ],
+      "drink": [],
+      "rest": [
+        "04:00-08:00",
+        "08:00-12:00",
+        "12:00-16:00",
+        "16:00-20:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/saltwater-crocodile/",
+          "title": "The Wild Register: Saltwater Crocodile",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Sambar": {
+      "feed": [
+        "00:00-03:00",
+        "06:00-09:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "17:00-20:00"
+      ],
+      "rest": [
+        "03:00-06:00",
+        "09:00-13:00",
+        "13:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/sambar/",
+          "title": "The Wild Register: Sambar",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Stubble Quail": {
+      "feed": [
+        "04:00-07:00",
+        "07:00-10:00",
+        "13:00-16:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "10:00-13:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/stubble-quail/",
+          "title": "The Wild Register: Stubble Quail",
+          "accessed": "2026-10-12"
+        },
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1767037181",
+          "title": "Steam guide: ALL NEED ZONE TIMES FOR EVERY ANIMAL (last updated 2024-06-28; page shows a removal notice)",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": "The Wild Register shows no schedule; times from the Steam guide (v1.0 of its Emerald section), which appears incomplete (no slots after 16:00)."
+    }
+  },
+  "Sundarpatan Nepal Hunting Reserve": {
+    "Barasingha": {
+      "feed": [
+        "03:00-06:00",
+        "06:00-09:00",
+        "15:00-18:00"
+      ],
+      "drink": [
+        "12:00-15:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "09:00-12:00",
+        "18:00-21:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/barasingha/",
+          "title": "The Wild Register: Barasingha",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Bengal Tiger": {
+      "feed": [
+        "07:00-10:00",
+        "14:00-17:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "04:00-07:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "10:00-14:00",
+        "17:00-20:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/bengal-tiger/",
+          "title": "The Wild Register: Bengal Tiger",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Blackbuck": {
+      "feed": [
+        "06:00-09:00",
+        "09:00-12:00",
+        "15:00-18:00"
+      ],
+      "drink": [
+        "18:00-21:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "12:00-15:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/blackbuck/",
+          "title": "The Wild Register: Blackbuck",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Blue Sheep": {
+      "feed": [
+        "04:00-07:00",
+        "07:00-11:00",
+        "17:00-20:00"
+      ],
+      "drink": [
+        "14:00-17:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/blue-sheep/",
+          "title": "The Wild Register: Blue Sheep",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Greylag Goose": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/greylag-goose/",
+          "title": "The Wild Register: Greylag Goose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": "Waterfowl schedule (feed/rest only)."
+    },
+    "Himalayan Tahr": {
+      "feed": [
+        "04:00-07:00",
+        "07:00-11:00",
+        "14:00-17:00",
+        "17:00-20:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/tahr/",
+          "title": "The Wild Register: Himalayan Tahr",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Nilgai": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "08:00-12:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "12:00-16:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/nilgai/",
+          "title": "The Wild Register: Nilgai",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Northern Red Muntjac": {
+      "feed": [
+        "03:00-06:00",
+        "06:00-09:00",
+        "09:00-12:00"
+      ],
+      "drink": [
+        "15:00-18:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "12:00-15:00",
+        "18:00-21:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/northern-red-muntjac/",
+          "title": "The Wild Register: Northern Red Muntjac",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Snow Leopard": {
+      "feed": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "09:00-12:00",
+        "12:00-15:00",
+        "18:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "06:00-09:00",
+        "15:00-18:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/snow-leopard/",
+          "title": "The Wild Register: Snow Leopard",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Tibetan Fox": {
+      "feed": [
+        "00:00-03:00",
+        "06:00-09:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "17:00-20:00"
+      ],
+      "rest": [
+        "03:00-06:00",
+        "09:00-13:00",
+        "13:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/tibetan-fox/",
+          "title": "The Wild Register: Tibetan Fox",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Water Buffalo": {
+      "feed": [
+        "06:00-09:00",
+        "09:00-12:00",
+        "15:00-18:00"
+      ],
+      "drink": [
+        "12:00-15:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "18:00-21:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/water-buffalo/",
+          "title": "The Wild Register: Water Buffalo",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Wild Yak": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "08:00-12:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "12:00-16:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/wild-yak/",
+          "title": "The Wild Register: Wild Yak",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Woolly Hare": {
+      "feed": [
+        "00:00-04:00",
+        "04:00-07:00",
+        "17:00-20:00",
+        "20:00-00:00"
+      ],
+      "drink": [],
+      "rest": [
+        "07:00-11:00",
+        "11:00-14:00",
+        "14:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/woolly-hare/",
+          "title": "The Wild Register: Woolly Hare",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "Salzwiesen Park": {
+    "Black Grouse": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-18:00",
+        "18:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/black-grouse/",
+          "title": "The Wild Register: Black Grouse",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Common Raccoon": {
+      "feed": [
+        "03:00-06:30",
+        "10:00-13:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "00:00-03:30"
+      ],
+      "rest": [
+        "06:00-10:30",
+        "13:00-16:30",
+        "16:00-20:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/common-raccoon/",
+          "title": "The Wild Register: Common Raccoon",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eurasian Teal": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eurasian-teal/",
+          "title": "The Wild Register: Eurasian Teal",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eurasian Wigeon": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eurasian-wigeon/",
+          "title": "The Wild Register: Eurasian Wigeon",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "European Rabbit": {
+      "feed": [
+        "05:00-09:00",
+        "12:00-16:00",
+        "19:00-23:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "09:00-12:00",
+        "16:00-19:00",
+        "23:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/european-rabbit/",
+          "title": "The Wild Register: European Rabbit",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Ferruginous Duck": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/ferruginous-duck/",
+          "title": "The Wild Register: Ferruginous Duck",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Gadwall": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/gadwall/",
+          "title": "The Wild Register: Gadwall",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Goldeneye": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/goldeneye/",
+          "title": "The Wild Register: Goldeneye",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Greylag Goose": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/greylag-goose/",
+          "title": "The Wild Register: Greylag Goose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mallard": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mallard/",
+          "title": "The Wild Register: Mallard",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Raccoon Dog": {
+      "feed": [
+        "03:00-06:30",
+        "10:00-13:30",
+        "20:00-00:30"
+      ],
+      "drink": [
+        "00:00-03:30"
+      ],
+      "rest": [
+        "06:00-10:30",
+        "13:00-16:30",
+        "16:00-20:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/raccoon-dog/",
+          "title": "The Wild Register: Raccoon Dog",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Red Fox": {
+      "feed": [
+        "00:00-04:00",
+        "04:00-07:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "17:00-20:00"
+      ],
+      "rest": [
+        "07:00-10:00",
+        "10:00-13:00",
+        "13:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/red-fox/",
+          "title": "The Wild Register: Red Fox",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Ring-Necked Pheasant": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-18:00",
+        "18:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/ring-necked-pheasant/",
+          "title": "The Wild Register: Ring-Necked Pheasant",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Tufted Duck": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/tufted-duck/",
+          "title": "The Wild Register: Tufted Duck",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Tundra Bean Goose": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/tundra-bean-goose/",
+          "title": "The Wild Register: Tundra Bean Goose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "Askiy Ridge Hunting Preserve": {
+    "Black Bear": {
+      "feed": [
+        "00:00-04:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "04:00-08:00"
+      ],
+      "rest": [
+        "08:00-12:00",
+        "12:00-16:00",
+        "16:00-20:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/black-bear/",
+          "title": "The Wild Register: Black Bear",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Canada Goose": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/canada-goose/",
+          "title": "The Wild Register: Canada Goose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Dusky Grouse": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-18:00",
+        "18:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/dusky-grouse/",
+          "title": "The Wild Register: Dusky Grouse",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Gray Wolf": {
+      "feed": [
+        "03:00-06:00",
+        "18:00-21:00",
+        "21:00-00:00"
+      ],
+      "drink": [
+        "00:00-03:00"
+      ],
+      "rest": [
+        "06:00-10:00",
+        "10:00-14:00",
+        "14:00-18:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/gray-wolf/",
+          "title": "The Wild Register: Gray Wolf",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mallard": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mallard/",
+          "title": "The Wild Register: Mallard",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Manitoban Elk": {
+      "feed": [
+        "08:00-12:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "04:00-08:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "12:00-16:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/manitoban-elk/",
+          "title": "The Wild Register: Manitoban Elk",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Moose": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "12:00-16:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "08:00-12:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/moose/",
+          "title": "The Wild Register: Moose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": "Differs from other reserves: 20:00-00:00 is feed here, rest elsewhere."
+    },
+    "Mountain Goat": {
+      "feed": [
+        "04:00-07:00",
+        "07:00-10:00",
+        "10:00-13:00",
+        "17:00-20:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "13:00-17:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mountain-goat/",
+          "title": "The Wild Register: Mountain Goat",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mule Deer": {
+      "feed": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "21:00-00:00"
+      ],
+      "drink": [
+        "15:00-18:00"
+      ],
+      "rest": [
+        "06:00-09:00",
+        "09:00-12:00",
+        "12:00-15:00",
+        "18:00-21:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mule-deer/",
+          "title": "The Wild Register: Mule Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "North American Beaver": {
+      "feed": [
+        "12:00-16:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/north-american-beaver/",
+          "title": "The Wild Register: North American Beaver",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Northern Pintail": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/northern-pintail/",
+          "title": "The Wild Register: Northern Pintail",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Pronghorn": {
+      "feed": [
+        "06:00-09:00",
+        "09:00-12:00",
+        "15:00-18:00",
+        "21:00-00:00"
+      ],
+      "drink": [
+        "18:00-21:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "12:00-15:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/pronghorn/",
+          "title": "The Wild Register: Pronghorn",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Ring-Necked Pheasant": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-18:00",
+        "18:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/ring-necked-pheasant/",
+          "title": "The Wild Register: Ring-Necked Pheasant",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Rocky Mountain Bighorn Sheep": {
+      "feed": [
+        "03:00-06:00",
+        "06:00-09:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "12:00-16:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "09:00-12:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/rocky-mountain-bighorn-sheep/",
+          "title": "The Wild Register: Rocky Mountain Bighorn Sheep",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Snow Goose": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/snow-goose/",
+          "title": "The Wild Register: Snow Goose",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Whitetail Deer": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00",
+        "16:00-00:00"
+      ],
+      "drink": [
+        "08:00-12:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "12:00-16:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/whitetail-deer/",
+          "title": "The Wild Register: Whitetail Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": "Source lists overlapping feed windows 16:00-20:00 and 16:00-00:00 as written."
+    },
+    "Wood Bison": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "08:00-12:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "12:00-16:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/wood-bison/",
+          "title": "The Wild Register: Wood Bison",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Wood Duck": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/wood-duck/",
+          "title": "The Wild Register: Wood Duck",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Woodland Caribou": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "20:00-00:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "08:00-12:00",
+        "12:00-16:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/woodland-caribou/",
+          "title": "The Wild Register: Woodland Caribou",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  },
+  "Tòrr nan Sìthean": {
+    "American Mink": {
+      "feed": [
+        "03:00-06:00"
+      ],
+      "drink": [],
+      "rest": [
+        "08:00-10:00",
+        "10:00-14:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/american-mink/",
+          "title": "The Wild Register: American Mink",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Black Grouse": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-18:00",
+        "18:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/black-grouse/",
+          "title": "The Wild Register: Black Grouse",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eurasian Pine Marten": {
+      "feed": [
+        "06:00-10:00"
+      ],
+      "drink": [],
+      "rest": [
+        "03:00-06:00",
+        "14:00-18:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eurasian-pine-marten/",
+          "title": "The Wild Register: Eurasian Pine Marten",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eurasian Wigeon": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eurasian-wigeon/",
+          "title": "The Wild Register: Eurasian Wigeon",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Eurasian Woodcock": {
+      "feed": [
+        "00:00-03:00",
+        "06:00-10:00"
+      ],
+      "drink": [],
+      "rest": [
+        "03:00-06:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/eurasian-woodcock/",
+          "title": "The Wild Register: Eurasian Woodcock",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "European Badger": {
+      "feed": [
+        "00:00-03:00",
+        "06:00-10:00",
+        "18:00-21:00",
+        "20:00-00:00"
+      ],
+      "drink": [],
+      "rest": [
+        "03:00-06:00",
+        "10:00-14:00",
+        "14:00-18:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/european-badger/",
+          "title": "The Wild Register: European Badger",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Fallow Deer": {
+      "feed": [
+        "10:00-13:00",
+        "17:00-21:00"
+      ],
+      "drink": [
+        "06:00-10:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "13:00-17:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/fallow-deer/",
+          "title": "The Wild Register: Fallow Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": "Feed and drink windows differ from the other fallow deer reserves (drink 06:00-10:00 here)."
+    },
+    "Feral Goat": {
+      "feed": [
+        "06:00-09:00",
+        "09:00-12:00",
+        "18:00-21:00"
+      ],
+      "drink": [
+        "12:00-15:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "15:00-18:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/feral-goat/",
+          "title": "The Wild Register: Feral Goat",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Mountain Hare": {
+      "feed": [
+        "04:00-07:30",
+        "07:00-10:30",
+        "10:00-13:30",
+        "17:00-21:30"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:30",
+        "13:00-17:30",
+        "21:00-00:30"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/mountain-hare/",
+          "title": "The Wild Register: Mountain Hare",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Red Deer": {
+      "feed": [
+        "13:00-17:00",
+        "17:00-21:00"
+      ],
+      "drink": [
+        "06:00-10:00"
+      ],
+      "rest": [
+        "00:00-03:00",
+        "03:00-06:00",
+        "10:00-13:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/red-deer/",
+          "title": "The Wild Register: Red Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Red Fox": {
+      "feed": [
+        "00:00-04:00",
+        "04:00-07:00",
+        "20:00-00:00"
+      ],
+      "drink": [
+        "17:00-20:00"
+      ],
+      "rest": [
+        "07:00-10:00",
+        "10:00-13:00",
+        "13:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/red-fox/",
+          "title": "The Wild Register: Red Fox",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Red Grouse": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00"
+      ],
+      "drink": [],
+      "rest": [
+        "11:00-14:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/red-grouse/",
+          "title": "The Wild Register: Red Grouse",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Ring-Necked Pheasant": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-18:00",
+        "18:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/ring-necked-pheasant/",
+          "title": "The Wild Register: Ring-Necked Pheasant",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Roe Deer": {
+      "feed": [
+        "04:00-07:00",
+        "07:00-10:00",
+        "17:00-20:00"
+      ],
+      "drink": [
+        "14:00-17:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "10:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/roe-deer/",
+          "title": "The Wild Register: Roe Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Sika Deer": {
+      "feed": [
+        "05:00-09:00",
+        "14:00-18:00",
+        "17:30-21:30"
+      ],
+      "drink": [
+        "10:00-13:00"
+      ],
+      "rest": [
+        "00:00-05:30",
+        "11:30-14:30",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/sika-deer/",
+          "title": "The Wild Register: Sika Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Western Capercaillie": {
+      "feed": [
+        "04:00-08:00",
+        "08:00-11:00",
+        "14:00-18:00",
+        "18:00-21:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "11:00-14:00",
+        "21:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/western-capercaillie/",
+          "title": "The Wild Register: Western Capercaillie",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Wild Boar": {
+      "feed": [
+        "03:00-06:00",
+        "17:00-21:00",
+        "21:00-00:00"
+      ],
+      "drink": [
+        "00:00-03:00"
+      ],
+      "rest": [
+        "06:00-10:00",
+        "10:00-14:00",
+        "14:00-17:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/wild-boar/",
+          "title": "The Wild Register: Wild Boar",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Wild Haggis": {
+      "feed": [
+        "00:00-02:00",
+        "02:00-04:00",
+        "04:00-06:00",
+        "06:00-08:00",
+        "08:00-10:00",
+        "10:00-12:00",
+        "12:00-14:00",
+        "14:00-16:00",
+        "16:00-18:00",
+        "18:00-20:00",
+        "20:00-22:00",
+        "22:00-00:00"
+      ],
+      "drink": [],
+      "rest": null,
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/wild-haggis/",
+          "title": "The Wild Register: Wild Haggis",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": "Source lists feeding in every 2-hour slot of the day."
+    }
+  },
+  "Intisuyu": {
+    "Black Caiman": {
+      "feed": [
+        "12:00-16:00",
+        "16:00-20:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-04:00",
+        "04:00-08:00",
+        "08:00-12:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/black-caiman/",
+          "title": "The Wild Register: Black Caiman",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Capybara": {
+      "feed": [
+        "07:00-10:00",
+        "14:00-17:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-07:00",
+        "10:00-14:00",
+        "17:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/capybara/",
+          "title": "The Wild Register: Capybara",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Cinnamon Teal": {
+      "feed": [
+        "05:00-07:00",
+        "09:00-11:00",
+        "13:00-15:00",
+        "17:00-19:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-05:00",
+        "07:00-09:00",
+        "11:00-13:00",
+        "15:00-17:00",
+        "19:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/cinnamon-teal/",
+          "title": "The Wild Register: Cinnamon Teal",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Collared Peccary": {
+      "feed": [
+        "00:00-03:00",
+        "07:00-11:00",
+        "14:00-18:00"
+      ],
+      "drink": [
+        "11:00-14:00"
+      ],
+      "rest": [
+        "03:00-07:00",
+        "18:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/collared-peccary/",
+          "title": "The Wild Register: Collared Peccary",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Greater Grison": {
+      "feed": [
+        "04:00-07:00",
+        "07:00-10:00"
+      ],
+      "drink": [
+        "14:00-17:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "10:00-14:00",
+        "17:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/greater-grison/",
+          "title": "The Wild Register: Greater Grison",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Jaguar": {
+      "feed": [
+        "00:00-06:00"
+      ],
+      "drink": [
+        "21:00-00:00"
+      ],
+      "rest": [
+        "06:00-09:00",
+        "09:00-12:00",
+        "12:00-18:00",
+        "18:00-21:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/jaguar/",
+          "title": "The Wild Register: Jaguar",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Ocelot": {
+      "feed": [
+        "09:00-12:00",
+        "12:00-15:00",
+        "18:00-03:00"
+      ],
+      "drink": [
+        "03:00-06:00"
+      ],
+      "rest": [
+        "06:00-09:00",
+        "15:00-18:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/ocelot/",
+          "title": "The Wild Register: Ocelot",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Puma": {
+      "feed": [
+        "00:00-03:00",
+        "15:00-18:00"
+      ],
+      "drink": [],
+      "rest": [
+        "03:00-09:00",
+        "09:00-12:00",
+        "12:00-15:00",
+        "18:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/puma/",
+          "title": "The Wild Register: Puma",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "South American Tapir": {
+      "feed": [
+        "03:00-06:00",
+        "18:00-00:00"
+      ],
+      "drink": [],
+      "rest": [
+        "00:00-03:00",
+        "06:00-18:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/south-american-tapir/",
+          "title": "The Wild Register: South American Tapir",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Spectacled Bear": {
+      "feed": [
+        "00:00-04:00",
+        "08:00-12:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "04:00-08:00"
+      ],
+      "rest": [
+        "12:00-16:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/spectacled-bear/",
+          "title": "The Wild Register: Spectacled Bear",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Taruca": {
+      "feed": [
+        "08:00-14:00",
+        "17:00-20:00"
+      ],
+      "drink": [
+        "14:00-17:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "04:00-08:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/taruca/",
+          "title": "The Wild Register: Taruca",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Vicuña": {
+      "feed": [
+        "04:00-08:00",
+        "16:00-20:00"
+      ],
+      "drink": [
+        "08:00-12:00"
+      ],
+      "rest": [
+        "00:00-04:00",
+        "12:00-16:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/vicuna/",
+          "title": "The Wild Register: Vicuña",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Western Mountain Coati": {
+      "feed": [
+        "14:00-17:00"
+      ],
+      "drink": [
+        "17:00-20:00"
+      ],
+      "rest": [
+        "00:00-10:00",
+        "10:00-14:00",
+        "20:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/western-mountain-coati/",
+          "title": "The Wild Register: Western Mountain Coati",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    },
+    "Whitetail Deer": {
+      "feed": [
+        "14:00-18:00"
+      ],
+      "drink": [
+        "08:00-11:00"
+      ],
+      "rest": [
+        "00:00-08:00",
+        "11:00-14:00",
+        "18:00-00:00"
+      ],
+      "sources": [
+        {
+          "url": "https://thewildregister.com/call-of-the-wild-animals/whitetail-deer/",
+          "title": "The Wild Register: Whitetail Deer",
+          "accessed": "2026-10-12"
+        }
+      ],
+      "notes": null
+    }
+  }
+}

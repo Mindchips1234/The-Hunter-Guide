@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "The Hunter Guide",
+  "short_name": "Hunter Guide",
+  "description": "Offline-ready guide for theHunter: Call of the Wild: reserves, species, need zones, diamonds, Great Ones, weapons, skills, missions and a harvest log.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#0e110d",
+  "background_color": "#0e110d",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "My log", "short_name": "Log", "url": "./#/log", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}]},
+    {"name": "Guides", "short_name": "Guides", "url": "./#/guides", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}]}
+  ]
+}
