@@ -64,4 +64,6 @@ Edit or replace the files in `research/`, then run `python3 tools/build-data.py`
 
 ## Credits
 
+Logo made by Serena Da Silva.
+
 Data comes from community sources, listed per record in `research/` and on each page: [CoTW Guide](https://cotwguide.com) (species, classes, trophy scores, reserves), [The Wild Register](https://thewildregister.com) (need zone times, from TacMaps by TicTactical), the [official site](https://callofthewild.thehunter.com) and its patch notes, Steam community guides, and others. Missions also come from TrueAchievements, TrueToad and the Japanese fan wiki (atwiki). Animal photos are by iNaturalist photographers, credited in the app under Guides → Credits. Community data may contain errors. This project is not affiliated with Expansive Worlds or the game's publishers.

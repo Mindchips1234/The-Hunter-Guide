@@ -3,7 +3,7 @@
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)],esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const store={get(k,d){try{return localStorage.getItem('hg1.'+k)||d}catch(e){return d}},set(k,v){try{localStorage.setItem('hg1.'+k,v)}catch(e){}}};
 const jget=(k,d)=>{try{const v=JSON.parse(store.get(k,''));return v==null?d:v}catch(e){return d}},jset=(k,v)=>store.set(k,JSON.stringify(v));
-const APP_VERSION='0.3',reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const APP_VERSION='0.4',reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let unit=store.get('unit','metric'),clock=store.get('clock','24'),R=null,lastSp=null,built=null,scrollRv=0;
 const home=$('#home'),rv=$('#rv'),fv=$('#fv'),lv=$('#lv'),gv=$('#gv'),back=$('#back'),sel=$('#rsel');
 const haptic=(ms=10)=>{try{navigator.vibrate&&navigator.vibrate(ms)}catch(e){}};
@@ -373,14 +373,15 @@ async function buildGuides(){
     +guideCard('/guides/skills','🧠','Skills & perks','Every skill and perk, with a points planner')
     +guideCard('/guides/how-it-works','📘','How hunting works','Difficulty, trophy scores, need zones, integrity and furs')
     +`<a class="guideCard wide" href="https://callofthewild.thehunter.com" target="_blank" rel="noopener"><span class="gIcon">🌐</span><span><strong>Official site</strong><small>News, patch notes and DLC from Expansive Worlds (opens the website)</small></span><span aria-hidden="true">↗</span></a>`
-    +guideCard('/guides/credits','📷','Credits','Who took the animal photos, and where the data comes from',0,0,1);
+    +guideCard('/guides/credits','📷','Credits','Who made the logo, who took the animal photos, and where the data comes from',0,0,1);
 }
 // Credits: every animal photo's photographer and licence (CC BY needs the credit), plus fonts and data.
 async function buildCredits(){
   const P=await photoJson();if(screen!=='guide')return;
   const rows=Object.entries(P).sort(([a],[b])=>a.localeCompare(b)).map(([s,p])=>`<tr><td>${esc(s)}</td><td>${esc(p.by)}</td><td>${licLink(p)}</td><td>${p.link?`<a href="${esc(p.link)}" target="_blank" rel="noopener">iNaturalist</a>`:''}</td></tr>`).join('');
   gv.innerHTML=guideTitle('Guides','Credits','The animal photos are real wildlife from iNaturalist photographers, not pictures from the game. Each one is used under the licence shown.')
-    +`<div class="section"><h2>Animal photos</h2>${rows?`<div class="card" style="overflow-x:auto"><table class="ratings"><thead><tr><th>Animal</th><th>Photographer</th><th>Licence</th><th>Source</th></tr></thead><tbody>${rows}</tbody></table></div>`:'<div class="mutedBox">The photos are looked up when you open each animal, with the credit under the picture.</div>'}
+    +`<div class="section"><h2>Logo</h2><p class="note">Logo made by Serena Da Silva.</p></div>
+    <div class="section"><h2>Animal photos</h2>${rows?`<div class="card" style="overflow-x:auto"><table class="ratings"><thead><tr><th>Animal</th><th>Photographer</th><th>Licence</th><th>Source</th></tr></thead><tbody>${rows}</tbody></table></div>`:'<div class="mutedBox">The photos are looked up when you open each animal, with the credit under the picture.</div>'}
     <p class="note">CC BY-NC photos may only be used in a free app.</p></div>
     <div class="section"><h2>Fonts</h2><p class="note">Barlow, Barlow Condensed and IBM Plex Mono, under the SIL Open Font License.</p></div>
     <div class="section"><h2>Game data</h2><p class="note">From community sources, credited on each page: CoTW Guide, The Wild Register, the official site and patch notes, Steam guides and fan wikis. Not affiliated with Expansive Worlds.</p></div>`;
