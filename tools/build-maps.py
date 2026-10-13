@@ -79,7 +79,8 @@ def main():
             t, err = fit([(p['x'], p['y']) for p in mp['places'] if p['type'] in ('outpost', 'lookout')],
                          [tuple(p) for p in cm['outposts'] + cm['lookouts']])
             entry['t'] = t
-            uv = lambda x, y: [r4(t[0] * x + t[1]), r4(t[2] * y + t[3])]
+            # a place a little past the picture's edge (a rounding or typo in the guide) is pinned to the edge
+            uv = lambda x, y: [r4(min(.995, max(.005, t[0] * x + t[1]))), r4(min(.995, max(.005, t[2] * y + t[3])))]
             regions = {}
             for p in mp['places']:
                 entry['places'].append([p['type'] if p['type'] in TYPES else 'other', p['name'], *uv(p['x'], p['y'])])

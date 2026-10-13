@@ -3,7 +3,7 @@
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)],esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const store={get(k,d){try{return localStorage.getItem('hg1.'+k)||d}catch(e){return d}},set(k,v){try{localStorage.setItem('hg1.'+k,v)}catch(e){}}};
 const jget=(k,d)=>{try{const v=JSON.parse(store.get(k,''));return v==null?d:v}catch(e){return d}},jset=(k,v)=>store.set(k,JSON.stringify(v));
-const APP_VERSION='0.7',reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const APP_VERSION='0.7.1',reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let unit=store.get('unit','metric'),clock=store.get('clock','24'),R=null,lastSp=null,built=null,scrollRv=0;
 const home=$('#home'),rv=$('#rv'),fv=$('#fv'),lv=$('#lv'),gv=$('#gv'),back=$('#back'),sel=$('#rsel');
 const haptic=(ms=10)=>{try{navigator.vibrate&&navigator.vibrate(ms)}catch(e){}};
@@ -518,7 +518,8 @@ $('#importFile').addEventListener('change',async e=>{
   const f=e.target.files[0];e.target.value='';if(!f)return;
   try{const b=JSON.parse(await f.text());if(b.app!=='hunter-guide'||!b.data)throw 0;
     if(!confirm('Replace your log, Great Ones, missions, collectibles and skill plan on this device with this backup?'))return;
-    for(const k of BACKUP_KEYS)if(b.data[k]!=null)store.set(k,b.data[k]);
+    // progress is replaced as a whole (nothing left over from before); settings only change if the backup has them
+    for(const k of BACKUP_KEYS)if(b.data[k]!=null)store.set(k,b.data[k]);else if(['log','greatOnes','missions','collect','skillPlan','hotspots'].includes(k))try{localStorage.removeItem('hg1.'+k)}catch(e){}
     toast('Backup restored.');setTimeout(()=>location.reload(),700);
   }catch(err){alert('That file is not a Hunter Guide backup.')}
 });
@@ -532,11 +533,13 @@ async function buildGuides(){
   let M={},C={};try{M=await guide('missions')}catch(e){}try{C=await guide('collectibles')}catch(e){}
   if(screen!=='guides'||!$('#guideCards'))return;
   const md=jget('missions',{}),cd=jget('collect',{}),goList=SPECIES.filter(s=>DATA.species[s].greatOne);
-  const groups=o=>Object.entries(o).filter(([k,v])=>owns(k)&&Array.isArray(v)).flatMap(([,v])=>v);
-  const mTotal=groups(M).reduce((a,g)=>a+(g.missions||[]).length,0),cTotal=groups(C).reduce((a,g)=>a+(g.items||[]).length,0);
+  // the same ids the tick-off lists use, for owned reserves only, so the counts match what the lists show
+  const ids=(o,isM)=>Object.entries(o).filter(([k,v])=>owns(k)&&Array.isArray(v)).flatMap(([rn,v])=>v.filter(g=>!/^Map locations/.test(g.type||''))
+    .flatMap(g=>(isM?g.missions||[]:g.items||[]).map(x=>rn+'|'+g.type+'|'+(typeof x==='string'?x:x.name))));
+  const mIds=ids(M,1),cIds=ids(C,0),doneIn=(d,l)=>l.filter(k=>d[k]).length,mTotal=mIds.length,cTotal=cIds.length;
   $('#guideCards').innerHTML=guideCard('/guides/great-ones','👑','Great Ones',`The ${goList.length} legendary animals and how to make one spawn`,greatOnesGot().size,goList.length)
-    +guideCard('/guides/missions','📋','Missions',`${mTotal||'Mission'} missions to tick off`,Object.keys(md).length,mTotal)
-    +guideCard('/guides/collectibles','🧭','Collectibles',`${cTotal||'Collectible'} items by reserve`,Object.keys(cd).length,cTotal)
+    +guideCard('/guides/missions','📋','Missions',`${mTotal||'Mission'} missions to tick off`,doneIn(md,mIds),mTotal)
+    +guideCard('/guides/collectibles','🧭','Collectibles',`${cTotal||'Collectible'} items by reserve`,doneIn(cd,cIds),cTotal)
     +guideCard('/guides/ammo-finder','🎯','Weapons & ammo','Ammo finder for any animal, plus every weapon and ammo type with its class range',0,0,1)
     +guideCard('/guides/skills','🧠','Skills & perks','Every skill and perk, with a points planner')
     +guideCard('/guides/how-it-works','📘','How hunting works','Difficulty, trophy scores, need zones, integrity and furs')
@@ -673,7 +676,7 @@ async function buildWeapons(){
     const draw=()=>{const q=$('#wq').value.trim().toLowerCase(),ty=$('#wtype')?$('#wtype').value:'';
       const list=items.filter(x=>(!q||JSON.stringify(x).toLowerCase().includes(q))&&(!ty||x.type===ty));
       $('#wcount').textContent=`${list.length} of ${items.length}`;
-      $('#wGrid').innerHTML=list.map(x=>`<div class="gearItem"><strong>${esc(x.name)}</strong>${x.about?`<small class="muted">${esc(x.about)}</small>`:''}<dl>${isW?dl('Type',x.type)+dl('Action',x.action)+dl('Classes',x.classRange?x.classRange.join('–'):null)+dl('Ammo',x.ammo)+dl('Magazine',x.magazine)+dl('From',x.dlc)+dl('Price',x.price):dl('Type',x.type)+dl('Caliber',x.caliber)+dl('Classes',x.classMin!=null?x.classMin+'–'+x.classMax:null)+dl('Penetration',x.penetration)+dl('Expansion',x.expansion)}</dl>${x.notes?`<small class="muted">${esc(x.notes)}</small>`:''}</div>`).join('')||'<div class="mutedBox">Nothing matches.</div>'};
+      $('#wGrid').innerHTML=list.map(x=>`<div class="gearItem"><strong>${esc(x.name)}</strong>${x.about?`<small class="muted">${esc(x.about)}</small>`:''}<dl>${isW?dl('Type',x.type)+dl('Action',x.action)+dl('Classes',x.classRange?x.classRange.join('–'):null)+dl('Ammo',x.ammo)+dl('Magazine',x.magazine)+dl('From',x.dlc)+dl('Price',x.price):dl('Type',x.type)+dl('Caliber',x.caliber)+dl('Classes',x.classMin!=null?x.classMin+'–'+x.classMax:null)+dl('Penetration',x.penetration)+dl('Expansion',x.expansion)}</dl>${x.notes?`<small class="muted">${esc(x.notes)}</small>`:''}${x.dataNotes?`<details class="notes"><summary>Data notes</summary><p>${esc(x.dataNotes)}</p></details>`:''}</div>`).join('')||'<div class="mutedBox">Nothing matches.</div>'};
     body.oninput=draw;body.onchange=draw;draw();
   }
 }

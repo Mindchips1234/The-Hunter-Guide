@@ -51,6 +51,10 @@ RESEARCH = re.compile(r'TacMaps|Japanese wiki|NamuWiki|slug|sitemap|machine-tran
                       r'TrueAchievements|gameplay\.tips|Steam store page|No mission list found|It lists two|GHIR|G100|guides spell|player count|'
                       r'Giver not recorded|TrueToad|A review says|rendered from|Characters named', re.I)
 
+GEAR_RESEARCH = re.compile(r'IMFDB|gameslikefinder|DLC (Weapon )?guide|\bguide\b|Official page|press release|PlayStation listing|per a |per NamuWiki|'
+                           r'left null|not (verified|found|published|stated)|community (sources|guides)|Older chart|listing|Also spelled|'
+                           r'conflicts|assumed|presumably|ambiguous|player (reports|post)|players say|NamuWiki|sources?\b|Steam', re.I)
+
 
 def player_text(text):
     """Split prose into (what players read, research notes)."""
@@ -162,7 +166,15 @@ def main():
                     ws = [w for w in d.get('weapons', []) if a['name'] in (w.get('ammo') or []) and w.get('classRange')]
                     if len(ws) == 1:
                         a['classMin'], a['classMax'] = ws[0]['classRange']
-                        a['notes'] = (a.get('notes') or '') + 'Class range taken from the ' + ws[0]['name'] + '.'
+                        a['notes'] = ((a.get('notes') or '') + ' Class range taken from the ' + ws[0]['name'] + '.').strip()
+            # remarks about conflicting sources go in collapsed data notes, not the text on each card
+            for kind in ('weapons', 'ammo', 'optics'):
+                for x in d.get(kind) or []:
+                    keep, notes = [], []
+                    for sent in re.split(r'(?<=[.!?])\s+(?=[A-Z\'"(.])', (x.get('notes') or '').strip()):
+                        if sent:
+                            (notes if GEAR_RESEARCH.search(sent) else keep).append(sent)
+                    x['notes'], x['dataNotes'] = ' '.join(keep) or None, ' '.join(notes) or None
         if g == 'collectibles':  # where each item is (research/collectible-locations.json)
             loc = load('collectible-locations') or {}
             for k, groups in d.items():
