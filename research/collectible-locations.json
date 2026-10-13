@@ -36,25 +36,25 @@
    "accessed": "2026-10-12"
   }
  ],
- "_notes": "Coordinates are the X,Y values from the cited Nucta Ox Steam guide (in-game map coordinates). Distances/directions to the nearest named place are computed from that same guide's own outpost/lookout/POI/landmark coordinates (assumes X increases east and Y north, which matches the region layout of Hirschfelden and Layton). Items with several spots carry a 'spots' list.",
+ "_notes": "Coordinates are the X,Y values from the cited Nucta Ox Steam guide (in-game map coordinates). Distances/directions to the nearest named place are computed from that same guide's own outpost/lookout/POI/landmark coordinates (X increases east and Y increases south: lining the guide's outposts up with the COTW Companion reserve maps fits to under a pixel only that way; directions were corrected on 2026-10-13). Items with several spots carry a 'spots' list.",
  "Hirschfelden Hunting Reserve": {
   "WWI Russian Dog Tag": {
-   "where": "Tichenau; ~810 m N of Tichenau Lonely Windmill",
+   "where": "Tichenau; ~810 m S of Tichenau Lonely Windmill",
    "coords": "-8883,12958",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
   },
   "WWI Helmet 2": {
-   "where": "Tichenau; ~250 m SE of 'The Landslide' POI",
+   "where": "Tichenau; ~250 m NE of 'The Landslide' POI",
    "coords": "-10355,12189",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
   },
   "Viking Coin 1": {
-   "where": "Rathenfeldt; ~250 m S of Rathenfeldt Eastern Lookout Point",
+   "where": "Rathenfeldt; ~250 m N of Rathenfeldt Eastern Lookout Point",
    "coords": "-4416,11665",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
   },
   "WWI Medal 1": {
-   "where": "Schonfeldt; ~660 m NE of Schonfeldt Windmills",
+   "where": "Schonfeldt; ~660 m SE of Schonfeldt Windmills",
    "coords": "-6736,11061",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
   },
@@ -64,12 +64,12 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
   },
   "WWI Medal 4": {
-   "where": "Spreeberg; ~510 m NE of Spreeberg Outpost",
+   "where": "Spreeberg; ~510 m SE of Spreeberg Outpost",
    "coords": "-6883,9852",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
   },
   "WWI Medal 5": {
-   "where": "Petershain; ~170 m NE of 'The Christmas Tree' POI",
+   "where": "Petershain; ~170 m SE of 'The Christmas Tree' POI",
    "coords": "-4850,9167",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
   },
@@ -94,7 +94,7 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
   },
   "WWI German Dog Tag": {
-   "where": "Müllerwald; ~500 m SW of Müllerwald Eastern Lookout Point",
+   "where": "Müllerwald; ~500 m NW of Müllerwald Eastern Lookout Point",
    "coords": "-5500,5534",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405"
   },
@@ -311,7 +311,7 @@
  },
  "Layton Lake District": {
   "Native Pot 1": {
-   "where": "Balmont; ~490 m N of 'The Bad Water' POI",
+   "where": "Balmont; ~490 m S of 'The Bad Water' POI",
    "coords": "8664,11471",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
   },
@@ -321,7 +321,7 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
   },
   "WWI Badge 4": {
-   "where": "Balmont; ~60 m N of Balmont Outpost",
+   "where": "Balmont; ~60 m S of Balmont Outpost",
    "coords": "9920,10327",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
   },
@@ -336,7 +336,7 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
   },
   "Native Axe 1": {
-   "where": "Cheelah; ~540 m SE of 'The Coywolf' POI",
+   "where": "Cheelah; ~540 m NE of 'The Coywolf' POI",
    "coords": "13446,8529",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
   },
@@ -351,12 +351,12 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
   },
   "WWI Badge 1": {
-   "where": "Calburn; ~530 m S of 'The Calburn Poem' POI",
+   "where": "Calburn; ~530 m N of 'The Calburn Poem' POI",
    "coords": "10208,5281",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
   },
   "Native Axe 2": {
-   "where": "Chopeeka; ~560 m NW of 'The Conservationist President' POI",
+   "where": "Chopeeka; ~560 m SW of 'The Conservationist President' POI",
    "coords": "8868,5025",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978"
   },
@@ -818,17 +818,17 @@
    ]
   },
   "Trapper 10": {
-   "where": "~590 m NE of Vorota V Podzemnyy Mir (Gateway to the Underworld)",
+   "where": "~590 m SE of Vorota V Podzemnyy Mir (Gateway to the Underworld)",
    "coords": "-10283,-5310",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Trapper 9": {
-   "where": "~430 m S of P'yanaya Taiga Southern Outpost",
+   "where": "~430 m N of P'yanaya Taiga Southern Outpost",
    "coords": "-8463,-5591",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Trapper 8": {
-   "where": "~340 m NW of Izluchina Viktora (Victor's Bend)",
+   "where": "~340 m SW of Izluchina Viktora (Victor's Bend)",
    "coords": "-10595,-7073",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
@@ -843,7 +843,7 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Trapper 4": {
-   "where": "~450 m SE of Vostochnyy Ledyanoy Tonnel'",
+   "where": "~450 m NE of Vostochnyy Ledyanoy Tonnel'",
    "coords": "-6503,-8908",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
@@ -853,82 +853,82 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Trapper 2": {
-   "where": "~180 m SE of Dom Gde Razbivayutsa Serdtsa",
+   "where": "~180 m NE of Dom Gde Razbivayutsa Serdtsa",
    "coords": "-7996,-10379",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Trapper 1": {
-   "where": "~240 m N of Tikhiy Don",
+   "where": "~240 m S of Tikhiy Don",
    "coords": "-9210,-10648",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Trapper 3": {
-   "where": "~330 m SE of Vetrenyye Plains Northern Outpost",
+   "where": "~330 m NE of Vetrenyye Plains Northern Outpost",
    "coords": "-4790,-11201",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Nenets 8": {
-   "where": "~590 m NW of P'yanaya Taiga Northern Outpost",
+   "where": "~590 m SW of P'yanaya Taiga Northern Outpost",
    "coords": "-11831,-5791",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Nenets 9": {
-   "where": "~480 m NE of Khod Bolshoy Foreli (Fat Trout Run)",
+   "where": "~480 m SE of Khod Bolshoy Foreli (Fat Trout Run)",
    "coords": "-7711,-6301",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Nenets 10": {
-   "where": "~560 m S of Besplodnoye Plateau Western Outpost",
+   "where": "~560 m N of Besplodnoye Plateau Western Outpost",
    "coords": "-6704,-6551",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Nenets 7": {
-   "where": "~610 m SW of P'yanaya Taiga Eastern Lookout Point",
+   "where": "~610 m NW of P'yanaya Taiga Eastern Lookout Point",
    "coords": "-9070,-6781",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Nenets 6": {
-   "where": "~430 m NE of Myortvye Dushi",
+   "where": "~430 m SE of Myortvye Dushi",
    "coords": "-9789,-7643",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Nenets 4": {
-   "where": "~980 m S of Belye Nochi",
+   "where": "~980 m N of Belye Nochi",
    "coords": "-4216,-7747",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Nenets 5": {
-   "where": "~650 m NW of Derevnya Dvukh Rek (Two River Village)",
+   "where": "~650 m SW of Derevnya Dvukh Rek (Two River Village)",
    "coords": "-12133,-8936",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Nenets 3": {
-   "where": "~150 m NE of Tusida (Without Fire)",
+   "where": "~150 m SE of Tusida (Without Fire)",
    "coords": "-5872,-8969",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Nenets 2": {
-   "where": "~480 m SW of Taras Bul'ba",
+   "where": "~480 m NW of Taras Bul'ba",
    "coords": "-6818,-10674",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Nenets 1": {
-   "where": "~510 m SW of Zverolova Hill Lookout Point",
+   "where": "~510 m NW of Zverolova Hill Lookout Point",
    "coords": "-9089,-11441",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Expedition 9": {
-   "where": "~750 m N of Besplodnoye Plateau Western Outpost",
+   "where": "~750 m S of Besplodnoye Plateau Western Outpost",
    "coords": "-6855,-5259",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Expedition 10": {
-   "where": "~900 m NE of Kladbishche mamontov (Mammoth Boneyard)",
+   "where": "~900 m SE of Kladbishche mamontov (Mammoth Boneyard)",
    "coords": "-5567,-5402",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Expedition 7": {
-   "where": "~480 m NE of P'yanaya Taiga Western Outpost",
+   "where": "~480 m SE of P'yanaya Taiga Western Outpost",
    "coords": "-9904,-5692",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
@@ -938,37 +938,37 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Expedition 8": {
-   "where": "~240 m N of Na Kulichkakh",
+   "where": "~240 m S of Na Kulichkakh",
    "coords": "-6476,-7052",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Expedition 4": {
-   "where": "~440 m SW of Myortvye Dushi",
+   "where": "~440 m NW of Myortvye Dushi",
    "coords": "-10412,-8232",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Expedition 5": {
-   "where": "~360 m NW of Ledyanoy Bay Western Outpost",
+   "where": "~360 m SW of Ledyanoy Bay Western Outpost",
    "coords": "-11834,-8328",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Expedition 3": {
-   "where": "~350 m NW of Velikiy Pod'yom (Great Vista)",
+   "where": "~350 m SW of Velikiy Pod'yom (Great Vista)",
    "coords": "-7642,-8744",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Expedition 2": {
-   "where": "~760 m N of Vetrenyye Plains Northern Outpost",
+   "where": "~760 m S of Vetrenyye Plains Northern Outpost",
    "coords": "-4700,-10198",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Expedition 1": {
-   "where": "~780 m NW of Zverolova Hill Western Outpost",
+   "where": "~780 m SW of Zverolova Hill Western Outpost",
    "coords": "-10170,-10269",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Rechnaya Rybalka (Fishing in the River)": {
-   "where": "~910 m N of Besplodnoye Plateau Western Outpost; painting at a landmark with POI icon",
+   "where": "~910 m S of Besplodnoye Plateau Western Outpost; painting at a landmark with POI icon",
    "coords": "-6681,-5078",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
@@ -983,17 +983,17 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Ritual Podzemnogo Mira (Underworld Ritual)": {
-   "where": "~200 m NW of Na Kulichkakh; painting at a landmark with POI icon",
+   "where": "~200 m SW of Na Kulichkakh; painting at a landmark with POI icon",
    "coords": "-6582,-7202",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Rybak V Lodke (Fishing Man in a Boat)": {
-   "where": "~310 m NE of Myortvye Dushi; painting at a landmark with POI icon",
+   "where": "~310 m SE of Myortvye Dushi; painting at a landmark with POI icon",
    "coords": "-9919,-7704",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Okhota Na Peshchernykh Medvedey (Cave Bear Hunting)": {
-   "where": "~270 m SE of Rakovyi Korpus; painting at a landmark with POI icon",
+   "where": "~270 m NE of Rakovyi Korpus; painting at a landmark with POI icon",
    "coords": "-8217,-8679",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
@@ -1008,12 +1008,12 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Okhota Na Peshchernogo l'va (Cave Lion Hunting)": {
-   "where": "~340 m N of Vetrenyye Plains Northern Outpost; painting at a landmark with POI icon",
+   "where": "~340 m S of Vetrenyye Plains Northern Outpost; painting at a landmark with POI icon",
    "coords": "-5046,-10592",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Vodnoe Poyeshestviye (Marine Expedition)": {
-   "where": "~220 m SW of Kabala Svyatosh; painting at a landmark with POI icon",
+   "where": "~220 m NW of Kabala Svyatosh; painting at a landmark with POI icon",
    "coords": "-10003,-11214",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
@@ -1023,12 +1023,12 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Lenskiye Stolby (Lena Pillars)": {
-   "where": "~750 m NW of Odinokie Dni; sign at the landmark itself",
+   "where": "~750 m SW of Odinokie Dni; sign at the landmark itself",
    "coords": "-7597,-5619",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Vorota V Podzemnyy Mir (Gateway to the Underworld)": {
-   "where": "~480 m NW of P'yanaya Taiga Western Outpost; sign at the landmark itself",
+   "where": "~480 m SW of P'yanaya Taiga Western Outpost; sign at the landmark itself",
    "coords": "-10537,-5840",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
@@ -1043,17 +1043,17 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "P'yanyy Les (Drunken Forest)": {
-   "where": "~460 m S of P'yanaya Taiga Northern Outpost; sign at the landmark itself",
+   "where": "~460 m N of P'yanaya Taiga Northern Outpost; sign at the landmark itself",
    "coords": "-11540,-6778",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Izluchina Viktora (Victor's Bend)": {
-   "where": "~310 m N of Ledyanoy Bay Southern Outpost; sign at the landmark itself",
+   "where": "~310 m S of Ledyanoy Bay Southern Outpost; sign at the landmark itself",
    "coords": "-10320,-7271",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Pustaya Gora (Hollowed Mountain)": {
-   "where": "~170 m SW of Na Kulichkakh; sign at the landmark itself",
+   "where": "~170 m NW of Na Kulichkakh; sign at the landmark itself",
    "coords": "-6483,-7432",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
@@ -1063,7 +1063,7 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Chekurovskaya Zvezda (Chekurovka Star)": {
-   "where": "~420 m S of P'yanaya Taiga Northern Outpost; sign at the landmark itself",
+   "where": "~420 m N of P'yanaya Taiga Northern Outpost; sign at the landmark itself",
    "coords": "-8683,-7618",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
@@ -1073,12 +1073,12 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Mnozhestvo Malykh Ozer (Many Small Lakes)": {
-   "where": "~680 m SE of Ledyanoy Bay Western Outpost; sign at the landmark itself",
+   "where": "~680 m NE of Ledyanoy Bay Western Outpost; sign at the landmark itself",
    "coords": "-10931,-8854",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Velikiy Pod'yom (Great Vista)": {
-   "where": "~450 m S of Besplodnoye Plateau Northern Outpost; sign at the landmark itself",
+   "where": "~450 m N of Besplodnoye Plateau Northern Outpost; sign at the landmark itself",
    "coords": "-7321,-8879",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
@@ -1093,12 +1093,12 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Derevnya Dvukh Rek (Two River Village)": {
-   "where": "~840 m S of Ledyanoy Bay Western Outpost; sign at the landmark itself",
+   "where": "~840 m N of Ledyanoy Bay Western Outpost; sign at the landmark itself",
    "coords": "-11631,-9342",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
   "Istochnik Zhizni (Spring of Life)": {
-   "where": "~480 m NE of Na Dne; sign at the landmark itself",
+   "where": "~480 m SE of Na Dne; sign at the landmark itself",
    "coords": "-5230,-9550",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586"
   },
@@ -1124,7 +1124,7 @@
  },
  "Vurhonga Savanna": {
   "The Golden Rhinoceros of Mapungubwe": {
-   "where": "Vurhonga Plateau (Vupeladyambu); ~390 m SW of Xikarhi Outpost; on the hill next to the plateau-top outpost",
+   "where": "Vurhonga Plateau (Vupeladyambu); ~390 m NW of Xikarhi Outpost; on the hill next to the plateau-top outpost",
    "coords": "5317,-7567",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2819589898",
    "source2": "https://steamah.com/thehunter-call-of-the-wild-all-vurhonga-artifact-locations/"
@@ -1135,7 +1135,7 @@
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2819589898"
   },
   "Scimitar-Toothed Cat": {
-   "where": "Vurhonga Plateau (Vupeladyambu); ~260 m NE of Weeping Face landmark; inside a cave",
+   "where": "Vurhonga Plateau (Vupeladyambu); ~260 m SE of Weeping Face landmark; inside a cave",
    "coords": "4989,-8219",
    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2819589898"
   },
