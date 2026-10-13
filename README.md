@@ -1,4 +1,4 @@
-# The Hunter Guide 0.7
+# The Hunter Guide 0.7.1
 
 A fan-made, offline-ready field guide for *theHunter: Call of the Wild*, made by Vanderholst Studios. It covers all 19 reserves (up to Intisuyu, June 2026), 128 species with their classes, trophy scores, fur types and need zones, the 14 Great Ones, 74 weapons and 103 kinds of ammo, every skill and perk, and about 470 missions and the known collectibles, a real photo of almost every animal, and a log for every harvest.
 
