@@ -1,4 +1,4 @@
-# The Hunter Guide 0.7.1
+# The Hunter Guide 0.7.2
 
 A fan-made, offline-ready field guide for *theHunter: Call of the Wild*, made by Vanderholst Studios. It covers all 19 reserves (up to Intisuyu, June 2026), 128 species with their classes, trophy scores, fur types and need zones, the 14 Great Ones, 74 weapons and 103 kinds of ammo, every skill and perk, and about 470 missions and the known collectibles, a real photo of almost every animal, and a log for every harvest.
 
@@ -45,7 +45,7 @@ Your log, Great Ones, missions, collectibles, skill plan and map hotspots are sa
 | `img/reserves/` | Reserve emblems (original artwork), drawn by `tools/make-reserve-emblems.py` |
 | `tools/import-photos.py` | Copies a folder of photos (with `manifest.json`) into `img/animals/` and writes `data/photos.json` |
 | `service-worker.js` | Offline support and updates |
-| `manifest.webmanifest`, `icon*.png`, `icon.svg` | Install metadata and icons (the icon is a placeholder until the real logo is in) |
+| `manifest.webmanifest`, `icon*.png`, `apple-touch-icon.png`, `favicon-48.png`, `img/logo*` | Install metadata, icons and the intro logo, made by `tools/make-icons.py` from the logo file |
 
 ## Rebuilding the data
 
@@ -53,7 +53,7 @@ Edit or replace the files in `research/`, then run `python3 tools/build-data.py`
 
 ## Known gaps in this build
 
-- **Logo:** the icon is a placeholder until the real logo is in.
+- **Logo:** by Serena Da Silva. The intro shows the full logo; app icons and the favicon use a crop of the scope circle because the lettering is unreadable at icon sizes.
 - **Pictures:** real wildlife photos, not in-game pictures. Wild Haggis (fictional) has none. Reserve maps: Intisuyu's outposts and lookouts have no names yet. Need zone areas are community-mapped; exact zones differ between saves. 5 photos are CC BY-NC, so they must be replaced if the app is ever sold.
 - **Missions:** about 470 listed. Full or nearly full for Hirschfelden, Layton Lake, Cuatro Colinas, Emerald Coast, Askiy Ridge, Intisuyu and Vurhonga (3 of its arcs). Partial for Medved-Taiga, Yukon Valley, Silver Ridge Peaks, Te Awaroa, New England, Sundarpatan and Tòrr nan Sìthean; 29 of those only have an unofficial translation of the Japanese name. None yet for Rancho del Arroyo, Mississippi Acres, Revontuli Coast or Salzwiesen. No XP or cash rewards anywhere.
 - **Collectibles:** pick-ups only exist in Hirschfelden, Layton Lake, Medved-Taiga and Vurhonga (plus Parque Fernando's challenge targets); the rest list their achievements. Salzwiesen, Askiy Ridge, Tòrr nan Sìthean and Intisuyu are unconfirmed.
