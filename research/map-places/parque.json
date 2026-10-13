@@ -1,0 +1,263 @@
+{
+ "slug": "parque",
+ "reserve": "Parque Fernando",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2872477558",
+ "title": "Parque Fernando: Carolina's Challenge Targets and All Secret Locations",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 13,
+  "lookouts": 9,
+  "pois": 0,
+  "landmarks": 12
+ },
+ "places": [
+  {
+   "type": "range",
+   "name": "Archery Range",
+   "region": null,
+   "x": -8437,
+   "y": 7872
+  },
+  {
+   "type": "outpost",
+   "name": "Casita de Mendoza",
+   "region": null,
+   "x": -9325,
+   "y": 10633
+  },
+  {
+   "type": "outpost",
+   "name": "Casita de La Negra",
+   "region": null,
+   "x": -6561,
+   "y": 10432
+  },
+  {
+   "type": "outpost",
+   "name": "Casita de Cordoba",
+   "region": null,
+   "x": -10396,
+   "y": 9779
+  },
+  {
+   "type": "outpost",
+   "name": "Casita de Pappo",
+   "region": null,
+   "x": -4746,
+   "y": 9695
+  },
+  {
+   "type": "outpost",
+   "name": "Casita de Ushuaia",
+   "region": null,
+   "x": -6130,
+   "y": 8225
+  },
+  {
+   "type": "outpost",
+   "name": "Casita de Martita",
+   "region": null,
+   "x": -8362,
+   "y": 7819
+  },
+  {
+   "type": "outpost",
+   "name": "Casita de Cordoba",
+   "region": null,
+   "x": -10309,
+   "y": 7136
+  },
+  {
+   "type": "outpost",
+   "name": "Casita de Cristal",
+   "region": null,
+   "x": -5534,
+   "y": 6910
+  },
+  {
+   "type": "outpost",
+   "name": "Casita de Sabina",
+   "region": null,
+   "x": -7433,
+   "y": 6654
+  },
+  {
+   "type": "outpost",
+   "name": "Casita de Bíró",
+   "region": null,
+   "x": -8333,
+   "y": 5368
+  },
+  {
+   "type": "outpost",
+   "name": "Casita del Papa Francisco",
+   "region": null,
+   "x": -5294,
+   "y": 5110
+  },
+  {
+   "type": "outpost",
+   "name": "Casita de Cornaro",
+   "region": null,
+   "x": -10505,
+   "y": 5000
+  },
+  {
+   "type": "outpost",
+   "name": "Casita de Bariloche",
+   "region": null,
+   "x": -7158,
+   "y": 4675
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador de Perito Moreno",
+   "region": null,
+   "x": -5812,
+   "y": 10060
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador de Solís",
+   "region": null,
+   "x": -9876,
+   "y": 9804
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador de Magallanes",
+   "region": null,
+   "x": -8481,
+   "y": 8384
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador de Frey",
+   "region": null,
+   "x": -10209,
+   "y": 7660
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador de Tito",
+   "region": null,
+   "x": -5852,
+   "y": 7651
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador de Pastore",
+   "region": null,
+   "x": -7908,
+   "y": 6406
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador de Guevara",
+   "region": null,
+   "x": -5948,
+   "y": 5264
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador de Ameghino",
+   "region": null,
+   "x": -11453,
+   "y": 5110
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador de Fontana",
+   "region": null,
+   "x": -8569,
+   "y": 4900
+  },
+  {
+   "type": "landmark",
+   "name": "El Fin del Mundo",
+   "region": null,
+   "x": -11460,
+   "y": 11470
+  },
+  {
+   "type": "landmark",
+   "name": "Guarida de los Pumas Mimados",
+   "region": null,
+   "x": -9647,
+   "y": 11236
+  },
+  {
+   "type": "landmark",
+   "name": "Cueva de las Manos",
+   "region": null,
+   "x": -7191,
+   "y": 10482
+  },
+  {
+   "type": "landmark",
+   "name": "Los Gauchos",
+   "region": null,
+   "x": -6177,
+   "y": 9230
+  },
+  {
+   "type": "landmark",
+   "name": "Leyenda de la Baya de Calafate",
+   "region": null,
+   "x": -8475,
+   "y": 8771
+  },
+  {
+   "type": "landmark",
+   "name": "Nothofagus",
+   "region": null,
+   "x": -5198,
+   "y": 7390
+  },
+  {
+   "type": "landmark",
+   "name": "Cementerio del Penitente",
+   "region": null,
+   "x": -7795,
+   "y": 7141
+  },
+  {
+   "type": "landmark",
+   "name": "Paso de Vientos Cambiantes",
+   "region": null,
+   "x": -6801,
+   "y": 6972
+  },
+  {
+   "type": "landmark",
+   "name": "Lagos Subterráneos",
+   "region": null,
+   "x": -9637,
+   "y": 6610
+  },
+  {
+   "type": "landmark",
+   "name": "Ebothrium Coccineum",
+   "region": null,
+   "x": -6738,
+   "y": 6395
+  },
+  {
+   "type": "landmark",
+   "name": "Los Bagualeros",
+   "region": null,
+   "x": -10431,
+   "y": 4444
+  },
+  {
+   "type": "landmark",
+   "name": "Titanosaurio",
+   "region": null,
+   "x": -8902,
+   "y": 4320
+  }
+ ],
+ "regions": [],
+ "notes": "Guide page displays Steam removal notice (violates Community Guidelines / incompatible with theHunter) but content was readable via WebFetch. Stated: 1 shooting range, 13 outposts. Outposts table has 14 rows: Archery Range (typed range) plus 13 Casitas; Casita de Bariloche row is unnumbered but has coordinates. Casita de Cordoba appears twice with different coordinates (as in guide). Carolina's Challenge Targets (15) skipped (not listed). No regions named."
+}

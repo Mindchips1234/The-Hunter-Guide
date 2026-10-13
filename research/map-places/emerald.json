@@ -1,0 +1,305 @@
+{
+ "slug": "emerald",
+ "reserve": "Emerald Coast Australia",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3122280476",
+ "title": "Emerald Coast Australia: All Secret Locations.",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 22,
+  "lookouts": 11,
+  "pois": 0,
+  "landmarks": 8
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Kylie's Caravan",
+   "region": null,
+   "x": -8771,
+   "y": -4841
+  },
+  {
+   "type": "outpost",
+   "name": "Golden Wattle Respite",
+   "region": null,
+   "x": -6431,
+   "y": -4883
+  },
+  {
+   "type": "outpost",
+   "name": "Gilgai House",
+   "region": null,
+   "x": -8027,
+   "y": -5610
+  },
+  {
+   "type": "outpost",
+   "name": "Soph's Place",
+   "region": null,
+   "x": -10638,
+   "y": -5669
+  },
+  {
+   "type": "outpost",
+   "name": "Meg's Retreat",
+   "region": null,
+   "x": -5241,
+   "y": -6103
+  },
+  {
+   "type": "outpost",
+   "name": "Kanyana",
+   "region": null,
+   "x": -11920,
+   "y": -6142
+  },
+  {
+   "type": "outpost",
+   "name": "Brindleton Pit Stop",
+   "region": null,
+   "x": -9659,
+   "y": -6413
+  },
+  {
+   "type": "outpost",
+   "name": "Knife Point Retreat",
+   "region": null,
+   "x": -8749,
+   "y": -7704
+  },
+  {
+   "type": "outpost",
+   "name": "Bambora Cottage",
+   "region": null,
+   "x": -7191,
+   "y": -7877
+  },
+  {
+   "type": "outpost",
+   "name": "Jakewood Cottage",
+   "region": null,
+   "x": -5376,
+   "y": -8160
+  },
+  {
+   "type": "outpost",
+   "name": "Red Stone House",
+   "region": null,
+   "x": -8152,
+   "y": -9026
+  },
+  {
+   "type": "outpost",
+   "name": "Pearl's Camper",
+   "region": null,
+   "x": -9423,
+   "y": -9207
+  },
+  {
+   "type": "outpost",
+   "name": "Buckley's Respite",
+   "region": null,
+   "x": -11125,
+   "y": -9224
+  },
+  {
+   "type": "outpost",
+   "name": "Babe's Camper",
+   "region": null,
+   "x": -5872,
+   "y": -9292
+  },
+  {
+   "type": "outpost",
+   "name": "Zoe's Cottage",
+   "region": null,
+   "x": -11001,
+   "y": -10032
+  },
+  {
+   "type": "outpost",
+   "name": "Bogey Hole Retreat",
+   "region": null,
+   "x": -7876,
+   "y": -10123
+  },
+  {
+   "type": "outpost",
+   "name": "Mr Percival Perch",
+   "region": null,
+   "x": -5669,
+   "y": -10253
+  },
+  {
+   "type": "outpost",
+   "name": "Irongate Cabin",
+   "region": null,
+   "x": -9836,
+   "y": -10759
+  },
+  {
+   "type": "outpost",
+   "name": "Archie's Camper",
+   "region": null,
+   "x": -8157,
+   "y": -11055
+  },
+  {
+   "type": "outpost",
+   "name": "Windibella Cabin",
+   "region": null,
+   "x": -5579,
+   "y": -11369
+  },
+  {
+   "type": "outpost",
+   "name": "St. Macks Respite",
+   "region": null,
+   "x": -11588,
+   "y": -11508
+  },
+  {
+   "type": "outpost",
+   "name": "Opal Point Sanctuary",
+   "region": null,
+   "x": -8029,
+   "y": -11693
+  },
+  {
+   "type": "lookout",
+   "name": "Stella Tower",
+   "region": null,
+   "x": -11351,
+   "y": -5490
+  },
+  {
+   "type": "lookout",
+   "name": "Mary Tower",
+   "region": null,
+   "x": -8729,
+   "y": -5545
+  },
+  {
+   "type": "lookout",
+   "name": "Howard Tower",
+   "region": null,
+   "x": -5739,
+   "y": -6416
+  },
+  {
+   "type": "lookout",
+   "name": "Elizabeth Tower",
+   "region": null,
+   "x": -9327,
+   "y": -7040
+  },
+  {
+   "type": "lookout",
+   "name": "Albert Tower",
+   "region": null,
+   "x": -10871,
+   "y": -8541
+  },
+  {
+   "type": "lookout",
+   "name": "Edith Tower",
+   "region": null,
+   "x": -6577,
+   "y": -8785
+  },
+  {
+   "type": "lookout",
+   "name": "Andrew Tower",
+   "region": null,
+   "x": -9714,
+   "y": -9371
+  },
+  {
+   "type": "lookout",
+   "name": "David Tower",
+   "region": null,
+   "x": -8514,
+   "y": -10117
+  },
+  {
+   "type": "lookout",
+   "name": "Edward Tower",
+   "region": null,
+   "x": -5391,
+   "y": -10216
+  },
+  {
+   "type": "lookout",
+   "name": "Vincent Tower",
+   "region": null,
+   "x": -6901,
+   "y": -11034
+  },
+  {
+   "type": "lookout",
+   "name": "Kathleen Tower",
+   "region": null,
+   "x": -10563,
+   "y": -11473
+  },
+  {
+   "type": "landmark",
+   "name": "Granite Boulders",
+   "region": null,
+   "x": -9359,
+   "y": -7908
+  },
+  {
+   "type": "landmark",
+   "name": "Mount Matron",
+   "region": null,
+   "x": -5056,
+   "y": -8447
+  },
+  {
+   "type": "landmark",
+   "name": "Battered Peak",
+   "region": null,
+   "x": -6283,
+   "y": -8624
+  },
+  {
+   "type": "landmark",
+   "name": "Stonefather Mountain",
+   "region": null,
+   "x": -6384,
+   "y": -9314
+  },
+  {
+   "type": "landmark",
+   "name": "Tea Fields",
+   "region": null,
+   "x": -10930,
+   "y": -10090
+  },
+  {
+   "type": "landmark",
+   "name": "Lake Cave",
+   "region": null,
+   "x": -8614,
+   "y": -10542
+  },
+  {
+   "type": "landmark",
+   "name": "The Triplets",
+   "region": null,
+   "x": -10056,
+   "y": -10686
+  },
+  {
+   "type": "landmark",
+   "name": "Ocean cave",
+   "region": null,
+   "x": -4986,
+   "y": -10805
+  }
+ ],
+ "regions": [],
+ "notes": "Guide names no regions. Coordinates given as N | name | X,Y (N is an index). Fetched page carried a Steam removal/incompatibility notice but content was readable. Guide also states 'Hunting Structures' totals (not extracted separately; outposts list covers them). Stated counts match extracted counts."
+}

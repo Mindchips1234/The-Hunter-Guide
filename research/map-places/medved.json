@@ -1,0 +1,619 @@
+{
+ "slug": "medved",
+ "reserve": "Medved-Taiga National Park",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2808035586",
+ "title": "Medved-Taiga National Park: Artifacts, Collectibles and All Secret Locations.",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 16,
+  "lookouts": 9,
+  "pois": 30,
+  "landmarks": 30
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "P'yanaya Taiga Southern Outpost",
+   "region": "P'yanaya Taiga",
+   "x": -8567,
+   "y": -5169
+  },
+  {
+   "type": "outpost",
+   "name": "Besplodnoye Plateau Southern Outpost",
+   "region": "Besplodnoye Plateau",
+   "x": -4724,
+   "y": -5763
+  },
+  {
+   "type": "outpost",
+   "name": "Besplodnoye Plateau Western Outpost",
+   "region": "Besplodnoye Plateau",
+   "x": -6689,
+   "y": -5990
+  },
+  {
+   "type": "outpost",
+   "name": "P'yanaya Taiga Western Outpost",
+   "region": "P'yanaya Taiga",
+   "x": -10137,
+   "y": -6110
+  },
+  {
+   "type": "outpost",
+   "name": "P'yanaya Taiga Northern Outpost",
+   "region": "P'yanaya Taiga",
+   "x": -11577,
+   "y": -6323
+  },
+  {
+   "type": "outpost",
+   "name": "Besplodnoye Plateau Eastern Outpost",
+   "region": "Besplodnoye Plateau",
+   "x": -5124,
+   "y": -7029
+  },
+  {
+   "type": "outpost",
+   "name": "P'yanaya Taiga Northern Outpost",
+   "region": "P'yanaya Taiga",
+   "x": -8596,
+   "y": -7202
+  },
+  {
+   "type": "outpost",
+   "name": "Ledyanoy Bay Southern Outpost",
+   "region": "Ledyanoy Bay",
+   "x": -10343,
+   "y": -7579
+  },
+  {
+   "type": "outpost",
+   "name": "Besplodnoye Plateau Northern Outpost",
+   "region": "Besplodnoye Plateau",
+   "x": -7441,
+   "y": -8445
+  },
+  {
+   "type": "outpost",
+   "name": "Ledyanoy Bay Western Outpost",
+   "region": "Ledyanoy Bay",
+   "x": -11519,
+   "y": -8509
+  },
+  {
+   "type": "outpost",
+   "name": "Vetrenyye Plains Southern Outpost",
+   "region": "Vetrenyye Plains",
+   "x": -5332,
+   "y": -8875
+  },
+  {
+   "type": "outpost",
+   "name": "Ledyanoy Bay Eastern Outpost",
+   "region": "Ledyanoy Bay",
+   "x": -9824,
+   "y": -9029
+  },
+  {
+   "type": "outpost",
+   "name": "Vetrenyye Plains Western Outpost",
+   "region": "Vetrenyye Plains",
+   "x": -6687,
+   "y": -9959
+  },
+  {
+   "type": "outpost",
+   "name": "Zverolova Hill Eastern Outpost",
+   "region": "Zverolova Hill",
+   "x": -8564,
+   "y": -10298
+  },
+  {
+   "type": "outpost",
+   "name": "Zverolova Hill Western Outpost",
+   "region": "Zverolova Hill",
+   "x": -9705,
+   "y": -10896
+  },
+  {
+   "type": "outpost",
+   "name": "Vetrenyye Plains Northern Outpost",
+   "region": "Vetrenyye Plains",
+   "x": -4955,
+   "y": -10917
+  },
+  {
+   "type": "lookout",
+   "name": "Besplodnoye Plateau Southern Lookout Point",
+   "region": "Besplodnoye Plateau",
+   "x": -5071,
+   "y": -6171
+  },
+  {
+   "type": "lookout",
+   "name": "P'yanaya Taiga Eastern Lookout Point",
+   "region": "P'yanaya Taiga",
+   "x": -8602,
+   "y": -6395
+  },
+  {
+   "type": "lookout",
+   "name": "P'yanaya Taiga Western Lookout Point",
+   "region": "P'yanaya Taiga",
+   "x": -10261,
+   "y": -6442
+  },
+  {
+   "type": "lookout",
+   "name": "Ledyanoy Bay Western Lookout Point",
+   "region": "Ledyanoy Bay",
+   "x": -11331,
+   "y": -7811
+  },
+  {
+   "type": "lookout",
+   "name": "Besplodnoye Plateau Northern Lookout Point",
+   "region": "Besplodnoye Plateau",
+   "x": -6855,
+   "y": -7988
+  },
+  {
+   "type": "lookout",
+   "name": "Ledyanoy Bay Eastern Lookout Point",
+   "region": "Ledyanoy Bay",
+   "x": -9643,
+   "y": -8175
+  },
+  {
+   "type": "lookout",
+   "name": "Ledyanoy Bay Southern Lookout Point",
+   "region": "Ledyanoy Bay",
+   "x": -4492,
+   "y": -9009
+  },
+  {
+   "type": "lookout",
+   "name": "Vetrenyye Plains Northern Lookout Point",
+   "region": "Vetrenyye Plains",
+   "x": -5921,
+   "y": -10553
+  },
+  {
+   "type": "lookout",
+   "name": "Zverolova Hill Lookout Point",
+   "region": "Zverolova Hill",
+   "x": -8837,
+   "y": -10994
+  },
+  {
+   "type": "poi",
+   "name": "Expedition 9",
+   "region": null,
+   "x": -6855,
+   "y": -5259
+  },
+  {
+   "type": "poi",
+   "name": "Trapper 10",
+   "region": null,
+   "x": -10283,
+   "y": -5310
+  },
+  {
+   "type": "poi",
+   "name": "Expedition 10",
+   "region": null,
+   "x": -5567,
+   "y": -5402
+  },
+  {
+   "type": "poi",
+   "name": "Trapper 9",
+   "region": null,
+   "x": -8463,
+   "y": -5591
+  },
+  {
+   "type": "poi",
+   "name": "Expedition 7",
+   "region": null,
+   "x": -9904,
+   "y": -5692
+  },
+  {
+   "type": "poi",
+   "name": "Nenets 8",
+   "region": null,
+   "x": -11831,
+   "y": -5791
+  },
+  {
+   "type": "poi",
+   "name": "Nenets 9",
+   "region": null,
+   "x": -7711,
+   "y": -6301
+  },
+  {
+   "type": "poi",
+   "name": "Expedition 6",
+   "region": null,
+   "x": -10967,
+   "y": -6549
+  },
+  {
+   "type": "poi",
+   "name": "Nenets 10",
+   "region": null,
+   "x": -6704,
+   "y": -6551
+  },
+  {
+   "type": "poi",
+   "name": "Nenets 7",
+   "region": null,
+   "x": -9070,
+   "y": -6781
+  },
+  {
+   "type": "poi",
+   "name": "Expedition 8",
+   "region": null,
+   "x": -6476,
+   "y": -7052
+  },
+  {
+   "type": "poi",
+   "name": "Trapper 8",
+   "region": null,
+   "x": -10595,
+   "y": -7073
+  },
+  {
+   "type": "poi",
+   "name": "Nenets 6",
+   "region": null,
+   "x": -9789,
+   "y": -7643
+  },
+  {
+   "type": "poi",
+   "name": "Nenets 4",
+   "region": null,
+   "x": -4216,
+   "y": -7747
+  },
+  {
+   "type": "poi",
+   "name": "Trapper 5",
+   "region": null,
+   "x": -4676,
+   "y": -7984
+  },
+  {
+   "type": "poi",
+   "name": "Trapper 7",
+   "region": null,
+   "x": -9399,
+   "y": -8168
+  },
+  {
+   "type": "poi",
+   "name": "Expedition 4",
+   "region": null,
+   "x": -10412,
+   "y": -8232
+  },
+  {
+   "type": "poi",
+   "name": "Expedition 5",
+   "region": null,
+   "x": -11834,
+   "y": -8328
+  },
+  {
+   "type": "poi",
+   "name": "Expedition 3",
+   "region": null,
+   "x": -7642,
+   "y": -8744
+  },
+  {
+   "type": "poi",
+   "name": "Trapper 4",
+   "region": null,
+   "x": -6503,
+   "y": -8908
+  },
+  {
+   "type": "poi",
+   "name": "Nenets 5",
+   "region": null,
+   "x": -12133,
+   "y": -8936
+  },
+  {
+   "type": "poi",
+   "name": "Nenets 3",
+   "region": null,
+   "x": -5872,
+   "y": -8969
+  },
+  {
+   "type": "poi",
+   "name": "Trapper 6",
+   "region": null,
+   "x": -10503,
+   "y": -9362
+  },
+  {
+   "type": "poi",
+   "name": "Expedition 2",
+   "region": null,
+   "x": -4700,
+   "y": -10198
+  },
+  {
+   "type": "poi",
+   "name": "Expedition 1",
+   "region": null,
+   "x": -10170,
+   "y": -10269
+  },
+  {
+   "type": "poi",
+   "name": "Trapper 2",
+   "region": null,
+   "x": -7996,
+   "y": -10379
+  },
+  {
+   "type": "poi",
+   "name": "Trapper 1",
+   "region": null,
+   "x": -9210,
+   "y": -10648
+  },
+  {
+   "type": "poi",
+   "name": "Nenets 2",
+   "region": null,
+   "x": -6818,
+   "y": -10674
+  },
+  {
+   "type": "poi",
+   "name": "Trapper 3",
+   "region": null,
+   "x": -4790,
+   "y": -11201
+  },
+  {
+   "type": "poi",
+   "name": "Nenets 1",
+   "region": null,
+   "x": -9089,
+   "y": -11441
+  },
+  {
+   "type": "landmark",
+   "name": "Rechnaya Rybalka (Fishing in the River)",
+   "region": null,
+   "x": -6681,
+   "y": -5078
+  },
+  {
+   "type": "landmark",
+   "name": "Okhota Na Bol'sherogikh Oleney (Irish-Elk Huniting)",
+   "region": null,
+   "x": -8957,
+   "y": -5183
+  },
+  {
+   "type": "landmark",
+   "name": "Chuchunya",
+   "region": null,
+   "x": -9473,
+   "y": -5234
+  },
+  {
+   "type": "landmark",
+   "name": "Lenskiye Stolby (Lena Pillars)",
+   "region": null,
+   "x": -7597,
+   "y": -5619
+  },
+  {
+   "type": "landmark",
+   "name": "Vorota V Podzemnyy Mir (Gateway to the Underworld)",
+   "region": null,
+   "x": -10537,
+   "y": -5840
+  },
+  {
+   "type": "landmark",
+   "name": "Stolby (Pillars)",
+   "region": null,
+   "x": -7186,
+   "y": -6061
+  },
+  {
+   "type": "landmark",
+   "name": "Kladbishche mamontov (Mammoth Boneyard)",
+   "region": null,
+   "x": -5964,
+   "y": -6207
+  },
+  {
+   "type": "landmark",
+   "name": "Khod Bolshoy Foreli (Fat Trout Run)",
+   "region": null,
+   "x": -8110,
+   "y": -6570
+  },
+  {
+   "type": "landmark",
+   "name": "P'yanyy Les (Drunken Forest)",
+   "region": null,
+   "x": -11540,
+   "y": -6778
+  },
+  {
+   "type": "landmark",
+   "name": "Ritual Podzemnogo Mira (Underworld Ritual)",
+   "region": null,
+   "x": -6582,
+   "y": -7202
+  },
+  {
+   "type": "landmark",
+   "name": "Izluchina Viktora (Victor's Bend)",
+   "region": null,
+   "x": -10320,
+   "y": -7271
+  },
+  {
+   "type": "landmark",
+   "name": "Pustaya Gora (Hollowed Mountain)",
+   "region": null,
+   "x": -6483,
+   "y": -7432
+  },
+  {
+   "type": "landmark",
+   "name": "Zheleznaya Doroga Severnogo Kanala (North Link Railroad)",
+   "region": null,
+   "x": -11117,
+   "y": -7575
+  },
+  {
+   "type": "landmark",
+   "name": "Chekurovskaya Zvezda (Chekurovka Star)",
+   "region": null,
+   "x": -8683,
+   "y": -7618
+  },
+  {
+   "type": "landmark",
+   "name": "Ledyanoy Tonnel' (Frozen Passage)",
+   "region": null,
+   "x": -7815,
+   "y": -7660
+  },
+  {
+   "type": "landmark",
+   "name": "Rybak V Lodke (Fishing Man in a Boat)",
+   "region": null,
+   "x": -9919,
+   "y": -7704
+  },
+  {
+   "type": "landmark",
+   "name": "Okhota Na Peshchernykh Medvedey (Cave Bear Hunting)",
+   "region": null,
+   "x": -8217,
+   "y": -8679
+  },
+  {
+   "type": "landmark",
+   "name": "Mnozhestvo Malykh Ozer (Many Small Lakes)",
+   "region": null,
+   "x": -10931,
+   "y": -8854
+  },
+  {
+   "type": "landmark",
+   "name": "Velikiy Pod'yom (Great Vista)",
+   "region": null,
+   "x": -7321,
+   "y": -8879
+  },
+  {
+   "type": "landmark",
+   "name": "Chekurovka",
+   "region": null,
+   "x": -9075,
+   "y": -8879
+  },
+  {
+   "type": "landmark",
+   "name": "Tusida (Without Fire)",
+   "region": null,
+   "x": -6011,
+   "y": -9037
+  },
+  {
+   "type": "landmark",
+   "name": "Derevnya Dvukh Rek (Two River Village)",
+   "region": null,
+   "x": -11631,
+   "y": -9342
+  },
+  {
+   "type": "landmark",
+   "name": "Istochnik Zhizni (Spring of Life)",
+   "region": null,
+   "x": -5230,
+   "y": -9550
+  },
+  {
+   "type": "landmark",
+   "name": "Ritual Boga Solntsa (Sun God Ritual)",
+   "region": null,
+   "x": -7703,
+   "y": -9564
+  },
+  {
+   "type": "landmark",
+   "name": "Cave Exploration",
+   "region": null,
+   "x": -7640,
+   "y": -10077
+  },
+  {
+   "type": "landmark",
+   "name": "Okhota Na Mamonta (Mammoth Hunting)",
+   "region": null,
+   "x": -6457,
+   "y": -10394
+  },
+  {
+   "type": "landmark",
+   "name": "Okhota Na Peshchernogo l'va (Cave Lion Hunting)",
+   "region": null,
+   "x": -5046,
+   "y": -10592
+  },
+  {
+   "type": "landmark",
+   "name": "Chekurovskiy Zaliv (Chekurovka Bay)",
+   "region": null,
+   "x": -10453,
+   "y": -11000
+  },
+  {
+   "type": "landmark",
+   "name": "Ray Dikogo Poberezh'ya (Wild Coast Paradize)",
+   "region": null,
+   "x": -6580,
+   "y": -11199
+  },
+  {
+   "type": "landmark",
+   "name": "Vodnoe Poyeshestviye (Marine Expedition)",
+   "region": null,
+   "x": -10003,
+   "y": -11214
+  }
+ ],
+ "regions": [
+  "P'yanaya Taiga",
+  "Besplodnoye Plateau",
+  "Ledyanoy Bay",
+  "Vetrenyye Plains",
+  "Zverolova Hill"
+ ],
+ "notes": "Steam page shows a removal notice but content was readable. No region column; regions inferred from name prefix for outposts/lookouts; POIs and landmarks null. 'P'yanaya Taiga Northern Outpost' appears twice with different coordinates (-11577,-6323 and -8596,-7202), both kept. Landmark names copied as written incl. typos ('Huniting', 'Paradize'). Counts match stated totals; shooting ranges 0. Units/origin not stated; all coordinates negative."
+}

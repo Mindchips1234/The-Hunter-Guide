@@ -1,0 +1,277 @@
+{
+ "slug": "torr",
+ "reserve": "Tòrr nan Sìthean",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3730596162",
+ "title": "Tòrr Nan Sìthean Hunting Estate: All Secret Locations",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 17,
+  "lookouts": 8,
+  "pois": null,
+  "landmarks": 12
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Janey's Rest",
+   "region": null,
+   "x": 5580,
+   "y": -4347
+  },
+  {
+   "type": "outpost",
+   "name": "Sausage Supper",
+   "region": null,
+   "x": 8782,
+   "y": -4493
+  },
+  {
+   "type": "outpost",
+   "name": "Ceann Loch Reamhar",
+   "region": null,
+   "x": 12077,
+   "y": -5277
+  },
+  {
+   "type": "outpost",
+   "name": "Caisteal an Eilein",
+   "region": null,
+   "x": 6543,
+   "y": -5669
+  },
+  {
+   "type": "outpost",
+   "name": "Cù-sìth Cleft",
+   "region": null,
+   "x": 8961,
+   "y": -6822
+  },
+  {
+   "type": "outpost",
+   "name": "Sròn na Cluarain",
+   "region": null,
+   "x": 6563,
+   "y": -7053
+  },
+  {
+   "type": "outpost",
+   "name": "Port Whisky",
+   "region": null,
+   "x": 4258,
+   "y": -7103
+  },
+  {
+   "type": "outpost",
+   "name": "Milk Saucer",
+   "region": null,
+   "x": 11012,
+   "y": -7280
+  },
+  {
+   "type": "outpost",
+   "name": "Cuairt Ùraisg",
+   "region": null,
+   "x": 5966,
+   "y": -8461
+  },
+  {
+   "type": "outpost",
+   "name": "Achadh Mòr",
+   "region": null,
+   "x": 4729,
+   "y": -8954
+  },
+  {
+   "type": "outpost",
+   "name": "Ceum Àrd",
+   "region": null,
+   "x": 10721,
+   "y": -9144
+  },
+  {
+   "type": "outpost",
+   "name": "Vinnie's Smile",
+   "region": null,
+   "x": 8606,
+   "y": -9401
+  },
+  {
+   "type": "outpost",
+   "name": "McLachlan Edge",
+   "region": null,
+   "x": 7198,
+   "y": -9850
+  },
+  {
+   "type": "outpost",
+   "name": "JB Corrie",
+   "region": null,
+   "x": 5184,
+   "y": -10050
+  },
+  {
+   "type": "outpost",
+   "name": "An Coire",
+   "region": null,
+   "x": 12065,
+   "y": -10843
+  },
+  {
+   "type": "outpost",
+   "name": "Graham Hill",
+   "region": null,
+   "x": 5680,
+   "y": -11765
+  },
+  {
+   "type": "outpost",
+   "name": "Gleann Cunnairt",
+   "region": null,
+   "x": 8904,
+   "y": -11986
+  },
+  {
+   "type": "lookout",
+   "name": "Sausage Roll",
+   "region": null,
+   "x": 10780,
+   "y": -4679
+  },
+  {
+   "type": "lookout",
+   "name": "Kipper's Fin",
+   "region": null,
+   "x": 6886,
+   "y": -5238
+  },
+  {
+   "type": "lookout",
+   "name": "Crow Crown",
+   "region": null,
+   "x": 7979,
+   "y": -8074
+  },
+  {
+   "type": "lookout",
+   "name": "Puffin Point",
+   "region": null,
+   "x": 5102,
+   "y": -8158
+  },
+  {
+   "type": "lookout",
+   "name": "Monarch's Peak",
+   "region": null,
+   "x": 11195,
+   "y": -8708
+  },
+  {
+   "type": "lookout",
+   "name": "Grundy Point",
+   "region": null,
+   "x": 8287,
+   "y": -10250
+  },
+  {
+   "type": "lookout",
+   "name": "Journey's End",
+   "region": null,
+   "x": 5029,
+   "y": -11166
+  },
+  {
+   "type": "lookout",
+   "name": "Mt. Bawbag",
+   "region": null,
+   "x": 11321,
+   "y": -11684
+  },
+  {
+   "type": "landmark",
+   "name": "Whispering Stone",
+   "region": null,
+   "x": 9914,
+   "y": -4409
+  },
+  {
+   "type": "landmark",
+   "name": "Future Heritage Forest",
+   "region": null,
+   "x": 8815,
+   "y": -4952
+  },
+  {
+   "type": "landmark",
+   "name": "Guthrie's Isle",
+   "region": null,
+   "x": 5715,
+   "y": -5565
+  },
+  {
+   "type": "landmark",
+   "name": "Caisteal an Eilein",
+   "region": null,
+   "x": 6521,
+   "y": -5648
+  },
+  {
+   "type": "landmark",
+   "name": "Loch Fada",
+   "region": null,
+   "x": 11057,
+   "y": -6350
+  },
+  {
+   "type": "landmark",
+   "name": "Port Whisky",
+   "region": null,
+   "x": 4178,
+   "y": -7101
+  },
+  {
+   "type": "landmark",
+   "name": "Monadh Ruadh",
+   "region": null,
+   "x": 8646,
+   "y": -8081
+  },
+  {
+   "type": "landmark",
+   "name": "Standing Stones",
+   "region": null,
+   "x": 9879,
+   "y": -9168
+  },
+  {
+   "type": "landmark",
+   "name": "Piper's Pit",
+   "region": null,
+   "x": 7135,
+   "y": -10069
+  },
+  {
+   "type": "landmark",
+   "name": "Roan's Rest",
+   "region": null,
+   "x": 6643,
+   "y": -10126
+  },
+  {
+   "type": "landmark",
+   "name": "Uamh Mhòr",
+   "region": null,
+   "x": 4135,
+   "y": -10276
+  },
+  {
+   "type": "landmark",
+   "name": "An Coille Dhorcha",
+   "region": null,
+   "x": 5954,
+   "y": -11276
+  }
+ ],
+ "regions": [],
+ "notes": "Fetched with ?l=german (English URL errored). Page shows a removal notice. Guide states 25 hunting structures without coordinates."
+}

@@ -1,0 +1,291 @@
+{
+ "slug": "revontuli",
+ "reserve": "Revontuli Coast",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3120677176",
+ "title": "Revontuli Coast: All Secret Locations.",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 19,
+  "lookouts": 13,
+  "pois": 0,
+  "landmarks": 7
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Lintukoto Talo",
+   "region": null,
+   "x": -5871,
+   "y": 12544
+  },
+  {
+   "type": "outpost",
+   "name": "Vellamon Talo",
+   "region": null,
+   "x": -7810,
+   "y": 12369
+  },
+  {
+   "type": "outpost",
+   "name": "Mielikin Talo",
+   "region": null,
+   "x": -8610,
+   "y": 11446
+  },
+  {
+   "type": "outpost",
+   "name": "Nokelaisen Talo",
+   "region": null,
+   "x": -5800,
+   "y": 11268
+  },
+  {
+   "type": "outpost",
+   "name": "Honkasen Talo",
+   "region": null,
+   "x": -10530,
+   "y": 11212
+  },
+  {
+   "type": "outpost",
+   "name": "Nyyrikin Talo",
+   "region": null,
+   "x": -4396,
+   "y": 10335
+  },
+  {
+   "type": "outpost",
+   "name": "Koivu Laavu",
+   "region": null,
+   "x": -6244,
+   "y": 9742
+  },
+  {
+   "type": "outpost",
+   "name": "Graniitti Laavu",
+   "region": null,
+   "x": -9217,
+   "y": 9697
+  },
+  {
+   "type": "outpost",
+   "name": "Joutsen Laavu",
+   "region": null,
+   "x": -5073,
+   "y": 8975
+  },
+  {
+   "type": "outpost",
+   "name": "Revontuli Leiri",
+   "region": null,
+   "x": -7373,
+   "y": 8897
+  },
+  {
+   "type": "outpost",
+   "name": "Kielo Laavu",
+   "region": null,
+   "x": -10906,
+   "y": 8444
+  },
+  {
+   "type": "outpost",
+   "name": "Ahven Laavu",
+   "region": null,
+   "x": -5569,
+   "y": 7742
+  },
+  {
+   "type": "outpost",
+   "name": "Karhu Laavu",
+   "region": null,
+   "x": -7726,
+   "y": 7664
+  },
+  {
+   "type": "outpost",
+   "name": "Rauhala Mökki",
+   "region": null,
+   "x": -10292,
+   "y": 7392
+  },
+  {
+   "type": "outpost",
+   "name": "Teikäläisen Mökki",
+   "region": null,
+   "x": -6875,
+   "y": 6780
+  },
+  {
+   "type": "outpost",
+   "name": "Onnela Mökki",
+   "region": null,
+   "x": -4841,
+   "y": 5913
+  },
+  {
+   "type": "outpost",
+   "name": "Niinukan Mökki",
+   "region": null,
+   "x": -10333,
+   "y": 5663
+  },
+  {
+   "type": "outpost",
+   "name": "Meikäläisen Mökki",
+   "region": null,
+   "x": -8653,
+   "y": 5595
+  },
+  {
+   "type": "outpost",
+   "name": "Tontun Mökki",
+   "region": null,
+   "x": -6431,
+   "y": 5306
+  },
+  {
+   "type": "lookout",
+   "name": "Lounastorni",
+   "region": null,
+   "x": -10652,
+   "y": 12104
+  },
+  {
+   "type": "lookout",
+   "name": "Kaakkotorni",
+   "region": null,
+   "x": -5619,
+   "y": 11782
+  },
+  {
+   "type": "lookout",
+   "name": "Etelätorni",
+   "region": null,
+   "x": -7970,
+   "y": 11609
+  },
+  {
+   "type": "lookout",
+   "name": "Järventorni",
+   "region": null,
+   "x": -9333,
+   "y": 10236
+  },
+  {
+   "type": "lookout",
+   "name": "Itätorni",
+   "region": null,
+   "x": -4438,
+   "y": 9807
+  },
+  {
+   "type": "lookout",
+   "name": "Keskitorni",
+   "region": null,
+   "x": -7739,
+   "y": 9321
+  },
+  {
+   "type": "lookout",
+   "name": "Länsitorni",
+   "region": null,
+   "x": -11129,
+   "y": 8794
+  },
+  {
+   "type": "lookout",
+   "name": "Jäätorni",
+   "region": null,
+   "x": -5387,
+   "y": 7944
+  },
+  {
+   "type": "lookout",
+   "name": "Tähtitorni",
+   "region": null,
+   "x": -7053,
+   "y": 7913
+  },
+  {
+   "type": "lookout",
+   "name": "Luodetorni",
+   "region": null,
+   "x": -10131,
+   "y": 7907
+  },
+  {
+   "type": "lookout",
+   "name": "Huipputorni",
+   "region": null,
+   "x": -10311,
+   "y": 6091
+  },
+  {
+   "type": "lookout",
+   "name": "Koillistorni",
+   "region": null,
+   "x": -6392,
+   "y": 5911
+  },
+  {
+   "type": "lookout",
+   "name": "Pohjoistorni",
+   "region": null,
+   "x": -8043,
+   "y": 5706
+  },
+  {
+   "type": "landmark",
+   "name": "Cod-Fin Strait",
+   "region": null,
+   "x": -5622,
+   "y": 12462
+  },
+  {
+   "type": "landmark",
+   "name": "The Monument",
+   "region": null,
+   "x": -8919,
+   "y": 11089
+  },
+  {
+   "type": "landmark",
+   "name": "Troll's Crack",
+   "region": null,
+   "x": -11001,
+   "y": 8837
+  },
+  {
+   "type": "landmark",
+   "name": "The Routakivi",
+   "region": null,
+   "x": -5332,
+   "y": 7942
+  },
+  {
+   "type": "landmark",
+   "name": "Troll's Kettle",
+   "region": null,
+   "x": -10257,
+   "y": 7043
+  },
+  {
+   "type": "landmark",
+   "name": "The Taika Rock",
+   "region": null,
+   "x": -7297,
+   "y": 6727
+  },
+  {
+   "type": "landmark",
+   "name": "The Abandoned Bunkers",
+   "region": null,
+   "x": -6959,
+   "y": 5412
+  }
+ ],
+ "regions": [],
+ "notes": "Guide names no regions. Tables have columns N, X, Y, Name; no units/origin stated. Guide states 24 hunting structures (image only, no coordinates, not included). Steam shows a removal notice (violates Community guidelines / incompatible) but content was readable. Counts match stated totals. Outposts include all lodge/camp-type entries in the Outposts table."
+}

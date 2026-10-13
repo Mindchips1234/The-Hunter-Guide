@@ -1,4 +1,4 @@
-# The Hunter Guide 0.5
+# The Hunter Guide 0.6
 
 A fan-made, offline-ready field guide for *theHunter: Call of the Wild*, made by Vanderholst Studios. It covers all 19 reserves (up to Intisuyu, June 2026), 128 species with their classes, trophy scores, fur types and need zones, the 14 Great Ones, 74 weapons and 103 kinds of ammo, every skill and perk, and about 470 missions and the known collectibles, a real photo of almost every animal, and a log for every harvest.
 
@@ -20,12 +20,12 @@ Five tabs on phones (header buttons on larger screens):
 | Tab | What's in it |
 | --- | --- |
 | **Home** | **What's moving?** (pick a reserve and the in-game time; it lists which animals are feeding, drinking or resting right then), search every species, and the reserve list |
-| **Reserves** | Each reserve's facts, a **need zone planner** (a 24-hour bar for every animal, with a time slider), and a filterable animal list. Each species page has the **trophy score for every rating**, its need zone times, fur types by rarity, ammo rated for it, **callers and scents**, where else it lives and a **Log a harvest** button. Each reserve has its own emblem and a link to a community map |
+| **Reserves** | Each reserve's facts, a **need zone planner** (a 24-hour bar for every animal, with a time slider), and a filterable animal list. Each species page has the **trophy score for every rating**, its need zone times, fur types by rarity, ammo rated for it, **callers and scents**, where else it lives and a **Log a harvest** button. Each reserve has its own emblem and a **reserve map**: outposts, lookouts, landmarks, points of interest and collectibles at their in-game coordinates, **your own hotspots** per animal (feeding, drinking, resting), full screen, and an optional picture of your in-game map lined up underneath |
 | **Log** | Every harvest (edit or delete any of them) with trophy score, rating (worked out from the score), fur and date; Harvests, Diamonds, Great Ones and Rare furs counters; a medal for each harvest; a collection of every species with your best rating; share any harvest as a picture |
 | **Guides** | **Great Ones** (where they live, their furs, how the grind works, with a harvested tracker), **Weapons & ammo** (an ammo finder for any animal, plus every weapon and ammo type), **Skills & perks** (every skill and perk with a points planner), **Missions** and **Collectibles** (tick-off lists per reserve, with a mission search and where each collectible is) **How hunting works** (difficulty levels, trophy ratings, need zones, integrity, fur rarity) and **Credits** (every photographer and licence) |
 | **Settings** | Metric/imperial, 24-hour/12-hour clock, dark/light/match-device theme, **My DLC** (hide the reserves you don't own everywhere in the app), back up and restore your progress, replay the intro |
 
-Your log, Great Ones, missions, collectibles and skill plan are saved on the device only. Use **Settings → Save backup** before changing phones or clearing your browser.
+Your log, Great Ones, missions, collectibles, skill plan and map hotspots are saved on the device only (a map picture you add stays on the device and is not in the backup). Use **Settings → Save backup** before changing phones or clearing your browser.
 
 ## Project layout
 
@@ -39,6 +39,7 @@ Your log, Great Ones, missions, collectibles and skill plan are saved on the dev
 | `fonts/` | Barlow, Barlow Condensed and IBM Plex Mono (SIL Open Font License) |
 | `research/` | The research the data is built from, with a source for every record (see `research/SCHEMA.md`) |
 | `tools/build-data.py` | Rebuilds `data/` from `research/` |
+| `tools/build-maps.py` | Rebuilds `data/maps.json` (reserve maps) from `research/map-places/` and the collectible locations |
 | `img/reserves/` | Reserve emblems (original artwork), drawn by `tools/make-reserve-emblems.py` |
 | `tools/import-photos.py` | Copies a folder of photos (with `manifest.json`) into `img/animals/` and writes `data/photos.json` |
 | `service-worker.js` | Offline support and updates |
@@ -46,12 +47,12 @@ Your log, Great Ones, missions, collectibles and skill plan are saved on the dev
 
 ## Rebuilding the data
 
-Edit or replace the files in `research/`, then run `python3 tools/build-data.py` (Python 3, no extra packages).
+Edit or replace the files in `research/`, then run `python3 tools/build-data.py` and `python3 tools/build-maps.py` (Python 3, no extra packages).
 
 ## Known gaps in this build
 
 - **Logo:** the icon is a placeholder until the real logo is in.
-- **Pictures:** real wildlife photos, not in-game pictures. Wild Haggis (fictional) has none. No built-in reserve maps: each reserve links to Wand's community map instead (none exists yet for Salzwiesen, Askiy Ridge or Intisuyu). 5 photos are CC BY-NC, so they must be replaced if the app is ever sold.
+- **Pictures:** real wildlife photos, not in-game pictures. Wild Haggis (fictional) has none. Reserve maps are drawn by the app from place coordinates, with no terrain; add a picture of your in-game map for terrain. Intisuyu has no published coordinates yet, so its map is blank until you add a picture. Salzwiesen's map only covers its 17 known places. 5 photos are CC BY-NC, so they must be replaced if the app is ever sold.
 - **Missions:** about 470 listed. Full or nearly full for Hirschfelden, Layton Lake, Cuatro Colinas, Emerald Coast, Askiy Ridge, Intisuyu and Vurhonga (3 of its arcs). Partial for Medved-Taiga, Yukon Valley, Silver Ridge Peaks, Te Awaroa, New England, Sundarpatan and Tòrr nan Sìthean; 29 of those only have an unofficial translation of the Japanese name. None yet for Rancho del Arroyo, Mississippi Acres, Revontuli Coast or Salzwiesen. No XP or cash rewards anywhere.
 - **Collectibles:** pick-ups only exist in Hirschfelden, Layton Lake, Medved-Taiga and Vurhonga (plus Parque Fernando's challenge targets); the rest list their achievements. Salzwiesen, Askiy Ridge, Tòrr nan Sìthean and Intisuyu are unconfirmed.
 - **Trophy scores:** the bronze threshold is not published, so anything under silver is shown as bronze. Bird and crocodilian scores are on their own in-game scale (hundreds for many ducks); they were checked against the Steam trophy chart. The bighorn sheep maximum is blank because scoring changed in the Snowfall Update.
@@ -69,4 +70,4 @@ Edit or replace the files in `research/`, then run `python3 tools/build-data.py`
 
 Logo made by Serena Da Silva.
 
-Data comes from community sources, listed per record in `research/` and on each page: [CoTW Guide](https://cotwguide.com) (species, classes, trophy scores, reserves), [The Wild Register](https://thewildregister.com) (need zone times, from TacMaps by TicTactical), the [official site](https://callofthewild.thehunter.com) and its patch notes, Steam community guides, and others. Missions also come from TrueAchievements, TrueToad and the Japanese fan wiki (atwiki). Animal photos are by iNaturalist photographers, credited in the app under Guides → Credits. Community data may contain errors. This project is not affiliated with Expansive Worlds or the game's publishers.
+Data comes from community sources, listed per record in `research/` and on each page: map place coordinates from Nucta Ox's "All Secret Locations" Steam guides, [CoTW Guide](https://cotwguide.com) (species, classes, trophy scores, reserves), [The Wild Register](https://thewildregister.com) (need zone times, from TacMaps by TicTactical), the [official site](https://callofthewild.thehunter.com) and its patch notes, Steam community guides, and others. Missions also come from TrueAchievements, TrueToad and the Japanese fan wiki (atwiki). Animal photos are by iNaturalist photographers, credited in the app under Guides → Credits. Community data may contain errors. This project is not affiliated with Expansive Worlds or the game's publishers.

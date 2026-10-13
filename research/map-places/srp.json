@@ -1,0 +1,382 @@
+{
+ "slug": "srp",
+ "reserve": "Silver Ridge Peaks",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2926328388",
+ "title": "Silver Ridge Peaks: All Secret Locations.",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 21,
+  "lookouts": 10,
+  "pois": null,
+  "landmarks": 21
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Pronghorn Outpost",
+   "region": null,
+   "x": -1108,
+   "y": -5618
+  },
+  {
+   "type": "outpost",
+   "name": "Black Bear Outpost",
+   "region": null,
+   "x": -4106,
+   "y": -6663
+  },
+  {
+   "type": "outpost",
+   "name": "Utah Outpost",
+   "region": null,
+   "x": -8272,
+   "y": -7010
+  },
+  {
+   "type": "outpost",
+   "name": "Chipeta Outpost",
+   "region": null,
+   "x": -2186,
+   "y": -7137
+  },
+  {
+   "type": "outpost",
+   "name": "Mule Deer Outpost",
+   "region": null,
+   "x": -6393,
+   "y": -7387
+  },
+  {
+   "type": "outpost",
+   "name": "Plains Bison Outpost",
+   "region": null,
+   "x": -1090,
+   "y": -7479
+  },
+  {
+   "type": "outpost",
+   "name": "Colorado Outpost",
+   "region": null,
+   "x": -6028,
+   "y": -8395
+  },
+  {
+   "type": "outpost",
+   "name": "Wild Turkey Outpost",
+   "region": null,
+   "x": -649,
+   "y": -8552
+  },
+  {
+   "type": "outpost",
+   "name": "San Juan Outpost",
+   "region": null,
+   "x": -7839,
+   "y": -8867
+  },
+  {
+   "type": "outpost",
+   "name": "Silver Outpost",
+   "region": null,
+   "x": -4541,
+   "y": -8897
+  },
+  {
+   "type": "outpost",
+   "name": "Rocky Mountain Elk Outpost",
+   "region": null,
+   "x": -1872,
+   "y": -9283
+  },
+  {
+   "type": "outpost",
+   "name": "Ouray Outpost",
+   "region": null,
+   "x": -3723,
+   "y": -9612
+  },
+  {
+   "type": "outpost",
+   "name": "Uncompahgre Outpost",
+   "region": null,
+   "x": -6075,
+   "y": -10004
+  },
+  {
+   "type": "outpost",
+   "name": "Climber Outpost",
+   "region": null,
+   "x": -7345,
+   "y": -10419
+  },
+  {
+   "type": "outpost",
+   "name": "Hunter Outpost",
+   "region": null,
+   "x": -3631,
+   "y": -10757
+  },
+  {
+   "type": "outpost",
+   "name": "Tabeguache Outpost",
+   "region": null,
+   "x": -1355,
+   "y": -11301
+  },
+  {
+   "type": "outpost",
+   "name": "Uintah Outpost",
+   "region": null,
+   "x": -5174,
+   "y": -11332
+  },
+  {
+   "type": "outpost",
+   "name": "Sneffels Outpost",
+   "region": null,
+   "x": -7977,
+   "y": -11333
+  },
+  {
+   "type": "outpost",
+   "name": "Mountain Lion Outpost",
+   "region": null,
+   "x": -6843,
+   "y": -12491
+  },
+  {
+   "type": "outpost",
+   "name": "Mountain Goat Outpost",
+   "region": null,
+   "x": -2999,
+   "y": -12758
+  },
+  {
+   "type": "outpost",
+   "name": "Bighorn Sheep Outpost",
+   "region": null,
+   "x": -5848,
+   "y": -13089
+  },
+  {
+   "type": "lookout",
+   "name": "Post One",
+   "region": null,
+   "x": -6672,
+   "y": -13080
+  },
+  {
+   "type": "lookout",
+   "name": "Post Two",
+   "region": null,
+   "x": -1966,
+   "y": -10626
+  },
+  {
+   "type": "lookout",
+   "name": "Post Three",
+   "region": null,
+   "x": -3730,
+   "y": -11645
+  },
+  {
+   "type": "lookout",
+   "name": "Post Four",
+   "region": null,
+   "x": -5942,
+   "y": -10267
+  },
+  {
+   "type": "lookout",
+   "name": "Post Five",
+   "region": null,
+   "x": -8310,
+   "y": -9561
+  },
+  {
+   "type": "lookout",
+   "name": "Post Six",
+   "region": null,
+   "x": -448,
+   "y": -7695
+  },
+  {
+   "type": "lookout",
+   "name": "Post Seven",
+   "region": null,
+   "x": -2717,
+   "y": -6525
+  },
+  {
+   "type": "lookout",
+   "name": "Post Eight",
+   "region": null,
+   "x": -3632,
+   "y": -9032
+  },
+  {
+   "type": "lookout",
+   "name": "Post Nine",
+   "region": null,
+   "x": -6501,
+   "y": -7942
+  },
+  {
+   "type": "lookout",
+   "name": "Post Ten",
+   "region": null,
+   "x": -8223,
+   "y": -6687
+  },
+  {
+   "type": "landmark",
+   "name": "The Wilde West",
+   "region": null,
+   "x": -2302,
+   "y": -6268
+  },
+  {
+   "type": "landmark",
+   "name": "Haunted by History",
+   "region": null,
+   "x": -9019,
+   "y": -6901
+  },
+  {
+   "type": "landmark",
+   "name": "Colorado's Last Grizzly",
+   "region": null,
+   "x": -5142,
+   "y": -6984
+  },
+  {
+   "type": "landmark",
+   "name": "Take a Hike",
+   "region": null,
+   "x": -6787,
+   "y": -7191
+  },
+  {
+   "type": "landmark",
+   "name": "Traces of History",
+   "region": null,
+   "x": -1440,
+   "y": -7727
+  },
+  {
+   "type": "landmark",
+   "name": "The Water's Perfect",
+   "region": null,
+   "x": -4123,
+   "y": -8112
+  },
+  {
+   "type": "landmark",
+   "name": "Prosperity Pass",
+   "region": null,
+   "x": -7079,
+   "y": -8137
+  },
+  {
+   "type": "landmark",
+   "name": "A Painful Legacy",
+   "region": null,
+   "x": -2575,
+   "y": -8192
+  },
+  {
+   "type": "landmark",
+   "name": "The Bear Dance",
+   "region": null,
+   "x": -583,
+   "y": -8961
+  },
+  {
+   "type": "landmark",
+   "name": "Go Wild Outside",
+   "region": null,
+   "x": -4307,
+   "y": -9088
+  },
+  {
+   "type": "landmark",
+   "name": "A Mammoth Discovery",
+   "region": null,
+   "x": -7886,
+   "y": -9178
+  },
+  {
+   "type": "landmark",
+   "name": "The Ute People",
+   "region": null,
+   "x": -5759,
+   "y": -9517
+  },
+  {
+   "type": "landmark",
+   "name": "Miner Threat",
+   "region": null,
+   "x": -3931,
+   "y": -9650
+  },
+  {
+   "type": "landmark",
+   "name": "Pitchblende Pit",
+   "region": null,
+   "x": -3356,
+   "y": -10006
+  },
+  {
+   "type": "landmark",
+   "name": "Frontier Service",
+   "region": null,
+   "x": -978,
+   "y": -10432
+  },
+  {
+   "type": "landmark",
+   "name": "Ticker Lake",
+   "region": null,
+   "x": -3230,
+   "y": -10508
+  },
+  {
+   "type": "landmark",
+   "name": "Frozen in Time",
+   "region": null,
+   "x": -1356,
+   "y": -10521
+  },
+  {
+   "type": "landmark",
+   "name": "Balanced Rock",
+   "region": null,
+   "x": -4702,
+   "y": -10864
+  },
+  {
+   "type": "landmark",
+   "name": "Burnt into Memory",
+   "region": null,
+   "x": -4639,
+   "y": -11339
+  },
+  {
+   "type": "landmark",
+   "name": "Wandering Fathers",
+   "region": null,
+   "x": -6234,
+   "y": -12123
+  },
+  {
+   "type": "landmark",
+   "name": "Shot on Sight",
+   "region": null,
+   "x": -6913,
+   "y": -12188
+  }
+ ],
+ "regions": [],
+ "notes": "Guide page carries a Steam removal notice (violates Community guidelines / incompatible with game) but content was retrievable. Guide names no regions. Coordinates are 'N, X, Y' table columns; axes/units not defined. Stated totals also include Shooting Ranges 0, Antler Sheds 0, Artifacts 0. Stated POIs: 0. Stated 35 hunting structures (not extracted)."
+}

@@ -1,0 +1,354 @@
+{
+ "slug": "rancho",
+ "reserve": "Rancho del Arroyo",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3014029864",
+ "title": "Rancho del Arroyo: All Secret Locations.",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 21,
+  "lookouts": 11,
+  "pois": 0,
+  "landmarks": 16
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Casa de los Reyes",
+   "region": null,
+   "x": -5543,
+   "y": 12296
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Velásquez",
+   "region": null,
+   "x": -9806,
+   "y": 11884
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Torres",
+   "region": null,
+   "x": -7588,
+   "y": 11883
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los González",
+   "region": null,
+   "x": -4269,
+   "y": 11018
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Juárez",
+   "region": null,
+   "x": -9913,
+   "y": 10821
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Ortega",
+   "region": null,
+   "x": -10900,
+   "y": 10462
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Zárate",
+   "region": null,
+   "x": -9207,
+   "y": 10057
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Valenzuela",
+   "region": null,
+   "x": -7171,
+   "y": 9839
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Vasquez",
+   "region": null,
+   "x": -10204,
+   "y": 9254
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Castro",
+   "region": null,
+   "x": -8025,
+   "y": 9142
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Flores",
+   "region": null,
+   "x": -10938,
+   "y": 9117
+  },
+  {
+   "type": "outpost",
+   "name": "La Casa Grande",
+   "region": null,
+   "x": -8777,
+   "y": 8336
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los López",
+   "region": null,
+   "x": -10341,
+   "y": 7986
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Moreno",
+   "region": null,
+   "x": -7046,
+   "y": 7847
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Gutiérrez",
+   "region": null,
+   "x": -9858,
+   "y": 7232
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Domínguez",
+   "region": null,
+   "x": -8781,
+   "y": 6783
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los García",
+   "region": null,
+   "x": -11422,
+   "y": 6705
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Gil",
+   "region": null,
+   "x": -7610,
+   "y": 6352
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Ruiz",
+   "region": null,
+   "x": -8885,
+   "y": 5961
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Martínez",
+   "region": null,
+   "x": -11396,
+   "y": 5035
+  },
+  {
+   "type": "outpost",
+   "name": "Casa de los Pérez",
+   "region": null,
+   "x": -9712,
+   "y": 4847
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador del Paso",
+   "region": null,
+   "x": -5410,
+   "y": 12019
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador Eusebio Kino",
+   "region": null,
+   "x": -10738,
+   "y": 11619
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador del Río",
+   "region": null,
+   "x": -8281,
+   "y": 11205
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador de los Charcos",
+   "region": null,
+   "x": -6113,
+   "y": 9550
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador del Sahuaro",
+   "region": null,
+   "x": -10080,
+   "y": 9091
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador del Aguaje",
+   "region": null,
+   "x": -7864,
+   "y": 8707
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador del Seco",
+   "region": null,
+   "x": -11524,
+   "y": 7500
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador Bajavista",
+   "region": null,
+   "x": -9201,
+   "y": 7077
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador Alto",
+   "region": null,
+   "x": -6487,
+   "y": 6950
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador de los Mártires",
+   "region": null,
+   "x": -10202,
+   "y": 5319
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador de la Laguna",
+   "region": null,
+   "x": -7761,
+   "y": 5189
+  },
+  {
+   "type": "landmark",
+   "name": "Miracle Workers",
+   "region": null,
+   "x": -11217,
+   "y": 12082
+  },
+  {
+   "type": "landmark",
+   "name": "The Secret of Sonora",
+   "region": null,
+   "x": -5085,
+   "y": 11813
+  },
+  {
+   "type": "landmark",
+   "name": "Conservation in the Borderlands",
+   "region": null,
+   "x": -7174,
+   "y": 11770
+  },
+  {
+   "type": "landmark",
+   "name": "Working Women",
+   "region": null,
+   "x": -10231,
+   "y": 10718
+  },
+  {
+   "type": "landmark",
+   "name": "Extracting Justice",
+   "region": null,
+   "x": -10377,
+   "y": 10564
+  },
+  {
+   "type": "landmark",
+   "name": "El Centauro del Norte",
+   "region": null,
+   "x": -6941,
+   "y": 10396
+  },
+  {
+   "type": "landmark",
+   "name": "Unfinished Business",
+   "region": null,
+   "x": -8795,
+   "y": 10194
+  },
+  {
+   "type": "landmark",
+   "name": "Immigrant Songs",
+   "region": null,
+   "x": -4938,
+   "y": 9796
+  },
+  {
+   "type": "landmark",
+   "name": "Macabra",
+   "region": null,
+   "x": -11007,
+   "y": 9351
+  },
+  {
+   "type": "landmark",
+   "name": "Indigenous Peoples of Sonora",
+   "region": null,
+   "x": -9556,
+   "y": 9335
+  },
+  {
+   "type": "landmark",
+   "name": "Día de Muertos",
+   "region": null,
+   "x": -7474,
+   "y": 9178
+  },
+  {
+   "type": "landmark",
+   "name": "Hotspot",
+   "region": null,
+   "x": -10203,
+   "y": 8700
+  },
+  {
+   "type": "landmark",
+   "name": "Animal Magic",
+   "region": null,
+   "x": -9599,
+   "y": 8552
+  },
+  {
+   "type": "landmark",
+   "name": "A Hard Living",
+   "region": null,
+   "x": -8831,
+   "y": 7556
+  },
+  {
+   "type": "landmark",
+   "name": "A Violent Start",
+   "region": null,
+   "x": -10610,
+   "y": 6881
+  },
+  {
+   "type": "landmark",
+   "name": "Beggar Thy Neighbor",
+   "region": null,
+   "x": -4411,
+   "y": 6507
+  }
+ ],
+ "regions": [],
+ "notes": "Guide names no regions. Tables have columns N, X, Y, Name; no units/origin stated. Guide states 24 hunting structures (image only, no coordinates, not included). Steam shows a removal notice (violates Community guidelines / incompatible) but content was readable. Counts match stated totals. Outposts include all lodge/camp-type entries in the Outposts table."
+}

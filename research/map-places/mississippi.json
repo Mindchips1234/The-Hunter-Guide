@@ -1,0 +1,340 @@
+{
+ "slug": "mississippi",
+ "reserve": "Mississippi Acres Preserve",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3071079443",
+ "title": "Mississippi Acres Preserve: All Secret Locations.",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 21,
+  "lookouts": 11,
+  "pois": 0,
+  "landmarks": 14
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Great River Lodge",
+   "region": null,
+   "x": 6569,
+   "y": 11568
+  },
+  {
+   "type": "outpost",
+   "name": "Travelers' Bunks South",
+   "region": null,
+   "x": 7864,
+   "y": 11134
+  },
+  {
+   "type": "outpost",
+   "name": "Pilgrim's Point Lodge",
+   "region": null,
+   "x": 9653,
+   "y": 10807
+  },
+  {
+   "type": "outpost",
+   "name": "Jonesville South Mobile Home",
+   "region": null,
+   "x": 7011,
+   "y": 10260
+  },
+  {
+   "type": "outpost",
+   "name": "Travelers' Bunks Central",
+   "region": null,
+   "x": 8573,
+   "y": 9695
+  },
+  {
+   "type": "outpost",
+   "name": "Jonesville Lodge",
+   "region": null,
+   "x": 6281,
+   "y": 9543
+  },
+  {
+   "type": "outpost",
+   "name": "Tupelo Flats Mobile Home",
+   "region": null,
+   "x": 7749,
+   "y": 9350
+  },
+  {
+   "type": "outpost",
+   "name": "Old Lumberyard Mobile Home",
+   "region": null,
+   "x": 5144,
+   "y": 9160
+  },
+  {
+   "type": "outpost",
+   "name": "Foothills Lodge",
+   "region": null,
+   "x": 9307,
+   "y": 9143
+  },
+  {
+   "type": "outpost",
+   "name": "Whitfield Mobile Home",
+   "region": null,
+   "x": 8391,
+   "y": 8643
+  },
+  {
+   "type": "outpost",
+   "name": "Horseshoe Bend Mobile Home",
+   "region": null,
+   "x": 6823,
+   "y": 8412
+  },
+  {
+   "type": "outpost",
+   "name": "Bingham Bayou Lodge",
+   "region": null,
+   "x": 8494,
+   "y": 8184
+  },
+  {
+   "type": "outpost",
+   "name": "McCullogh Farms Mobile Home",
+   "region": null,
+   "x": 5038,
+   "y": 7634
+  },
+  {
+   "type": "outpost",
+   "name": "Bingham Farms Mobile Home",
+   "region": null,
+   "x": 8047,
+   "y": 7199
+  },
+  {
+   "type": "outpost",
+   "name": "Travelers' Bunks East",
+   "region": null,
+   "x": 9907,
+   "y": 7074
+  },
+  {
+   "type": "outpost",
+   "name": "Ponola East Mobile Home",
+   "region": null,
+   "x": 8595,
+   "y": 6229
+  },
+  {
+   "type": "outpost",
+   "name": "Ponola West Mobile Home",
+   "region": null,
+   "x": 7271,
+   "y": 6097
+  },
+  {
+   "type": "outpost",
+   "name": "Devil's Fork Mobile Home",
+   "region": null,
+   "x": 5438,
+   "y": 6004
+  },
+  {
+   "type": "outpost",
+   "name": "Travelers' Bunks North",
+   "region": null,
+   "x": 8066,
+   "y": 5524
+  },
+  {
+   "type": "outpost",
+   "name": "Travelers' Bunks Northeast",
+   "region": null,
+   "x": 10011,
+   "y": 5395
+  },
+  {
+   "type": "outpost",
+   "name": "Murky Pier Lodge",
+   "region": null,
+   "x": 6299,
+   "y": 4612
+  },
+  {
+   "type": "lookout",
+   "name": "Rice Tower",
+   "region": null,
+   "x": 7135,
+   "y": 11455
+  },
+  {
+   "type": "lookout",
+   "name": "Loblolly Tower",
+   "region": null,
+   "x": 9950,
+   "y": 10835
+  },
+  {
+   "type": "lookout",
+   "name": "Yarrow Tower",
+   "region": null,
+   "x": 6131,
+   "y": 10154
+  },
+  {
+   "type": "lookout",
+   "name": "Tupelo Tower",
+   "region": null,
+   "x": 8170,
+   "y": 10003
+  },
+  {
+   "type": "lookout",
+   "name": "Hickory Tower",
+   "region": null,
+   "x": 9839,
+   "y": 8640
+  },
+  {
+   "type": "lookout",
+   "name": "Chestnut Oak Tower",
+   "region": null,
+   "x": 7525,
+   "y": 8544
+  },
+  {
+   "type": "lookout",
+   "name": "Daisy Tower",
+   "region": null,
+   "x": 8062,
+   "y": 7915
+  },
+  {
+   "type": "lookout",
+   "name": "Corn Tower",
+   "region": null,
+   "x": 5341,
+   "y": 7578
+  },
+  {
+   "type": "lookout",
+   "name": "Cypress Tower",
+   "region": null,
+   "x": 10109,
+   "y": 6045
+  },
+  {
+   "type": "lookout",
+   "name": "Magnolia Tower",
+   "region": null,
+   "x": 6352,
+   "y": 5952
+  },
+  {
+   "type": "lookout",
+   "name": "Sweetgum Tower",
+   "region": null,
+   "x": 7934,
+   "y": 5051
+  },
+  {
+   "type": "landmark",
+   "name": "Head for the Hills",
+   "region": null,
+   "x": 10167,
+   "y": 12043
+  },
+  {
+   "type": "landmark",
+   "name": "Barely Afloat",
+   "region": null,
+   "x": 7031,
+   "y": 12029
+  },
+  {
+   "type": "landmark",
+   "name": "Grub's Up",
+   "region": null,
+   "x": 6257,
+   "y": 11254
+  },
+  {
+   "type": "landmark",
+   "name": "See Ya Later, Alligator",
+   "region": null,
+   "x": 7696,
+   "y": 10920
+  },
+  {
+   "type": "landmark",
+   "name": "Bump in the Night",
+   "region": null,
+   "x": 9579,
+   "y": 9535
+  },
+  {
+   "type": "landmark",
+   "name": "The Original Mississippians",
+   "region": null,
+   "x": 7220,
+   "y": 9270
+  },
+  {
+   "type": "landmark",
+   "name": "Game for Anything",
+   "region": null,
+   "x": 7778,
+   "y": 8919
+  },
+  {
+   "type": "landmark",
+   "name": "Fannie Lou Hamer",
+   "region": null,
+   "x": 5400,
+   "y": 8831
+  },
+  {
+   "type": "landmark",
+   "name": "Oxbow Soup",
+   "region": null,
+   "x": 10183,
+   "y": 7972
+  },
+  {
+   "type": "landmark",
+   "name": "The Road to Freedom",
+   "region": null,
+   "x": 4853,
+   "y": 7819
+  },
+  {
+   "type": "landmark",
+   "name": "Miss Fannye",
+   "region": null,
+   "x": 7903,
+   "y": 7641
+  },
+  {
+   "type": "landmark",
+   "name": "Reap What You Sow",
+   "region": null,
+   "x": 8334,
+   "y": 7520
+  },
+  {
+   "type": "landmark",
+   "name": "Holt Collier",
+   "region": null,
+   "x": 11028,
+   "y": 6294
+  },
+  {
+   "type": "landmark",
+   "name": "The Delta Blues",
+   "region": null,
+   "x": 6981,
+   "y": 5340
+  }
+ ],
+ "regions": [],
+ "notes": "Guide names no regions. Tables have columns N, X, Y, Name; no units/origin stated. Guide states 26 hunting structures (image only, no coordinates, not included). Steam shows a removal notice (violates Community guidelines / incompatible) but content was readable. Counts match stated totals. Outposts include all lodge/camp-type entries in the Outposts table."
+}

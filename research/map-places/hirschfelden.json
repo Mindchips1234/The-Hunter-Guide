@@ -1,0 +1,673 @@
+{
+ "slug": "hirschfelden",
+ "reserve": "Hirschfelden Hunting Reserve",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2654807405",
+ "title": "Hirschfelden Hunting Reserve: Artifacts, Collectibles and All Secret Locations.",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 17,
+  "lookouts": 18,
+  "pois": 39,
+  "landmarks": 17
+ },
+ "places": [
+  {
+   "type": "range",
+   "name": "Rathenfeldt Schießstand (Shooting Range)",
+   "region": "Rathenfeldt",
+   "x": -3818,
+   "y": 12658
+  },
+  {
+   "type": "outpost",
+   "name": "Schonfeldt Western Outpost",
+   "region": "Schonfeldt",
+   "x": -8011,
+   "y": 13125
+  },
+  {
+   "type": "outpost",
+   "name": "Schonfeldt Eastern Outpost",
+   "region": "Schonfeldt",
+   "x": -6907,
+   "y": 12948
+  },
+  {
+   "type": "outpost",
+   "name": "Rathenfeldt Outpost",
+   "region": "Rathenfeldt",
+   "x": -4637,
+   "y": 12596
+  },
+  {
+   "type": "outpost",
+   "name": "Tichenau Outpost",
+   "region": "Tichenau",
+   "x": -10085,
+   "y": 12570
+  },
+  {
+   "type": "outpost",
+   "name": "Schonfeldt Outpost",
+   "region": "Schonfeldt",
+   "x": -8022,
+   "y": 11484
+  },
+  {
+   "type": "outpost",
+   "name": "Ernsdorf Outpost",
+   "region": "Ernsdorf",
+   "x": -9737,
+   "y": 11305
+  },
+  {
+   "type": "outpost",
+   "name": "Rathenfeldt Northern Outpost",
+   "region": "Rathenfeldt",
+   "x": -5833,
+   "y": 11167
+  },
+  {
+   "type": "outpost",
+   "name": "Hirschdorf River Outpost",
+   "region": null,
+   "x": -4463,
+   "y": 10971
+  },
+  {
+   "type": "outpost",
+   "name": "Spreeberg Western Outpost",
+   "region": "Spreeberg",
+   "x": -8898,
+   "y": 9499
+  },
+  {
+   "type": "outpost",
+   "name": "Spreeberg Outpost",
+   "region": "Spreeberg",
+   "x": -7197,
+   "y": 9449
+  },
+  {
+   "type": "outpost",
+   "name": "Petershain Outpost",
+   "region": "Petershain",
+   "x": -5153,
+   "y": 9052
+  },
+  {
+   "type": "outpost",
+   "name": "Jonsdorf Outpost",
+   "region": "Jonsdorf",
+   "x": -9834,
+   "y": 8241
+  },
+  {
+   "type": "outpost",
+   "name": "Ritterstein Outpost",
+   "region": "Ritterstein",
+   "x": -7286,
+   "y": 7335
+  },
+  {
+   "type": "outpost",
+   "name": "Ritterstein Lake Outpost",
+   "region": "Ritterstein",
+   "x": -5737,
+   "y": 7266
+  },
+  {
+   "type": "outpost",
+   "name": "Bohndorf Outpost",
+   "region": "Bohndorf",
+   "x": -9113,
+   "y": 6020
+  },
+  {
+   "type": "outpost",
+   "name": "Müllerwald Outpost",
+   "region": "Müllerwald",
+   "x": -5284,
+   "y": 6002
+  },
+  {
+   "type": "outpost",
+   "name": "Müllerwald Western Outpost",
+   "region": "Müllerwald",
+   "x": -6743,
+   "y": 5643
+  },
+  {
+   "type": "lookout",
+   "name": "Rathenfeldt Southern Lookout Point",
+   "region": "Rathenfeldt",
+   "x": -4611,
+   "y": 12987
+  },
+  {
+   "type": "lookout",
+   "name": "Schonfeldt Southern Lookout Point",
+   "region": "Schonfeldt",
+   "x": -6957,
+   "y": 12139
+  },
+  {
+   "type": "lookout",
+   "name": "Tichenau Lookout Point",
+   "region": "Tichenau",
+   "x": -9601,
+   "y": 12065
+  },
+  {
+   "type": "lookout",
+   "name": "Rathenfeldt Eastern Lookout Point",
+   "region": "Rathenfeldt",
+   "x": -4473,
+   "y": 11908
+  },
+  {
+   "type": "lookout",
+   "name": "Rathenfeldt Northern Lookout Point",
+   "region": "Rathenfeldt",
+   "x": -5662,
+   "y": 11435
+  },
+  {
+   "type": "lookout",
+   "name": "Ernsdorf Lookout Point",
+   "region": "Ernsdorf",
+   "x": -9453,
+   "y": 10915
+  },
+  {
+   "type": "lookout",
+   "name": "Schonfeldt Northern Lookout Point",
+   "region": "Schonfeldt",
+   "x": -7790,
+   "y": 10734
+  },
+  {
+   "type": "lookout",
+   "name": "Petershain Southern Lookout Point",
+   "region": "Petershain",
+   "x": -4341,
+   "y": 10214
+  },
+  {
+   "type": "lookout",
+   "name": "Spreeberg Eastern Lookout Point",
+   "region": "Spreeberg",
+   "x": -5974,
+   "y": 9905
+  },
+  {
+   "type": "lookout",
+   "name": "Spreeberg Western Lookout Point",
+   "region": "Spreeberg",
+   "x": -7572,
+   "y": 8760
+  },
+  {
+   "type": "lookout",
+   "name": "Petershain Eastern Lookout Point",
+   "region": "Petershain",
+   "x": -4482,
+   "y": 8499
+  },
+  {
+   "type": "lookout",
+   "name": "Petershain Northern Lookout Point",
+   "region": "Petershain",
+   "x": -5597,
+   "y": 8090
+  },
+  {
+   "type": "lookout",
+   "name": "Jonsdorf Western Lookout Point",
+   "region": "Jonsdorf",
+   "x": -9567,
+   "y": 7859
+  },
+  {
+   "type": "lookout",
+   "name": "Jonsdorf Eastern Lookout Point",
+   "region": "Jonsdorf",
+   "x": -7924,
+   "y": 7279
+  },
+  {
+   "type": "lookout",
+   "name": "Bohndorf Lookout Point",
+   "region": "Bohndorf",
+   "x": -9480,
+   "y": 6806
+  },
+  {
+   "type": "lookout",
+   "name": "Müllerwald Eastern Lookout Point",
+   "region": "Müllerwald",
+   "x": -5064,
+   "y": 5769
+  },
+  {
+   "type": "lookout",
+   "name": "Müllerwald Western Lookout Point",
+   "region": "Müllerwald",
+   "x": -6861,
+   "y": 5730
+  },
+  {
+   "type": "lookout",
+   "name": "Ritterstein Lookout Point",
+   "region": "Ritterstein",
+   "x": -8042,
+   "y": 5594
+  },
+  {
+   "type": "poi",
+   "name": "The Würm Glaciation",
+   "region": null,
+   "x": -10537,
+   "y": 12895
+  },
+  {
+   "type": "poi",
+   "name": "The Rathenfeldt Poem",
+   "region": null,
+   "x": -4631,
+   "y": 12820
+  },
+  {
+   "type": "poi",
+   "name": "Sommer's Land",
+   "region": null,
+   "x": -7895,
+   "y": 12646
+  },
+  {
+   "type": "poi",
+   "name": "Hunting Tip",
+   "region": null,
+   "x": -6651,
+   "y": 12636
+  },
+  {
+   "type": "poi",
+   "name": "About the Bison",
+   "region": null,
+   "x": -9842,
+   "y": 12604
+  },
+  {
+   "type": "poi",
+   "name": "The Landslide",
+   "region": null,
+   "x": -10538,
+   "y": 12354
+  },
+  {
+   "type": "poi",
+   "name": "The German Peasants' War",
+   "region": null,
+   "x": -6732,
+   "y": 11838
+  },
+  {
+   "type": "poi",
+   "name": "The Deer Roast",
+   "region": null,
+   "x": -5708,
+   "y": 11776
+  },
+  {
+   "type": "poi",
+   "name": "A Written Note",
+   "region": null,
+   "x": -8986,
+   "y": 11755
+  },
+  {
+   "type": "poi",
+   "name": "The Spruce Tree",
+   "region": null,
+   "x": -9783,
+   "y": 11700
+  },
+  {
+   "type": "poi",
+   "name": "A Written Note",
+   "region": null,
+   "x": -4747,
+   "y": 11584
+  },
+  {
+   "type": "poi",
+   "name": "About the Fallow Deer",
+   "region": null,
+   "x": -7790,
+   "y": 11430
+  },
+  {
+   "type": "poi",
+   "name": "Robert \"Strong Elk\" Fog",
+   "region": null,
+   "x": -10403,
+   "y": 11094
+  },
+  {
+   "type": "poi",
+   "name": "Hirschdorf River",
+   "region": null,
+   "x": -5545,
+   "y": 10887
+  },
+  {
+   "type": "poi",
+   "name": "Note by G. Jäger",
+   "region": null,
+   "x": -5775,
+   "y": 10823
+  },
+  {
+   "type": "poi",
+   "name": "The History of Spreeberg",
+   "region": null,
+   "x": -9347,
+   "y": 9725
+  },
+  {
+   "type": "poi",
+   "name": "Königsberg Lake",
+   "region": null,
+   "x": -4377,
+   "y": 9617
+  },
+  {
+   "type": "poi",
+   "name": "The European Bison Advisory Organization",
+   "region": null,
+   "x": -10656,
+   "y": 9618
+  },
+  {
+   "type": "poi",
+   "name": "The Königsberg Heir",
+   "region": null,
+   "x": -6216,
+   "y": 9509
+  },
+  {
+   "type": "poi",
+   "name": "The Spree Nixe",
+   "region": null,
+   "x": -7931,
+   "y": 9180
+  },
+  {
+   "type": "poi",
+   "name": "The Christmas Tree",
+   "region": null,
+   "x": -4999,
+   "y": 9082
+  },
+  {
+   "type": "poi",
+   "name": "The World-Famous Deer",
+   "region": null,
+   "x": -8390,
+   "y": 8910
+  },
+  {
+   "type": "poi",
+   "name": "Mount Bürgen",
+   "region": null,
+   "x": -10730,
+   "y": 8885
+  },
+  {
+   "type": "poi",
+   "name": "A Written Note",
+   "region": null,
+   "x": -4388,
+   "y": 8588
+  },
+  {
+   "type": "poi",
+   "name": "Bad Crop",
+   "region": null,
+   "x": -6032,
+   "y": 8516
+  },
+  {
+   "type": "poi",
+   "name": "About the Red Fox",
+   "region": null,
+   "x": -7858,
+   "y": 7991
+  },
+  {
+   "type": "poi",
+   "name": "Hunting with Birds",
+   "region": null,
+   "x": -5335,
+   "y": 7934
+  },
+  {
+   "type": "poi",
+   "name": "Red Deer Water",
+   "region": null,
+   "x": -10979,
+   "y": 7676
+  },
+  {
+   "type": "poi",
+   "name": "Red Deer Venison",
+   "region": null,
+   "x": -8438,
+   "y": 7611
+  },
+  {
+   "type": "poi",
+   "name": "The Bohndorf Meteorite",
+   "region": null,
+   "x": -9456,
+   "y": 7284
+  },
+  {
+   "type": "poi",
+   "name": "A Written Note",
+   "region": null,
+   "x": -6461,
+   "y": 7097
+  },
+  {
+   "type": "poi",
+   "name": "Red Deer Hill",
+   "region": null,
+   "x": -8614,
+   "y": 6637
+  },
+  {
+   "type": "poi",
+   "name": "Note by Dr. Otto Canella",
+   "region": null,
+   "x": -5403,
+   "y": 6618
+  },
+  {
+   "type": "poi",
+   "name": "About the Wild Boar",
+   "region": null,
+   "x": -7287,
+   "y": 6373
+  },
+  {
+   "type": "poi",
+   "name": "Red Deer Canyon",
+   "region": null,
+   "x": -9957,
+   "y": 6321
+  },
+  {
+   "type": "poi",
+   "name": "Wild Boar Land",
+   "region": null,
+   "x": -5889,
+   "y": 5989
+  },
+  {
+   "type": "poi",
+   "name": "Star Hunting Tours",
+   "region": null,
+   "x": -6483,
+   "y": 5941
+  },
+  {
+   "type": "poi",
+   "name": "The Müllerwald Poem",
+   "region": null,
+   "x": -4358,
+   "y": 5719
+  },
+  {
+   "type": "poi",
+   "name": "A Warning",
+   "region": null,
+   "x": -7486,
+   "y": 5714
+  },
+  {
+   "type": "landmark",
+   "name": "Rathenfeldt Grave Mounds",
+   "region": "Rathenfeldt",
+   "x": -4941,
+   "y": 13294
+  },
+  {
+   "type": "landmark",
+   "name": "Schonfeldt Bunkers",
+   "region": "Schonfeldt",
+   "x": -7273,
+   "y": 12953
+  },
+  {
+   "type": "landmark",
+   "name": "Tichenau Lonely Windmill",
+   "region": "Tichenau",
+   "x": -8846,
+   "y": 12145
+  },
+  {
+   "type": "landmark",
+   "name": "Rinderland Gorge",
+   "region": null,
+   "x": -10087,
+   "y": 12080
+  },
+  {
+   "type": "landmark",
+   "name": "Schonfeldt Windmills",
+   "region": "Schonfeldt",
+   "x": -7297,
+   "y": 10713
+  },
+  {
+   "type": "landmark",
+   "name": "Ikotz Bridge",
+   "region": null,
+   "x": -6135,
+   "y": 10268
+  },
+  {
+   "type": "landmark",
+   "name": "Ernsdorf Cave",
+   "region": "Ernsdorf",
+   "x": -10365,
+   "y": 10170
+  },
+  {
+   "type": "landmark",
+   "name": "Ernsdorf Bridge",
+   "region": "Ernsdorf",
+   "x": -9936,
+   "y": 10026
+  },
+  {
+   "type": "landmark",
+   "name": "Petershain Turbines",
+   "region": "Petershain",
+   "x": -4727,
+   "y": 9439
+  },
+  {
+   "type": "landmark",
+   "name": "Spreeberg Castle",
+   "region": "Spreeberg",
+   "x": -7574,
+   "y": 8845
+  },
+  {
+   "type": "landmark",
+   "name": "Petershain Tower Ruin",
+   "region": "Petershain",
+   "x": -5931,
+   "y": 8063
+  },
+  {
+   "type": "landmark",
+   "name": "Spree Bathing Area",
+   "region": null,
+   "x": -7032,
+   "y": 7780
+  },
+  {
+   "type": "landmark",
+   "name": "Petershain Ruin Village",
+   "region": "Petershain",
+   "x": -5779,
+   "y": 7458
+  },
+  {
+   "type": "landmark",
+   "name": "Bohndorf Hilltop",
+   "region": "Bohndorf",
+   "x": -9464,
+   "y": 7282
+  },
+  {
+   "type": "landmark",
+   "name": "Müllerwald Logging Area",
+   "region": "Müllerwald",
+   "x": -4539,
+   "y": 5906
+  },
+  {
+   "type": "landmark",
+   "name": "Bohndorf Lake Fishing Cabin",
+   "region": "Bohndorf",
+   "x": -8603,
+   "y": 5898
+  },
+  {
+   "type": "landmark",
+   "name": "Old Müller",
+   "region": null,
+   "x": -5983,
+   "y": 5676
+  }
+ ],
+ "regions": [
+  "Schonfeldt",
+  "Rathenfeldt",
+  "Tichenau",
+  "Ernsdorf",
+  "Spreeberg",
+  "Petershain",
+  "Jonsdorf",
+  "Ritterstein",
+  "Bohndorf",
+  "Müllerwald"
+ ],
+ "notes": "Steam page shows a removal notice (violates Community Guidelines) but content was still readable. Guide has no region column; regions inferred from name prefix (Hirschdorf River Outpost left null, Hirschdorf not a listed region; landmarks like Rinderland Gorge, Ikotz Bridge, Spree Bathing Area, Old Müller null). POI regions null. Shooting range appears as first row of Outposts table (type range); stated shooting ranges: 1. Counts match stated totals. Coordinates are X,Y pairs, units/origin not stated. 'Hunting Structures: 93' not extracted."
+}

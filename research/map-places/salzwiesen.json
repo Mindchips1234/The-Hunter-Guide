@@ -1,0 +1,137 @@
+{
+ "slug": "salzwiesen",
+ "reserve": "Salzwiesen Park",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3379239133",
+ "title": "Salzwiesen Park: All Secret Locations.",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 11,
+  "lookouts": 1,
+  "pois": 0,
+  "landmarks": 4
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Hennenruh",
+   "region": null,
+   "x": 8382,
+   "y": -6215
+  },
+  {
+   "type": "outpost",
+   "name": "Morschenherden",
+   "region": null,
+   "x": 9736,
+   "y": -6514
+  },
+  {
+   "type": "outpost",
+   "name": "Rowdysruh",
+   "region": null,
+   "x": 6942,
+   "y": -6912
+  },
+  {
+   "type": "outpost",
+   "name": "Labskauspott",
+   "region": null,
+   "x": 9022,
+   "y": -7353
+  },
+  {
+   "type": "outpost",
+   "name": "Osterschwärmen",
+   "region": null,
+   "x": 9906,
+   "y": -8001
+  },
+  {
+   "type": "outpost",
+   "name": "Marzipansholt",
+   "region": null,
+   "x": 7221,
+   "y": -8173
+  },
+  {
+   "type": "outpost",
+   "name": "Salzwiesen-Hütte",
+   "region": null,
+   "x": 8672,
+   "y": -8338
+  },
+  {
+   "type": "outpost",
+   "name": "Henkelpott",
+   "region": null,
+   "x": 6601,
+   "y": -8792
+  },
+  {
+   "type": "outpost",
+   "name": "Blubbertunke",
+   "region": null,
+   "x": 9532,
+   "y": -8834
+  },
+  {
+   "type": "outpost",
+   "name": "Picknickhütte",
+   "region": null,
+   "x": 8867,
+   "y": -9572
+  },
+  {
+   "type": "outpost",
+   "name": "Fietes Blockhaus",
+   "region": null,
+   "x": 7375,
+   "y": -9641
+  },
+  {
+   "type": "lookout",
+   "name": "Carstens Kastell",
+   "region": null,
+   "x": 8668,
+   "y": -8375
+  },
+  {
+   "type": "range",
+   "name": "Clay Shooting Range",
+   "region": null,
+   "x": 8701,
+   "y": -8399
+  },
+  {
+   "type": "landmark",
+   "name": "Island Lighthouse",
+   "region": null,
+   "x": 6914,
+   "y": -6581
+  },
+  {
+   "type": "landmark",
+   "name": "Windmill",
+   "region": null,
+   "x": 9183,
+   "y": -6876
+  },
+  {
+   "type": "landmark",
+   "name": "Salzwiesen-Kliff",
+   "region": null,
+   "x": 6530,
+   "y": -8799
+  },
+  {
+   "type": "landmark",
+   "name": "Wind Turbines",
+   "region": null,
+   "x": 9867,
+   "y": -9261
+  }
+ ],
+ "regions": [],
+ "notes": "Guide page shows Steam removal notice (violates guidelines; incompatible with game). Stated: 1 shooting range, 0 POIs, 0 hunting structures. No region column."
+}

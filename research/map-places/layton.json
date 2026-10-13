@@ -1,0 +1,590 @@
+{
+ "slug": "layton",
+ "reserve": "Layton Lake District",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2681740978",
+ "title": "Layton Lake District: Artifacts, Collectibles and All Secret Locations.",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 18,
+  "lookouts": 16,
+  "pois": 34,
+  "landmarks": 12
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Balmont Railroad Outpost",
+   "region": "Balmont",
+   "x": 9557,
+   "y": 10760
+  },
+  {
+   "type": "outpost",
+   "name": "Roonachee Western Outpost",
+   "region": "Roonachee",
+   "x": 6005,
+   "y": 10738
+  },
+  {
+   "type": "outpost",
+   "name": "Balmont Outpost",
+   "region": "Balmont",
+   "x": 9919,
+   "y": 10265
+  },
+  {
+   "type": "outpost",
+   "name": "Roonachee Outpost",
+   "region": "Roonachee",
+   "x": 7417,
+   "y": 10161
+  },
+  {
+   "type": "outpost",
+   "name": "Mount Leviathan Outpost",
+   "region": "Mount Leviathan",
+   "x": 11229,
+   "y": 10108
+  },
+  {
+   "type": "outpost",
+   "name": "Cheelah Southern Outpost",
+   "region": "Cheelah",
+   "x": 12401,
+   "y": 9051
+  },
+  {
+   "type": "outpost",
+   "name": "Balmont Northern Outpost",
+   "region": "Balmont",
+   "x": 8689,
+   "y": 9040
+  },
+  {
+   "type": "outpost",
+   "name": "Cheelah Outpost",
+   "region": "Cheelah",
+   "x": 10811,
+   "y": 8337
+  },
+  {
+   "type": "outpost",
+   "name": "Mount Kraken Outpost",
+   "region": "Mount Kraken",
+   "x": 7393,
+   "y": 7962
+  },
+  {
+   "type": "outpost",
+   "name": "Norden Outpost",
+   "region": "Norden",
+   "x": 11629,
+   "y": 7719
+  },
+  {
+   "type": "outpost",
+   "name": "Highlake Southern Outpost",
+   "region": "Highlake",
+   "x": 9271,
+   "y": 7636
+  },
+  {
+   "type": "outpost",
+   "name": "Norden Eastern Outpost",
+   "region": "Norden",
+   "x": 12815,
+   "y": 7068
+  },
+  {
+   "type": "outpost",
+   "name": "Willipeg Southern Outpost",
+   "region": "Willipeg",
+   "x": 6667,
+   "y": 6601
+  },
+  {
+   "type": "outpost",
+   "name": "High Lake Outpost",
+   "region": "High Lake",
+   "x": 8874,
+   "y": 6169
+  },
+  {
+   "type": "outpost",
+   "name": "Calburn Outpost",
+   "region": "Calburn",
+   "x": 10956,
+   "y": 5643
+  },
+  {
+   "type": "outpost",
+   "name": "Willipeg Outpost",
+   "region": "Willipeg",
+   "x": 6723,
+   "y": 5209
+  },
+  {
+   "type": "outpost",
+   "name": "Chopeeka Outpost",
+   "region": "Chopeeka",
+   "x": 8867,
+   "y": 4422
+  },
+  {
+   "type": "outpost",
+   "name": "Norden Northern Outpost",
+   "region": "Norden",
+   "x": 12651,
+   "y": 4186
+  },
+  {
+   "type": "lookout",
+   "name": "Mount Leviathan Lookout Point",
+   "region": "Mount Leviathan",
+   "x": 11447,
+   "y": 11119
+  },
+  {
+   "type": "lookout",
+   "name": "Balmont Western Lookout Point",
+   "region": "Balmont",
+   "x": 8298,
+   "y": 11106
+  },
+  {
+   "type": "lookout",
+   "name": "Balmont Eastern Lookout Point",
+   "region": "Balmont",
+   "x": 9846,
+   "y": 10814
+  },
+  {
+   "type": "lookout",
+   "name": "Roonachee Lookout Point",
+   "region": "Roonachee",
+   "x": 6596,
+   "y": 10074
+  },
+  {
+   "type": "lookout",
+   "name": "Balmont Northern Lookout Point",
+   "region": "Balmont",
+   "x": 8308,
+   "y": 9512
+  },
+  {
+   "type": "lookout",
+   "name": "Cheelah Lookout Point",
+   "region": "Cheelah",
+   "x": 11897,
+   "y": 8973
+  },
+  {
+   "type": "lookout",
+   "name": "High Lake Southern Lookout Point",
+   "region": "High Lake",
+   "x": 9763,
+   "y": 8266
+  },
+  {
+   "type": "lookout",
+   "name": "Mount Kraken Lookout Point",
+   "region": "Mount Kraken",
+   "x": 7628,
+   "y": 7544
+  },
+  {
+   "type": "lookout",
+   "name": "Norden Eastern Lookout Point",
+   "region": "Norden",
+   "x": 12341,
+   "y": 7510
+  },
+  {
+   "type": "lookout",
+   "name": "Norden Western Lookout Point",
+   "region": "Norden",
+   "x": 10984,
+   "y": 7205
+  },
+  {
+   "type": "lookout",
+   "name": "High Lake Northern Lookout Point",
+   "region": "High Lake",
+   "x": 8758,
+   "y": 6524
+  },
+  {
+   "type": "lookout",
+   "name": "Willipeg Lookout Point",
+   "region": "Willipeg",
+   "x": 6795,
+   "y": 5879
+  },
+  {
+   "type": "lookout",
+   "name": "Calburn Western Lookout Point",
+   "region": "Calburn",
+   "x": 9763,
+   "y": 4971
+  },
+  {
+   "type": "lookout",
+   "name": "Calburn Eastern Lookout Point",
+   "region": "Calburn",
+   "x": 11535,
+   "y": 4763
+  },
+  {
+   "type": "lookout",
+   "name": "Chopeeka Western Lookout Point",
+   "region": "Chopeeka",
+   "x": 5896,
+   "y": 4394
+  },
+  {
+   "type": "lookout",
+   "name": "Chopeeka Eastern Lookout Point",
+   "region": "Chopeeka",
+   "x": 8094,
+   "y": 4357
+  },
+  {
+   "type": "poi",
+   "name": "Wildlife Varmint Control",
+   "region": null,
+   "x": 10661,
+   "y": 11063
+  },
+  {
+   "type": "poi",
+   "name": "The Hummingbird",
+   "region": null,
+   "x": 8117,
+   "y": 10996
+  },
+  {
+   "type": "poi",
+   "name": "A Written Note",
+   "region": null,
+   "x": 9935,
+   "y": 10997
+  },
+  {
+   "type": "poi",
+   "name": "Hunting Tip",
+   "region": null,
+   "x": 6868,
+   "y": 10995
+  },
+  {
+   "type": "poi",
+   "name": "The Bad Water",
+   "region": null,
+   "x": 8676,
+   "y": 10982
+  },
+  {
+   "type": "poi",
+   "name": "Leviathan Volcano",
+   "region": null,
+   "x": 11328,
+   "y": 10290
+  },
+  {
+   "type": "poi",
+   "name": "Note by R. Hope",
+   "region": null,
+   "x": 10182,
+   "y": 10195
+  },
+  {
+   "type": "poi",
+   "name": "The Deer Antlers",
+   "region": null,
+   "x": 9004,
+   "y": 10097
+  },
+  {
+   "type": "poi",
+   "name": "About the Whitetail",
+   "region": null,
+   "x": 8266,
+   "y": 10012
+  },
+  {
+   "type": "poi",
+   "name": "The Oregon Trail",
+   "region": null,
+   "x": 7149,
+   "y": 9970
+  },
+  {
+   "type": "poi",
+   "name": "Camping Guidelines",
+   "region": null,
+   "x": 11628,
+   "y": 9293
+  },
+  {
+   "type": "poi",
+   "name": "The Lake District Hiking Trail",
+   "region": null,
+   "x": 9306,
+   "y": 9167
+  },
+  {
+   "type": "poi",
+   "name": "About the Black Bear",
+   "region": null,
+   "x": 6969,
+   "y": 9138
+  },
+  {
+   "type": "poi",
+   "name": "The Game Warden",
+   "region": null,
+   "x": 10242,
+   "y": 9131
+  },
+  {
+   "type": "poi",
+   "name": "The Balmont Poem",
+   "region": null,
+   "x": 8372,
+   "y": 9050
+  },
+  {
+   "type": "poi",
+   "name": "The Coywolf",
+   "region": null,
+   "x": 12993,
+   "y": 8823
+  },
+  {
+   "type": "poi",
+   "name": "The Trickster",
+   "region": null,
+   "x": 11627,
+   "y": 8156
+  },
+  {
+   "type": "poi",
+   "name": "Bear Cabbage",
+   "region": null,
+   "x": 7895,
+   "y": 8149
+  },
+  {
+   "type": "poi",
+   "name": "Note by J. Trampfine",
+   "region": null,
+   "x": 7124,
+   "y": 8122
+  },
+  {
+   "type": "poi",
+   "name": "About the Whitetail",
+   "region": null,
+   "x": 10122,
+   "y": 8057
+  },
+  {
+   "type": "poi",
+   "name": "A Written Note",
+   "region": null,
+   "x": 8835,
+   "y": 8016
+  },
+  {
+   "type": "poi",
+   "name": "The Land of Volcanos",
+   "region": null,
+   "x": 9254,
+   "y": 7046
+  },
+  {
+   "type": "poi",
+   "name": "The Moose",
+   "region": null,
+   "x": 6625,
+   "y": 6810
+  },
+  {
+   "type": "poi",
+   "name": "Coal Mining",
+   "region": null,
+   "x": 10489,
+   "y": 6801
+  },
+  {
+   "type": "poi",
+   "name": "Fire Watch",
+   "region": null,
+   "x": 11282,
+   "y": 6782
+  },
+  {
+   "type": "poi",
+   "name": "About the Blacktail",
+   "region": null,
+   "x": 8198,
+   "y": 6683
+  },
+  {
+   "type": "poi",
+   "name": "Layton Canyon",
+   "region": null,
+   "x": 13233,
+   "y": 6607
+  },
+  {
+   "type": "poi",
+   "name": "The Calburn Poem",
+   "region": null,
+   "x": 10170,
+   "y": 5813
+  },
+  {
+   "type": "poi",
+   "name": "Note by P. Beatty",
+   "region": null,
+   "x": 7175,
+   "y": 5082
+  },
+  {
+   "type": "poi",
+   "name": "A Written Note",
+   "region": null,
+   "x": 8352,
+   "y": 5058
+  },
+  {
+   "type": "poi",
+   "name": "The Conservationist President",
+   "region": null,
+   "x": 9257,
+   "y": 4627
+  },
+  {
+   "type": "poi",
+   "name": "Layton River",
+   "region": null,
+   "x": 12977,
+   "y": 4577
+  },
+  {
+   "type": "poi",
+   "name": "Survivor's Camp",
+   "region": null,
+   "x": 11100,
+   "y": 4400
+  },
+  {
+   "type": "poi",
+   "name": "Old World Diseases",
+   "region": null,
+   "x": 7235,
+   "y": 4154
+  },
+  {
+   "type": "landmark",
+   "name": "Leviathan Cave",
+   "region": null,
+   "x": 12053,
+   "y": 11240
+  },
+  {
+   "type": "landmark",
+   "name": "Roonachee Church",
+   "region": "Roonachee",
+   "x": 6797,
+   "y": 11216
+  },
+  {
+   "type": "landmark",
+   "name": "Lake District Railway",
+   "region": null,
+   "x": 7824,
+   "y": 10280
+  },
+  {
+   "type": "landmark",
+   "name": "Lake District Survival Camp",
+   "region": null,
+   "x": 8837,
+   "y": 10060
+  },
+  {
+   "type": "landmark",
+   "name": "Cheelah Hiking Village",
+   "region": "Cheelah",
+   "x": 11962,
+   "y": 9461
+  },
+  {
+   "type": "landmark",
+   "name": "Kraken Rope Bridge",
+   "region": null,
+   "x": 6952,
+   "y": 9056
+  },
+  {
+   "type": "landmark",
+   "name": "High Lake Rock Formations",
+   "region": "High Lake",
+   "x": 9627,
+   "y": 8044
+  },
+  {
+   "type": "landmark",
+   "name": "Norden Mining Structures",
+   "region": "Norden",
+   "x": 10702,
+   "y": 6595
+  },
+  {
+   "type": "landmark",
+   "name": "Willipeg Caves",
+   "region": "Willipeg",
+   "x": 6249,
+   "y": 6515
+  },
+  {
+   "type": "landmark",
+   "name": "High Lake Mountain Lake",
+   "region": "High Lake",
+   "x": 8507,
+   "y": 5865
+  },
+  {
+   "type": "landmark",
+   "name": "Chopeeka Natives Grounds",
+   "region": "Chopeeka",
+   "x": 7794,
+   "y": 5422
+  },
+  {
+   "type": "landmark",
+   "name": "Calburn Accident Site",
+   "region": "Calburn",
+   "x": 11095,
+   "y": 4569
+  }
+ ],
+ "regions": [
+  "Balmont",
+  "Roonachee",
+  "Mount Leviathan",
+  "Cheelah",
+  "Mount Kraken",
+  "Norden",
+  "Highlake",
+  "High Lake",
+  "Willipeg",
+  "Calburn",
+  "Chopeeka"
+ ],
+ "notes": "Steam page shows a removal notice but content was readable. No region column; regions inferred from name prefix, except 'Highlake Southern Outpost' (spelled 'Highlake', as written) vs 'High Lake' elsewhere; 'Mount Leviathan'/'Mount Kraken' kept as prefix. 'Leviathan Cave','Kraken Rope Bridge','Lake District ...' landmarks and all POIs have null region. Guide says locations extracted from game files; units/origin not stated. Counts match stated totals; shooting ranges 0. Region list is derived from name prefixes, not stated in guide."
+}
