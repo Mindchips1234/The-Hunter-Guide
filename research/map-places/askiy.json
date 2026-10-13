@@ -1,0 +1,340 @@
+{
+ "slug": "askiy",
+ "reserve": "Askiy Ridge Hunting Preserve",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3730596150",
+ "title": "Askiy Ridge Hunting Preserve: All Secret Locations.",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 23,
+  "lookouts": 13,
+  "pois": null,
+  "landmarks": 10
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Bootleger's Squat",
+   "region": null,
+   "x": 9049,
+   "y": 11851
+  },
+  {
+   "type": "outpost",
+   "name": "Hideaway from Home",
+   "region": null,
+   "x": 10801,
+   "y": 11713
+  },
+  {
+   "type": "outpost",
+   "name": "Sashtip Trail",
+   "region": null,
+   "x": 12954,
+   "y": 11198
+  },
+  {
+   "type": "outpost",
+   "name": "Hawk's Eye",
+   "region": null,
+   "x": 8909,
+   "y": 11158
+  },
+  {
+   "type": "outpost",
+   "name": "Spoonside Rest",
+   "region": null,
+   "x": 7275,
+   "y": 11147
+  },
+  {
+   "type": "outpost",
+   "name": "Sashside Hearth",
+   "region": null,
+   "x": 11686,
+   "y": 10948
+  },
+  {
+   "type": "outpost",
+   "name": "Fiddler's Spoon",
+   "region": null,
+   "x": 6718,
+   "y": 10214
+  },
+  {
+   "type": "outpost",
+   "name": "Last Ride",
+   "region": null,
+   "x": 13523,
+   "y": 10127
+  },
+  {
+   "type": "outpost",
+   "name": "Centreweave Shack",
+   "region": null,
+   "x": 10964,
+   "y": 9909
+  },
+  {
+   "type": "outpost",
+   "name": "Half-way House",
+   "region": null,
+   "x": 6519,
+   "y": 9658
+  },
+  {
+   "type": "outpost",
+   "name": "Stardance Gathering",
+   "region": null,
+   "x": 8870,
+   "y": 9233
+  },
+  {
+   "type": "outpost",
+   "name": "Toplip Quiver",
+   "region": null,
+   "x": 6375,
+   "y": 8061
+  },
+  {
+   "type": "outpost",
+   "name": "Outstretched Hand",
+   "region": null,
+   "x": 12978,
+   "y": 7982
+  },
+  {
+   "type": "outpost",
+   "name": "Elsie's Smile",
+   "region": null,
+   "x": 11144,
+   "y": 7953
+  },
+  {
+   "type": "outpost",
+   "name": "Amisk Lodge",
+   "region": null,
+   "x": 9318,
+   "y": 7824
+  },
+  {
+   "type": "outpost",
+   "name": "Stonetoss Shack",
+   "region": null,
+   "x": 11697,
+   "y": 7185
+  },
+  {
+   "type": "outpost",
+   "name": "Strainer Rest",
+   "region": null,
+   "x": 9068,
+   "y": 6665
+  },
+  {
+   "type": "outpost",
+   "name": "Face of Bannatyne",
+   "region": null,
+   "x": 6348,
+   "y": 6453
+  },
+  {
+   "type": "outpost",
+   "name": "Oldest Sister",
+   "region": null,
+   "x": 9979,
+   "y": 5831
+  },
+  {
+   "type": "outpost",
+   "name": "Maze Mouth",
+   "region": null,
+   "x": 13317,
+   "y": 5405
+  },
+  {
+   "type": "outpost",
+   "name": "Younger Brother",
+   "region": null,
+   "x": 9634,
+   "y": 5090
+  },
+  {
+   "type": "outpost",
+   "name": "Annie's Crown",
+   "region": null,
+   "x": 7056,
+   "y": 4863
+  },
+  {
+   "type": "outpost",
+   "name": "Spacewave Station",
+   "region": null,
+   "x": 12124,
+   "y": 4714
+  },
+  {
+   "type": "lookout",
+   "name": "Fiddler's Peak",
+   "region": null,
+   "x": 7774,
+   "y": 11388
+  },
+  {
+   "type": "lookout",
+   "name": "Hawk's Eye",
+   "region": null,
+   "x": 8930,
+   "y": 11137
+  },
+  {
+   "type": "lookout",
+   "name": "Sashside Hearth",
+   "region": null,
+   "x": 11701,
+   "y": 10974
+  },
+  {
+   "type": "lookout",
+   "name": "Fiddler's Spoon",
+   "region": null,
+   "x": 6718,
+   "y": 10198
+  },
+  {
+   "type": "lookout",
+   "name": "Jigstep Feet",
+   "region": null,
+   "x": 13050,
+   "y": 9280
+  },
+  {
+   "type": "lookout",
+   "name": "Beadspool Heights",
+   "region": null,
+   "x": 11040,
+   "y": 9110
+  },
+  {
+   "type": "lookout",
+   "name": "Dancing Chin",
+   "region": null,
+   "x": 8261,
+   "y": 8778
+  },
+  {
+   "type": "lookout",
+   "name": "Outstretched Hand",
+   "region": null,
+   "x": 12985,
+   "y": 8005
+  },
+  {
+   "type": "lookout",
+   "name": "Laughter Line",
+   "region": null,
+   "x": 7131,
+   "y": 7699
+  },
+  {
+   "type": "lookout",
+   "name": "Strainer Rest",
+   "region": null,
+   "x": 9042,
+   "y": 6681
+  },
+  {
+   "type": "lookout",
+   "name": "Dreamer's Bed",
+   "region": null,
+   "x": 8626,
+   "y": 5135
+  },
+  {
+   "type": "lookout",
+   "name": "Red River Crown",
+   "region": null,
+   "x": 9922,
+   "y": 4738
+  },
+  {
+   "type": "lookout",
+   "name": "Spacewave Station",
+   "region": null,
+   "x": 12106,
+   "y": 4703
+  },
+  {
+   "type": "landmark",
+   "name": "Tony Coal Mine",
+   "region": null,
+   "x": 13561,
+   "y": 11450
+  },
+  {
+   "type": "landmark",
+   "name": "Fiddler's Bow",
+   "region": null,
+   "x": 7751,
+   "y": 11401
+  },
+  {
+   "type": "landmark",
+   "name": "Bow-Leg Buffalo Break",
+   "region": null,
+   "x": 12244,
+   "y": 10594
+  },
+  {
+   "type": "landmark",
+   "name": "Lake Mahihkan",
+   "region": null,
+   "x": 5765,
+   "y": 9382
+  },
+  {
+   "type": "landmark",
+   "name": "Stardance Gathering",
+   "region": null,
+   "x": 8921,
+   "y": 9204
+  },
+  {
+   "type": "landmark",
+   "name": "Tumbledown Trap",
+   "region": null,
+   "x": 13082,
+   "y": 8422
+  },
+  {
+   "type": "landmark",
+   "name": "Sashwater Strut",
+   "region": null,
+   "x": 12359,
+   "y": 7871
+  },
+  {
+   "type": "landmark",
+   "name": "Amisk Lodge",
+   "region": null,
+   "x": 9274,
+   "y": 7844
+  },
+  {
+   "type": "landmark",
+   "name": "Spacewave Station",
+   "region": null,
+   "x": 12124,
+   "y": 4701
+  },
+  {
+   "type": "landmark",
+   "name": "Drum Lake",
+   "region": null,
+   "x": 7126,
+   "y": 4563
+  }
+ ],
+ "regions": [],
+ "notes": "Steam removal notice on page (violates guidelines; incompatible with game). No region column. Guide states 19 Hunting Structures but only an image, no rows (not captured). Many lookouts/landmarks share names with outposts but have slightly different coordinates; kept as listed. No POI total stated."
+}

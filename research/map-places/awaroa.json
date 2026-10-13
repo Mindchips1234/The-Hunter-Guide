@@ -1,0 +1,396 @@
+{
+ "slug": "awaroa",
+ "reserve": "Te Awaroa National Park",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3014022964",
+ "title": "Te Awaroa National Park: All Secret Locations.",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 20,
+  "lookouts": 13,
+  "pois": null,
+  "landmarks": 21
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Mōhua Hut",
+   "region": null,
+   "x": 9616,
+   "y": 11916
+  },
+  {
+   "type": "outpost",
+   "name": "Akiaki Hut",
+   "region": null,
+   "x": 8645,
+   "y": 11497
+  },
+  {
+   "type": "outpost",
+   "name": "Korimako Hut",
+   "region": null,
+   "x": 10750,
+   "y": 11235
+  },
+  {
+   "type": "outpost",
+   "name": "Kakaruwai Hut",
+   "region": null,
+   "x": 4718,
+   "y": 10939
+  },
+  {
+   "type": "outpost",
+   "name": "Kākāriki Hut",
+   "region": null,
+   "x": 10362,
+   "y": 10712
+  },
+  {
+   "type": "outpost",
+   "name": "Kārearea Hut",
+   "region": null,
+   "x": 9527,
+   "y": 10672
+  },
+  {
+   "type": "outpost",
+   "name": "Tītitipounamu Hut",
+   "region": null,
+   "x": 11196,
+   "y": 10551
+  },
+  {
+   "type": "outpost",
+   "name": "Pīwakawaka Hut",
+   "region": null,
+   "x": 6482,
+   "y": 10339
+  },
+  {
+   "type": "outpost",
+   "name": "Riroriro Hut",
+   "region": null,
+   "x": 4598,
+   "y": 9910
+  },
+  {
+   "type": "outpost",
+   "name": "Weka Hut",
+   "region": null,
+   "x": 12503,
+   "y": 9705
+  },
+  {
+   "type": "outpost",
+   "name": "Kōkako Hut",
+   "region": null,
+   "x": 9232,
+   "y": 9696
+  },
+  {
+   "type": "outpost",
+   "name": "Koekoeā Hut",
+   "region": null,
+   "x": 5750,
+   "y": 9160
+  },
+  {
+   "type": "outpost",
+   "name": "Tīeke Hut",
+   "region": null,
+   "x": 4471,
+   "y": 9062
+  },
+  {
+   "type": "outpost",
+   "name": "Ruru Hut",
+   "region": null,
+   "x": 9293,
+   "y": 8833
+  },
+  {
+   "type": "outpost",
+   "name": "Tūī Hut",
+   "region": null,
+   "x": 10520,
+   "y": 8441
+  },
+  {
+   "type": "outpost",
+   "name": "Kea Hut",
+   "region": null,
+   "x": 7859,
+   "y": 8387
+  },
+  {
+   "type": "outpost",
+   "name": "Kākā Hut",
+   "region": null,
+   "x": 5300,
+   "y": 8115
+  },
+  {
+   "type": "outpost",
+   "name": "Ngirungiru Hut",
+   "region": null,
+   "x": 4852,
+   "y": 7553
+  },
+  {
+   "type": "outpost",
+   "name": "Tauhou Hut",
+   "region": null,
+   "x": 6434,
+   "y": 7199
+  },
+  {
+   "type": "outpost",
+   "name": "Kiwi Hut",
+   "region": null,
+   "x": 9329,
+   "y": 6772
+  },
+  {
+   "type": "lookout",
+   "name": "Tāwhai Point",
+   "region": null,
+   "x": 10309,
+   "y": 12720
+  },
+  {
+   "type": "lookout",
+   "name": "Tī Kōuka Point",
+   "region": null,
+   "x": 8487,
+   "y": 11511
+  },
+  {
+   "type": "lookout",
+   "name": "Ponga Point",
+   "region": null,
+   "x": 11616,
+   "y": 11289
+  },
+  {
+   "type": "lookout",
+   "name": "Wī Kura Point",
+   "region": null,
+   "x": 4050,
+   "y": 10433
+  },
+  {
+   "type": "lookout",
+   "name": "Māhoe Point",
+   "region": null,
+   "x": 5688,
+   "y": 10179
+  },
+  {
+   "type": "lookout",
+   "name": "Harakeke Point",
+   "region": null,
+   "x": 10368,
+   "y": 9607
+  },
+  {
+   "type": "lookout",
+   "name": "Kawakawa Point",
+   "region": null,
+   "x": 7435,
+   "y": 9386
+  },
+  {
+   "type": "lookout",
+   "name": "Rimu Point",
+   "region": null,
+   "x": 5445,
+   "y": 8792
+  },
+  {
+   "type": "lookout",
+   "name": "Kātote Point",
+   "region": null,
+   "x": 12024,
+   "y": 8497
+  },
+  {
+   "type": "lookout",
+   "name": "Mingimingi Point",
+   "region": null,
+   "x": 8263,
+   "y": 8174
+  },
+  {
+   "type": "lookout",
+   "name": "Kahikatea Point",
+   "region": null,
+   "x": 6627,
+   "y": 7760
+  },
+  {
+   "type": "lookout",
+   "name": "Rārahu Point",
+   "region": null,
+   "x": 10552,
+   "y": 7254
+  },
+  {
+   "type": "lookout",
+   "name": "Pātītī Point",
+   "region": null,
+   "x": 5414,
+   "y": 6767
+  },
+  {
+   "type": "landmark",
+   "name": "Pomp and Ceremony",
+   "region": null,
+   "x": 10730,
+   "y": 11837
+  },
+  {
+   "type": "landmark",
+   "name": "Movie Magic",
+   "region": null,
+   "x": 9565,
+   "y": 11363
+  },
+  {
+   "type": "landmark",
+   "name": "Sand Stones",
+   "region": null,
+   "x": 11131,
+   "y": 11143
+  },
+  {
+   "type": "landmark",
+   "name": "An Unlikely Celebrity",
+   "region": null,
+   "x": 4836,
+   "y": 10804
+  },
+  {
+   "type": "landmark",
+   "name": "Tree-rific",
+   "region": null,
+   "x": 9139,
+   "y": 10765
+  },
+  {
+   "type": "landmark",
+   "name": "The Legend of the Lost Tribe",
+   "region": null,
+   "x": 5906,
+   "y": 10169
+  },
+  {
+   "type": "landmark",
+   "name": "The Fairy Folk",
+   "region": null,
+   "x": 9200,
+   "y": 10083
+  },
+  {
+   "type": "landmark",
+   "name": "Tat'll Do It",
+   "region": null,
+   "x": 12218,
+   "y": 10040
+  },
+  {
+   "type": "landmark",
+   "name": "The Legend of Poutini",
+   "region": null,
+   "x": 5359,
+   "y": 9967
+  },
+  {
+   "type": "landmark",
+   "name": "Weaving Stories",
+   "region": null,
+   "x": 4579,
+   "y": 9933
+  },
+  {
+   "type": "landmark",
+   "name": "The Treaty of Waitangi",
+   "region": null,
+   "x": 10673,
+   "y": 9518
+  },
+  {
+   "type": "landmark",
+   "name": "Preserving the Past, Safeguarding the Future",
+   "region": null,
+   "x": 4997,
+   "y": 9281
+  },
+  {
+   "type": "landmark",
+   "name": "Karst into Darkness",
+   "region": null,
+   "x": 8625,
+   "y": 9204
+  },
+  {
+   "type": "landmark",
+   "name": "If These Walls Could Talk",
+   "region": null,
+   "x": 6693,
+   "y": 9065
+  },
+  {
+   "type": "landmark",
+   "name": "A Poisonous Debate",
+   "region": null,
+   "x": 5162,
+   "y": 8891
+  },
+  {
+   "type": "landmark",
+   "name": "Try, Try Again",
+   "region": null,
+   "x": 9543,
+   "y": 8842
+  },
+  {
+   "type": "landmark",
+   "name": "A Proud History",
+   "region": null,
+   "x": 8333,
+   "y": 7796
+  },
+  {
+   "type": "landmark",
+   "name": "Alpine Ops",
+   "region": null,
+   "x": 6282,
+   "y": 7794
+  },
+  {
+   "type": "landmark",
+   "name": "Adapt or Perish",
+   "region": null,
+   "x": 4721,
+   "y": 7641
+  },
+  {
+   "type": "landmark",
+   "name": "Castle Crashers",
+   "region": null,
+   "x": 5517,
+   "y": 7180
+  },
+  {
+   "type": "landmark",
+   "name": "As Good as Gold?",
+   "region": null,
+   "x": 10684,
+   "y": 7159
+  }
+ ],
+ "regions": [],
+ "notes": "Guide page carries a Steam removal notice (violates Community guidelines / incompatible with game) but content was retrievable. Guide names no regions. Coordinates are 'N, X, Y' table columns; axes/units not defined. Stated totals also include Shooting Ranges 0, Antler Sheds 0, Artifacts 0. Stated POIs: 0. Stated 24 hunting structures (not extracted). Outposts are named 'Hut'."
+}

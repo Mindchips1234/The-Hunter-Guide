@@ -1,0 +1,354 @@
+{
+ "slug": "sundarpatan",
+ "reserve": "Sundarpatan Hunting Reserve",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3270620876",
+ "title": "Sundarpatan Hunting Reserve: All Secret Locations.",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 20,
+  "lookouts": 12,
+  "pois": 0,
+  "landmarks": 16
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Chandanpur Machan",
+   "region": null,
+   "x": -5631,
+   "y": 7978
+  },
+  {
+   "type": "outpost",
+   "name": "Ramthali",
+   "region": null,
+   "x": -6136,
+   "y": 7754
+  },
+  {
+   "type": "outpost",
+   "name": "Sakela",
+   "region": null,
+   "x": -7832,
+   "y": 7664
+  },
+  {
+   "type": "outpost",
+   "name": "Pauwa",
+   "region": null,
+   "x": -10635,
+   "y": 7414
+  },
+  {
+   "type": "outpost",
+   "name": "Rai Basti",
+   "region": null,
+   "x": -5480,
+   "y": 6621
+  },
+  {
+   "type": "outpost",
+   "name": "Shïtalghat Machan",
+   "region": null,
+   "x": -4882,
+   "y": 6498
+  },
+  {
+   "type": "outpost",
+   "name": "Basantanagar Machan",
+   "region": null,
+   "x": -10762,
+   "y": 6447
+  },
+  {
+   "type": "outpost",
+   "name": "Pipal Baari Machan",
+   "region": null,
+   "x": -8339,
+   "y": 5906
+  },
+  {
+   "type": "outpost",
+   "name": "Bhanjyankot",
+   "region": null,
+   "x": -5049,
+   "y": 5214
+  },
+  {
+   "type": "outpost",
+   "name": "Lek Bhanjyan",
+   "region": null,
+   "x": -7536,
+   "y": 5056
+  },
+  {
+   "type": "outpost",
+   "name": "Badal Gaun",
+   "region": null,
+   "x": -9036,
+   "y": 5011
+  },
+  {
+   "type": "outpost",
+   "name": "Sheetal Gaun",
+   "region": null,
+   "x": -11391,
+   "y": 4769
+  },
+  {
+   "type": "outpost",
+   "name": "Barahi",
+   "region": null,
+   "x": -5022,
+   "y": 3796
+  },
+  {
+   "type": "outpost",
+   "name": "Deurali",
+   "region": null,
+   "x": -9167,
+   "y": 3513
+  },
+  {
+   "type": "outpost",
+   "name": "Bhumichowk",
+   "region": null,
+   "x": -11463,
+   "y": 3376
+  },
+  {
+   "type": "outpost",
+   "name": "Ghampus",
+   "region": null,
+   "x": -6874,
+   "y": 2581
+  },
+  {
+   "type": "outpost",
+   "name": "Phumdi",
+   "region": null,
+   "x": -11013,
+   "y": 2575
+  },
+  {
+   "type": "outpost",
+   "name": "Namjung",
+   "region": null,
+   "x": -4959,
+   "y": 1910
+  },
+  {
+   "type": "outpost",
+   "name": "Sano Gaun",
+   "region": null,
+   "x": -10924,
+   "y": 1281
+  },
+  {
+   "type": "outpost",
+   "name": "Sherpa Gaun",
+   "region": null,
+   "x": -8456,
+   "y": 467
+  },
+  {
+   "type": "lookout",
+   "name": "Chandanpur Machan",
+   "region": null,
+   "x": -5615,
+   "y": 7983
+  },
+  {
+   "type": "lookout",
+   "name": "Shïtalghat Machan",
+   "region": null,
+   "x": -4891,
+   "y": 6485
+  },
+  {
+   "type": "lookout",
+   "name": "Basantanagar Machan",
+   "region": null,
+   "x": -10769,
+   "y": 6447
+  },
+  {
+   "type": "lookout",
+   "name": "Pipal Baari Machan",
+   "region": null,
+   "x": -8351,
+   "y": 5895
+  },
+  {
+   "type": "lookout",
+   "name": "Bhanjyankot View Tower",
+   "region": null,
+   "x": -6511,
+   "y": 5482
+  },
+  {
+   "type": "lookout",
+   "name": "Barahi View Tower",
+   "region": null,
+   "x": -5125,
+   "y": 4284
+  },
+  {
+   "type": "lookout",
+   "name": "Deurali View Tower",
+   "region": null,
+   "x": -9068,
+   "y": 4140
+  },
+  {
+   "type": "lookout",
+   "name": "Sheetal Gaun View Tower",
+   "region": null,
+   "x": -11392,
+   "y": 4122
+  },
+  {
+   "type": "lookout",
+   "name": "Ghampus View Tower",
+   "region": null,
+   "x": -7230,
+   "y": 3175
+  },
+  {
+   "type": "lookout",
+   "name": "Sano Gaun View Tower",
+   "region": null,
+   "x": -10736,
+   "y": 1451
+  },
+  {
+   "type": "lookout",
+   "name": "Namjung View Tower",
+   "region": null,
+   "x": -5130,
+   "y": 1365
+  },
+  {
+   "type": "lookout",
+   "name": "Sherpa Gaun View Tower",
+   "region": null,
+   "x": -9113,
+   "y": 570
+  },
+  {
+   "type": "landmark",
+   "name": "Besi Khola",
+   "region": null,
+   "x": -8076,
+   "y": 6967
+  },
+  {
+   "type": "landmark",
+   "name": "Ban Gufa",
+   "region": null,
+   "x": -10728,
+   "y": 6010
+  },
+  {
+   "type": "landmark",
+   "name": "Ganesh Mandir",
+   "region": null,
+   "x": -7575,
+   "y": 5062
+  },
+  {
+   "type": "landmark",
+   "name": "Tunnel Farming",
+   "region": null,
+   "x": -9028,
+   "y": 5047
+  },
+  {
+   "type": "landmark",
+   "name": "Paddy Fields",
+   "region": null,
+   "x": -7560,
+   "y": 4913
+  },
+  {
+   "type": "landmark",
+   "name": "Purano Pul",
+   "region": null,
+   "x": -9361,
+   "y": 3926
+  },
+  {
+   "type": "landmark",
+   "name": "Jhulunge Pul",
+   "region": null,
+   "x": -5219,
+   "y": 3533
+  },
+  {
+   "type": "landmark",
+   "name": "Rhododendron",
+   "region": null,
+   "x": -10678,
+   "y": 3405
+  },
+  {
+   "type": "landmark",
+   "name": "Smarak Stamba",
+   "region": null,
+   "x": -7712,
+   "y": 3168
+  },
+  {
+   "type": "landmark",
+   "name": "Him Gufa",
+   "region": null,
+   "x": -7797,
+   "y": 3047
+  },
+  {
+   "type": "landmark",
+   "name": "Buddhist Gate",
+   "region": null,
+   "x": -6884,
+   "y": 2623
+  },
+  {
+   "type": "landmark",
+   "name": "Him Taal",
+   "region": null,
+   "x": -11608,
+   "y": 802
+  },
+  {
+   "type": "landmark",
+   "name": "Eastern Stupa",
+   "region": null,
+   "x": -4338,
+   "y": 788
+  },
+  {
+   "type": "landmark",
+   "name": "Western Stupa",
+   "region": null,
+   "x": -9410,
+   "y": 782
+  },
+  {
+   "type": "landmark",
+   "name": "Swargadwar Himal",
+   "region": null,
+   "x": -11741,
+   "y": 532
+  },
+  {
+   "type": "landmark",
+   "name": "Mani Stones",
+   "region": null,
+   "x": -10372,
+   "y": 295
+  }
+ ],
+ "regions": [],
+ "notes": "Guide names no regions. Coordinates given as N | name | X,Y (N is an index). Fetched page carried a Steam removal/incompatibility notice but content was readable. Guide also states 'Hunting Structures' totals (not extracted separately; outposts list covers them). Stated counts match extracted counts. Lookouts reuse some outpost names (Machan) with slightly different coordinates; both kept as written."
+}

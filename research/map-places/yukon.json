@@ -1,0 +1,333 @@
+{
+ "slug": "yukon",
+ "reserve": "Yukon Valley Nature Reserve",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2889403065",
+ "title": "Yukon Valley Nature Reserve: All Secret Locations",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 17,
+  "lookouts": 11,
+  "pois": 0,
+  "landmarks": 17
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Calmwater Cabin",
+   "region": null,
+   "x": -5495,
+   "y": -5965
+  },
+  {
+   "type": "outpost",
+   "name": "Fisherman's Ford",
+   "region": null,
+   "x": -6823,
+   "y": -6567
+  },
+  {
+   "type": "outpost",
+   "name": "Riverbend Rest",
+   "region": null,
+   "x": -8342,
+   "y": -6639
+  },
+  {
+   "type": "outpost",
+   "name": "Copperbowl Lake",
+   "region": null,
+   "x": -11162,
+   "y": -7098
+  },
+  {
+   "type": "outpost",
+   "name": "Pioneer Crossing",
+   "region": null,
+   "x": -5561,
+   "y": -7478
+  },
+  {
+   "type": "outpost",
+   "name": "Timbergold Trailhead",
+   "region": null,
+   "x": -10018,
+   "y": -8408
+  },
+  {
+   "type": "outpost",
+   "name": "Crimson Ridge",
+   "region": null,
+   "x": -6950,
+   "y": -8534
+  },
+  {
+   "type": "outpost",
+   "name": "Coppertop Hill",
+   "region": null,
+   "x": -8313,
+   "y": -8647
+  },
+  {
+   "type": "outpost",
+   "name": "Murphy's Landing",
+   "region": null,
+   "x": -6042,
+   "y": -9279
+  },
+  {
+   "type": "outpost",
+   "name": "Wolfhead Lake",
+   "region": null,
+   "x": -11470,
+   "y": -9593
+  },
+  {
+   "type": "outpost",
+   "name": "Hunter's Den",
+   "region": null,
+   "x": -4867,
+   "y": -9650
+  },
+  {
+   "type": "outpost",
+   "name": "Loggers Point",
+   "region": null,
+   "x": -6065,
+   "y": -9778
+  },
+  {
+   "type": "outpost",
+   "name": "Trapper's Peak",
+   "region": null,
+   "x": -9652,
+   "y": -10117
+  },
+  {
+   "type": "outpost",
+   "name": "Woodsman's Respite",
+   "region": null,
+   "x": -7077,
+   "y": -10486
+  },
+  {
+   "type": "outpost",
+   "name": "Basri Memorial Outpost",
+   "region": null,
+   "x": -11662,
+   "y": -11000
+  },
+  {
+   "type": "outpost",
+   "name": "Frontier Vista",
+   "region": null,
+   "x": -5588,
+   "y": -11398
+  },
+  {
+   "type": "outpost",
+   "name": "Prospector's Overlook",
+   "region": null,
+   "x": -7900,
+   "y": -11718
+  },
+  {
+   "type": "lookout",
+   "name": "Lookout India",
+   "region": null,
+   "x": -5407,
+   "y": -5322
+  },
+  {
+   "type": "lookout",
+   "name": "Lookout Hotel",
+   "region": null,
+   "x": -10305,
+   "y": -6344
+  },
+  {
+   "type": "lookout",
+   "name": "Lookout Golf",
+   "region": null,
+   "x": -9044,
+   "y": -6584
+  },
+  {
+   "type": "lookout",
+   "name": "Lookout Foxtrot",
+   "region": null,
+   "x": -6575,
+   "y": -6999
+  },
+  {
+   "type": "lookout",
+   "name": "Lookout Delta",
+   "region": null,
+   "x": -8529,
+   "y": -7878
+  },
+  {
+   "type": "lookout",
+   "name": "Lookout Juliet",
+   "region": null,
+   "x": -4999,
+   "y": -8668
+  },
+  {
+   "type": "lookout",
+   "name": "Lookout Echo",
+   "region": null,
+   "x": -11160,
+   "y": -9123
+  },
+  {
+   "type": "lookout",
+   "name": "Lookout Alpha",
+   "region": null,
+   "x": -5942,
+   "y": -9963
+  },
+  {
+   "type": "lookout",
+   "name": "Lookout Beta",
+   "region": null,
+   "x": -8567,
+   "y": -10298
+  },
+  {
+   "type": "lookout",
+   "name": "Lookout Kilo",
+   "region": null,
+   "x": -11171,
+   "y": -11400
+  },
+  {
+   "type": "lookout",
+   "name": "Lookout Charlie",
+   "region": null,
+   "x": -6661,
+   "y": -11624
+  },
+  {
+   "type": "landmark",
+   "name": "The Rush To The Yukon",
+   "region": null,
+   "x": -7160,
+   "y": -6113
+  },
+  {
+   "type": "landmark",
+   "name": "Millerwood Copper Mine",
+   "region": null,
+   "x": -9893,
+   "y": -6610
+  },
+  {
+   "type": "landmark",
+   "name": "Anthony's Gambit",
+   "region": null,
+   "x": -5427,
+   "y": -6693
+  },
+  {
+   "type": "landmark",
+   "name": "Elusive Giants",
+   "region": null,
+   "x": -8334,
+   "y": -6874
+  },
+  {
+   "type": "landmark",
+   "name": "Alaska's Ancient Inhabitants",
+   "region": null,
+   "x": -6929,
+   "y": -7709
+  },
+  {
+   "type": "landmark",
+   "name": "Alaska's Big Dog",
+   "region": null,
+   "x": -9145,
+   "y": -7962
+  },
+  {
+   "type": "landmark",
+   "name": "Tiny Timber",
+   "region": null,
+   "x": -11099,
+   "y": -8027
+  },
+  {
+   "type": "landmark",
+   "name": "Layton Bridges",
+   "region": null,
+   "x": -5709,
+   "y": -8261
+  },
+  {
+   "type": "landmark",
+   "name": "That's My Jam",
+   "region": null,
+   "x": -7493,
+   "y": -9718
+  },
+  {
+   "type": "landmark",
+   "name": "Yukon Valley Wildfires",
+   "region": null,
+   "x": -11422,
+   "y": -10484
+  },
+  {
+   "type": "landmark",
+   "name": "Alaska's Spruce Beetle Quandary",
+   "region": null,
+   "x": -6919,
+   "y": -10590
+  },
+  {
+   "type": "landmark",
+   "name": "Alaska's Otter-Folk",
+   "region": null,
+   "x": -5415,
+   "y": -10626
+  },
+  {
+   "type": "landmark",
+   "name": "The Hairy Men",
+   "region": null,
+   "x": -9645,
+   "y": -11070
+  },
+  {
+   "type": "landmark",
+   "name": "Frontier Bridge",
+   "region": null,
+   "x": -4813,
+   "y": -11177
+  },
+  {
+   "type": "landmark",
+   "name": "Opening Up The Last Frontier",
+   "region": null,
+   "x": -7956,
+   "y": -11280
+  },
+  {
+   "type": "landmark",
+   "name": "The Yukon's Original Residents",
+   "region": null,
+   "x": -7695,
+   "y": -12542
+  },
+  {
+   "type": "landmark",
+   "name": "Beatrice Ward's Bus",
+   "region": null,
+   "x": -10464,
+   "y": -12747
+  }
+ ],
+ "regions": [],
+ "notes": "Guide page displays Steam removal notice (violates Community Guidelines / incompatible with theHunter) but content was readable via WebFetch. Beatrice Ward's Bus marked inactive/uninteractable on the page. Yukon Express Train has no coordinates. No regions named."
+}

@@ -3,7 +3,7 @@
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)],esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const store={get(k,d){try{return localStorage.getItem('hg1.'+k)||d}catch(e){return d}},set(k,v){try{localStorage.setItem('hg1.'+k,v)}catch(e){}}};
 const jget=(k,d)=>{try{const v=JSON.parse(store.get(k,''));return v==null?d:v}catch(e){return d}},jset=(k,v)=>store.set(k,JSON.stringify(v));
-const APP_VERSION='0.5',reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const APP_VERSION='0.6',reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let unit=store.get('unit','metric'),clock=store.get('clock','24'),R=null,lastSp=null,built=null,scrollRv=0;
 const home=$('#home'),rv=$('#rv'),fv=$('#fv'),lv=$('#lv'),gv=$('#gv'),back=$('#back'),sel=$('#rsel');
 const haptic=(ms=10)=>{try{navigator.vibrate&&navigator.vibrate(ms)}catch(e){}};
@@ -192,7 +192,8 @@ function buildReserve(){
     ${r.about?'':r.biome?`<p>${esc(r.biome)}</p>`:''}
     <div class="stats"><div class="pill"><b class="num">${r.species.length}</b> animals</div>${r.released?`<div class="pill">Released <span class="num">${esc(r.released)}</span></div>`:''}</div>
     ${r.about?`<p class="note">${esc(r.about)}</p>`:''}
-    ${MAPS[r.slug]?`<div class="anTools"><a class="toolAction" href="https://wand.com/maps/thehunter-call-of-the-wild/${MAPS[r.slug]}" target="_blank" rel="noopener">Interactive map ↗</a></div><p class="note">The map is a community map on wand.com (opens the website).</p>`:''}</div>
+    <div class="anTools"><a class="toolAction" href="#mapCard" id="toMap">Reserve map ↓</a></div></div>
+  ${mapCard(r)}
   <div class="section card"><h2>Need zone planner</h2><p class="note" style="margin-top:0">Slide to an in-game time to see where each animal is. Tap a row for its full guide.</p>
     <div class="hourPick"><input type="range" id="zh" min="0" max="23.5" step="0.5" value="${zHour}" aria-label="In-game time"><strong id="zhl" class="num">${hourLabel(zHour)}</strong></div>${legend}<div class="zRows" id="zrows"></div>${ticks()}</div>
   <div class="section"><h2>Animals in ${esc(short(R))}</h2>
@@ -203,8 +204,10 @@ function buildReserve(){
   rv.oninput=e=>{if(e.target.id==='zh'){zHour=+e.target.value;store.set('zHour',zHour);renderZones();if($('#fzone').value)renderGrid()}else renderGrid()};
   rv.onchange=e=>{if(e.target.id!=='zh')renderGrid()};
   rv.onclick=e=>{const c=e.target.closest('[data-fc]');if(c){fClass=+c.dataset.fc;$$('[data-fc]',rv).forEach(b=>b.classList.toggle('active',b===c));return renderGrid()}
+    if(e.target.closest('#toMap')){e.preventDefault();return $('#mapCard').scrollIntoView({behavior:reduceMotion?'auto':'smooth'})}
+    if(e.target.closest('#mapCard'))return;
     const f=e.target.closest('[data-sp]'),o=e.target.closest('[data-r]');if(f)go(R,f.dataset.sp);else if(o)go(o.dataset.r)};
-  renderZones();renderGrid();
+  renderZones();renderGrid();initMap();
 }
 function renderZones(){
   const r=DATA.reserves[R];$('#zhl').textContent=hourLabel(zHour);
@@ -223,6 +226,175 @@ function refresh(){
   if(lastSp&&!fv.hidden){built=null;spPage(lastSp)}
   if(!home.hidden&&home.dataset.built)renderMoving();
   if(screen==='log')buildLog();
+}
+
+// ================================================================ RESERVE MAP
+// The app draws each reserve's map itself (no game art): a 1 km grid with the outposts, lookouts, landmarks,
+// points of interest and collectibles at their in-game X,Y coordinates (data/maps.json, made by tools/build-maps.py
+// from Nucta Ox's Steam guides). Hotspots are the player's own: need zones differ between saves, so there is no
+// list that is right for everyone. They're saved on this device ('hotspots', in the backup). A picture of the
+// in-game map can go underneath; it's kept in IndexedDB on this device and lined up on two known places.
+const PLACE={outpost:['Outpost','⌂'],range:['Shooting range','◎'],lodge:['Lodge','⌂'],lookout:['Lookout point','▲'],landmark:['Landmark','◆'],poi:['Point of interest','i'],other:['Place','•'],collect:['Collectible','★']};
+const LAYERS=[['outpost','Outposts'],['lookout','Lookouts'],['landmark','Landmarks'],['poi','Points of interest'],['collect','Collectibles'],['hot','My hotspots']];
+const layerOf=t=>t==='range'||t==='lodge'?'outpost':t==='other'?'landmark':t;
+const HOT_KIND={feed:'Feeding',drink:'Drinking',rest:'Resting',other:'Seen here'};
+const hotAll=()=>jget('hotspots',{}),hotsOf=slug=>hotAll()[slug]||[];
+function saveHots(slug,list){const a=hotAll();if(list.length)a[slug]=list;else delete a[slug];jset('hotspots',a)}
+const picDb=()=>new Promise((ok,no)=>{const q=indexedDB.open('hunter-guide-maps',1);q.onupgradeneeded=()=>q.result.createObjectStore('pics');q.onsuccess=()=>ok(q.result);q.onerror=()=>no(q.error)});
+async function picOp(mode,fn){const db=await picDb();return new Promise((ok,no)=>{const t=db.transaction('pics',mode),q=fn(t.objectStore('pics'));t.oncomplete=()=>ok(q.result);t.onerror=()=>no(t.error)})}
+const picGet=slug=>picOp('readonly',s=>s.get(slug)).catch(()=>null),picPut=(slug,v)=>picOp('readwrite',s=>s.put(v,slug)),picDel=slug=>picOp('readwrite',s=>s.delete(slug)).catch(()=>{});
+const M={slug:null,map:null,k:1,x:0,y:0,side:0,layers:new Set(jget('mapLayers',['outpost','lookout','hot'])),sp:'',adding:false,sel:null,pic:null,picUrl:null,align:null,ro:null};
+const mapExt=()=>M.map?M.map.ext:[0,0,8000];
+
+function mapCard(r){
+  return `<div class="section card" id="mapCard"><div class="homeSectionHead" style="margin:0"><h2>Reserve map</h2><span class="note" id="rmCount" style="margin:0"></span></div>
+  <div class="rmap" id="rmap"><div class="rmVp" id="rmVp"><div class="rmCv" id="rmCv"></div></div>
+    <div class="rmTools"><button data-z="in" aria-label="Zoom in">+</button><button data-z="out" aria-label="Zoom out">−</button><button data-z="reset" aria-label="Reset view">⟲</button><button data-z="full" aria-label="Full screen" id="rmFullBtn">⛶</button><button data-z="add" aria-label="Mark a hotspot" id="rmAddTool">📍</button></div>
+    <div class="rmInfo" id="rmInfo" aria-live="polite"></div></div>
+  <div class="chipRow rmLayers" id="rmLayers">${LAYERS.map(([k,l])=>`<button class="chip small${M.layers.has(k)?' active':''}" data-layer="${k}" aria-pressed="${M.layers.has(k)}"><i class="lg lg-${k}"></i>${l}</button>`).join('')}</div>
+  <div class="searchbar rmBar"><select id="rmSp" class="select" aria-label="Show hotspots for"><option value="">All animals</option>${opts(r.species)}</select><button class="toolAction primary" id="rmAdd">＋ Mark a hotspot</button></div>
+  <div class="anTools" id="rmPicTools"></div>
+  <input type="file" id="rmFile" accept="image/*" hidden>
+  <p class="note" id="rmNote"></p></div>`;
+}
+async function initMap(){
+  const r=DATA.reserves[R],slug=r.slug;M.slug=slug;M.map=null;M.sel=null;M.adding=false;M.align=null;M.k=1;
+  if(M.picUrl){URL.revokeObjectURL(M.picUrl);M.picUrl=null}M.pic=null;
+  const vp=$('#rmVp');M.ro&&M.ro.disconnect();M.ro=new ResizeObserver(()=>mapFit());M.ro.observe(vp);
+  mapEvents();$('#rmSp').value=M.sp=r.species.includes(M.sp)?M.sp:'';
+  let d=null;try{d=await guide('maps')}catch(e){}
+  if(M.slug!==slug||!$('#rmVp'))return;
+  M.map=d&&d.maps&&d.maps[slug]||null;
+  const pic=await picGet(slug);if(M.slug!==slug)return;
+  if(pic&&pic.blob){M.pic=pic;M.picUrl=URL.createObjectURL(pic.blob)}
+  const src=M.map?srcLink(M.map.source,'Nucta Ox (Steam guide)'):'';
+  $('#rmNote').innerHTML=(M.map?`Places at their in-game coordinates, from ${src}. 1 km grid squares. Drag to move, pinch or +/− to zoom; tap a marker for its name. `:"No published coordinates for this reserve's outposts and lookouts yet, so the map is blank. You can still add a picture of your in-game map and mark hotspots on it. ")
+    +'Hotspots are your own marks: need zones differ between saves, so mark the ones you find. They stay on this device and go in your backup.'
+    +(MAPS[r.slug]?` Community map: <a href="https://wand.com/maps/thehunter-call-of-the-wild/${MAPS[r.slug]}" target="_blank" rel="noopener">wand.com ↗</a>`:'');
+  drawMap();picTools();
+}
+function picTools(){
+  const el=$('#rmPicTools');if(!el)return;
+  el.innerHTML=M.pic?`${M.map?'<button class="toolAction" id="rmAlign">Line up my picture</button>':''}<button class="toolAction" id="rmPicSwap">Change picture</button><button class="toolAction" id="rmPicDel">Remove picture</button>`
+    :'<button class="toolAction" id="rmPicAdd">Add a picture of my map</button>';
+}
+// map coordinates <-> percent of the square
+const toPct=(x,y)=>{const [x0,y0,S]=mapExt();return[(x-x0)/S*100,(y0+S-y)/S*100]};
+function toGame(cx,cy){const r=$('#rmCv').getBoundingClientRect(),[x0,y0,S]=mapExt();return[Math.round(x0+(cx-r.left)/r.width*S),Math.round(y0+S-(cy-r.top)/r.height*S)]}
+function drawMap(){
+  const cv=$('#rmCv');if(!cv)return;const [x0,y0,S]=mapExt(),m=M.map,aligning=!!M.align;
+  let g='';for(let v=Math.ceil(x0/1000)*1000;v<x0+S;v+=1000)g+=`<line x1="${(v-x0)/S*1000}" y1="0" x2="${(v-x0)/S*1000}" y2="1000"/>`;
+  for(let v=Math.ceil(y0/1000)*1000;v<y0+S;v+=1000)g+=`<line x1="0" y1="${(y0+S-v)/S*1000}" x2="1000" y2="${(y0+S-v)/S*1000}"/>`;
+  let picHtml='';if(M.pic&&M.picUrl){const t=M.pic.t,[l,tp]=toPct(t.bx,t.by);picHtml=`<img class="rmPic" src="${M.picUrl}" alt="Your map picture" style="left:${l}%;top:${tp}%;width:${t.a*M.pic.w/S*100}%;height:${t.a*M.pic.h/S*100}%">`}
+  const pin=(cls,i,x,y,glyph,label,aria)=>{const [l,t]=toPct(x,y);return `<button class="pin ${cls}" ${i} style="left:${l}%;top:${t}%" aria-label="${esc(aria||label)}"><i>${glyph}</i><span>${esc(label)}</span></button>`};
+  let pins='',n={};
+  if(m&&!aligning){m.places.forEach((p,i)=>{const L=layerOf(p[0]);n[L]=(n[L]||0)+1;if(M.layers.has(L))pins+=pin('p-'+p[0]+(M.sel==='p'+i?' sel':''),`data-p="${i}"`,p[2],p[3],PLACE[p[0]][1],p[1],p[1]+', '+PLACE[p[0]][0])})}
+  const hots=hotsOf(M.slug).filter(h=>!M.sp||h.sp===M.sp);n.hot=hots.length;
+  if(M.layers.has('hot')&&!aligning)for(const h of hots)pins+=pin('hot k-'+h.k+(M.sel==='h'+h.id?' sel':''),`data-h="${esc(h.id)}"`,h.x,h.y,icon(h.sp),h.sp,`${h.sp}, ${HOT_KIND[h.k]||''} hotspot`);
+  const labels=m&&!aligning?m.regions.map(([nm,x,y])=>{const [l,t]=toPct(x,y);return `<div class="rmRegion" style="left:${l}%;top:${t}%">${esc(nm)}</div>`}).join(''):'';
+  cv.classList.toggle('hasPic',!!picHtml);
+  cv.innerHTML=`<svg class="rmBase" viewBox="0 0 1000 1000" aria-hidden="true"><g class="grid">${g}</g><rect class="frame" x="0.5" y="0.5" width="999" height="999"/></svg>${picHtml}${labels}<div class="rmCompass" aria-hidden="true">N</div>${pins}`;
+  const c=$('#rmCount');if(c){const pl=(v,w)=>v?v+' '+w+(v>1?'s':''):'';c.textContent=[m&&pl(n.outpost,'outpost'),m&&pl(n.lookout,'lookout'),pl(n.hot,'hotspot')].filter(Boolean).join(' · ')}
+  mapApply();showInfo();
+}
+function mapApply(){const cv=$('#rmCv');if(!cv)return;cv.style.width=cv.style.height=M.side+'px';cv.style.transform=`translate(${M.x}px,${M.y}px) scale(${M.k})`;cv.style.setProperty('--k',M.k);cv.classList.toggle('z2',M.k>=2.2);cv.classList.toggle('z3',M.k>=4.5)}
+function mapClamp(){const vp=$('#rmVp');if(!vp)return;const W=vp.clientWidth,H=vp.clientHeight,s=M.side*M.k;M.x=s<=W?(W-s)/2:Math.min(0,Math.max(W-s,M.x));M.y=s<=H?(H-s)/2:Math.min(0,Math.max(H-s,M.y))}
+function mapFit(){const vp=$('#rmVp');if(!vp||!vp.clientWidth)return;const side=Math.min(vp.clientWidth,vp.clientHeight);if(side===M.side&&M.k>1){mapClamp();return mapApply()}M.side=side;M.k=1;mapClamp();mapApply()}
+function zoomAt(k,px,py){k=Math.max(1,Math.min(12,k));M.x=px-(px-M.x)*k/M.k;M.y=py-(py-M.y)*k/M.k;M.k=k;mapClamp();mapApply()}
+function zoomTo(x,y,k){const vp=$('#rmVp'),[l,t]=toPct(x,y);M.k=Math.max(M.k,k);M.x=vp.clientWidth/2-l/100*M.side*M.k;M.y=vp.clientHeight/2-t/100*M.side*M.k;mapClamp();mapApply()}
+function showInfo(msg){
+  const el=$('#rmInfo');if(!el)return;let h='';
+  if(msg)h=msg;
+  else if(M.align){const a=M.align,list=M.map.places.map((p,i)=>[p,i]).filter(([p])=>p[0]!=='collect'&&p[0]!=='poi').sort((a,b)=>a[0][1].localeCompare(b[0][1]));
+    h=`<div class="rmStep"><b>Line up your picture · step ${a.picks.length+1} of 2</b><span>Pick a place you can find on your picture, then tap that spot on it.</span><select class="select" id="rmAlignPlace">${list.map(([p,i])=>`<option value="${i}"${a.picks.some(k=>k.i===i)?' disabled':''}${a.cur===i?' selected':''}>${esc(p[1])} (${PLACE[p[0]][0].toLowerCase()})</option>`).join('')}</select><button class="toolAction" id="rmAlignCancel">Cancel</button></div>`}
+  else if(M.adding)h=`<div class="rmStep"><b>Tap the map where the hotspot is</b>${M.sp?`<span>For ${esc(M.sp)}</span>`:''}<button class="toolAction" id="rmAddCancel">Cancel</button></div>`;
+  else if(M.sel&&M.sel[0]==='p'&&M.map){const p=M.map.places[+M.sel.slice(1)];if(p)h=`<div class="rmSel"><b>${PLACE[p[0]][1]} ${esc(p[1])}</b><span>${PLACE[p[0]][0]} · X ${p[2]}, Y ${p[3]}</span></div>`}
+  else if(M.sel&&M.sel[0]==='h'){const hs=hotsOf(M.slug).find(x=>'h'+x.id===M.sel);if(hs)h=`<div class="rmSel"><b>${icon(hs.sp)} ${esc(hs.sp)}</b><span><i class="kdot k-${hs.k}"></i>${esc(HOT_KIND[hs.k]||'')}${hs.n?' · '+esc(hs.n):''}${hs.d?' · '+esc(hs.d):''}</span><div class="rmSelBtns"><button class="toolAction" data-hedit="${esc(hs.id)}">Edit</button><button class="toolAction" data-hdel="${esc(hs.id)}">Delete</button>${DATA.reserves[R].species.includes(hs.sp)?`<button class="toolAction" data-hsp="${esc(hs.sp)}">Guide →</button>`:''}</div></div>`}
+  el.innerHTML=h;el.hidden=!h;$('#rmap')?.classList.toggle('busy',!!(M.adding||M.align));
+}
+function mapTap(cx,cy){
+  const el=document.elementFromPoint(cx,cy),pin=el&&el.closest('#rmCv .pin');
+  if(M.align)return alignTap(cx,cy);
+  if(M.adding){const [x,y]=toGame(cx,cy);M.adding=false;showInfo();return openHotSheet({x,y})}
+  if(pin)return selectPin(pin);
+  if(M.sel){M.sel=null;drawMap()}
+}
+function selectPin(pin){M.sel=pin.dataset.p!=null?'p'+pin.dataset.p:'h'+pin.dataset.h;haptic();drawMap()}
+function setAdding(on){M.adding=on;M.sel=null;if(on){M.align=null;drawMap()}showInfo()}
+function mapEvents(){
+  const vp=$('#rmVp'),card=$('#mapCard'),pts=new Map();let d0=1,k0=1,moved=0,start=null;
+  vp.onpointerdown=e=>{if(e.button>0)return;vp.setPointerCapture(e.pointerId);pts.set(e.pointerId,[e.clientX,e.clientY]);if(pts.size===1){moved=0;start=[e.clientX,e.clientY]}else if(pts.size===2){const [a,b]=[...pts.values()];d0=Math.hypot(a[0]-b[0],a[1]-b[1])||1;k0=M.k;moved=99}vp.classList.add('dragging')};
+  vp.onpointermove=e=>{const p=pts.get(e.pointerId);if(!p)return;const r=vp.getBoundingClientRect();
+    if(pts.size===1){M.x+=e.clientX-p[0];M.y+=e.clientY-p[1];moved=Math.max(moved,Math.hypot(e.clientX-start[0],e.clientY-start[1]));pts.set(e.pointerId,[e.clientX,e.clientY]);mapClamp();mapApply()}
+    else if(pts.size===2){pts.set(e.pointerId,[e.clientX,e.clientY]);const [a,b]=[...pts.values()];zoomAt(k0*Math.hypot(a[0]-b[0],a[1]-b[1])/d0,(a[0]+b[0])/2-r.left,(a[1]+b[1])/2-r.top)}};
+  vp.onpointerup=e=>{const had=pts.delete(e.pointerId);if(!pts.size)vp.classList.remove('dragging');if(had&&!pts.size&&moved<8)mapTap(e.clientX,e.clientY)};
+  vp.onpointercancel=e=>{pts.delete(e.pointerId);if(!pts.size)vp.classList.remove('dragging')};
+  vp.onwheel=e=>{if(!(e.ctrlKey||e.metaKey||$('#rmap').classList.contains('full')))return;e.preventDefault();const r=vp.getBoundingClientRect();zoomAt(M.k*(e.deltaY<0?1.2:1/1.2),e.clientX-r.left,e.clientY-r.top)};
+  vp.onclick=e=>{if(e.detail===0){const p=e.target.closest('.pin');if(p)selectPin(p)}}; // keyboard
+  card.onclick=async e=>{
+    const z=e.target.closest('[data-z]'),vw=vp.clientWidth/2,vh=vp.clientHeight/2;
+    if(z){const k=z.dataset.z;if(k==='in')zoomAt(M.k*1.5,vw,vh);else if(k==='out')zoomAt(M.k/1.5,vw,vh);else if(k==='reset'){M.k=1;mapClamp();mapApply()}else if(k==='full')mapFull();else if(k==='add')setAdding(!M.adding);return}
+    const l=e.target.closest('[data-layer]');if(l){const k=l.dataset.layer;M.layers.has(k)?M.layers.delete(k):M.layers.add(k);l.classList.toggle('active',M.layers.has(k));l.setAttribute('aria-pressed',M.layers.has(k));jset('mapLayers',[...M.layers]);return drawMap()}
+    if(e.target.closest('#rmAdd'))return setAdding(true);
+    if(e.target.closest('#rmAddCancel'))return setAdding(false);
+    if(e.target.closest('#rmPicAdd,#rmPicSwap'))return $('#rmFile').click();
+    if(e.target.closest('#rmPicDel')){if(!confirm('Remove your map picture from this device?'))return;await picDel(M.slug);if(M.picUrl)URL.revokeObjectURL(M.picUrl);M.pic=M.picUrl=null;M.align=null;picTools();return drawMap()}
+    if(e.target.closest('#rmAlign')){M.adding=false;M.sel=null;M.align={picks:[],cur:null};drawMap();M.align.cur=+$('#rmAlignPlace').value;return}
+    if(e.target.closest('#rmAlignCancel')){M.align=null;return drawMap()}
+    const ed=e.target.closest('[data-hedit]');if(ed)return openHotSheet(hotsOf(M.slug).find(h=>h.id===ed.dataset.hedit));
+    const del=e.target.closest('[data-hdel]');if(del){if(!confirm('Delete this hotspot?'))return;saveHots(M.slug,hotsOf(M.slug).filter(h=>h.id!==del.dataset.hdel));M.sel=null;toast('Hotspot deleted.');return drawMap()}
+    const sp=e.target.closest('[data-hsp]');if(sp){if($('#rmap').classList.contains('full'))mapFull(false);go(R,sp.dataset.hsp)}
+  };
+  card.onchange=e=>{if(e.target.id==='rmSp'){M.sp=e.target.value;M.sel=null;drawMap()}if(e.target.id==='rmAlignPlace')M.align.cur=+e.target.value;if(e.target.id==='rmFile')addPic(e.target.files[0]),e.target.value=''};
+}
+function mapFull(on){
+  const el=$('#rmap');if(!el)return;on=on??!el.classList.contains('full');el.classList.toggle('full',on);document.body.classList.toggle('mapOpen',on);
+  $('#rmFullBtn').textContent=on?'✕':'⛶';$('#rmFullBtn').setAttribute('aria-label',on?'Close full screen':'Full screen');
+}
+addEventListener('keydown',e=>{if(e.key==='Escape'&&$('#rmap.full')){mapFull(false)}});
+addEventListener('hashchange',()=>{if($('#rmap.full'))mapFull(false)});
+// your own picture of the in-game map: shrunk to 2400 px, saved on this device, first fitted to the square
+async function addPic(file){
+  if(!file)return;
+  try{
+    const img=new Image(),u=URL.createObjectURL(file);img.src=u;await img.decode();
+    const s=Math.min(1,2400/Math.max(img.naturalWidth,img.naturalHeight)),w=Math.round(img.naturalWidth*s),h=Math.round(img.naturalHeight*s),c=document.createElement('canvas');
+    c.width=w;c.height=h;c.getContext('2d').drawImage(img,0,0,w,h);URL.revokeObjectURL(u);
+    const blob=await new Promise(ok=>c.toBlob(ok,'image/jpeg',.86)),[x0,y0,S]=mapExt(),a=S/Math.max(w,h);
+    const pic={blob,w,h,t:{a,bx:x0+(S-a*w)/2,by:y0+S-(S-a*h)/2}};
+    await picPut(M.slug,pic);if(M.picUrl)URL.revokeObjectURL(M.picUrl);M.pic=pic;M.picUrl=URL.createObjectURL(blob);picTools();drawMap();
+    toast(M.map?'Picture added. Use "Line up my picture" so the markers sit in the right places.':'Picture added.');
+  }catch(err){alert('That picture could not be added. Try a PNG or JPEG screenshot.')}
+}
+function alignTap(cx,cy){
+  const a=M.align,i=+$('#rmAlignPlace').value,p=M.map.places[i],t=M.pic.t,[gx,gy]=toGame(cx,cy);
+  a.picks.push({i,gx:p[2],gy:p[3],px:(gx-t.bx)/t.a,py:(t.by-gy)/t.a});haptic();
+  if(a.picks.length<2){a.cur=null;showInfo();const s=$('#rmAlignPlace');const o=[...s.options].find(o=>!o.disabled&&o.value!=i);if(o){s.value=o.value;a.cur=+o.value}return}
+  const [A,B]=a.picks,dp=Math.hypot(A.px-B.px,A.py-B.py),dg=Math.hypot(A.gx-B.gx,A.gy-B.gy);
+  if(dp<5||dg<50){M.align=null;drawMap();return toast('Those two spots are too close together. Pick two places far apart.')}
+  const k=dg/dp;M.pic.t={a:k,bx:A.gx-k*A.px,by:A.gy+k*A.py};M.align=null;
+  picPut(M.slug,M.pic).catch(()=>{});drawMap();toast('Picture lined up. Check a third place; if it is off, line up again with places further apart.');
+}
+// hotspot sheet
+const hsDlg=$('#hsDlg');let hsEdit=null;
+function openHotSheet(h){
+  if(!h)return;hsEdit=h;const sps=DATA.reserves[R].species,sp=h.sp||M.sp||store.get('hotSp','');
+  $('#hsTitle').textContent=h.id?'Edit hotspot':'Mark a hotspot';$('#hsSp').innerHTML=opts(sps,sps.includes(sp)?sp:sps[0]);
+  $('#hsKind').value=h.k||'feed';$('#hsNote').value=h.n||'';$('#hsWhere').textContent=`${short(R)} · X ${h.x}, Y ${h.y}`;hsDlg.showModal();
+}
+hsDlg.addEventListener('click',e=>{if(e.target.closest('#hsCancel')||e.target===hsDlg)hsDlg.close()});
+$('#hsForm').addEventListener('submit',e=>{
+  e.preventDefault();const list=hotsOf(M.slug),h={...hsEdit,sp:$('#hsSp').value,k:$('#hsKind').value,n:$('#hsNote').value.trim()};
+  if(!h.id){h.id=Date.now().toString(36);h.d=today();list.push(h)}else{const i=list.findIndex(x=>x.id===h.id);if(i>=0)list[i]=h}
+  saveHots(M.slug,list);store.set('hotSp',h.sp);hsDlg.close();M.layers.add('hot');jset('mapLayers',[...M.layers]);$('[data-layer="hot"]')?.classList.add('active');
+  if(M.sp&&M.sp!==h.sp){M.sp='';$('#rmSp').value=''}M.sel='h'+h.id;drawMap();haptic(15);toast(hsEdit.id?'Hotspot saved.':'Hotspot marked.');
+});
+// from a species page: show its hotspots, or start marking one
+let mapPending=null;
+function mapFocus(){
+  if(!mapPending||!$('#mapCard'))return;const {sp,add}=mapPending;mapPending=null;
+  M.sp=sp;$('#rmSp').value=sp;M.layers.add('hot');$('[data-layer="hot"]')?.classList.add('active');M.sel=null;drawMap();
+  $('#mapCard').scrollIntoView({block:'start',behavior:reduceMotion?'auto':'smooth'});if(add)setAdding(true);
 }
 
 // ================================================================ SPECIES PAGE
@@ -251,6 +423,7 @@ function spPage(s){
     <div class="card"><h2>Furs</h2>${furHtml}</div>
     <div class="card" style="margin-top:18px"><h2>Ammo rated for this animal</h2>${d.ammo.length?d.ammo.map(a=>`<span class="tag ammo">${esc(a)}</span>`).join(''):'<div class="mutedBox">Not listed yet.</div>'}<div class="note">Ammo rated for this animal's class passes the harvest check, so you keep the full medal and payout.</div></div>
     <div class="card" style="margin-top:18px" id="callerCard"><h2>Callers and scents</h2><div class="mutedBox">Loading…</div></div>
+    <div class="card" style="margin-top:18px" id="spHotCard"></div>
     <div class="card" style="margin-top:18px"><h2>Found in</h2>${d.reserves.map(n=>`<button class="chip small${n===R?' active':''}${owns(n)?'':' notOwned'}" data-other="${esc(n)}">${emb(n,'chipEmb')}${esc(short(n))}</button>`).join(' ')}</div>
   </div></div>
   <button class="cta" id="logThis">Log a harvest</button>
@@ -268,15 +441,18 @@ async function fillCallers(s){
     +(b&&b.electronic?'<p class="note">The FOXPRO X360 electronic caller (Ambusher Pack) can play this call too.</p>':'')
     +(scents.length?'<div class="tier">Lure scent</div>'+scents.map(row).join(''):'');
 }
-function spDyn(s){const b=bestFor(s);$('#fbest').innerHTML=b?`Your best: ${b.rank?rankBadge(b.rank):'harvested'}${b.sc!=null?' · score '+score(b.sc):''}`:''}
+function spDyn(s){const b=bestFor(s);$('#fbest').innerHTML=b?`Your best: ${b.rank?rankBadge(b.rank):'harvested'}${b.sc!=null?' · score '+score(b.sc):''}`:'';
+  const n=hotsOf(DATA.reserves[R].slug).filter(h=>h.sp===s).length,c=$('#spHotCard');
+  if(c)c.innerHTML=`<h2>My hotspots</h2><p class="note" style="margin-top:0">${n?`You've marked ${n} hotspot${n>1?'s':''} for this animal in ${esc(short(R))}.`:"Mark where you find this animal on the reserve map. Need zones differ between saves, so your own marks are the ones to trust."}</p><div class="anTools">${n?'<button class="toolAction" id="spMap">Show on map</button>':''}<button class="toolAction" id="spMark">＋ Mark a hotspot</button></div>`}
 function showSp(s){
   if(s){if(!lastSp)scrollRv=scrollY;spPage(s);if(s!==lastSp)scrollTo(0,0)}
-  else{rv.hidden=false;fv.hidden=true;if(lastSp)scrollTo(0,scrollRv)}
+  else{rv.hidden=false;fv.hidden=true;if(lastSp)scrollTo(0,scrollRv);if(mapPending)requestAnimationFrame(mapFocus)}
   lastSp=s;document.title=(s||R)+' · Hunter Guide';
   if(s)fv.onclick=e=>{
     if(e.target.closest('#logThis,#logThisTop'))openLogSheet(R,s);
     if(e.target.closest('#goGuide'))nav('/guides/great-ones/'+encodeURIComponent(s));
     if(e.target.closest('#ammoGuide')){store.set('ammoSpecies',s);nav('/guides/ammo-finder')}
+    if(e.target.closest('#spMap,#spMark')){mapPending={sp:s,add:!!e.target.closest('#spMark')};go(R)}
     const o=e.target.closest('[data-other]');if(o)go(o.dataset.other,s);
   };
 }
@@ -373,7 +549,7 @@ async function shareHarvest(e){
 }
 
 // ---------------------------------------------------------------- backup and restore
-const BACKUP_KEYS=['log','greatOnes','missions','collect','skillPlan','unit','clock','theme','reserve','dlcHide'];
+const BACKUP_KEYS=['log','greatOnes','missions','collect','skillPlan','hotspots','mapLayers','unit','clock','theme','reserve','dlcHide'];
 function exportBackup(){
   const data={};for(const k of BACKUP_KEYS){const v=store.get(k,null);if(v!=null)data[k]=v}
   const blob=new Blob([JSON.stringify({app:'hunter-guide',version:1,exported:new Date().toISOString(),data},null,1)],{type:'application/json'});
@@ -417,6 +593,7 @@ async function buildCredits(){
     +`<div class="section"><h2>Logo</h2><p class="note">Logo made by Serena Da Silva.</p></div>
     <div class="section"><h2>Animal photos</h2>${rows?`<div class="card" style="overflow-x:auto"><table class="ratings"><thead><tr><th>Animal</th><th>Photographer</th><th>Licence</th><th>Source</th></tr></thead><tbody>${rows}</tbody></table></div>`:'<div class="mutedBox">The photos are looked up when you open each animal, with the credit under the picture.</div>'}
     <p class="note">CC BY-NC photos may only be used in a free app.</p></div>
+    <div class="section"><h2>Reserve maps</h2><p class="note">The maps are drawn by the app; no game art is included. Outpost, lookout, landmark and point-of-interest coordinates come from Nucta Ox's "All Secret Locations" Steam guides (one per reserve). If you add a picture of your own in-game map, it stays on your device.</p></div>
     <div class="section"><h2>Fonts</h2><p class="note">Barlow, Barlow Condensed and IBM Plex Mono, under the SIL Open Font License.</p></div>
     <div class="section"><h2>Game data</h2><p class="note">From community sources, credited on each page: CoTW Guide, The Wild Register, the official site and patch notes, Steam guides and fan wikis. Not affiliated with Expansive Worlds.</p></div>`;
 }

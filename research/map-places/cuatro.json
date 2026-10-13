@@ -1,0 +1,389 @@
+{
+ "slug": "cuatro",
+ "reserve": "Cuatro Colinas Game Reserve",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2913531756",
+ "title": "Cuatro Colinas Game Reserve: All Secret Locations.",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 24,
+  "lookouts": 12,
+  "pois": 2,
+  "landmarks": 15
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Casa Del Rey",
+   "region": null,
+   "x": -6167,
+   "y": 12335
+  },
+  {
+   "type": "outpost",
+   "name": "Establo Del Soldado",
+   "region": null,
+   "x": -7015,
+   "y": 12197
+  },
+  {
+   "type": "outpost",
+   "name": "Cresta De La Colina",
+   "region": null,
+   "x": -8625,
+   "y": 11454
+  },
+  {
+   "type": "outpost",
+   "name": "Retiro de Isidoro",
+   "region": null,
+   "x": -9630,
+   "y": 11013
+  },
+  {
+   "type": "outpost",
+   "name": "Casa del noble",
+   "region": null,
+   "x": -10580,
+   "y": 10971
+  },
+  {
+   "type": "outpost",
+   "name": "Cresta Ribereña",
+   "region": null,
+   "x": -4476,
+   "y": 10931
+  },
+  {
+   "type": "outpost",
+   "name": "Cresta Ribereña",
+   "region": null,
+   "x": -5108,
+   "y": 10898
+  },
+  {
+   "type": "outpost",
+   "name": "Cresta Del Granjero",
+   "region": null,
+   "x": -11498,
+   "y": 10285
+  },
+  {
+   "type": "outpost",
+   "name": "Valle Del Cazador",
+   "region": null,
+   "x": -9463,
+   "y": 9833
+  },
+  {
+   "type": "outpost",
+   "name": "Mirador del lago",
+   "region": null,
+   "x": -12121,
+   "y": 9725
+  },
+  {
+   "type": "outpost",
+   "name": "Granja Lago",
+   "region": null,
+   "x": -9613,
+   "y": 9187
+  },
+  {
+   "type": "outpost",
+   "name": "Vista Del Santo",
+   "region": null,
+   "x": -7435,
+   "y": 9181
+  },
+  {
+   "type": "outpost",
+   "name": "Escondite Del Leñador",
+   "region": null,
+   "x": -4652,
+   "y": 8552
+  },
+  {
+   "type": "outpost",
+   "name": "El Descanso Del Santo",
+   "region": null,
+   "x": -7325,
+   "y": 8192
+  },
+  {
+   "type": "outpost",
+   "name": "Balconada De Víctor",
+   "region": null,
+   "x": -6045,
+   "y": 8105
+  },
+  {
+   "type": "outpost",
+   "name": "Cabaña de la rivera",
+   "region": null,
+   "x": -9987,
+   "y": 7617
+  },
+  {
+   "type": "outpost",
+   "name": "Cabaña de la dama",
+   "region": null,
+   "x": -8207,
+   "y": 7281
+  },
+  {
+   "type": "outpost",
+   "name": "Cabaña Del Pintor",
+   "region": null,
+   "x": -11433,
+   "y": 7223
+  },
+  {
+   "type": "outpost",
+   "name": "Casa Alfonso",
+   "region": null,
+   "x": -10346,
+   "y": 6091
+  },
+  {
+   "type": "outpost",
+   "name": "Fuerte De Pascal",
+   "region": null,
+   "x": -9238,
+   "y": 5785
+  },
+  {
+   "type": "outpost",
+   "name": "Granja Alta Arboleda",
+   "region": null,
+   "x": -11242,
+   "y": 5570
+  },
+  {
+   "type": "outpost",
+   "name": "Granja Sanchez",
+   "region": null,
+   "x": -5939,
+   "y": 5286
+  },
+  {
+   "type": "outpost",
+   "name": "Logia De La Reina",
+   "region": null,
+   "x": -7807,
+   "y": 5248
+  },
+  {
+   "type": "outpost",
+   "name": "Cabaña de la lavanda",
+   "region": null,
+   "x": -11047,
+   "y": 4378
+  },
+  {
+   "type": "lookout",
+   "name": "Fuerte De Domingo",
+   "region": null,
+   "x": -5242,
+   "y": 11954
+  },
+  {
+   "type": "lookout",
+   "name": "Balcón Del Rey",
+   "region": null,
+   "x": -10303,
+   "y": 11863
+  },
+  {
+   "type": "lookout",
+   "name": "Mirador Del Valle",
+   "region": null,
+   "x": -7469,
+   "y": 11164
+  },
+  {
+   "type": "lookout",
+   "name": "Balcón De Los Beatos",
+   "region": null,
+   "x": -6253,
+   "y": 9370
+  },
+  {
+   "type": "lookout",
+   "name": "Torre Del Cid",
+   "region": null,
+   "x": -11716,
+   "y": 8938
+  },
+  {
+   "type": "lookout",
+   "name": "Cresta De Almena",
+   "region": null,
+   "x": -10216,
+   "y": 8917
+  },
+  {
+   "type": "lookout",
+   "name": "Vista Del Granjero",
+   "region": null,
+   "x": -11031,
+   "y": 7759
+  },
+  {
+   "type": "lookout",
+   "name": "Vista Del Prado",
+   "region": null,
+   "x": -5332,
+   "y": 7662
+  },
+  {
+   "type": "lookout",
+   "name": "Vista De Cantera",
+   "region": null,
+   "x": -7485,
+   "y": 6631
+  },
+  {
+   "type": "lookout",
+   "name": "Torre De Javier",
+   "region": null,
+   "x": -5761,
+   "y": 6494
+  },
+  {
+   "type": "lookout",
+   "name": "Torre De Doña Emilia",
+   "region": null,
+   "x": -8654,
+   "y": 5378
+  },
+  {
+   "type": "lookout",
+   "name": "Bosque Vista",
+   "region": null,
+   "x": -10489,
+   "y": 5095
+  },
+  {
+   "type": "poi",
+   "name": "The memorial to Doña Angelica Garcia",
+   "region": null,
+   "x": -6203,
+   "y": 7631
+  },
+  {
+   "type": "poi",
+   "name": "The goat statue in marble",
+   "region": null,
+   "x": -9245,
+   "y": 7113
+  },
+  {
+   "type": "landmark",
+   "name": "Settling In",
+   "region": null,
+   "x": -7868,
+   "y": 11414
+  },
+  {
+   "type": "landmark",
+   "name": "Life Springs Eternal",
+   "region": null,
+   "x": -5765,
+   "y": 11088
+  },
+  {
+   "type": "landmark",
+   "name": "Small Batch",
+   "region": null,
+   "x": -10828,
+   "y": 10809
+  },
+  {
+   "type": "landmark",
+   "name": "A Safe Haven",
+   "region": null,
+   "x": -5910,
+   "y": 10013
+  },
+  {
+   "type": "landmark",
+   "name": "Reclaimed For God",
+   "region": null,
+   "x": -11534,
+   "y": 9407
+  },
+  {
+   "type": "landmark",
+   "name": "Farming Remotely",
+   "region": null,
+   "x": -5092,
+   "y": 8958
+  },
+  {
+   "type": "landmark",
+   "name": "Eyes On The Road",
+   "region": null,
+   "x": -6647,
+   "y": 8694
+  },
+  {
+   "type": "landmark",
+   "name": "Making It Work",
+   "region": null,
+   "x": -8653,
+   "y": 8448
+  },
+  {
+   "type": "landmark",
+   "name": "Becoming Neighbours",
+   "region": null,
+   "x": -11243,
+   "y": 8149
+  },
+  {
+   "type": "landmark",
+   "name": "A Solid Economy",
+   "region": null,
+   "x": -7362,
+   "y": 7017
+  },
+  {
+   "type": "landmark",
+   "name": "Big Business",
+   "region": null,
+   "x": -10829,
+   "y": 6412
+  },
+  {
+   "type": "landmark",
+   "name": "Lasting Military Presence",
+   "region": null,
+   "x": -6322,
+   "y": 5849
+  },
+  {
+   "type": "landmark",
+   "name": "Strong Foundations",
+   "region": null,
+   "x": -10431,
+   "y": 5382
+  },
+  {
+   "type": "landmark",
+   "name": "Reconquista",
+   "region": null,
+   "x": -8914,
+   "y": 5052
+  },
+  {
+   "type": "landmark",
+   "name": "A Farming Legacy",
+   "region": null,
+   "x": -9631,
+   "y": 4384
+  }
+ ],
+ "regions": [],
+ "notes": "Guide page carries a Steam removal notice (violates Community guidelines / incompatible with game) but content was retrievable. Guide names no regions. Coordinates are 'N, X, Y' table columns; axes/units not defined. Stated totals also include Shooting Ranges 0, Antler Sheds 0, Artifacts 0. Two outposts share the name 'Cresta Ribereña' (#6 -4476,10931 and #7 -5108,10898) in the source. Stated: 42 hunting structures (not extracted)."
+}

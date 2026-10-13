@@ -1,0 +1,469 @@
+{
+ "slug": "vurhonga",
+ "reserve": "Vurhonga Savanna",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2819589898",
+ "title": "Vurhonga Savanna: Artifacts, Collectibles and All Secret Locations",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 18,
+  "lookouts": 9,
+  "pois": 8,
+  "landmarks": 29
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Oma Vona",
+   "region": null,
+   "x": 9998,
+   "y": -5576
+  },
+  {
+   "type": "outpost",
+   "name": "Xipembele Rila",
+   "region": null,
+   "x": 11320,
+   "y": -5767
+  },
+  {
+   "type": "outpost",
+   "name": "Xibodlo Ehenhla",
+   "region": null,
+   "x": 8735,
+   "y": -5787
+  },
+  {
+   "type": "outpost",
+   "name": "Dari Dari Hollow",
+   "region": null,
+   "x": 6104,
+   "y": -6017
+  },
+  {
+   "type": "outpost",
+   "name": "Ndzhuti Hollow",
+   "region": null,
+   "x": 7232,
+   "y": -6045
+  },
+  {
+   "type": "outpost",
+   "name": "Khensani N'wana",
+   "region": null,
+   "x": 11903,
+   "y": -7240
+  },
+  {
+   "type": "outpost",
+   "name": "Xikarhi Outpost",
+   "region": null,
+   "x": 5673,
+   "y": -7402
+  },
+  {
+   "type": "outpost",
+   "name": "Sungula Place",
+   "region": null,
+   "x": 8533,
+   "y": -7685
+  },
+  {
+   "type": "outpost",
+   "name": "Ximixweni Yimelo",
+   "region": null,
+   "x": 10037,
+   "y": -8054
+  },
+  {
+   "type": "outpost",
+   "name": "Mbali's Place",
+   "region": null,
+   "x": 4691,
+   "y": -8128
+  },
+  {
+   "type": "outpost",
+   "name": "Rhilaza Byanyi",
+   "region": null,
+   "x": 8600,
+   "y": -8655
+  },
+  {
+   "type": "outpost",
+   "name": "Navelela Mpfula",
+   "region": null,
+   "x": 11062,
+   "y": -9248
+  },
+  {
+   "type": "outpost",
+   "name": "Henhla Ndhawu",
+   "region": null,
+   "x": 6198,
+   "y": -9836
+  },
+  {
+   "type": "outpost",
+   "name": "Kule Rila",
+   "region": null,
+   "x": 8189,
+   "y": -10278
+  },
+  {
+   "type": "outpost",
+   "name": "Fisherman's Outpost",
+   "region": null,
+   "x": 11304,
+   "y": -10875
+  },
+  {
+   "type": "outpost",
+   "name": "Nambu Tlhelo",
+   "region": null,
+   "x": 5885,
+   "y": -11145
+  },
+  {
+   "type": "outpost",
+   "name": "Nsuku Nyeleti",
+   "region": null,
+   "x": 10100,
+   "y": -11332
+  },
+  {
+   "type": "outpost",
+   "name": "Xikwembu Yimelo",
+   "region": null,
+   "x": 8753,
+   "y": -11652
+  },
+  {
+   "type": "lookout",
+   "name": "Makasela Lookout",
+   "region": null,
+   "x": 8780,
+   "y": -5193
+  },
+  {
+   "type": "lookout",
+   "name": "Hlungwani Lookout",
+   "region": null,
+   "x": 7051,
+   "y": -5518
+  },
+  {
+   "type": "lookout",
+   "name": "Maceke Lookout",
+   "region": null,
+   "x": 11405,
+   "y": -6783
+  },
+  {
+   "type": "lookout",
+   "name": "Xirimani Lookout",
+   "region": null,
+   "x": 8329,
+   "y": -7482
+  },
+  {
+   "type": "lookout",
+   "name": "Nukeri Lookout",
+   "region": null,
+   "x": 6233,
+   "y": -7637
+  },
+  {
+   "type": "lookout",
+   "name": "Bilankulu Lookout",
+   "region": null,
+   "x": 10177,
+   "y": -9006
+  },
+  {
+   "type": "lookout",
+   "name": "Rikhotso Lookout",
+   "region": null,
+   "x": 10786,
+   "y": -10332
+  },
+  {
+   "type": "lookout",
+   "name": "Mbhokota Lookout",
+   "region": null,
+   "x": 9075,
+   "y": -10713
+  },
+  {
+   "type": "lookout",
+   "name": "Xigalo Lookout",
+   "region": null,
+   "x": 6497,
+   "y": -10904
+  },
+  {
+   "type": "poi",
+   "name": "Sol Plaatje Hut",
+   "region": null,
+   "x": 6800,
+   "y": -5127
+  },
+  {
+   "type": "poi",
+   "name": "Amukelani's Healing Hut",
+   "region": null,
+   "x": 5437,
+   "y": -6101
+  },
+  {
+   "type": "poi",
+   "name": "Xitshembhiso",
+   "region": null,
+   "x": 9109,
+   "y": -6496
+  },
+  {
+   "type": "poi",
+   "name": "Serpent Players Playhouse",
+   "region": null,
+   "x": 11407,
+   "y": -7258
+  },
+  {
+   "type": "poi",
+   "name": "Memories of 2010",
+   "region": null,
+   "x": 9463,
+   "y": -9156
+  },
+  {
+   "type": "poi",
+   "name": "Rhangani's Hideaway",
+   "region": null,
+   "x": 6494,
+   "y": -9165
+  },
+  {
+   "type": "poi",
+   "name": "Blue Stalk Gardens",
+   "region": null,
+   "x": 4919,
+   "y": -10097
+  },
+  {
+   "type": "poi",
+   "name": "Madiba's Freedom",
+   "region": null,
+   "x": 10847,
+   "y": -11747
+  },
+  {
+   "type": "landmark",
+   "name": "Poacher Routes",
+   "region": null,
+   "x": 9501,
+   "y": -5201
+  },
+  {
+   "type": "landmark",
+   "name": "Beyond Vurhonga",
+   "region": null,
+   "x": 7822,
+   "y": -5264
+  },
+  {
+   "type": "landmark",
+   "name": "Jedidiah's Wall",
+   "region": null,
+   "x": 11082,
+   "y": -5413
+  },
+  {
+   "type": "landmark",
+   "name": "The Eloko",
+   "region": null,
+   "x": 5505,
+   "y": -5928
+  },
+  {
+   "type": "landmark",
+   "name": "Vachellia Xanthophloea",
+   "region": null,
+   "x": 6626,
+   "y": -5930
+  },
+  {
+   "type": "landmark",
+   "name": "Sangomas & Inyangas",
+   "region": null,
+   "x": 10337,
+   "y": -6231
+  },
+  {
+   "type": "landmark",
+   "name": "Tstetse Problems",
+   "region": null,
+   "x": 12248,
+   "y": -6445
+  },
+  {
+   "type": "landmark",
+   "name": "Swamped",
+   "region": null,
+   "x": 11840,
+   "y": -6747
+  },
+  {
+   "type": "landmark",
+   "name": "Potholes",
+   "region": null,
+   "x": 4331,
+   "y": -7072
+  },
+  {
+   "type": "landmark",
+   "name": "Twin Lakes",
+   "region": null,
+   "x": 10491,
+   "y": -7386
+  },
+  {
+   "type": "landmark",
+   "name": "Foot of the Mountain",
+   "region": null,
+   "x": 7842,
+   "y": -7465
+  },
+  {
+   "type": "landmark",
+   "name": "Vurhonga Heights",
+   "region": null,
+   "x": 8670,
+   "y": -7666
+  },
+  {
+   "type": "landmark",
+   "name": "Water Sources",
+   "region": null,
+   "x": 7629,
+   "y": -7835
+  },
+  {
+   "type": "landmark",
+   "name": "The Grand Escarpment",
+   "region": null,
+   "x": 5281,
+   "y": -8061
+  },
+  {
+   "type": "landmark",
+   "name": "East African Rift",
+   "region": null,
+   "x": 6860,
+   "y": -8354
+  },
+  {
+   "type": "landmark",
+   "name": "Weeping Face",
+   "region": null,
+   "x": 4867,
+   "y": -8443
+  },
+  {
+   "type": "landmark",
+   "name": "Bounder Cave",
+   "region": null,
+   "x": 6283,
+   "y": -8453
+  },
+  {
+   "type": "landmark",
+   "name": "Adansonia Digitata",
+   "region": null,
+   "x": 9127,
+   "y": -8491
+  },
+  {
+   "type": "landmark",
+   "name": "Prehistoric Art",
+   "region": null,
+   "x": 11923,
+   "y": -8496
+  },
+  {
+   "type": "landmark",
+   "name": "San Folklore III",
+   "region": null,
+   "x": 7748,
+   "y": -9100
+  },
+  {
+   "type": "landmark",
+   "name": "Lonely Road",
+   "region": null,
+   "x": 5408,
+   "y": -9422
+  },
+  {
+   "type": "landmark",
+   "name": "Lightning Bird",
+   "region": null,
+   "x": 8918,
+   "y": -9895
+  },
+  {
+   "type": "landmark",
+   "name": "San Folklore I",
+   "region": null,
+   "x": 10136,
+   "y": -10217
+  },
+  {
+   "type": "landmark",
+   "name": "Diamphidia",
+   "region": null,
+   "x": 6859,
+   "y": -10331
+  },
+  {
+   "type": "landmark",
+   "name": "The First People",
+   "region": null,
+   "x": 4987,
+   "y": -10556
+  },
+  {
+   "type": "landmark",
+   "name": "San Folklore II",
+   "region": null,
+   "x": 8437,
+   "y": -10901
+  },
+  {
+   "type": "landmark",
+   "name": "Theron Gorge",
+   "region": null,
+   "x": 10840,
+   "y": -11598
+  },
+  {
+   "type": "landmark",
+   "name": "Nyaminyami",
+   "region": null,
+   "x": 7737,
+   "y": -11647
+  },
+  {
+   "type": "landmark",
+   "name": "Gorgeous Hiking",
+   "region": null,
+   "x": 8871,
+   "y": -12547
+  }
+ ],
+ "regions": [
+  "Vupeladyambu / Vurhonga Plateau",
+  "Dzonga / Central Savanna"
+ ],
+ "notes": "Guide page displays Steam removal notice (violates Community Guidelines / incompatible with theHunter) but content was readable via WebFetch. No region column in tables; regions not assigned. Artifacts (5) skipped. First WebFetch attempts errored; succeeded with &l=english."
+}

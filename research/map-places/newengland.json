@@ -1,0 +1,333 @@
+{
+ "slug": "newengland",
+ "reserve": "New England Mountains",
+ "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3121065345",
+ "title": "New England Mountains: All Secret Locations.",
+ "author": "Nucta Ox",
+ "accessed": "2026-10-12",
+ "stated": {
+  "outposts": 22,
+  "lookouts": 12,
+  "pois": 0,
+  "landmarks": 11
+ },
+ "places": [
+  {
+   "type": "outpost",
+   "name": "Zealand Lodge",
+   "region": null,
+   "x": 8023,
+   "y": 10610
+  },
+  {
+   "type": "outpost",
+   "name": "Twin Brook Cabin",
+   "region": null,
+   "x": 5398,
+   "y": 10193
+  },
+  {
+   "type": "outpost",
+   "name": "Towne Ridge Cabin",
+   "region": null,
+   "x": 11046,
+   "y": 10092
+  },
+  {
+   "type": "outpost",
+   "name": "Little Dipper Cabin",
+   "region": null,
+   "x": 6701,
+   "y": 9920
+  },
+  {
+   "type": "outpost",
+   "name": "Lake Motier Lodge",
+   "region": null,
+   "x": 9940,
+   "y": 9305
+  },
+  {
+   "type": "outpost",
+   "name": "Umbagog Pond Lodge",
+   "region": null,
+   "x": 5437,
+   "y": 9171
+  },
+  {
+   "type": "outpost",
+   "name": "New Madison Lodge",
+   "region": null,
+   "x": 11058,
+   "y": 8786
+  },
+  {
+   "type": "outpost",
+   "name": "Hawthorne Range Hut",
+   "region": null,
+   "x": 7498,
+   "y": 8498
+  },
+  {
+   "type": "outpost",
+   "name": "Cole Hill Cabin",
+   "region": null,
+   "x": 8881,
+   "y": 7830
+  },
+  {
+   "type": "outpost",
+   "name": "Sandler Hut",
+   "region": null,
+   "x": 10321,
+   "y": 7649
+  },
+  {
+   "type": "outpost",
+   "name": "Wabanaki River Lodge",
+   "region": null,
+   "x": 5392,
+   "y": 7226
+  },
+  {
+   "type": "outpost",
+   "name": "Retz Notch Hut",
+   "region": null,
+   "x": 7281,
+   "y": 7090
+  },
+  {
+   "type": "outpost",
+   "name": "High Pond Hut",
+   "region": null,
+   "x": 8789,
+   "y": 6462
+  },
+  {
+   "type": "outpost",
+   "name": "Deer's Eye Lake Lodge",
+   "region": null,
+   "x": 10698,
+   "y": 6049
+  },
+  {
+   "type": "outpost",
+   "name": "Red Leaves Cabin",
+   "region": null,
+   "x": 7498,
+   "y": 5714
+  },
+  {
+   "type": "outpost",
+   "name": "Crawford Hut",
+   "region": null,
+   "x": 5881,
+   "y": 5675
+  },
+  {
+   "type": "outpost",
+   "name": "Holstein Cabin",
+   "region": null,
+   "x": 9488,
+   "y": 5180
+  },
+  {
+   "type": "outpost",
+   "name": "Willey Hut",
+   "region": null,
+   "x": 8916,
+   "y": 4173
+  },
+  {
+   "type": "outpost",
+   "name": "Carpenter Hill Cabin",
+   "region": null,
+   "x": 11944,
+   "y": 3991
+  },
+  {
+   "type": "outpost",
+   "name": "Coös Lodge",
+   "region": null,
+   "x": 4904,
+   "y": 3889
+  },
+  {
+   "type": "outpost",
+   "name": "Forgotten Pond Cabin",
+   "region": null,
+   "x": 7146,
+   "y": 3605
+  },
+  {
+   "type": "outpost",
+   "name": "Lonesome Refuge",
+   "region": null,
+   "x": 10536,
+   "y": 3536
+  },
+  {
+   "type": "lookout",
+   "name": "Green Tower",
+   "region": null,
+   "x": 9912,
+   "y": 10461
+  },
+  {
+   "type": "lookout",
+   "name": "Wordsworth Tower",
+   "region": null,
+   "x": 7386,
+   "y": 9952
+  },
+  {
+   "type": "lookout",
+   "name": "Kensett Observation Deck",
+   "region": null,
+   "x": 4941,
+   "y": 9709
+  },
+  {
+   "type": "lookout",
+   "name": "Frost Observation Deck",
+   "region": null,
+   "x": 11323,
+   "y": 8264
+  },
+  {
+   "type": "lookout",
+   "name": "Guglielmo Radio Tower",
+   "region": null,
+   "x": 7363,
+   "y": 8021
+  },
+  {
+   "type": "lookout",
+   "name": "Cauliez Pavilion",
+   "region": null,
+   "x": 9363,
+   "y": 7890
+  },
+  {
+   "type": "lookout",
+   "name": "Mount Alcott Observatory",
+   "region": null,
+   "x": 6598,
+   "y": 6245
+  },
+  {
+   "type": "lookout",
+   "name": "Champney Observation Deck",
+   "region": null,
+   "x": 8291,
+   "y": 5664
+  },
+  {
+   "type": "lookout",
+   "name": "Deer Valley Tower",
+   "region": null,
+   "x": 10662,
+   "y": 5641
+  },
+  {
+   "type": "lookout",
+   "name": "Carpenter Pavilion",
+   "region": null,
+   "x": 11677,
+   "y": 4384
+  },
+  {
+   "type": "lookout",
+   "name": "Tuckerman Pavilion",
+   "region": null,
+   "x": 6300,
+   "y": 3979
+  },
+  {
+   "type": "lookout",
+   "name": "Grover Hill Tower",
+   "region": null,
+   "x": 9833,
+   "y": 3763
+  },
+  {
+   "type": "landmark",
+   "name": "Smith Scenic Railroad",
+   "region": null,
+   "x": 9314,
+   "y": 10246
+  },
+  {
+   "type": "landmark",
+   "name": "Gilman Pumpkin Fields",
+   "region": null,
+   "x": 9836,
+   "y": 9387
+  },
+  {
+   "type": "landmark",
+   "name": "Bramare Mansion",
+   "region": null,
+   "x": 7325,
+   "y": 9368
+  },
+  {
+   "type": "landmark",
+   "name": "Padavona Corn Maze",
+   "region": null,
+   "x": 6471,
+   "y": 9205
+  },
+  {
+   "type": "landmark",
+   "name": "Poe Covered Bridge",
+   "region": null,
+   "x": 10969,
+   "y": 8224
+  },
+  {
+   "type": "landmark",
+   "name": "The Old Toad",
+   "region": null,
+   "x": 7492,
+   "y": 7202
+  },
+  {
+   "type": "landmark",
+   "name": "Mount Alcott Observatory",
+   "region": null,
+   "x": 6617,
+   "y": 6224
+  },
+  {
+   "type": "landmark",
+   "name": "Conway Pond Trail",
+   "region": null,
+   "x": 7160,
+   "y": 5291
+  },
+  {
+   "type": "landmark",
+   "name": "Mafrousse Mines",
+   "region": null,
+   "x": 8603,
+   "y": 4814
+  },
+  {
+   "type": "landmark",
+   "name": "Favreau Boulder",
+   "region": null,
+   "x": 10980,
+   "y": 4662
+  },
+  {
+   "type": "landmark",
+   "name": "Tocqueville Cave",
+   "region": null,
+   "x": 6051,
+   "y": 4252
+  }
+ ],
+ "regions": [],
+ "notes": "Guide names no regions. Coordinates given as N | name | X,Y (N is an index). Fetched page carried a Steam removal/incompatibility notice but content was readable. Guide also states 'Hunting Structures' totals (not extracted separately; outposts list covers them). Stated counts match extracted counts. Mount Alcott Observatory appears in both lookouts (6598,6245) and landmarks (6617,6224)."
+}
