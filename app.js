@@ -3,7 +3,7 @@
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)],esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const store={get(k,d){try{return localStorage.getItem('hg1.'+k)||d}catch(e){return d}},set(k,v){try{localStorage.setItem('hg1.'+k,v)}catch(e){}}};
 const jget=(k,d)=>{try{const v=JSON.parse(store.get(k,''));return v==null?d:v}catch(e){return d}},jset=(k,v)=>store.set(k,JSON.stringify(v));
-const APP_VERSION='0.7.2',reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const APP_VERSION='0.7.3',reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let unit=store.get('unit','metric'),clock=store.get('clock','24'),R=null,lastSp=null,built=null,scrollRv=0;
 const home=$('#home'),rv=$('#rv'),fv=$('#fv'),lv=$('#lv'),gv=$('#gv'),back=$('#back'),sel=$('#rsel');
 const haptic=(ms=10)=>{try{navigator.vibrate&&navigator.vibrate(ms)}catch(e){}};
