@@ -1,4 +1,4 @@
-# The Hunter Guide 0.7.2
+# The Hunter Guide 0.7.3
 
 A fan-made, offline-ready field guide for *theHunter: Call of the Wild*, made by Vanderholst Studios. It covers all 19 reserves (up to Intisuyu, June 2026), 128 species with their classes, trophy scores, fur types and need zones, the 14 Great Ones, 74 weapons and 103 kinds of ammo, every skill and perk, and about 470 missions and the known collectibles, a real photo of almost every animal, and a log for every harvest.
 
@@ -45,7 +45,7 @@ Your log, Great Ones, missions, collectibles, skill plan and map hotspots are sa
 | `img/reserves/` | Reserve emblems (original artwork), drawn by `tools/make-reserve-emblems.py` |
 | `tools/import-photos.py` | Copies a folder of photos (with `manifest.json`) into `img/animals/` and writes `data/photos.json` |
 | `service-worker.js` | Offline support and updates |
-| `manifest.webmanifest`, `icon*.png`, `apple-touch-icon.png`, `favicon-48.png`, `img/logo*` | Install metadata, icons and the intro logo, made by `tools/make-icons.py` from the logo file |
+| `manifest.webmanifest`, `icon*.png`, `apple-touch-icon.png`, `favicon*`, `img/logo*` | Install metadata, icons and the intro logo, made by `tools/make-icons.py` from the logo file |
 
 ## Rebuilding the data
 
@@ -67,6 +67,7 @@ Edit or replace the files in `research/`, then run `python3 tools/build-data.py`
 
 1. Bump `V` in `service-worker.js` (e.g. `hunter-guide-v0-5`). This is what makes installed copies show the update banner.
 2. Update `APP_VERSION` in `app.js` so Settings shows the right version.
+3. If the icons changed, bump the `?v=` on the icon links in `index.html` and `manifest.webmanifest` so browsers (Edge especially) fetch the new ones instead of keeping their saved copy.
 
 ## Credits
 
